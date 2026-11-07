@@ -1,0 +1,82 @@
+# Single config for all tiers.
+model:
+  name: qwen2vl
+  hf_id: Qwen/Qwen2-VL-2B-Instruct
+  revision: 895c3a49bc3fa70a340399125c650a463535e71c   # pinned commit (hub head as of 2026-10-05; last modified 2025-01-12)
+  load_4bit: true
+  attn_implementation: sdpa
+  max_pixels: 200704        # 256 * 28 * 28  -> <=256 visual tokens per image
+  min_pixels: 3136          # 4 * 28 * 28
+  max_option_chars: 400     # truncate very long option text (keeps sequences short)
+
+# second model (selected with --model smolvlm; replaces the `model` block, run names get a "smolvlm_" prefix).
+# Same A/G eval sets and the same (Qwen-labelled) training mixtures, so the two models see identical data.
+model_smolvlm:
+  name: smolvlm
+  hf_id: HuggingFaceTB/SmolVLM-Instruct
+  revision: 81cd9a775a4d644f2faf4e7becff4559b46b14c7   # pinned commit (hub head as of 2026-10-30)
+  load_4bit: false          # bf16 + LoRA: 4-bit NF4 dropped MMStar acc 40% -> 29% on 100 items (2026-10-31 check)
+  attn_implementation: sdpa
+  longest_edge: 768         # -> up to 2x2 tiles of 384 px + 1 global tile, 81 tokens each (<=405 visual tokens)
+  letter_prefix: " "        # generation prompt ends in "Assistant:", answer letter is tokenized as " A"
+  score_reply_prefix: " Answer:"  # option scoring only: SmolVLM otherwise starts its reply with " Answer" (smoke test)
+  max_option_chars: 400
+
+# third model (--model internvl, run names get an "internvl_" prefix); same data as the other two
+model_internvl:
+  name: internvl
+  hf_id: OpenGVLab/InternVL3-2B-hf
+  revision: cb57a075cb75a2e6d1b668b128d48bb00ae321d2   # pinned commit (hub head as of 2026-10-31)
+  load_4bit: false          # bf16 + LoRA, as SmolVLM (4-bit hurt SmolVLM badly; keeps the two comparable)
+  attn_implementation: sdpa
+  crop_to_patches: false    # one 448 px tile = 256 visual tokens (same budget as Qwen2-VL)
+  letter_prefix: ""         # Qwen-style chat: the letter follows "<|im_start|>assistant\n" directly
+  max_option_chars: 400
+
+tier1:
+  dataset_id: Lin-Chen/MMStar
+  split: val
+  n_items: 500
+  sample_seed: 0            # which items are sampled
+  shuffle_seeds: [1, 2, 3, 4, 5]   # option-order + item-order permutations (seed 0 = canonical order)
+  blank_gray: 127
+  out_dir: results/tier1
+  smoke_n_items: 10
+  smoke_shuffle_seeds: [1]
+
+tier2:
+  pool_dataset: HuggingFaceM4/the_cauldron
+  # Subsets chosen to avoid MMStar's source benchmarks (ScienceQA, AI2D, MathVista parts, MMBench, SEED, MMMU)
+  subsets: [vsr, aokvqa, cocoqa, tallyqa]
+  n_per_subset: 800          # first N rows of the stream per subset; first QA pair per image only
+  max_answer_tokens: 64
+  low_quantile: 0.4          # gap <= this quantile of the pool -> text-answerable
+  high_quantile: 0.6         # gap >= this quantile -> image-necessary
+  mixture_size: 1000
+  mixture_text_fracs: [0.1, 0.9]
+  mixture_seed: 0
+  overlap_hamming: 4         # image dHash distance <= this counts as the same image
+  balanced_yesno_items: 150  # --stage mix_balanced: VSR items per mixture at 50% "yes" (pool has only 62 image-necessary "no")
+  out_dir: results/tier2
+  smoke_n_per_subset: 10
+  smoke_mixture_size: 16
+
+tier3:
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lr: 2.0e-4
+  batch_size: 8             # examples per optimizer step (gradient accumulation, micro-batch 1)
+  steps: 125                # placeholder; resized after the timing run (see README)
+  seed: 0
+  max_answer_tokens: 96
+  probe_per_class: 8        # held-out items per class for the loss / attention-mass probe
+  n_A: 300                  # general MC eval set (random subset of the 500-item calibration sample)
+  n_G: 300                  # image-necessary eval set (from the separate G candidate pool)
+  G_max_k: 1                # G = blind correct in <= this many of 6 orders
+  fresh_blind_seeds: [6, 7, 8]   # option orders NOT used for selecting G, to test the "image-necessary" property
+  out_dir: results/tier3
+  smoke_steps: 6
+  smoke_batch_size: 2
+  smoke_n_A: 10
+  smoke_n_G: 6

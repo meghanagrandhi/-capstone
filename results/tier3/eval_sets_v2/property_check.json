@@ -1,0 +1,24 @@
+{
+  "A": {
+    "n": 500,
+    "blind_acc_fresh_orders": {
+      "6": 0.248,
+      "7": 0.294,
+      "8": 0.264
+    },
+    "blind_acc_fresh_mean": 0.26866666666666666,
+    "real_acc_base_canonical": 0.454,
+    "analytic_se_real": 0.022265848288354075
+  },
+  "G": {
+    "n": 581,
+    "blind_acc_fresh_orders": {
+      "6": 0.08261617900172118,
+      "7": 0.0757314974182444,
+      "8": 0.06196213425129088
+    },
+    "blind_acc_fresh_mean": 0.07343660355708549,
+    "real_acc_base_canonical": 0.40619621342512907,
+    "analytic_se_real": 0.020375175136221457
+  }
+}

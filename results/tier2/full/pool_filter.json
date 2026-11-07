@@ -1,0 +1,17 @@
+{
+  "n_streamed": 3200,
+  "n_in_pool_duplicate_images": 33,
+  "n_dropped_overlap_with_eval": 6,
+  "overlap_reasons": {
+    "image near-duplicate of an eval image": 5,
+    "identical question text to an eval item": 1
+  },
+  "n_final": 3161,
+  "per_subset": {
+    "vsr": 798,
+    "aokvqa": 796,
+    "tallyqa": 784,
+    "cocoqa": 783
+  },
+  "runtime_min": 2.5384798566500346
+}

@@ -1,0 +1,9 @@
+{
+  "sec_per_step": 9.313658647537231,
+  "steps_chosen": 120,
+  "est_train_min_per_run": 18.627317295074462,
+  "eval_min_one_checkpoint_A_and_G": 2.6,
+  "est_eval_min_total": 41.6,
+  "est_remaining_min": 78.85463459014892,
+  "peak_vram_gib": 2.06723690032959
+}

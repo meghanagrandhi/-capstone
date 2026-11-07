@@ -1,0 +1,122 @@
+{
+  "n_pool_labeled": 3161,
+  "thresholds": {
+    "low": 0.243248701095581,
+    "high": 0.6263023987412453,
+    "low_q": 0.4,
+    "high_q": 0.6
+  },
+  "share_gap_le_0": 0.22967415374881367,
+  "share_gap_le_0p1": 0.29800695982284087,
+  "share_gap_le_0p5": 0.5602657386902878,
+  "gap_quantiles": [
+    -0.753,
+    0.034,
+    0.386,
+    1.185,
+    2.628
+  ],
+  "per_subset": {
+    "aokvqa": {
+      "count": 796,
+      "median": 0.031,
+      "mean": -0.095
+    },
+    "cocoqa": {
+      "count": 783,
+      "median": 1.572,
+      "mean": 1.692
+    },
+    "tallyqa": {
+      "count": 784,
+      "median": 0.98,
+      "mean": 0.926
+    },
+    "vsr": {
+      "count": 798,
+      "median": 0.125,
+      "mean": 0.079
+    }
+  },
+  "label_by_subset": {
+    "aokvqa": {
+      "image_necessary": 70,
+      "middle": 191,
+      "text_answerable": 535
+    },
+    "cocoqa": {
+      "image_necessary": 631,
+      "middle": 73,
+      "text_answerable": 79
+    },
+    "tallyqa": {
+      "image_necessary": 556,
+      "middle": 131,
+      "text_answerable": 97
+    },
+    "vsr": {
+      "image_necessary": 8,
+      "middle": 236,
+      "text_answerable": 554
+    }
+  },
+  "mixtures": {
+    "mixture_text10": {
+      "n": 1000,
+      "n_text_answerable": 100,
+      "n_image_necessary": 900,
+      "text_share": 0.1,
+      "by_subset": {
+        "aokvqa": {
+          "image_necessary": 49,
+          "text_answerable": 42
+        },
+        "cocoqa": {
+          "image_necessary": 441,
+          "text_answerable": 6
+        },
+        "tallyqa": {
+          "image_necessary": 405,
+          "text_answerable": 7
+        },
+        "vsr": {
+          "image_necessary": 5,
+          "text_answerable": 45
+        }
+      }
+    },
+    "mixture_text90": {
+      "n": 1000,
+      "n_text_answerable": 900,
+      "n_image_necessary": 100,
+      "text_share": 0.9,
+      "by_subset": {
+        "aokvqa": {
+          "image_necessary": 5,
+          "text_answerable": 375
+        },
+        "cocoqa": {
+          "image_necessary": 45,
+          "text_answerable": 58
+        },
+        "tallyqa": {
+          "image_necessary": 50,
+          "text_answerable": 66
+        },
+        "vsr": {
+          "image_necessary": 0,
+          "text_answerable": 401
+        }
+      }
+    },
+    "shared_items_between_mixtures": 139
+  },
+  "mc": {
+    "n": 432,
+    "real_acc": 0.8402777777777778,
+    "blank_acc": 0.48842592592592593,
+    "mean_gap_blank_correct": -0.5539814881380135,
+    "mean_gap_blank_wrong": -0.2941698583003083
+  },
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c"
+}
