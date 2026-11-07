@@ -1,0 +1,1000 @@
+id,blank_correct_seed0,blank_correct_seed1,blank_correct_seed2,blank_correct_seed3,blank_correct_seed4,blank_correct_seed5,k_blind,n_orders,category
+mmstar-0,0,0,0,0,0,0,0,6,coarse perception
+mmstar-10,0,1,1,1,1,1,5,6,coarse perception
+mmstar-100,1,0,1,0,1,0,3,6,coarse perception
+mmstar-1001,1,1,1,1,1,1,6,6,math
+mmstar-1002,0,1,0,1,1,1,4,6,math
+mmstar-1004,1,1,1,0,1,0,4,6,math
+mmstar-1005,1,1,1,1,0,0,4,6,math
+mmstar-1006,0,1,1,0,0,0,2,6,math
+mmstar-1007,0,0,0,0,0,0,0,6,math
+mmstar-1008,0,1,1,1,1,0,4,6,math
+mmstar-1009,0,0,0,0,0,0,0,6,math
+mmstar-101,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1010,0,0,0,0,0,0,0,6,math
+mmstar-1011,1,0,0,0,1,0,2,6,math
+mmstar-1012,0,0,0,0,0,0,0,6,math
+mmstar-1013,0,0,0,0,0,0,0,6,math
+mmstar-1014,0,0,0,0,0,0,0,6,math
+mmstar-1015,0,0,0,0,0,0,0,6,math
+mmstar-1016,1,0,0,0,0,0,1,6,math
+mmstar-1017,0,0,0,0,0,0,0,6,math
+mmstar-1019,0,0,0,0,0,0,0,6,math
+mmstar-102,0,1,1,1,0,0,3,6,coarse perception
+mmstar-1020,0,0,0,0,1,0,1,6,math
+mmstar-1021,0,1,1,0,1,0,3,6,math
+mmstar-1022,0,1,0,1,0,0,2,6,math
+mmstar-1023,0,1,0,0,1,0,2,6,math
+mmstar-1024,0,0,0,0,0,0,0,6,math
+mmstar-1025,0,0,0,1,1,1,3,6,math
+mmstar-1027,1,1,1,1,1,1,6,6,math
+mmstar-1028,1,0,0,1,1,0,3,6,math
+mmstar-103,0,0,1,0,1,0,2,6,coarse perception
+mmstar-1030,0,0,0,0,0,0,0,6,math
+mmstar-1031,0,0,0,0,0,0,0,6,math
+mmstar-1033,0,1,0,0,0,1,2,6,math
+mmstar-1034,0,1,1,0,1,0,3,6,math
+mmstar-1035,0,1,0,0,1,1,3,6,math
+mmstar-1037,1,1,1,1,0,1,5,6,math
+mmstar-1038,0,0,0,0,0,0,0,6,math
+mmstar-104,1,0,0,0,0,0,1,6,coarse perception
+mmstar-1040,1,1,0,0,1,1,4,6,math
+mmstar-1041,0,0,1,0,0,0,1,6,math
+mmstar-1043,0,0,0,0,0,0,0,6,math
+mmstar-1046,0,0,0,0,0,0,0,6,math
+mmstar-1047,0,0,0,1,0,1,2,6,math
+mmstar-1048,0,0,0,0,0,0,0,6,math
+mmstar-105,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1050,1,0,0,0,0,0,1,6,math
+mmstar-1051,0,0,0,0,0,0,0,6,math
+mmstar-1053,1,1,1,0,1,0,4,6,math
+mmstar-1056,0,1,0,0,0,1,2,6,math
+mmstar-1059,1,0,0,0,0,0,1,6,math
+mmstar-106,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1060,0,0,0,1,0,1,2,6,math
+mmstar-1062,0,0,0,0,0,0,0,6,math
+mmstar-1065,0,1,1,1,0,0,3,6,math
+mmstar-1066,0,0,0,0,0,0,0,6,math
+mmstar-1067,0,1,0,1,0,1,3,6,math
+mmstar-1068,0,0,0,0,0,0,0,6,math
+mmstar-1071,1,0,0,0,0,0,1,6,math
+mmstar-1072,0,0,0,0,0,0,0,6,math
+mmstar-1075,0,0,0,0,0,0,0,6,math
+mmstar-1076,1,1,0,1,1,1,5,6,math
+mmstar-1077,0,1,0,0,0,0,1,6,math
+mmstar-1078,1,0,1,1,1,1,5,6,math
+mmstar-1079,0,0,0,1,0,1,2,6,math
+mmstar-1080,1,1,0,1,1,0,4,6,math
+mmstar-1081,1,0,1,0,0,1,3,6,math
+mmstar-1082,0,0,0,0,0,0,0,6,math
+mmstar-1085,0,1,1,1,1,1,5,6,math
+mmstar-1088,1,1,1,1,1,1,6,6,math
+mmstar-1089,1,1,1,1,0,1,5,6,math
+mmstar-109,0,1,1,0,0,0,2,6,coarse perception
+mmstar-1091,1,0,0,1,0,1,3,6,math
+mmstar-1094,0,0,0,1,0,0,1,6,math
+mmstar-1097,0,1,0,1,0,0,2,6,math
+mmstar-1098,0,1,0,0,1,0,2,6,math
+mmstar-11,1,0,0,1,0,1,3,6,coarse perception
+mmstar-110,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1102,0,0,0,0,0,0,0,6,math
+mmstar-1103,0,0,0,0,0,0,0,6,math
+mmstar-1104,0,0,0,0,0,0,0,6,math
+mmstar-1106,0,0,0,0,0,0,0,6,math
+mmstar-1107,0,0,0,0,0,0,0,6,math
+mmstar-111,0,1,0,0,1,0,2,6,coarse perception
+mmstar-1111,0,0,0,0,0,0,0,6,math
+mmstar-1112,0,1,0,0,0,0,1,6,math
+mmstar-1113,0,0,0,0,0,0,0,6,math
+mmstar-1114,0,1,0,1,1,1,4,6,math
+mmstar-1117,0,1,0,1,1,0,3,6,math
+mmstar-1118,0,1,1,0,0,1,3,6,math
+mmstar-1119,0,0,0,0,0,0,0,6,math
+mmstar-112,0,0,1,0,0,0,1,6,coarse perception
+mmstar-1121,0,0,0,0,0,0,0,6,math
+mmstar-1122,0,0,0,0,0,1,1,6,math
+mmstar-1123,0,0,0,0,0,0,0,6,math
+mmstar-1124,1,0,1,0,1,0,3,6,math
+mmstar-1127,1,0,0,0,0,0,1,6,math
+mmstar-1128,1,1,1,0,1,0,4,6,math
+mmstar-1130,1,0,0,0,0,0,1,6,math
+mmstar-1132,0,0,0,0,0,0,0,6,math
+mmstar-1133,0,0,0,0,0,0,0,6,math
+mmstar-1134,0,0,0,0,0,0,0,6,math
+mmstar-1138,1,1,1,0,1,0,4,6,math
+mmstar-1139,0,0,1,0,0,1,2,6,math
+mmstar-1141,0,0,0,0,0,0,0,6,math
+mmstar-1142,0,0,0,0,0,0,0,6,math
+mmstar-1143,0,0,0,0,0,0,0,6,math
+mmstar-1144,1,0,0,0,0,0,1,6,math
+mmstar-1148,0,0,0,0,0,0,0,6,math
+mmstar-115,0,0,0,0,0,1,1,6,coarse perception
+mmstar-1150,1,1,0,0,0,0,2,6,math
+mmstar-1152,0,1,0,1,0,0,2,6,math
+mmstar-1153,1,0,1,0,1,0,3,6,math
+mmstar-1155,1,1,1,1,1,1,6,6,math
+mmstar-1156,0,1,0,0,1,1,3,6,math
+mmstar-1158,0,1,1,1,0,0,3,6,math
+mmstar-1159,0,0,0,1,1,0,2,6,math
+mmstar-116,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1160,0,0,0,0,1,0,1,6,math
+mmstar-1161,1,0,1,1,0,0,3,6,math
+mmstar-1162,1,0,1,0,0,0,2,6,math
+mmstar-1163,0,0,0,0,0,0,0,6,math
+mmstar-1166,0,0,0,0,0,1,1,6,math
+mmstar-1167,1,0,0,0,1,0,2,6,math
+mmstar-1168,0,1,0,1,0,0,2,6,math
+mmstar-1169,0,0,0,0,0,0,0,6,math
+mmstar-117,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1170,1,1,1,1,1,1,6,6,math
+mmstar-1171,0,0,0,1,0,0,1,6,math
+mmstar-1172,0,0,0,1,0,0,1,6,math
+mmstar-1173,0,1,1,0,1,1,4,6,math
+mmstar-1176,1,1,0,1,1,0,4,6,math
+mmstar-1177,0,1,1,0,1,0,3,6,math
+mmstar-1178,0,0,0,0,0,0,0,6,math
+mmstar-1179,0,0,0,1,0,0,1,6,math
+mmstar-118,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1181,0,0,0,1,0,1,2,6,math
+mmstar-1183,0,1,0,0,0,1,2,6,math
+mmstar-1185,0,0,0,0,0,0,0,6,math
+mmstar-1187,0,0,0,0,0,0,0,6,math
+mmstar-1189,1,1,0,0,1,1,4,6,math
+mmstar-119,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1190,0,0,0,0,0,0,0,6,math
+mmstar-1191,0,1,1,0,0,0,2,6,math
+mmstar-1193,0,1,1,1,1,0,4,6,math
+mmstar-1194,0,0,1,0,1,1,3,6,math
+mmstar-1195,0,1,1,0,0,1,3,6,math
+mmstar-1198,0,0,1,0,1,0,2,6,math
+mmstar-12,0,0,0,0,0,0,0,6,coarse perception
+mmstar-120,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1200,1,1,0,1,0,0,3,6,math
+mmstar-1201,0,0,0,1,0,0,1,6,math
+mmstar-1203,1,1,1,1,1,1,6,6,math
+mmstar-1204,0,0,0,0,0,1,1,6,math
+mmstar-1206,1,1,1,1,0,1,5,6,math
+mmstar-1207,0,0,0,0,0,0,0,6,math
+mmstar-1208,1,1,1,1,1,0,5,6,math
+mmstar-121,0,0,0,1,0,0,1,6,coarse perception
+mmstar-1212,0,0,0,0,0,0,0,6,math
+mmstar-1213,1,0,1,1,1,1,5,6,math
+mmstar-1214,0,0,1,0,1,1,3,6,math
+mmstar-1215,0,1,0,0,0,1,2,6,math
+mmstar-1216,0,0,0,0,0,0,0,6,math
+mmstar-1217,0,0,0,0,0,0,0,6,math
+mmstar-1218,0,0,0,0,0,0,0,6,math
+mmstar-1219,0,0,0,0,0,0,0,6,math
+mmstar-1221,0,0,1,0,0,0,1,6,math
+mmstar-1222,0,0,0,0,0,0,0,6,math
+mmstar-1224,0,1,0,1,0,0,2,6,math
+mmstar-1225,0,1,0,0,0,1,2,6,math
+mmstar-1226,0,0,0,1,1,0,2,6,math
+mmstar-1227,0,0,0,0,0,0,0,6,math
+mmstar-1228,0,0,0,0,0,0,0,6,math
+mmstar-1229,0,0,1,0,0,0,1,6,math
+mmstar-123,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1230,0,0,0,0,1,0,1,6,math
+mmstar-1231,1,0,0,0,1,1,3,6,math
+mmstar-1232,1,1,0,0,0,1,3,6,math
+mmstar-1233,0,0,0,0,0,0,0,6,math
+mmstar-1236,1,1,0,1,1,0,4,6,math
+mmstar-1238,0,0,0,1,0,0,1,6,math
+mmstar-1240,1,0,1,0,0,1,3,6,math
+mmstar-1241,0,0,0,0,0,0,0,6,math
+mmstar-1242,1,1,1,1,1,1,6,6,math
+mmstar-1243,0,1,0,0,1,1,3,6,math
+mmstar-1244,0,1,1,0,0,1,3,6,math
+mmstar-1245,0,1,0,1,1,1,4,6,math
+mmstar-1246,0,0,0,0,0,0,0,6,math
+mmstar-1248,0,1,0,0,0,1,2,6,math
+mmstar-1249,0,0,0,0,1,1,2,6,math
+mmstar-125,0,0,1,0,1,0,2,6,coarse perception
+mmstar-1250,0,0,0,0,1,0,1,6,science & technology
+mmstar-1251,0,0,0,0,0,0,0,6,science & technology
+mmstar-1252,1,1,0,0,0,1,3,6,science & technology
+mmstar-1254,1,1,1,1,1,1,6,6,science & technology
+mmstar-1255,1,0,1,1,1,1,5,6,science & technology
+mmstar-1257,1,1,1,0,0,1,4,6,science & technology
+mmstar-1258,0,0,0,0,0,0,0,6,science & technology
+mmstar-126,0,0,0,1,0,0,1,6,coarse perception
+mmstar-1260,0,0,0,0,0,0,0,6,science & technology
+mmstar-1261,1,1,1,1,0,1,5,6,science & technology
+mmstar-1266,1,0,0,0,0,0,1,6,science & technology
+mmstar-1268,0,1,1,1,1,0,4,6,science & technology
+mmstar-1269,1,0,0,0,0,0,1,6,science & technology
+mmstar-127,0,1,1,0,1,0,3,6,coarse perception
+mmstar-1270,0,0,0,0,0,0,0,6,science & technology
+mmstar-1271,0,0,0,0,1,1,2,6,science & technology
+mmstar-1272,0,0,1,1,1,0,3,6,science & technology
+mmstar-1273,0,0,0,0,0,0,0,6,science & technology
+mmstar-1274,0,0,0,0,0,0,0,6,science & technology
+mmstar-1275,0,0,0,0,0,0,0,6,science & technology
+mmstar-1277,1,0,1,1,1,1,5,6,science & technology
+mmstar-1278,1,1,1,1,1,1,6,6,science & technology
+mmstar-1279,0,1,0,0,1,0,2,6,science & technology
+mmstar-128,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1281,0,0,0,0,0,0,0,6,science & technology
+mmstar-1283,0,0,0,0,0,0,0,6,science & technology
+mmstar-1284,1,1,1,1,0,1,5,6,science & technology
+mmstar-1285,0,0,0,0,0,0,0,6,science & technology
+mmstar-1287,1,0,1,1,0,0,3,6,science & technology
+mmstar-1288,0,0,0,0,0,0,0,6,science & technology
+mmstar-1289,0,0,0,0,0,0,0,6,science & technology
+mmstar-129,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1290,0,0,0,0,0,0,0,6,science & technology
+mmstar-1291,0,0,0,0,0,0,0,6,science & technology
+mmstar-1292,0,0,0,0,0,0,0,6,science & technology
+mmstar-1293,0,0,0,0,0,0,0,6,science & technology
+mmstar-1294,0,0,0,1,0,0,1,6,science & technology
+mmstar-1295,1,1,1,1,1,1,6,6,science & technology
+mmstar-1298,0,0,0,0,1,0,1,6,science & technology
+mmstar-1299,0,0,1,0,1,0,2,6,science & technology
+mmstar-13,1,1,1,1,1,1,6,6,coarse perception
+mmstar-130,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1300,0,0,0,0,0,0,0,6,science & technology
+mmstar-1301,0,0,0,0,0,0,0,6,science & technology
+mmstar-1302,0,0,0,0,0,0,0,6,science & technology
+mmstar-1303,0,0,0,1,1,1,3,6,science & technology
+mmstar-1304,0,0,0,0,0,0,0,6,science & technology
+mmstar-1305,0,0,0,0,0,0,0,6,science & technology
+mmstar-1306,1,1,1,1,1,1,6,6,science & technology
+mmstar-1309,0,0,0,0,0,0,0,6,science & technology
+mmstar-131,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1310,1,0,0,0,0,1,2,6,science & technology
+mmstar-1311,1,0,1,0,0,1,3,6,science & technology
+mmstar-1312,0,0,0,0,1,0,1,6,science & technology
+mmstar-1314,1,1,0,1,0,1,4,6,science & technology
+mmstar-1316,0,0,0,0,0,0,0,6,science & technology
+mmstar-1318,0,0,0,0,0,1,1,6,science & technology
+mmstar-1319,0,0,0,0,0,0,0,6,science & technology
+mmstar-132,1,0,0,1,0,0,2,6,coarse perception
+mmstar-1320,0,0,0,0,0,0,0,6,science & technology
+mmstar-1325,0,0,0,0,0,0,0,6,science & technology
+mmstar-1326,0,0,0,0,0,0,0,6,science & technology
+mmstar-1327,0,0,0,1,0,0,1,6,science & technology
+mmstar-1328,0,0,0,0,0,0,0,6,science & technology
+mmstar-1329,0,0,0,0,0,0,0,6,science & technology
+mmstar-133,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1332,1,0,1,0,0,0,2,6,science & technology
+mmstar-1333,0,0,1,1,0,0,2,6,science & technology
+mmstar-1334,0,0,1,0,0,0,1,6,science & technology
+mmstar-1336,0,1,0,0,0,0,1,6,science & technology
+mmstar-1338,0,1,0,0,1,1,3,6,science & technology
+mmstar-134,0,1,0,1,1,0,3,6,coarse perception
+mmstar-1341,0,1,0,0,1,1,3,6,science & technology
+mmstar-1342,0,0,0,0,0,0,0,6,science & technology
+mmstar-1343,0,0,0,0,0,0,0,6,science & technology
+mmstar-1344,1,0,1,1,0,0,3,6,science & technology
+mmstar-1345,0,0,0,0,0,0,0,6,science & technology
+mmstar-1349,0,0,1,0,1,0,2,6,science & technology
+mmstar-135,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1353,1,1,1,1,1,0,5,6,science & technology
+mmstar-1354,0,0,0,0,0,0,0,6,science & technology
+mmstar-1358,0,1,0,0,0,0,1,6,science & technology
+mmstar-1359,0,0,0,0,0,0,0,6,science & technology
+mmstar-136,1,0,0,1,1,0,3,6,coarse perception
+mmstar-1360,1,0,0,1,1,1,4,6,science & technology
+mmstar-1363,0,0,0,1,0,0,1,6,science & technology
+mmstar-1364,0,1,0,0,0,0,1,6,science & technology
+mmstar-1365,0,0,0,0,0,0,0,6,science & technology
+mmstar-1366,0,0,0,0,0,0,0,6,science & technology
+mmstar-1367,0,0,0,0,0,0,0,6,science & technology
+mmstar-1368,0,0,0,0,0,0,0,6,science & technology
+mmstar-1369,0,0,1,0,0,0,1,6,science & technology
+mmstar-137,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1371,0,0,0,0,0,0,0,6,science & technology
+mmstar-1376,0,0,0,0,0,1,1,6,science & technology
+mmstar-1378,0,0,0,0,0,0,0,6,science & technology
+mmstar-138,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1380,0,0,0,1,0,0,1,6,science & technology
+mmstar-1381,0,0,1,0,1,1,3,6,science & technology
+mmstar-1382,1,1,1,1,1,1,6,6,science & technology
+mmstar-1383,0,0,0,0,0,0,0,6,science & technology
+mmstar-1384,1,1,1,1,1,1,6,6,science & technology
+mmstar-1385,0,0,0,0,0,0,0,6,science & technology
+mmstar-1388,0,0,0,0,0,0,0,6,science & technology
+mmstar-139,0,1,0,0,1,1,3,6,coarse perception
+mmstar-1392,1,0,0,1,1,0,3,6,science & technology
+mmstar-1393,0,0,0,0,0,0,0,6,science & technology
+mmstar-1395,1,0,0,1,1,1,4,6,science & technology
+mmstar-1396,0,0,0,0,0,0,0,6,science & technology
+mmstar-1399,0,0,0,0,0,0,0,6,science & technology
+mmstar-1400,1,0,1,1,0,0,3,6,science & technology
+mmstar-1401,1,1,1,1,1,1,6,6,science & technology
+mmstar-1402,0,0,0,0,0,0,0,6,science & technology
+mmstar-1403,1,0,0,1,1,0,3,6,science & technology
+mmstar-1405,0,0,0,0,0,0,0,6,science & technology
+mmstar-1407,0,0,0,0,0,0,0,6,science & technology
+mmstar-1408,1,1,0,1,0,0,3,6,science & technology
+mmstar-1409,0,1,0,0,1,1,3,6,science & technology
+mmstar-1410,1,0,1,0,1,1,4,6,science & technology
+mmstar-1412,0,0,0,0,0,0,0,6,science & technology
+mmstar-1413,1,0,0,1,1,1,4,6,science & technology
+mmstar-1414,1,0,0,1,0,0,2,6,science & technology
+mmstar-1418,1,1,0,0,0,0,2,6,science & technology
+mmstar-1419,0,0,0,0,0,0,0,6,science & technology
+mmstar-1420,1,1,0,1,0,0,3,6,science & technology
+mmstar-1422,0,0,0,0,0,0,0,6,science & technology
+mmstar-1423,1,1,1,1,0,1,5,6,science & technology
+mmstar-1427,0,0,1,0,0,0,1,6,science & technology
+mmstar-143,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1430,0,1,0,1,0,0,2,6,science & technology
+mmstar-1431,0,0,0,0,0,0,0,6,science & technology
+mmstar-1432,0,1,0,1,1,0,3,6,science & technology
+mmstar-1433,1,0,1,0,1,0,3,6,science & technology
+mmstar-1434,0,0,0,1,0,0,1,6,science & technology
+mmstar-1435,0,0,0,0,0,0,0,6,science & technology
+mmstar-1437,0,0,0,0,0,0,0,6,science & technology
+mmstar-1438,0,1,0,0,0,1,2,6,science & technology
+mmstar-144,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1446,0,0,0,0,0,0,0,6,science & technology
+mmstar-1447,0,0,0,0,0,0,0,6,science & technology
+mmstar-1448,0,0,1,0,1,1,3,6,science & technology
+mmstar-1449,0,0,0,0,0,1,1,6,science & technology
+mmstar-145,0,0,0,0,0,0,0,6,coarse perception
+mmstar-1450,0,0,1,0,0,0,1,6,science & technology
+mmstar-1452,0,0,0,1,0,0,1,6,science & technology
+mmstar-1453,1,0,0,0,0,0,1,6,science & technology
+mmstar-1454,0,0,0,0,0,0,0,6,science & technology
+mmstar-1455,1,0,0,1,1,0,3,6,science & technology
+mmstar-1456,1,0,0,1,0,1,3,6,science & technology
+mmstar-1458,0,1,0,1,1,1,4,6,science & technology
+mmstar-146,1,1,1,1,1,1,6,6,coarse perception
+mmstar-1460,0,0,0,0,0,0,0,6,science & technology
+mmstar-1461,0,0,0,1,1,1,3,6,science & technology
+mmstar-1462,0,0,0,0,0,1,1,6,science & technology
+mmstar-1464,0,1,1,0,0,0,2,6,science & technology
+mmstar-1466,0,0,0,0,0,0,0,6,science & technology
+mmstar-1468,1,0,1,0,1,1,4,6,science & technology
+mmstar-147,1,1,0,1,1,1,5,6,coarse perception
+mmstar-1470,0,0,0,0,0,0,0,6,science & technology
+mmstar-1471,0,0,0,0,0,0,0,6,science & technology
+mmstar-1472,0,0,0,1,0,0,1,6,science & technology
+mmstar-1473,0,0,0,0,0,1,1,6,science & technology
+mmstar-1474,0,0,0,1,1,0,2,6,science & technology
+mmstar-1475,0,1,0,0,1,1,3,6,science & technology
+mmstar-1476,0,1,1,1,1,0,4,6,science & technology
+mmstar-1477,0,0,0,1,1,0,2,6,science & technology
+mmstar-1478,0,0,0,0,0,0,0,6,science & technology
+mmstar-1479,0,0,0,0,0,1,1,6,science & technology
+mmstar-1480,0,0,0,0,0,0,0,6,science & technology
+mmstar-1481,0,0,0,0,0,1,1,6,science & technology
+mmstar-1483,1,0,0,1,1,0,3,6,science & technology
+mmstar-1484,0,0,0,0,0,0,0,6,science & technology
+mmstar-1485,0,0,0,0,0,0,0,6,science & technology
+mmstar-1486,0,1,0,0,1,0,2,6,science & technology
+mmstar-1488,0,0,0,0,0,0,0,6,science & technology
+mmstar-149,1,1,1,1,1,1,6,6,coarse perception
+mmstar-1491,0,0,0,0,0,0,0,6,science & technology
+mmstar-1494,0,1,1,0,1,1,4,6,science & technology
+mmstar-1495,0,1,0,0,1,0,2,6,science & technology
+mmstar-1498,1,1,1,1,0,1,5,6,science & technology
+mmstar-15,1,0,1,0,1,1,4,6,coarse perception
+mmstar-150,1,1,1,1,0,1,5,6,coarse perception
+mmstar-151,0,0,0,0,0,0,0,6,coarse perception
+mmstar-153,1,0,1,0,0,1,3,6,coarse perception
+mmstar-154,1,0,0,0,1,0,2,6,coarse perception
+mmstar-155,0,0,0,0,0,0,0,6,coarse perception
+mmstar-157,1,1,0,0,0,0,2,6,coarse perception
+mmstar-158,1,0,1,0,1,1,4,6,coarse perception
+mmstar-16,0,0,0,1,1,0,2,6,coarse perception
+mmstar-160,0,0,0,0,0,0,0,6,coarse perception
+mmstar-162,0,1,0,1,0,1,3,6,coarse perception
+mmstar-163,0,0,0,0,0,0,0,6,coarse perception
+mmstar-164,0,0,0,0,1,0,1,6,coarse perception
+mmstar-165,1,0,1,1,1,1,5,6,coarse perception
+mmstar-166,0,0,1,1,0,0,2,6,coarse perception
+mmstar-167,0,1,0,1,0,1,3,6,coarse perception
+mmstar-168,0,1,0,1,0,1,3,6,coarse perception
+mmstar-169,1,1,0,1,0,1,4,6,coarse perception
+mmstar-17,0,0,1,0,0,1,2,6,coarse perception
+mmstar-170,1,0,1,1,1,0,4,6,coarse perception
+mmstar-171,0,1,1,0,1,0,3,6,coarse perception
+mmstar-172,1,1,1,1,1,0,5,6,coarse perception
+mmstar-173,0,0,1,0,1,0,2,6,coarse perception
+mmstar-174,0,1,0,0,0,1,2,6,coarse perception
+mmstar-176,0,0,0,0,0,0,0,6,coarse perception
+mmstar-177,0,0,0,1,1,1,3,6,coarse perception
+mmstar-179,0,0,0,1,0,0,1,6,coarse perception
+mmstar-180,0,1,0,0,0,1,2,6,coarse perception
+mmstar-181,0,0,0,0,0,0,0,6,coarse perception
+mmstar-183,0,0,1,0,0,0,1,6,coarse perception
+mmstar-185,1,0,0,0,0,0,1,6,coarse perception
+mmstar-188,0,0,0,0,0,0,0,6,coarse perception
+mmstar-189,0,1,1,0,1,1,4,6,coarse perception
+mmstar-190,1,1,0,0,0,0,2,6,coarse perception
+mmstar-193,0,0,0,0,0,0,0,6,coarse perception
+mmstar-195,1,1,1,0,0,1,4,6,coarse perception
+mmstar-196,0,0,0,0,0,0,0,6,coarse perception
+mmstar-197,1,0,1,1,0,1,4,6,coarse perception
+mmstar-199,1,1,1,1,1,1,6,6,coarse perception
+mmstar-20,0,0,0,0,0,0,0,6,coarse perception
+mmstar-200,0,0,1,0,1,0,2,6,coarse perception
+mmstar-201,0,1,1,0,0,1,3,6,coarse perception
+mmstar-203,0,1,0,1,1,1,4,6,coarse perception
+mmstar-205,0,1,0,0,0,0,1,6,coarse perception
+mmstar-206,1,0,0,0,0,0,1,6,coarse perception
+mmstar-207,0,1,1,0,1,0,3,6,coarse perception
+mmstar-208,0,1,0,0,1,1,3,6,coarse perception
+mmstar-209,0,0,0,0,0,0,0,6,coarse perception
+mmstar-21,0,1,0,1,1,1,4,6,coarse perception
+mmstar-210,0,0,0,0,1,0,1,6,coarse perception
+mmstar-212,0,0,1,0,1,0,2,6,coarse perception
+mmstar-213,1,0,1,1,1,1,5,6,coarse perception
+mmstar-214,0,0,1,0,0,1,2,6,coarse perception
+mmstar-216,0,1,0,0,0,0,1,6,coarse perception
+mmstar-217,0,1,0,0,0,1,2,6,coarse perception
+mmstar-221,0,0,0,0,0,0,0,6,coarse perception
+mmstar-222,0,0,0,0,0,0,0,6,coarse perception
+mmstar-225,0,0,0,0,0,0,0,6,coarse perception
+mmstar-226,0,0,0,0,0,0,0,6,coarse perception
+mmstar-228,0,0,0,0,0,0,0,6,coarse perception
+mmstar-229,0,0,0,0,1,0,1,6,coarse perception
+mmstar-23,1,0,0,1,1,0,3,6,coarse perception
+mmstar-230,0,0,0,0,0,0,0,6,coarse perception
+mmstar-232,0,0,0,0,0,0,0,6,coarse perception
+mmstar-234,0,0,1,0,0,0,1,6,coarse perception
+mmstar-235,0,0,0,0,0,0,0,6,coarse perception
+mmstar-236,0,0,0,0,0,0,0,6,coarse perception
+mmstar-237,0,0,0,0,0,0,0,6,coarse perception
+mmstar-238,0,0,0,0,0,0,0,6,coarse perception
+mmstar-239,0,0,0,0,0,0,0,6,coarse perception
+mmstar-24,0,0,1,0,1,1,3,6,coarse perception
+mmstar-242,1,1,1,1,1,1,6,6,coarse perception
+mmstar-243,1,0,1,0,1,1,4,6,coarse perception
+mmstar-244,0,0,1,1,0,0,2,6,coarse perception
+mmstar-246,0,0,0,0,0,0,0,6,coarse perception
+mmstar-248,0,0,0,0,1,0,1,6,coarse perception
+mmstar-25,1,0,0,0,0,0,1,6,coarse perception
+mmstar-250,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-252,0,1,1,0,1,0,3,6,fine-grained perception
+mmstar-255,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-256,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-257,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-258,0,0,0,0,1,0,1,6,fine-grained perception
+mmstar-26,0,0,0,0,0,0,0,6,coarse perception
+mmstar-261,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-262,0,0,0,0,1,0,1,6,fine-grained perception
+mmstar-263,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-264,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-265,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-266,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-267,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-272,1,1,0,1,1,1,5,6,fine-grained perception
+mmstar-273,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-274,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-275,1,1,0,1,1,1,5,6,fine-grained perception
+mmstar-277,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-28,0,0,0,0,0,1,1,6,coarse perception
+mmstar-280,1,1,0,0,1,1,4,6,fine-grained perception
+mmstar-281,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-282,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-284,0,0,0,0,0,1,1,6,fine-grained perception
+mmstar-285,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-286,0,0,0,0,1,0,1,6,fine-grained perception
+mmstar-287,1,1,0,1,0,1,4,6,fine-grained perception
+mmstar-288,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-289,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-290,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-291,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-292,0,1,1,1,1,1,5,6,fine-grained perception
+mmstar-293,0,1,1,1,1,0,4,6,fine-grained perception
+mmstar-294,0,0,1,0,1,0,2,6,fine-grained perception
+mmstar-296,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-297,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-3,0,0,0,0,0,0,0,6,coarse perception
+mmstar-30,0,0,0,1,0,0,1,6,coarse perception
+mmstar-301,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-304,1,0,1,1,0,0,3,6,fine-grained perception
+mmstar-305,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-306,1,1,1,0,0,1,4,6,fine-grained perception
+mmstar-307,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-311,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-313,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-314,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-316,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-318,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-32,0,0,0,0,0,0,0,6,coarse perception
+mmstar-320,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-321,0,0,0,0,0,1,1,6,fine-grained perception
+mmstar-323,1,0,0,1,1,0,3,6,fine-grained perception
+mmstar-324,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-325,0,0,0,1,1,0,2,6,fine-grained perception
+mmstar-327,1,0,1,0,0,0,2,6,fine-grained perception
+mmstar-328,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-329,1,0,0,0,0,1,2,6,fine-grained perception
+mmstar-33,1,0,0,0,1,0,2,6,coarse perception
+mmstar-331,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-332,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-334,0,0,0,0,1,1,2,6,fine-grained perception
+mmstar-335,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-336,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-337,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-338,0,1,0,1,1,0,3,6,fine-grained perception
+mmstar-339,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-340,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-341,1,1,0,1,1,1,5,6,fine-grained perception
+mmstar-343,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-344,1,0,0,1,1,1,4,6,fine-grained perception
+mmstar-345,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-346,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-348,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-349,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-35,0,1,1,1,0,0,3,6,coarse perception
+mmstar-350,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-351,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-352,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-355,1,0,1,1,1,1,5,6,fine-grained perception
+mmstar-356,1,0,0,1,0,1,3,6,fine-grained perception
+mmstar-357,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-358,0,1,0,1,1,1,4,6,fine-grained perception
+mmstar-359,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-36,1,1,1,1,1,1,6,6,coarse perception
+mmstar-363,0,0,1,0,0,1,2,6,fine-grained perception
+mmstar-365,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-366,1,0,0,1,0,0,2,6,fine-grained perception
+mmstar-367,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-368,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-369,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-37,0,1,0,1,1,0,3,6,coarse perception
+mmstar-370,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-371,0,1,1,0,0,1,3,6,fine-grained perception
+mmstar-372,1,0,0,0,1,0,2,6,fine-grained perception
+mmstar-373,0,0,0,0,1,0,1,6,fine-grained perception
+mmstar-374,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-375,1,0,0,0,0,0,1,6,fine-grained perception
+mmstar-377,1,0,1,0,1,1,4,6,fine-grained perception
+mmstar-378,0,1,0,1,1,0,3,6,fine-grained perception
+mmstar-379,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-38,0,0,0,0,0,0,0,6,coarse perception
+mmstar-380,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-382,1,1,0,0,0,1,3,6,fine-grained perception
+mmstar-383,1,0,0,1,1,1,4,6,fine-grained perception
+mmstar-384,1,0,0,0,0,1,2,6,fine-grained perception
+mmstar-385,0,0,0,0,0,1,1,6,fine-grained perception
+mmstar-386,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-387,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-388,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-389,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-391,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-392,1,1,0,0,0,1,3,6,fine-grained perception
+mmstar-394,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-395,1,1,1,0,0,1,4,6,fine-grained perception
+mmstar-396,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-397,1,0,0,1,1,1,4,6,fine-grained perception
+mmstar-398,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-400,0,1,1,0,0,1,3,6,fine-grained perception
+mmstar-403,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-404,1,1,0,1,1,1,5,6,fine-grained perception
+mmstar-405,0,1,0,0,0,0,1,6,fine-grained perception
+mmstar-406,1,0,0,0,0,0,1,6,fine-grained perception
+mmstar-407,0,0,0,0,1,1,2,6,fine-grained perception
+mmstar-409,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-41,1,1,1,1,1,1,6,6,coarse perception
+mmstar-410,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-413,0,0,0,1,0,0,1,6,fine-grained perception
+mmstar-415,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-416,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-417,1,0,1,0,0,0,2,6,fine-grained perception
+mmstar-418,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-419,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-42,0,0,0,0,0,0,0,6,coarse perception
+mmstar-421,1,1,1,0,1,1,5,6,fine-grained perception
+mmstar-423,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-424,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-428,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-429,0,1,0,0,0,0,1,6,fine-grained perception
+mmstar-43,0,0,1,1,0,1,3,6,coarse perception
+mmstar-430,0,0,1,0,0,0,1,6,fine-grained perception
+mmstar-433,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-437,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-439,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-441,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-444,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-447,1,0,1,1,1,0,4,6,fine-grained perception
+mmstar-448,1,0,0,1,0,1,3,6,fine-grained perception
+mmstar-449,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-450,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-451,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-453,0,1,0,0,1,1,3,6,fine-grained perception
+mmstar-454,0,0,1,0,0,0,1,6,fine-grained perception
+mmstar-455,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-457,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-46,0,1,0,1,0,0,2,6,coarse perception
+mmstar-460,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-462,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-463,0,1,1,0,0,0,2,6,fine-grained perception
+mmstar-466,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-468,0,0,1,1,0,0,2,6,fine-grained perception
+mmstar-469,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-470,1,0,1,0,1,1,4,6,fine-grained perception
+mmstar-472,1,1,1,0,1,0,4,6,fine-grained perception
+mmstar-475,0,0,1,0,0,1,2,6,fine-grained perception
+mmstar-476,1,1,0,0,1,0,3,6,fine-grained perception
+mmstar-478,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-48,0,0,0,0,0,0,0,6,coarse perception
+mmstar-480,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-484,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-485,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-486,1,1,0,0,0,1,3,6,fine-grained perception
+mmstar-488,1,1,1,1,1,1,6,6,fine-grained perception
+mmstar-490,0,1,1,0,1,1,4,6,fine-grained perception
+mmstar-492,1,0,0,0,0,0,1,6,fine-grained perception
+mmstar-493,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-495,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-496,0,1,0,0,1,0,2,6,fine-grained perception
+mmstar-497,0,0,0,0,0,0,0,6,fine-grained perception
+mmstar-498,1,1,0,1,0,0,3,6,fine-grained perception
+mmstar-499,1,0,0,1,0,0,2,6,fine-grained perception
+mmstar-50,0,0,1,0,0,0,1,6,coarse perception
+mmstar-500,0,1,0,0,0,0,1,6,instance reasoning
+mmstar-502,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-503,0,0,1,1,1,1,4,6,instance reasoning
+mmstar-504,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-505,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-507,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-508,0,0,1,1,0,1,3,6,instance reasoning
+mmstar-509,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-51,0,0,0,0,0,0,0,6,coarse perception
+mmstar-510,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-514,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-515,1,0,0,0,0,0,1,6,instance reasoning
+mmstar-518,1,0,1,0,0,0,2,6,instance reasoning
+mmstar-521,0,0,0,1,0,0,1,6,instance reasoning
+mmstar-522,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-523,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-524,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-525,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-528,1,0,0,1,1,1,4,6,instance reasoning
+mmstar-531,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-532,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-533,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-534,1,1,1,0,0,1,4,6,instance reasoning
+mmstar-537,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-540,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-541,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-543,0,1,0,0,1,1,3,6,instance reasoning
+mmstar-544,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-545,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-547,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-548,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-549,1,0,0,1,0,0,2,6,instance reasoning
+mmstar-550,1,0,0,0,0,1,2,6,instance reasoning
+mmstar-551,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-552,0,0,0,1,0,0,1,6,instance reasoning
+mmstar-555,0,0,0,0,1,1,2,6,instance reasoning
+mmstar-556,0,1,0,0,1,1,3,6,instance reasoning
+mmstar-559,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-560,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-561,1,0,1,1,1,1,5,6,instance reasoning
+mmstar-562,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-564,0,0,0,0,0,1,1,6,instance reasoning
+mmstar-566,0,0,1,0,0,0,1,6,instance reasoning
+mmstar-568,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-57,0,1,1,1,1,1,5,6,coarse perception
+mmstar-570,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-571,1,0,1,1,1,1,5,6,instance reasoning
+mmstar-573,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-576,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-577,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-582,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-584,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-585,0,1,0,1,0,0,2,6,instance reasoning
+mmstar-586,1,0,1,1,0,1,4,6,instance reasoning
+mmstar-588,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-589,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-59,1,0,1,0,0,1,3,6,coarse perception
+mmstar-591,0,1,1,1,1,1,5,6,instance reasoning
+mmstar-592,0,1,0,0,1,0,2,6,instance reasoning
+mmstar-593,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-594,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-595,1,1,1,0,0,1,4,6,instance reasoning
+mmstar-596,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-598,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-599,0,0,1,0,1,1,3,6,instance reasoning
+mmstar-6,0,0,0,0,0,0,0,6,coarse perception
+mmstar-60,1,1,1,0,1,0,4,6,coarse perception
+mmstar-600,1,1,1,1,0,1,5,6,instance reasoning
+mmstar-602,1,1,0,1,1,1,5,6,instance reasoning
+mmstar-603,0,1,0,1,0,1,3,6,instance reasoning
+mmstar-604,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-605,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-606,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-607,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-608,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-611,1,1,0,1,0,1,4,6,instance reasoning
+mmstar-612,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-613,1,0,0,1,1,1,4,6,instance reasoning
+mmstar-614,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-616,0,1,0,1,1,0,3,6,instance reasoning
+mmstar-617,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-62,0,0,1,0,0,1,2,6,coarse perception
+mmstar-622,0,0,0,1,0,0,1,6,instance reasoning
+mmstar-623,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-624,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-625,0,0,1,0,0,0,1,6,instance reasoning
+mmstar-626,1,0,1,1,1,0,4,6,instance reasoning
+mmstar-627,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-628,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-63,0,0,0,0,0,0,0,6,coarse perception
+mmstar-630,0,0,0,1,1,0,2,6,instance reasoning
+mmstar-631,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-633,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-635,1,1,0,1,1,0,4,6,instance reasoning
+mmstar-636,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-637,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-639,0,0,0,1,1,0,2,6,instance reasoning
+mmstar-64,0,0,0,0,0,0,0,6,coarse perception
+mmstar-640,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-643,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-645,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-647,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-65,1,1,1,1,1,1,6,6,coarse perception
+mmstar-650,1,0,1,1,1,1,5,6,instance reasoning
+mmstar-652,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-653,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-654,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-656,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-658,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-659,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-660,0,1,0,0,0,0,1,6,instance reasoning
+mmstar-661,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-662,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-663,1,1,0,1,0,1,4,6,instance reasoning
+mmstar-664,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-668,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-669,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-67,0,0,0,0,0,0,0,6,coarse perception
+mmstar-671,1,0,0,0,0,1,2,6,instance reasoning
+mmstar-673,0,1,0,0,1,1,3,6,instance reasoning
+mmstar-675,1,1,0,1,1,1,5,6,instance reasoning
+mmstar-677,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-679,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-68,0,0,0,0,0,0,0,6,coarse perception
+mmstar-680,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-683,0,1,0,0,1,0,2,6,instance reasoning
+mmstar-684,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-686,1,0,0,0,0,1,2,6,instance reasoning
+mmstar-687,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-69,0,0,0,0,0,0,0,6,coarse perception
+mmstar-690,1,0,0,1,1,1,4,6,instance reasoning
+mmstar-691,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-694,0,0,1,1,0,1,3,6,instance reasoning
+mmstar-696,0,0,1,0,0,0,1,6,instance reasoning
+mmstar-697,0,1,0,0,0,0,1,6,instance reasoning
+mmstar-698,0,0,0,1,1,1,3,6,instance reasoning
+mmstar-699,0,1,1,1,1,1,5,6,instance reasoning
+mmstar-7,0,0,0,0,0,0,0,6,coarse perception
+mmstar-70,0,0,0,0,0,0,0,6,coarse perception
+mmstar-700,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-701,0,0,1,1,1,1,4,6,instance reasoning
+mmstar-702,1,0,1,1,0,1,4,6,instance reasoning
+mmstar-705,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-706,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-707,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-709,1,0,0,0,1,0,2,6,instance reasoning
+mmstar-71,0,1,0,0,1,1,3,6,coarse perception
+mmstar-710,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-712,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-714,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-715,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-716,1,1,1,1,1,0,5,6,instance reasoning
+mmstar-717,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-718,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-719,1,1,0,1,1,0,4,6,instance reasoning
+mmstar-72,1,1,1,0,1,1,5,6,coarse perception
+mmstar-723,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-727,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-728,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-729,1,0,0,1,1,1,4,6,instance reasoning
+mmstar-73,0,0,0,0,0,0,0,6,coarse perception
+mmstar-730,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-731,1,0,1,1,0,0,3,6,instance reasoning
+mmstar-732,1,0,1,1,0,1,4,6,instance reasoning
+mmstar-733,1,0,1,1,1,1,5,6,instance reasoning
+mmstar-734,1,1,1,1,1,0,5,6,instance reasoning
+mmstar-735,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-736,1,1,0,0,1,1,4,6,instance reasoning
+mmstar-738,0,1,0,1,1,1,4,6,instance reasoning
+mmstar-739,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-74,0,1,0,0,1,0,2,6,coarse perception
+mmstar-740,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-741,0,0,0,0,0,0,0,6,instance reasoning
+mmstar-743,0,0,1,1,1,1,4,6,instance reasoning
+mmstar-744,1,0,1,1,1,0,4,6,instance reasoning
+mmstar-745,1,1,1,1,1,1,6,6,instance reasoning
+mmstar-747,0,0,0,0,1,0,1,6,instance reasoning
+mmstar-749,1,1,1,1,0,0,4,6,instance reasoning
+mmstar-750,1,0,0,0,1,0,2,6,logical reasoning
+mmstar-751,0,0,0,0,1,0,1,6,logical reasoning
+mmstar-753,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-754,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-755,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-756,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-758,0,1,0,1,1,1,4,6,logical reasoning
+mmstar-759,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-76,0,0,0,0,0,0,0,6,coarse perception
+mmstar-760,0,1,0,0,1,0,2,6,logical reasoning
+mmstar-761,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-762,0,1,0,1,0,1,3,6,logical reasoning
+mmstar-763,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-764,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-765,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-766,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-767,1,1,1,1,1,0,5,6,logical reasoning
+mmstar-768,0,0,1,0,1,1,3,6,logical reasoning
+mmstar-769,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-770,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-772,0,1,1,0,0,0,2,6,logical reasoning
+mmstar-773,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-774,1,0,1,1,1,0,4,6,logical reasoning
+mmstar-775,1,1,0,0,1,1,4,6,logical reasoning
+mmstar-776,0,0,1,0,0,1,2,6,logical reasoning
+mmstar-777,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-778,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-779,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-78,1,1,1,1,1,1,6,6,coarse perception
+mmstar-780,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-782,1,1,1,0,1,1,5,6,logical reasoning
+mmstar-783,1,0,0,0,0,0,1,6,logical reasoning
+mmstar-784,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-786,0,0,0,0,1,1,2,6,logical reasoning
+mmstar-788,1,0,0,0,0,0,1,6,logical reasoning
+mmstar-789,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-79,1,1,1,1,1,1,6,6,coarse perception
+mmstar-790,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-791,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-792,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-796,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-797,0,0,0,0,1,0,1,6,logical reasoning
+mmstar-799,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-800,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-802,1,0,1,1,0,0,3,6,logical reasoning
+mmstar-803,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-804,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-805,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-806,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-807,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-808,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-809,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-81,0,0,0,1,0,0,1,6,coarse perception
+mmstar-812,1,0,1,0,1,1,4,6,logical reasoning
+mmstar-813,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-814,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-815,0,0,0,0,1,0,1,6,logical reasoning
+mmstar-816,0,0,0,0,1,0,1,6,logical reasoning
+mmstar-817,0,1,0,1,0,1,3,6,logical reasoning
+mmstar-819,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-821,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-822,1,0,0,1,1,0,3,6,logical reasoning
+mmstar-823,1,1,1,0,1,0,4,6,logical reasoning
+mmstar-825,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-826,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-827,1,0,0,1,1,1,4,6,logical reasoning
+mmstar-829,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-83,1,1,1,0,0,0,3,6,coarse perception
+mmstar-830,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-832,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-833,0,1,1,0,1,1,4,6,logical reasoning
+mmstar-834,1,0,0,0,0,1,2,6,logical reasoning
+mmstar-835,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-836,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-837,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-84,0,0,0,0,0,0,0,6,coarse perception
+mmstar-841,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-843,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-845,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-846,1,1,1,1,0,1,5,6,logical reasoning
+mmstar-847,0,0,0,1,1,0,2,6,logical reasoning
+mmstar-848,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-849,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-850,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-851,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-852,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-853,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-854,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-856,1,0,0,1,1,0,3,6,logical reasoning
+mmstar-857,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-858,1,1,0,0,0,0,2,6,logical reasoning
+mmstar-859,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-86,0,0,0,0,0,0,0,6,coarse perception
+mmstar-860,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-862,0,0,0,1,0,0,1,6,logical reasoning
+mmstar-864,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-865,1,1,0,0,1,0,3,6,logical reasoning
+mmstar-866,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-868,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-869,1,0,0,0,0,0,1,6,logical reasoning
+mmstar-87,1,1,1,1,1,1,6,6,coarse perception
+mmstar-870,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-872,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-873,1,1,0,0,1,0,3,6,logical reasoning
+mmstar-874,1,1,0,0,0,1,3,6,logical reasoning
+mmstar-875,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-876,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-879,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-88,0,0,1,0,1,1,3,6,coarse perception
+mmstar-880,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-882,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-884,1,1,0,0,0,0,2,6,logical reasoning
+mmstar-885,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-886,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-888,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-889,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-890,1,0,0,0,0,0,1,6,logical reasoning
+mmstar-894,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-895,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-896,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-90,0,0,0,0,0,0,0,6,coarse perception
+mmstar-900,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-901,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-902,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-903,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-905,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-908,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-909,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-91,0,0,0,0,1,1,2,6,coarse perception
+mmstar-910,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-911,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-913,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-914,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-916,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-917,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-919,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-922,0,1,0,1,0,0,2,6,logical reasoning
+mmstar-925,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-926,0,0,1,0,0,0,1,6,logical reasoning
+mmstar-928,0,1,0,0,0,1,2,6,logical reasoning
+mmstar-929,1,0,0,0,0,1,2,6,logical reasoning
+mmstar-93,1,0,0,1,0,0,2,6,coarse perception
+mmstar-931,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-932,1,0,1,1,0,0,3,6,logical reasoning
+mmstar-933,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-935,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-939,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-94,0,0,0,0,0,0,0,6,coarse perception
+mmstar-940,0,1,0,0,1,0,2,6,logical reasoning
+mmstar-941,0,0,1,0,0,0,1,6,logical reasoning
+mmstar-942,1,1,0,0,0,1,3,6,logical reasoning
+mmstar-945,1,0,1,0,1,1,4,6,logical reasoning
+mmstar-947,1,0,1,0,1,0,3,6,logical reasoning
+mmstar-948,1,0,1,0,1,0,3,6,logical reasoning
+mmstar-949,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-95,0,0,0,0,0,0,0,6,coarse perception
+mmstar-950,1,0,1,1,1,1,5,6,logical reasoning
+mmstar-951,1,0,1,1,0,0,3,6,logical reasoning
+mmstar-952,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-953,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-954,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-956,0,0,0,1,0,0,1,6,logical reasoning
+mmstar-957,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-959,0,0,0,1,0,0,1,6,logical reasoning
+mmstar-960,0,0,0,1,1,1,3,6,logical reasoning
+mmstar-961,0,1,0,1,0,0,2,6,logical reasoning
+mmstar-962,0,1,0,1,1,1,4,6,logical reasoning
+mmstar-963,0,1,0,0,0,1,2,6,logical reasoning
+mmstar-964,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-965,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-966,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-967,0,1,0,1,0,1,3,6,logical reasoning
+mmstar-969,1,0,1,0,1,0,3,6,logical reasoning
+mmstar-97,0,0,0,0,0,0,0,6,coarse perception
+mmstar-972,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-973,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-974,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-975,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-976,0,0,0,1,0,1,2,6,logical reasoning
+mmstar-978,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-98,0,0,0,0,0,0,0,6,coarse perception
+mmstar-983,1,1,1,1,1,1,6,6,logical reasoning
+mmstar-984,0,0,1,1,0,0,2,6,logical reasoning
+mmstar-988,0,0,0,0,0,1,1,6,logical reasoning
+mmstar-99,0,0,0,0,0,0,0,6,coarse perception
+mmstar-990,1,1,1,0,1,1,5,6,logical reasoning
+mmstar-991,0,1,0,1,0,1,3,6,logical reasoning
+mmstar-994,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-995,0,1,0,0,0,0,1,6,logical reasoning
+mmstar-996,1,0,0,0,0,1,2,6,logical reasoning
+mmstar-998,0,0,0,0,0,0,0,6,logical reasoning
+mmstar-999,0,0,0,0,0,0,0,6,logical reasoning

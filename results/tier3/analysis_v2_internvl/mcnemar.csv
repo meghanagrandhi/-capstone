@@ -1,0 +1,19 @@
+set,seed,test,gained,lost,p
+A,0,matched_text10 final vs step0,18,21,0.7492586247608418
+A,0,matched_text90 final vs step0,17,24,0.34888887944907765
+A,0,text90 vs text10 at final,19,23,0.6439689563703723
+A,1,matched_text10 final vs step0,15,18,0.7283324808813632
+A,1,matched_text90 final vs step0,19,21,0.8746293123804207
+A,1,text90 vs text10 at final,20,19,1.0
+A,2,matched_text10 final vs step0,21,17,0.6271025701571489
+A,2,matched_text90 final vs step0,18,19,1.0
+A,2,text90 vs text10 at final,16,21,0.5113757815852296
+G,0,matched_text10 final vs step0,25,21,0.6587380770236564
+G,0,matched_text90 final vs step0,23,34,0.18485048241641844
+G,0,text90 vs text10 at final,22,37,0.06744461190078899
+G,1,matched_text10 final vs step0,27,24,0.7797679305530743
+G,1,matched_text90 final vs step0,21,37,0.047940324071666984
+G,1,text90 vs text10 at final,20,39,0.018337087779101986
+G,2,matched_text10 final vs step0,28,17,0.1351564508456704
+G,2,matched_text90 final vs step0,21,22,1.0
+G,2,text90 vs text10 at final,18,30,0.11140289106101878

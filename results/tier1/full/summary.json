@@ -1,0 +1,58 @@
+{
+  "n_items": 500,
+  "chance": 0.25,
+  "acc_real": 0.454,
+  "acc_real_se_analytic": 0.022265848288354075,
+  "acc_blank": 0.264,
+  "acc_blank_se_analytic": 0.019713142824014644,
+  "acc_blank_shuffled_mean": 0.264,
+  "acc_blank_shuffled_sd": 0.01140175425099139,
+  "frac_real_correct_also_blind_correct": 0.3656387665198238,
+  "n_real_correct_blind_wrong": 144,
+  "noise_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "acc_real_shuffled": [
+    0.486,
+    0.45,
+    0.45,
+    0.458,
+    0.434
+  ],
+  "acc_real_shuffled_mean": 0.4556,
+  "acc_real_shuffled_sd": 0.01909973821810131,
+  "analytic_se_at_shuffled_mean": 0.02227234338815743,
+  "blind_letter_share_shuffled": {
+    "B": 0.356,
+    "D": 0.25,
+    "C": 0.224,
+    "A": 0.17
+  },
+  "per_category_real": {
+    "coarse perception": 0.494,
+    "fine-grained perception": 0.471,
+    "instance reasoning": 0.544,
+    "logical reasoning": 0.554,
+    "math": 0.313,
+    "science & technology": 0.363
+  },
+  "per_category_blind": {
+    "coarse perception": 0.221,
+    "fine-grained perception": 0.271,
+    "instance reasoning": 0.333,
+    "logical reasoning": 0.243,
+    "math": 0.289,
+    "science & technology": 0.22
+  },
+  "peak_vram_torch_gib": 1.59,
+  "vram_nvsmi_mib": 1617,
+  "runtime_min": 23.0,
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "max_pixels": 200704,
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "timing_from_original_run": true
+}

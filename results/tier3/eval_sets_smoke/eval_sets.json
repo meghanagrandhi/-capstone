@@ -1,0 +1,25 @@
+{
+ "A": [
+  "mmstar-1055",
+  "mmstar-1253",
+  "mmstar-1417",
+  "mmstar-1428",
+  "mmstar-34",
+  "mmstar-432",
+  "mmstar-494",
+  "mmstar-861",
+  "mmstar-9",
+  "mmstar-979"
+ ],
+ "G": [
+  "mmstar-0",
+  "mmstar-10",
+  "mmstar-11",
+  "mmstar-15",
+  "mmstar-16",
+  "mmstar-6"
+ ],
+ "G_max_k": 1,
+ "n_candidates": 9,
+ "seed": 0
+}

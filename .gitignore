@@ -1,20 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
-*.log
-Review2_prep_guide.pdf
 
-# results: keep only what a second machine needs to run the balanced queue
-results/*
-!results/tier2/
-results/tier2/smoke/
-!results/tier3/
-results/tier3/*
-!results/tier3/step_sizing.json
-!results/tier3/eval_sets_v2/
-!results/tier3/eval_v2/
-results/tier3/eval_v2/*
-!results/tier3/eval_v2/*matched_text10_step0000_*.csv
-!results/tier3/paired_bench/
-results/tier3/paired_bench/*
-!results/tier3/paired_bench/*matched_text10_step0000.csv
+# LoRA adapter weights: 5.8 GB, too big for GitHub (retrain with scripts/run_model_queue.sh if needed)
+results/tier3/*/adapters/

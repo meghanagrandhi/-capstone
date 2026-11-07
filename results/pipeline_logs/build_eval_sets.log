@@ -1,0 +1,57 @@
+A: 300 items from calibration sample; G: 300 items from 581 candidates with k<=1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1029 18:42:27.630000 21600 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 2472.33it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<02:17,  5.30it/s]Loading weights:   2%|▏         | 16/729 [00:00<00:10, 65.52it/s]Loading weights:   6%|▋         | 47/729 [00:00<00:04, 156.07it/s]Loading weights:  10%|█         | 76/729 [00:00<00:03, 197.83it/s]Loading weights:  14%|█▍        | 105/729 [00:00<00:02, 226.11it/s]Loading weights:  18%|█▊        | 133/729 [00:00<00:02, 242.88it/s]Loading weights:  22%|██▏       | 160/729 [00:00<00:02, 245.18it/s]Loading weights:  26%|██▌       | 186/729 [00:00<00:02, 244.73it/s]Loading weights:  29%|██▉       | 212/729 [00:01<00:02, 245.77it/s]Loading weights:  33%|███▎      | 243/729 [00:01<00:01, 262.22it/s]Loading weights:  37%|███▋      | 270/729 [00:01<00:01, 258.49it/s]Loading weights:  42%|████▏     | 303/729 [00:01<00:01, 271.10it/s]Loading weights:  45%|████▌     | 331/729 [00:01<00:01, 266.40it/s]Loading weights:  54%|█████▍    | 392/729 [00:01<00:00, 363.21it/s]Loading weights:  62%|██████▏   | 454/729 [00:01<00:00, 432.17it/s]Loading weights:  71%|███████   | 519/729 [00:01<00:00, 495.17it/s]Loading weights:  80%|███████▉  | 582/729 [00:01<00:00, 529.23it/s]Loading weights:  88%|████████▊ | 644/729 [00:01<00:00, 551.60it/s]Loading weights:  97%|█████████▋| 704/729 [00:02<00:00, 556.69it/s]Loading weights: 100%|██████████| 729/729 [00:02<00:00, 341.70it/s]
+  seed=6 blank: 50/300
+  seed=6 blank: 100/300
+  seed=6 blank: 150/300
+  seed=6 blank: 200/300
+  seed=6 blank: 250/300
+  seed=6 blank: 300/300
+  seed=7 blank: 50/300
+  seed=7 blank: 100/300
+  seed=7 blank: 150/300
+  seed=7 blank: 200/300
+  seed=7 blank: 250/300
+  seed=7 blank: 300/300
+  seed=8 blank: 50/300
+  seed=8 blank: 100/300
+  seed=8 blank: 150/300
+  seed=8 blank: 200/300
+  seed=8 blank: 250/300
+  seed=8 blank: 300/300
+  seed=0 real: 50/300
+  seed=0 real: 100/300
+  seed=0 real: 150/300
+  seed=0 real: 200/300
+  seed=0 real: 250/300
+  seed=0 real: 300/300
+A {'n': 300, 'blind_acc_fresh_orders': {6: 0.26666666666666666, 7: 0.2733333333333333, 8: 0.26666666666666666}, 'blind_acc_fresh_mean': 0.2688888888888889, 'real_acc_base_canonical': 0.4533333333333333, 'analytic_se_real': 0.028741504380843986}
+  seed=6 blank: 50/300
+  seed=6 blank: 100/300
+  seed=6 blank: 150/300
+  seed=6 blank: 200/300
+  seed=6 blank: 250/300
+  seed=6 blank: 300/300
+  seed=7 blank: 50/300
+  seed=7 blank: 100/300
+  seed=7 blank: 150/300
+  seed=7 blank: 200/300
+  seed=7 blank: 250/300
+  seed=7 blank: 300/300
+  seed=8 blank: 50/300
+  seed=8 blank: 100/300
+  seed=8 blank: 150/300
+  seed=8 blank: 200/300
+  seed=8 blank: 250/300
+  seed=8 blank: 300/300
+  seed=0 real: 50/300
+  seed=0 real: 100/300
+  seed=0 real: 150/300
+  seed=0 real: 200/300
+  seed=0 real: 250/300
+  seed=0 real: 300/300
+G {'n': 300, 'blind_acc_fresh_orders': {6: 0.07333333333333333, 7: 0.06333333333333334, 8: 0.06}, 'blind_acc_fresh_mean': 0.06555555555555555, 'real_acc_base_canonical': 0.42, 'analytic_se_real': 0.028495613697550014}

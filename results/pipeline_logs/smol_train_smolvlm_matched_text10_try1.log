@@ -1,0 +1,29 @@
+[overlap check OK] mixture_matched_text10 (at training time): 1000 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:14,  8.79it/s]Loading weights:   2%|▏         | 11/657 [00:00<00:10, 59.13it/s]Loading weights:   5%|▍         | 32/657 [00:00<00:05, 123.66it/s]Loading weights:   8%|▊         | 54/657 [00:00<00:03, 159.13it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:03, 182.42it/s]Loading weights:  15%|█▌        | 101/657 [00:00<00:02, 197.06it/s]Loading weights:  19%|█▉        | 124/657 [00:00<00:02, 204.86it/s]Loading weights:  23%|██▎       | 150/657 [00:00<00:02, 217.59it/s]Loading weights:  27%|██▋       | 176/657 [00:00<00:02, 228.98it/s]Loading weights:  30%|███       | 200/657 [00:01<00:01, 230.71it/s]Loading weights:  38%|███▊      | 249/657 [00:01<00:01, 307.93it/s]Loading weights:  62%|██████▏   | 405/657 [00:01<00:00, 680.33it/s]Loading weights:  84%|████████▍ | 551/657 [00:01<00:00, 910.69it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 464.10it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1031 00:31:20.346000 18856 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.268 probe_attn_img_mass_image_necessary=0.073 probe_gap_text_answerable=0.107 probe_attn_img_mass_text_answerable=0.070
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.442 probe_attn_img_mass_image_necessary=0.074 probe_gap_text_answerable=0.210 probe_attn_img_mass_text_answerable=0.071
+  step 10/125 loss 0.629 gn 3.20 11.0s/step
+  [ckpt step 12] probe_gap_image_necessary=0.802 probe_attn_img_mass_image_necessary=0.077 probe_gap_text_answerable=0.498 probe_attn_img_mass_text_answerable=0.073
+  step 20/125 loss 0.853 gn 3.69 10.6s/step
+  [ckpt step 25] probe_gap_image_necessary=0.440 probe_attn_img_mass_image_necessary=0.075 probe_gap_text_answerable=0.247 probe_attn_img_mass_text_answerable=0.070
+  step 30/125 loss 0.615 gn 2.03 10.5s/step
+  step 40/125 loss 0.477 gn 1.97 10.1s/step
+  step 50/125 loss 0.346 gn 1.33 9.9s/step
+  [ckpt step 50] probe_gap_image_necessary=0.553 probe_attn_img_mass_image_necessary=0.077 probe_gap_text_answerable=0.420 probe_attn_img_mass_text_answerable=0.071
+  step 60/125 loss 0.126 gn 1.46 10.1s/step
+  step 70/125 loss 0.834 gn 1.39 9.9s/step
+  [ckpt step 75] probe_gap_image_necessary=0.673 probe_attn_img_mass_image_necessary=0.077 probe_gap_text_answerable=0.382 probe_attn_img_mass_text_answerable=0.071
+  step 80/125 loss 0.738 gn 1.34 10.0s/step
+  step 90/125 loss 0.412 gn 0.80 9.9s/step
+  step 100/125 loss 0.175 gn 1.24 9.8s/step
+  [ckpt step 100] probe_gap_image_necessary=0.604 probe_attn_img_mass_image_necessary=0.077 probe_gap_text_answerable=0.343 probe_attn_img_mass_text_answerable=0.071
+  step 110/125 loss 0.657 gn 1.38 9.9s/step
+  step 120/125 loss 0.490 gn 0.55 9.9s/step
+  step 125/125 loss 0.466 gn 1.15 9.8s/step
+  [ckpt step 125] probe_gap_image_necessary=0.609 probe_attn_img_mass_image_necessary=0.077 probe_gap_text_answerable=0.348 probe_attn_img_mass_text_answerable=0.070
+run meta: {'run': 'smolvlm_matched_text10', 'mixture': 'matched_text10', 'n_mix': 1000, 'text_share': 0.1, 'steps': 125, 'batch_size': 8, 'lr': 0.0002, 'seed': 0, 'lora_r': 16, 'lora_alpha': 32, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.4931793212890625, 'train_minutes': 20.762353448073068, 'sec_per_step': 9.830961343765258}

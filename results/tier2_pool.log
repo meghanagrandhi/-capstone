@@ -1,0 +1,8 @@
+eval fingerprints: 1500 items (all of MMStar val + extras)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  vsr: 800 items, 57.7 MB of images saved, 49s
+  aokvqa: 800 items, 62.0 MB of images saved, 32s
+  cocoqa: 800 items, 59.3 MB of images saved, 32s
+  tallyqa: 800 items, 68.3 MB of images saved, 35s
+[overlap check OK] filtered pool: 3161 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+pool: {'n_streamed': 3200, 'n_in_pool_duplicate_images': 33, 'n_dropped_overlap_with_eval': 6, 'overlap_reasons': {'image near-duplicate of an eval image': 5, 'identical question text to an eval item': 1}, 'n_final': 3161, 'per_subset': {'vsr': 798, 'aokvqa': 796, 'tallyqa': 784, 'cocoqa': 783}, 'runtime_min': 2.5384798566500346}

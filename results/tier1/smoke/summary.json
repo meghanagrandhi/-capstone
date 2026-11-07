@@ -1,0 +1,45 @@
+{
+  "n_items": 10,
+  "chance": 0.25,
+  "acc_real": 0.4,
+  "acc_real_se_analytic": 0.15491933384829668,
+  "acc_blank": 0.0,
+  "acc_blank_se_analytic": 0.0,
+  "acc_blank_shuffled_mean": 0.2,
+  "acc_blank_shuffled_sd": NaN,
+  "frac_real_correct_also_blind_correct": 0.0,
+  "n_real_correct_blind_wrong": 4,
+  "noise_seeds": [
+    1
+  ],
+  "acc_real_shuffled": [
+    0.4
+  ],
+  "acc_real_shuffled_mean": 0.4,
+  "acc_real_shuffled_sd": NaN,
+  "analytic_se_at_shuffled_mean": 0.15491933384829668,
+  "blind_letter_share_shuffled": {
+    "C": 0.5,
+    "B": 0.3,
+    "D": 0.2
+  },
+  "per_category_real": {
+    "coarse perception": 0.333,
+    "fine-grained perception": 0.5,
+    "instance reasoning": 0.0,
+    "math": 1.0,
+    "science & technology": 0.333
+  },
+  "per_category_blind": {
+    "coarse perception": 0.0,
+    "fine-grained perception": 0.0,
+    "instance reasoning": 0.0,
+    "math": 0.0,
+    "science & technology": 0.0
+  },
+  "peak_vram_torch_gib": 1.5385494232177734,
+  "vram_nvsmi_mib": 2015,
+  "runtime_min": 13.277585915724437,
+  "model": "Qwen/Qwen2-VL-2B-Instruct",
+  "max_pixels": 200704
+}

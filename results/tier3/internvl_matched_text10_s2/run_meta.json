@@ -1,0 +1,17 @@
+{
+  "run": "internvl_matched_text10_s2",
+  "mixture": "matched_text10",
+  "n_mix": 1000,
+  "text_share": 0.1,
+  "steps": 125,
+  "batch_size": 8,
+  "lr": 0.0002,
+  "seed": 2,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "model": "OpenGVLab/InternVL3-2B-hf",
+  "model_revision": "cb57a075cb75a2e6d1b668b128d48bb00ae321d2",
+  "peak_vram_gib": 4.486865520477295,
+  "train_minutes": 9.513750358422596,
+  "sec_per_step": 4.516962541580201
+}

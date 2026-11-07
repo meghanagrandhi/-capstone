@@ -1,0 +1,97 @@
+id,subset,row,user,answer,image_path,w,h,dhash,qnorm,nll_real,nll_blank,gap,n_ans_tokens,mc_valid,mc_real_correct,mc_blank_correct,label
+cauldron-aokvqa-0,aokvqa,0,"What is the man by the bags awaiting?
+Make your selection from the four choices given to correctly answer the question.
+Options: Skateboarder, train, delivery, cab.",Cab.,results/tier2\smoke\images\cauldron-aokvqa-0.jpg,640,480,c5c1c01818385d5d,what is the man by the bags awaiting,3.215907096862793,2.292854070663452,-0.9230530261993408,2,1,1.0,0.0,text_answerable
+cauldron-aokvqa-1,aokvqa,1,"Where does this man eat pizza?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Office, cafe, motel, outside.","Answer: office.
+Rationale: The man is eating pizza at a work desk in an office setting.",results/tier2\smoke\images\cauldron-aokvqa-1.jpg,480,640,f1cb4a7ad8983030,where does this man eat pizza,0.8904382586479187,1.1195813417434692,0.2291430830955505,21,0,,,image_necessary
+cauldron-aokvqa-2,aokvqa,2,"What is the occupation of the person driving?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Waiter, farmer, cashier, musician.",Farmer.,results/tier2\smoke\images\cauldron-aokvqa-2.jpg,640,428,e06032fad9e9e1f0,what is the occupation of the person driving,3.1083626747131348,3.474022388458252,0.3656597137451172,3,1,1.0,1.0,image_necessary
+cauldron-aokvqa-3,aokvqa,3,"How were the drivers of the cars able to park here?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Firemen, airport workers, police, postal workers.",Airport workers.,results/tier2\smoke\images\cauldron-aokvqa-3.jpg,640,480,d0dce8fc4e11200b,how were the drivers of the cars able to park here,2.2651147842407227,2.316229820251465,0.0511150360107421,3,1,1.0,0.0,middle
+cauldron-aokvqa-4,aokvqa,4,"How many people can ride this motorcycle at a time?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Four, two, three, one.","Answer: two.
+Rationale: There are two seats and seat backs on the motorcycle that apply that two could ride simultaneously.",results/tier2\smoke\images\cauldron-aokvqa-4.jpg,640,427,e3e76343130b3f5f,how many people can ride this motorcycle at a time,2.5043861865997314,2.719557762145996,0.2151715755462646,25,0,,,image_necessary
+cauldron-aokvqa-5,aokvqa,5,"Where would one most likely see the show advertised in the poster?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Theater, tv, internet, cinema.",Theater.,results/tier2\smoke\images\cauldron-aokvqa-5.jpg,519,640,fcfcfdd9d98f9c9c,where would one most likely see the show advertised in the poster,2.674411535263061,1.868146300315857,-0.8062652349472046,3,1,0.0,0.0,text_answerable
+cauldron-aokvqa-6,aokvqa,6,"What mood do the cows seem to be in?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Sad, happy, curious, scared.",Happy.,results/tier2\smoke\images\cauldron-aokvqa-6.jpg,640,427,d89830e4e6b874e6,what mood do the cows seem to be in,4.858730316162109,3.18261456489563,-1.6761157512664795,2,1,1.0,1.0,text_answerable
+cauldron-aokvqa-7,aokvqa,7,"What type of rain is this called?
+Select the accurate response from the four choices given to answer the question.
+Options: Average, drizzle, sprinkle, downpour.",Downpour.,results/tier2\smoke\images\cauldron-aokvqa-7.jpg,640,427,a17373736363636,what type of rain is this called,1.847360610961914,1.4792722463607788,-0.3680883646011352,3,1,1.0,0.0,middle
+cauldron-aokvqa-8,aokvqa,8,"What is the man putting on the bus?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Camera, ribbon, rag, bow.",Bow.,results/tier2\smoke\images\cauldron-aokvqa-8.jpg,640,427,e7e4c4c8c5cf9e0e,what is the man putting on the bus,5.930037975311279,4.964749336242676,-0.9652886390686036,2,1,0.0,0.0,text_answerable
+cauldron-aokvqa-9,aokvqa,9,"If the cameraman were driving what do they have to do from this position?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Turn left, drive straight, reverse course, turn right.","Answer: turn right.
+Rationale: The sign on the road says to turn right.",results/tier2\smoke\images\cauldron-aokvqa-9.jpg,640,401,f0f0e6e2949adce4,if the cameraman were driving what do they have to do from this position,1.5396937131881714,1.6909337043762207,0.1512399911880493,18,0,,,image_necessary
+cauldron-cocoqa-0,cocoqa,0,"What is using umbrellas as a central theme
+Give a very brief answer.",Sculpture.,results/tier2\smoke\images\cauldron-cocoqa-0.jpg,640,480,8cd0f1f1eef676c6,what is using umbrellas as a central theme,0.8564462661743164,1.6655677556991575,0.8091214895248413,5,0,,,text_answerable
+cauldron-cocoqa-1,cocoqa,1,"What walks toward the rope perimeter fence
+Write a very short answer.",Elephant.,results/tier2\smoke\images\cauldron-cocoqa-1.jpg,640,480,d1c78d8c464e667a,what walks toward the rope perimeter fence,0.1590783596038818,2.427076816558838,2.267998456954956,3,0,,,image_necessary
+cauldron-cocoqa-2,cocoqa,2,"What is the color of the horses
+Short answer required.",Brown.,results/tier2\smoke\images\cauldron-cocoqa-2.jpg,640,424,686074bcdc4e666a,what is the color of the horses,0.0394033938646316,0.8740307688713074,0.8346273750066757,2,0,,,middle
+cauldron-cocoqa-3,cocoqa,3,"Where is the black cat laying down
+Give a very brief answer.",Sink.,results/tier2\smoke\images\cauldron-cocoqa-3.jpg,640,480,c9498381070f3f78,where is the black cat laying down,0.7206156253814697,4.445915699005127,3.725300073623657,2,0,,,image_necessary
+cauldron-cocoqa-4,cocoqa,4,"What is the color of the character
+Short answer required.",Purple.,results/tier2\smoke\images\cauldron-cocoqa-4.jpg,525,640,79fc9c9e49038384,what is the color of the character,0.0385301299393177,2.1003544330596924,2.0618243031203747,2,0,,,image_necessary
+cauldron-cocoqa-5,cocoqa,5,"What is the color of the dog
+Be succinct.",Black.,results/tier2\smoke\images\cauldron-cocoqa-5.jpg,640,480,1880c0f0e2e0e8e3,what is the color of the dog,0.1332996934652328,1.0590190887451172,0.9257193952798844,2,0,,,middle
+cauldron-cocoqa-6,cocoqa,6,"What is the pitcher throwing toward a batter
+Answer briefly.",Ball.,results/tier2\smoke\images\cauldron-cocoqa-6.jpg,640,439,e0f0e0e8e1f0f0f0,what is the pitcher throwing toward a batter,1.2339158058166504,1.0376386642456057,-0.1962771415710449,2,0,,,text_answerable
+cauldron-cocoqa-7,cocoqa,7,"What stands open revealing the stocked fridge
+Answer briefly.",Door.,results/tier2\smoke\images\cauldron-cocoqa-7.jpg,427,640,6ef8fcdaeee8fcf8,what stands open revealing the stocked fridge,2.224311113357544,0.3132528662681579,-1.911058247089386,2,0,,,text_answerable
+cauldron-cocoqa-8,cocoqa,8,"What is the color of the sign
+Be succinct.",Red.,results/tier2\smoke\images\cauldron-cocoqa-8.jpg,480,640,638747e7e4e18cd8,what is the color of the sign,0.1476465016603469,0.7684155702590942,0.6207690685987473,2,0,,,text_answerable
+cauldron-cocoqa-9,cocoqa,9,"What is the pug dog wearing
+Short answer required.",Tie.,results/tier2\smoke\images\cauldron-cocoqa-9.jpg,424,640,6171a4acce8edca6,what is the pug dog wearing,0.1513120979070663,1.6544898748397827,1.5031777769327164,3,0,,,image_necessary
+cauldron-tallyqa-0,tallyqa,0,"How many chairs are pictured?
+Give a very brief answer.",2.,results/tier2\smoke\images\cauldron-tallyqa-0.jpg,640,480,9e9e9e9e2e7dfcfe,how many chairs are pictured,0.2851576507091522,1.4827736616134644,1.197616010904312,2,0,,,image_necessary
+cauldron-tallyqa-1,tallyqa,1,"How many windows are there?
+Give a very brief answer.",3.,results/tier2\smoke\images\cauldron-tallyqa-1.jpg,640,480,3c3f3b3f9e8e8e1f,how many windows are there,0.8286311626434326,1.8451738357543943,1.016542673110962,2,0,,,middle
+cauldron-tallyqa-2,tallyqa,2,"How many computer screens?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-2.jpg,800,600,e666e44ce461614c,how many computer screens,0.153170645236969,0.6899762153625488,0.5368055701255798,2,0,,,text_answerable
+cauldron-tallyqa-3,tallyqa,3,"How many computers?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-3.jpg,800,600,e42c1c9cbee342e2,how many computers,0.960608959197998,1.0543708801269531,0.093761920928955,2,0,,,text_answerable
+cauldron-tallyqa-4,tallyqa,4,"How many people are walking?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-4.jpg,800,600,e2ea0e8e6e70e0e0,how many people are walking,0.8747450113296509,2.3409979343414307,1.4662529230117798,2,0,,,image_necessary
+cauldron-tallyqa-5,tallyqa,5,"How many people are wearing bright green?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-5.jpg,800,600,d9d99f9f9fd6c0f0,how many people are wearing bright green,0.0171340405941009,1.899079203605652,1.881945163011551,2,0,,,image_necessary
+cauldron-tallyqa-6,tallyqa,6,"How many upper cabinet handles are shown?
+Give a very brief answer.",8.,results/tier2\smoke\images\cauldron-tallyqa-6.jpg,800,600,fdfddd59391b3179,how many upper cabinet handles are shown,0.8687743544578552,1.9336326122283936,1.0648582577705383,2,0,,,image_necessary
+cauldron-tallyqa-7,tallyqa,7,"How many people on the right holding an umbrella?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-7.jpg,800,600,dcdeded4dadadefc,how many people on the right holding an umbrella,0.0879500657320022,1.0872029066085815,0.9992528408765792,2,0,,,middle
+cauldron-tallyqa-8,tallyqa,8,"How many books are standing up?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-8.jpg,800,600,f8d8d0c5c5ccccc8,how many books are standing up,2.5016651153564453,1.953335523605347,-0.5483295917510986,2,0,,,text_answerable
+cauldron-tallyqa-9,tallyqa,9,"How many cities are on the sign?
+Give a very brief answer.",3.,results/tier2\smoke\images\cauldron-tallyqa-9.jpg,500,375,918995989890b060,how many cities are on the sign,0.7846242785453796,0.8638501167297363,0.0792258381843566,2,0,,,text_answerable
+cauldron-vsr-0,vsr,0,"Is the statement ""The cake is next to the person."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-0.jpg,640,640,24e2973361390b0f,is the statement the cake is next to the person accurate regarding the image,0.1286673992872238,0.3906895220279693,0.2620221227407455,2,0,,,image_necessary
+cauldron-vsr-1,vsr,1,"Evaluate: Does the caption ""The horse is next to the bus."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-1.jpg,640,428,e0fcdcdedc7af0b8,evaluate does the caption the horse is next to the bus match the image,0.1636489182710647,0.3050258457660675,0.1413769274950027,2,0,,,middle
+cauldron-vsr-2,vsr,2,"Is the given caption ""The person is at the left side of the tv."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-2.jpg,640,480,3c3c0c8cc6e42703,is the given caption the person is at the left side of the tv fitting for the image,0.1019584834575653,0.4182631075382232,0.3163046240806579,2,0,,,image_necessary
+cauldron-vsr-3,vsr,3,"Is ""The elephant is touching the bus."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-3.jpg,640,480,2320040405058103,is the elephant is touching the bus an appropriate description for the image,0.2396496385335922,0.2739121913909912,0.0342625528573989,2,0,,,text_answerable
+cauldron-vsr-4,vsr,4,"Is the statement ""The truck is part of the cake."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-4.jpg,640,426,e6fe5ccccecff8e2,is the statement the truck is part of the cake accurate regarding the image,1.3402307033538818,0.2214811444282531,-1.1187495589256289,2,0,,,text_answerable
+cauldron-vsr-5,vsr,5,"Verify the accuracy of this image caption: ""The person is facing away from the banana."".
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-5.jpg,640,427,f0706068e098daf8,verify the accuracy of this image caption the person is facing away from the banana,0.3869708180427551,0.4013873040676117,0.0144164860248565,2,0,,,text_answerable
+cauldron-vsr-6,vsr,6,"Evaluate: Does the caption ""The pizza is touching the person."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-6.jpg,640,428,ecf0f08cc69a9dd5,evaluate does the caption the pizza is touching the person match the image,0.2482441514730453,0.3300489485263824,0.0818047970533371,2,0,,,text_answerable
+cauldron-vsr-7,vsr,7,"Is this affirmation: ""The teddy bear is in the couch."" correct?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-7.jpg,640,480,7171b1e8f0f0f0f0,is this affirmation the teddy bear is in the couch correct,0.016681408509612,0.3594136238098144,0.3427322153002023,2,0,,,image_necessary
+cauldron-vsr-8,vsr,8,"Does the image validate the caption ""The pizza is above the dining table.""?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-8.jpg,640,480,66e078d1f2f2e1e1,does the image validate the caption the pizza is above the dining table,0.022792462259531,0.3551673293113708,0.3323748670518398,2,0,,,image_necessary
+cauldron-vsr-9,vsr,9,"Evaluate: Does the caption ""The person is touching the pizza."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-9.jpg,640,480,60e8dadecef2f1b1,evaluate does the caption the person is touching the pizza match the image,0.1422158628702163,0.349119633436203,0.2069037705659866,2,0,,,middle

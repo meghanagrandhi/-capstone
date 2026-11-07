@@ -1,0 +1,122 @@
+{
+  "n_pool_labeled": 40,
+  "thresholds": {
+    "low": 0.14729476571083067,
+    "high": 0.3519032146781682,
+    "low_q": 0.4,
+    "high_q": 0.6
+  },
+  "share_gap_le_0": 0.225,
+  "share_gap_le_0p1": 0.375,
+  "share_gap_le_0p5": 0.625,
+  "gap_quantiles": [
+    -1.147,
+    0.029,
+    0.246,
+    0.944,
+    2.072
+  ],
+  "per_subset": {
+    "aokvqa": {
+      "count": 10,
+      "median": -0.158,
+      "mean": -0.373
+    },
+    "cocoqa": {
+      "count": 10,
+      "median": 0.88,
+      "mean": 1.064
+    },
+    "tallyqa": {
+      "count": 10,
+      "median": 1.008,
+      "mean": 0.779
+    },
+    "vsr": {
+      "count": 10,
+      "median": 0.174,
+      "mean": 0.061
+    }
+  },
+  "label_by_subset": {
+    "aokvqa": {
+      "image_necessary": 1,
+      "middle": 3,
+      "text_answerable": 6
+    },
+    "cocoqa": {
+      "image_necessary": 8,
+      "middle": 0,
+      "text_answerable": 2
+    },
+    "tallyqa": {
+      "image_necessary": 7,
+      "middle": 0,
+      "text_answerable": 3
+    },
+    "vsr": {
+      "image_necessary": 0,
+      "middle": 5,
+      "text_answerable": 5
+    }
+  },
+  "mixtures": {
+    "mixture_text10": {
+      "n": 16,
+      "n_text_answerable": 2,
+      "n_image_necessary": 14,
+      "text_share": 0.125,
+      "by_subset": {
+        "aokvqa": {
+          "image_necessary": 1,
+          "text_answerable": 1
+        },
+        "cocoqa": {
+          "image_necessary": 6,
+          "text_answerable": 0
+        },
+        "tallyqa": {
+          "image_necessary": 7,
+          "text_answerable": 0
+        },
+        "vsr": {
+          "image_necessary": 0,
+          "text_answerable": 1
+        }
+      }
+    },
+    "mixture_text90": {
+      "n": 16,
+      "n_text_answerable": 14,
+      "n_image_necessary": 2,
+      "text_share": 0.875,
+      "by_subset": {
+        "aokvqa": {
+          "image_necessary": 1,
+          "text_answerable": 5
+        },
+        "cocoqa": {
+          "image_necessary": 1,
+          "text_answerable": 2
+        },
+        "tallyqa": {
+          "image_necessary": 0,
+          "text_answerable": 3
+        },
+        "vsr": {
+          "image_necessary": 0,
+          "text_answerable": 4
+        }
+      }
+    },
+    "shared_items_between_mixtures": 3
+  },
+  "mc": {
+    "n": 7,
+    "real_acc": 0.7142857142857143,
+    "blank_acc": 0.2857142857142857,
+    "mean_gap_blank_correct": -0.6552280187606812,
+    "mean_gap_blank_wrong": -0.6023160457611084
+  },
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c"
+}

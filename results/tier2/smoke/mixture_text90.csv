@@ -1,0 +1,39 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-aokvqa-6,aokvqa,text_answerable,-1.6761157512664795,4.858730316162109,3.18261456489563,"What mood do the cows seem to be in?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Sad, happy, curious, scared.",Happy.,results/tier2\smoke\images\cauldron-aokvqa-6.jpg,d89830e4e6b874e6,what mood do the cows seem to be in
+cauldron-vsr-3,vsr,text_answerable,0.0342625528573989,0.2396496385335922,0.2739121913909912,"Is ""The elephant is touching the bus."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-3.jpg,2320040405058103,is the elephant is touching the bus an appropriate description for the image
+cauldron-aokvqa-5,aokvqa,text_answerable,-0.8062652349472046,2.674411535263061,1.868146300315857,"Where would one most likely see the show advertised in the poster?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Theater, tv, internet, cinema.",Theater.,results/tier2\smoke\images\cauldron-aokvqa-5.jpg,fcfcfdd9d98f9c9c,where would one most likely see the show advertised in the poster
+cauldron-cocoqa-5,cocoqa,image_necessary,0.9257193952798844,0.1332996934652328,1.0590190887451172,"What is the color of the dog
+Be succinct.",Black.,results/tier2\smoke\images\cauldron-cocoqa-5.jpg,1880c0f0e2e0e8e3,what is the color of the dog
+cauldron-vsr-6,vsr,text_answerable,0.0818047970533371,0.2482441514730453,0.3300489485263824,"Evaluate: Does the caption ""The pizza is touching the person."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-6.jpg,ecf0f08cc69a9dd5,evaluate does the caption the pizza is touching the person match the image
+cauldron-tallyqa-9,tallyqa,text_answerable,0.0792258381843566,0.7846242785453796,0.8638501167297363,"How many cities are on the sign?
+Give a very brief answer.",3.,results/tier2\smoke\images\cauldron-tallyqa-9.jpg,918995989890b060,how many cities are on the sign
+cauldron-tallyqa-8,tallyqa,text_answerable,-0.5483295917510986,2.5016651153564453,1.953335523605347,"How many books are standing up?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-8.jpg,f8d8d0c5c5ccccc8,how many books are standing up
+cauldron-aokvqa-7,aokvqa,text_answerable,-0.3680883646011352,1.847360610961914,1.4792722463607788,"What type of rain is this called?
+Select the accurate response from the four choices given to answer the question.
+Options: Average, drizzle, sprinkle, downpour.",Downpour.,results/tier2\smoke\images\cauldron-aokvqa-7.jpg,a17373736363636,what type of rain is this called
+cauldron-vsr-5,vsr,text_answerable,0.0144164860248565,0.3869708180427551,0.4013873040676117,"Verify the accuracy of this image caption: ""The person is facing away from the banana."".
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-5.jpg,f0706068e098daf8,verify the accuracy of this image caption the person is facing away from the banana
+cauldron-aokvqa-3,aokvqa,text_answerable,0.0511150360107421,2.2651147842407227,2.316229820251465,"How were the drivers of the cars able to park here?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Firemen, airport workers, police, postal workers.",Airport workers.,results/tier2\smoke\images\cauldron-aokvqa-3.jpg,d0dce8fc4e11200b,how were the drivers of the cars able to park here
+cauldron-vsr-4,vsr,text_answerable,-1.1187495589256289,1.3402307033538818,0.2214811444282531,"Is the statement ""The truck is part of the cake."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-4.jpg,e6fe5ccccecff8e2,is the statement the truck is part of the cake accurate regarding the image
+cauldron-cocoqa-7,cocoqa,text_answerable,-1.911058247089386,2.224311113357544,0.3132528662681579,"What stands open revealing the stocked fridge
+Answer briefly.",Door.,results/tier2\smoke\images\cauldron-cocoqa-7.jpg,6ef8fcdaeee8fcf8,what stands open revealing the stocked fridge
+cauldron-tallyqa-3,tallyqa,text_answerable,0.093761920928955,0.960608959197998,1.0543708801269531,"How many computers?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-3.jpg,e42c1c9cbee342e2,how many computers
+cauldron-aokvqa-0,aokvqa,text_answerable,-0.9230530261993408,3.215907096862793,2.292854070663452,"What is the man by the bags awaiting?
+Make your selection from the four choices given to correctly answer the question.
+Options: Skateboarder, train, delivery, cab.",Cab.,results/tier2\smoke\images\cauldron-aokvqa-0.jpg,c5c1c01818385d5d,what is the man by the bags awaiting
+cauldron-aokvqa-2,aokvqa,image_necessary,0.3656597137451172,3.1083626747131348,3.474022388458252,"What is the occupation of the person driving?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Waiter, farmer, cashier, musician.",Farmer.,results/tier2\smoke\images\cauldron-aokvqa-2.jpg,e06032fad9e9e1f0,what is the occupation of the person driving
+cauldron-cocoqa-6,cocoqa,text_answerable,-0.1962771415710449,1.2339158058166504,1.0376386642456057,"What is the pitcher throwing toward a batter
+Answer briefly.",Ball.,results/tier2\smoke\images\cauldron-cocoqa-6.jpg,e0f0e0e8e1f0f0f0,what is the pitcher throwing toward a batter

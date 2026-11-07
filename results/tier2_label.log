@@ -1,0 +1,71 @@
+eval fingerprints: 1500 items (all of MMStar val + extras)
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1005 22:24:36.985000 17596 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 1267.35it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:01<15:49,  1.30s/it]Loading weights:   0%|          | 3/729 [00:01<05:01,  2.41it/s]Loading weights:   1%|          | 5/729 [00:01<02:56,  4.11it/s]Loading weights:   2%|▏         | 15/729 [00:01<00:44, 16.17it/s]Loading weights:   3%|▎         | 19/729 [00:01<00:38, 18.56it/s]Loading weights:   4%|▍         | 28/729 [00:02<00:24, 28.50it/s]Loading weights:   5%|▌         | 39/729 [00:02<00:16, 41.02it/s]Loading weights:   6%|▌         | 45/729 [00:02<00:15, 43.83it/s]Loading weights:   7%|▋         | 52/729 [00:02<00:14, 47.75it/s]Loading weights:   9%|▊         | 63/729 [00:02<00:11, 57.46it/s]Loading weights:  10%|▉         | 70/729 [00:02<00:11, 58.71it/s]Loading weights:  11%|█         | 77/729 [00:02<00:12, 52.91it/s]Loading weights:  12%|█▏        | 88/729 [00:03<00:10, 60.50it/s]Loading weights:  14%|█▎        | 99/729 [00:03<00:09, 66.94it/s]Loading weights:  15%|█▍        | 106/729 [00:03<00:09, 65.26it/s]Loading weights:  16%|█▌        | 113/729 [00:03<00:10, 56.91it/s]Loading weights:  17%|█▋        | 123/729 [00:03<00:09, 65.00it/s]Loading weights:  18%|█▊        | 130/729 [00:03<00:11, 54.38it/s]Loading weights:  19%|█▊        | 136/729 [00:03<00:12, 46.91it/s]Loading weights:  20%|█▉        | 143/729 [00:04<00:11, 50.46it/s]Loading weights:  20%|██        | 149/729 [00:04<00:14, 39.80it/s]Loading weights:  22%|██▏       | 159/729 [00:04<00:11, 49.00it/s]Loading weights:  23%|██▎       | 165/729 [00:04<00:12, 43.53it/s]Loading weights:  23%|██▎       | 171/729 [00:04<00:12, 45.77it/s]Loading weights:  24%|██▍       | 177/729 [00:04<00:13, 41.24it/s]Loading weights:  25%|██▌       | 184/729 [00:05<00:13, 40.74it/s]Loading weights:  26%|██▌       | 190/729 [00:05<00:12, 44.68it/s]Loading weights:  27%|██▋       | 195/729 [00:05<00:11, 45.74it/s]Loading weights:  27%|██▋       | 200/729 [00:05<00:12, 41.62it/s]Loading weights:  28%|██▊       | 207/729 [00:05<00:10, 48.03it/s]Loading weights:  29%|██▉       | 213/729 [00:05<00:10, 50.80it/s]Loading weights:  30%|███       | 220/729 [00:05<00:09, 54.52it/s]Loading weights:  32%|███▏      | 231/729 [00:05<00:07, 64.84it/s]Loading weights:  33%|███▎      | 238/729 [00:05<00:07, 66.05it/s]Loading weights:  34%|███▎      | 245/729 [00:06<00:08, 59.08it/s]Loading weights:  35%|███▌      | 256/729 [00:06<00:06, 67.87it/s]Loading weights:  37%|███▋      | 267/729 [00:06<00:06, 71.27it/s]Loading weights:  38%|███▊      | 275/729 [00:06<00:06, 68.37it/s]Loading weights:  39%|███▊      | 282/729 [00:06<00:07, 62.93it/s]Loading weights:  40%|████      | 292/729 [00:06<00:06, 68.61it/s]Loading weights:  42%|████▏     | 303/729 [00:06<00:05, 74.06it/s]Loading weights:  43%|████▎     | 311/729 [00:06<00:05, 73.77it/s]Loading weights:  44%|████▍     | 319/729 [00:07<00:06, 66.59it/s]Loading weights:  45%|████▍     | 328/729 [00:07<00:05, 67.39it/s]Loading weights:  47%|████▋     | 344/729 [00:07<00:04, 85.92it/s]Loading weights:  50%|████▉     | 362/729 [00:07<00:03, 109.37it/s]Loading weights:  52%|█████▏    | 378/729 [00:07<00:02, 119.73it/s]Loading weights:  54%|█████▍    | 394/729 [00:07<00:02, 125.90it/s]Loading weights:  57%|█████▋    | 414/729 [00:07<00:02, 145.92it/s]Loading weights:  59%|█████▉    | 430/729 [00:07<00:02, 132.64it/s]Loading weights:  61%|██████▏   | 448/729 [00:08<00:01, 143.55it/s]Loading weights:  64%|██████▎   | 463/729 [00:08<00:01, 141.11it/s]Loading weights:  66%|██████▌   | 478/729 [00:08<00:01, 136.60it/s]Loading weights:  68%|██████▊   | 498/729 [00:08<00:01, 148.72it/s]Loading weights:  71%|███████   | 514/729 [00:08<00:01, 143.56it/s]Loading weights:  73%|███████▎  | 534/729 [00:08<00:01, 153.57it/s]Loading weights:  75%|███████▌  | 550/729 [00:08<00:01, 146.19it/s]Loading weights:  78%|███████▊  | 570/729 [00:08<00:01, 152.80it/s]Loading weights:  80%|████████  | 586/729 [00:08<00:00, 146.36it/s]Loading weights:  83%|████████▎ | 606/729 [00:09<00:00, 160.18it/s]Loading weights:  85%|████████▌ | 623/729 [00:09<00:00, 151.94it/s]Loading weights:  88%|████████▊ | 642/729 [00:09<00:00, 161.84it/s]Loading weights:  90%|█████████ | 659/729 [00:09<00:00, 154.83it/s]Loading weights:  93%|█████████▎| 678/729 [00:09<00:00, 160.22it/s]Loading weights:  95%|█████████▌| 695/729 [00:09<00:00, 149.67it/s]Loading weights:  98%|█████████▊| 716/729 [00:09<00:00, 158.77it/s]Loading weights: 100%|██████████| 729/729 [00:09<00:00, 73.37it/s] 
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  labeled 50/3161 (errors 0)
+  labeled 100/3161 (errors 0)
+  labeled 150/3161 (errors 0)
+  labeled 200/3161 (errors 0)
+  labeled 250/3161 (errors 0)
+  labeled 300/3161 (errors 0)
+  labeled 350/3161 (errors 0)
+  labeled 400/3161 (errors 0)
+  labeled 450/3161 (errors 0)
+  labeled 500/3161 (errors 0)
+  labeled 550/3161 (errors 0)
+  labeled 600/3161 (errors 0)
+  labeled 650/3161 (errors 0)
+  labeled 700/3161 (errors 0)
+  labeled 750/3161 (errors 0)
+  labeled 800/3161 (errors 0)
+  labeled 850/3161 (errors 0)
+  labeled 900/3161 (errors 0)
+  labeled 950/3161 (errors 0)
+  labeled 1000/3161 (errors 0)
+  labeled 1050/3161 (errors 0)
+  labeled 1100/3161 (errors 0)
+  labeled 1150/3161 (errors 0)
+  labeled 1200/3161 (errors 0)
+  labeled 1250/3161 (errors 0)
+  labeled 1300/3161 (errors 0)
+  labeled 1350/3161 (errors 0)
+  labeled 1400/3161 (errors 0)
+  labeled 1450/3161 (errors 0)
+  labeled 1500/3161 (errors 0)
+  labeled 1550/3161 (errors 0)
+  labeled 1600/3161 (errors 0)
+  labeled 1650/3161 (errors 0)
+  labeled 1700/3161 (errors 0)
+  labeled 1750/3161 (errors 0)
+  labeled 1800/3161 (errors 0)
+  labeled 1850/3161 (errors 0)
+  labeled 1900/3161 (errors 0)
+  labeled 1950/3161 (errors 0)
+  labeled 2000/3161 (errors 0)
+  labeled 2050/3161 (errors 0)
+  labeled 2100/3161 (errors 0)
+  labeled 2150/3161 (errors 0)
+  labeled 2200/3161 (errors 0)
+  labeled 2250/3161 (errors 0)
+  labeled 2300/3161 (errors 0)
+  labeled 2350/3161 (errors 0)
+  labeled 2400/3161 (errors 0)
+  labeled 2450/3161 (errors 0)
+  labeled 2500/3161 (errors 0)
+  labeled 2550/3161 (errors 0)
+  labeled 2600/3161 (errors 0)
+  labeled 2650/3161 (errors 0)
+  labeled 2700/3161 (errors 0)
+  labeled 2750/3161 (errors 0)
+  labeled 2800/3161 (errors 0)
+  labeled 2850/3161 (errors 0)
+  labeled 2900/3161 (errors 0)
+  labeled 2950/3161 (errors 0)
+  labeled 3000/3161 (errors 0)
+  labeled 3050/3161 (errors 0)
+  labeled 3100/3161 (errors 0)
+  labeled 3150/3161 (errors 0)
+labeled 3161/3161 items in 88.3 min

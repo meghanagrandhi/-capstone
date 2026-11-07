@@ -1,0 +1,12 @@
+NaturalBench: kept 300 samples, skipped 2 malformed: [911, 187]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\mailt\Documents\capstone\scripts\run_paired_bench.py", line 160, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\mailt\Documents\capstone\scripts\run_paired_bench.py", line 129, in main
+    n = check_overlap(items, cfg["tier2"]["overlap_hamming"])
+  File "C:\Users\mailt\Documents\capstone\scripts\run_paired_bench.py", line 95, in check_overlap
+    raise AssertionError(f"OVERLAP between training mixtures and paired benchmarks ({len(bad)}): {bad[:10]}")
+AssertionError: OVERLAP between training mixtures and paired benchmarks (3): [('matched_text10', 'cauldron-tallyqa-513', 'identical question text to an eval item'), ('matched_text90', 'cauldron-aokvqa-762', 'image near-duplicate of an eval image'), ('text10', 'cauldron-tallyqa-513', 'identical question text to an eval item')]

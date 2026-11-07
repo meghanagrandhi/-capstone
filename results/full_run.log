@@ -1,0 +1,150 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+load_mmstar: 500 items, skipped 0 non-4-option items
+500 items; categories: {'science & technology': 91, 'instance reasoning': 90, 'fine-grained perception': 85, 'math': 83, 'coarse perception': 77, 'logical reasoning': 74}
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1005 20:54:29.720000 8200 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 5080.93it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<08:32,  1.42it/s]Loading weights:   0%|          | 3/729 [00:00<02:40,  4.52it/s]Loading weights:   2%|▏         | 11/729 [00:00<00:37, 18.90it/s]Loading weights:   2%|▏         | 17/729 [00:01<00:26, 26.80it/s]Loading weights:   4%|▍         | 28/729 [00:01<00:15, 45.52it/s]Loading weights:   5%|▌         | 40/729 [00:01<00:11, 58.24it/s]Loading weights:   7%|▋         | 52/729 [00:01<00:10, 66.20it/s]Loading weights:   9%|▊         | 63/729 [00:01<00:09, 73.82it/s]Loading weights:  10%|▉         | 72/729 [00:01<00:08, 75.37it/s]Loading weights:  11%|█         | 81/729 [00:01<00:08, 73.10it/s]Loading weights:  12%|█▏        | 89/729 [00:01<00:09, 68.71it/s]Loading weights:  14%|█▍        | 101/729 [00:02<00:08, 74.70it/s]Loading weights:  16%|█▌        | 113/729 [00:02<00:07, 78.88it/s]Loading weights:  17%|█▋        | 124/729 [00:02<00:07, 84.80it/s]Loading weights:  19%|█▊        | 135/729 [00:02<00:06, 87.38it/s]Loading weights:  20%|█▉        | 144/729 [00:02<00:06, 84.83it/s]Loading weights:  21%|██        | 153/729 [00:02<00:07, 77.64it/s]Loading weights:  22%|██▏       | 161/729 [00:02<00:08, 71.00it/s]Loading weights:  24%|██▎       | 172/729 [00:02<00:06, 80.55it/s]Loading weights:  25%|██▌       | 184/729 [00:03<00:06, 86.96it/s]Loading weights:  27%|██▋       | 195/729 [00:03<00:05, 91.87it/s]Loading weights:  28%|██▊       | 207/729 [00:03<00:05, 90.64it/s]Loading weights:  30%|███       | 219/729 [00:03<00:05, 92.87it/s]Loading weights:  32%|███▏      | 231/729 [00:03<00:05, 95.76it/s]Loading weights:  33%|███▎      | 243/729 [00:03<00:05, 93.68it/s]Loading weights:  35%|███▍      | 253/729 [00:03<00:05, 93.60it/s]Loading weights:  36%|███▌      | 263/729 [00:03<00:05, 88.58it/s]Loading weights:  37%|███▋      | 272/729 [00:03<00:05, 85.45it/s]Loading weights:  39%|███▉      | 285/729 [00:04<00:04, 96.08it/s]Loading weights:  42%|████▏     | 305/729 [00:04<00:03, 123.22it/s]Loading weights:  46%|████▌     | 337/729 [00:04<00:02, 177.42it/s]Loading weights:  49%|████▉     | 356/729 [00:04<00:02, 168.15it/s]Loading weights:  52%|█████▏    | 378/729 [00:04<00:01, 179.22it/s]Loading weights:  54%|█████▍    | 397/729 [00:04<00:01, 179.69it/s]Loading weights:  58%|█████▊    | 424/729 [00:04<00:01, 205.06it/s]Loading weights:  62%|██████▏   | 452/729 [00:04<00:01, 218.50it/s]Loading weights:  65%|██████▌   | 475/729 [00:04<00:01, 217.93it/s]Loading weights:  68%|██████▊   | 497/729 [00:05<00:01, 202.02it/s]Loading weights:  71%|███████   | 518/729 [00:05<00:01, 181.21it/s]Loading weights:  74%|███████▎  | 537/729 [00:05<00:01, 176.39it/s]Loading weights:  76%|███████▋  | 556/729 [00:05<00:00, 178.82it/s]Loading weights:  79%|███████▉  | 575/729 [00:05<00:00, 179.88it/s]Loading weights:  82%|████████▏ | 598/729 [00:05<00:00, 186.21it/s]Loading weights:  85%|████████▌ | 622/729 [00:05<00:00, 198.79it/s]Loading weights:  89%|████████▊ | 646/729 [00:05<00:00, 205.05it/s]Loading weights:  92%|█████████▏| 668/729 [00:05<00:00, 205.80it/s]Loading weights:  95%|█████████▍| 690/729 [00:06<00:00, 208.48it/s]Loading weights:  98%|█████████▊| 711/729 [00:06<00:00, 205.73it/s]Loading weights: 100%|██████████| 729/729 [00:06<00:00, 115.09it/s]
+image tokens (first item): 216  max_pixels=200704
+VRAM after load: torch alloc 1.42 GiB, nvidia-smi 1617 MiB
+  seed=0 real: 50/500
+  seed=0 real: 100/500
+  seed=0 real: 150/500
+  seed=0 real: 200/500
+  seed=0 real: 250/500
+  seed=0 real: 300/500
+  seed=0 real: 350/500
+  seed=0 real: 400/500
+  seed=0 real: 450/500
+  seed=0 real: 500/500
+  seed=0 blank: 50/500
+  seed=0 blank: 100/500
+  seed=0 blank: 150/500
+  seed=0 blank: 200/500
+  seed=0 blank: 250/500
+  seed=0 blank: 300/500
+  seed=0 blank: 350/500
+  seed=0 blank: 400/500
+  seed=0 blank: 450/500
+  seed=0 blank: 500/500
+  seed=1 real: 50/500
+  seed=1 real: 100/500
+  seed=1 real: 150/500
+  seed=1 real: 200/500
+  seed=1 real: 250/500
+  seed=1 real: 300/500
+  seed=1 real: 350/500
+  seed=1 real: 400/500
+  seed=1 real: 450/500
+  seed=1 real: 500/500
+  seed=1 blank: 50/500
+  seed=1 blank: 100/500
+  seed=1 blank: 150/500
+  seed=1 blank: 200/500
+  seed=1 blank: 250/500
+  seed=1 blank: 300/500
+  seed=1 blank: 350/500
+  seed=1 blank: 400/500
+  seed=1 blank: 450/500
+  seed=1 blank: 500/500
+  seed=2 real: 50/500
+  seed=2 real: 100/500
+  seed=2 real: 150/500
+  seed=2 real: 200/500
+  seed=2 real: 250/500
+  seed=2 real: 300/500
+  seed=2 real: 350/500
+  seed=2 real: 400/500
+  seed=2 real: 450/500
+  seed=2 real: 500/500
+  seed=2 blank: 50/500
+  seed=2 blank: 100/500
+  seed=2 blank: 150/500
+  seed=2 blank: 200/500
+  seed=2 blank: 250/500
+  seed=2 blank: 300/500
+  seed=2 blank: 350/500
+  seed=2 blank: 400/500
+  seed=2 blank: 450/500
+  seed=2 blank: 500/500
+  seed=3 real: 50/500
+  seed=3 real: 100/500
+  seed=3 real: 150/500
+  seed=3 real: 200/500
+  seed=3 real: 250/500
+  seed=3 real: 300/500
+  seed=3 real: 350/500
+  seed=3 real: 400/500
+  seed=3 real: 450/500
+  seed=3 real: 500/500
+  seed=3 blank: 50/500
+  seed=3 blank: 100/500
+  seed=3 blank: 150/500
+  seed=3 blank: 200/500
+  seed=3 blank: 250/500
+  seed=3 blank: 300/500
+  seed=3 blank: 350/500
+  seed=3 blank: 400/500
+  seed=3 blank: 450/500
+  seed=3 blank: 500/500
+  seed=4 real: 50/500
+  seed=4 real: 100/500
+  seed=4 real: 150/500
+  seed=4 real: 200/500
+  seed=4 real: 250/500
+  seed=4 real: 300/500
+  seed=4 real: 350/500
+  seed=4 real: 400/500
+  seed=4 real: 450/500
+  seed=4 real: 500/500
+  seed=4 blank: 50/500
+  seed=4 blank: 100/500
+  seed=4 blank: 150/500
+  seed=4 blank: 200/500
+  seed=4 blank: 250/500
+  seed=4 blank: 300/500
+  seed=4 blank: 350/500
+  seed=4 blank: 400/500
+  seed=4 blank: 450/500
+  seed=4 blank: 500/500
+  seed=5 real: 50/500
+  seed=5 real: 100/500
+  seed=5 real: 150/500
+  seed=5 real: 200/500
+  seed=5 real: 250/500
+  seed=5 real: 300/500
+  seed=5 real: 350/500
+  seed=5 real: 400/500
+  seed=5 real: 450/500
+  seed=5 real: 500/500
+  seed=5 blank: 50/500
+  seed=5 blank: 100/500
+  seed=5 blank: 150/500
+  seed=5 blank: 200/500
+  seed=5 blank: 250/500
+  seed=5 blank: 300/500
+  seed=5 blank: 350/500
+  seed=5 blank: 400/500
+  seed=5 blank: 450/500
+  seed=5 blank: 500/500
+
+                                       metric  value
+            acc, real image (canonical order) 0.4540
+           acc, blank image (canonical order) 0.2640
+                         chance (1/n_options) 0.2500
+frac of real-correct items also correct blind 0.3656
+               acc real, shuffled seeds: mean 0.4556
+                 acc real, shuffled seeds: SD 0.0191
+                   analytic SE sqrt(p(1-p)/n) 0.0223
+              acc blank, shuffled seeds: mean 0.2640
+blind predicted-letter share (shuffled): {'B': 0.356, 'D': 0.25, 'C': 0.224, 'A': 0.17}
+per-category real : {'coarse perception': 0.494, 'fine-grained perception': 0.471, 'instance reasoning': 0.544, 'logical reasoning': 0.554, 'math': 0.313, 'science & technology': 0.363}
+per-category blind: {'coarse perception': 0.221, 'fine-grained perception': 0.271, 'instance reasoning': 0.333, 'logical reasoning': 0.243, 'math': 0.289, 'science & technology': 0.22}
+peak VRAM (torch) 1.59 GiB; runtime 23.0 min
+saved results/tier1\full\tier1_bar.png
+
+=== 3-LINE SUMMARY ===
+1) With the real image the model gets 45.4% on 500 MMStar items; with a blank gray image it gets 26.4% (chance = 25%).
+2) Of the items it answers correctly with the image, 37% are also answered correctly blind.
+3) Reshuffling options over 5 seeds moves accuracy by SD 1.9% (mean 45.6%); analytic SE is 2.2%, so differences under ~2 SE are noise.

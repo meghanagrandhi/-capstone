@@ -1,0 +1,9 @@
+metric,value
+"acc, real image (canonical order)",0.4
+"acc, blank image (canonical order)",0.0
+chance (1/n_options),0.25
+frac of real-correct items also correct blind,0.0
+"acc real, shuffled seeds: mean",0.4
+"acc real, shuffled seeds: SD",
+analytic SE sqrt(p(1-p)/n),0.15491933384829668
+"acc blank, shuffled seeds: mean",0.2

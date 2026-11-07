@@ -1,0 +1,5 @@
+NaturalBench: kept 300 samples, skipped 2 malformed: [911, 187]
+!!! OVERLAP: 4 benchmark questions match training data -> dropping 2 pairs/samples (8 questions): ['nb-1070', 'nb-1235']
+MMVP=300 NaturalBench=1192 questions; no overlap with training mixtures
+W1031 13:45:42.852000 12204 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/781 [00:00<?, ?it/s]

@@ -1,0 +1,93 @@
+A: 500 items from calibration sample; G: 581 items from 581 candidates with k<=1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1029 23:06:53.818000 30024 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 54827.50it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:45,  6.91it/s]Loading weights:   4%|▎         | 26/729 [00:00<00:05, 127.64it/s]Loading weights:   9%|▊         | 63/729 [00:00<00:02, 222.60it/s]Loading weights:  14%|█▎        | 100/729 [00:00<00:02, 272.02it/s]Loading weights:  19%|█▊        | 136/729 [00:00<00:01, 300.76it/s]Loading weights:  24%|██▎       | 173/729 [00:00<00:01, 321.02it/s]Loading weights:  29%|██▉       | 215/729 [00:00<00:01, 351.85it/s]Loading weights:  35%|███▍      | 255/729 [00:00<00:01, 358.90it/s]Loading weights:  40%|████      | 292/729 [00:00<00:01, 356.13it/s]Loading weights:  45%|████▌     | 329/729 [00:01<00:01, 356.56it/s]Loading weights:  57%|█████▋    | 414/729 [00:01<00:00, 499.14it/s]Loading weights:  67%|██████▋   | 490/729 [00:01<00:00, 568.80it/s]Loading weights:  79%|███████▊  | 574/729 [00:01<00:00, 640.93it/s]Loading weights:  90%|█████████ | 658/729 [00:01<00:00, 695.76it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 459.69it/s]
+  seed=6 blank: 50/500
+  seed=6 blank: 100/500
+  seed=6 blank: 150/500
+  seed=6 blank: 200/500
+  seed=6 blank: 250/500
+  seed=6 blank: 300/500
+  seed=6 blank: 350/500
+  seed=6 blank: 400/500
+  seed=6 blank: 450/500
+  seed=6 blank: 500/500
+  seed=7 blank: 50/500
+  seed=7 blank: 100/500
+  seed=7 blank: 150/500
+  seed=7 blank: 200/500
+  seed=7 blank: 250/500
+  seed=7 blank: 300/500
+  seed=7 blank: 350/500
+  seed=7 blank: 400/500
+  seed=7 blank: 450/500
+  seed=7 blank: 500/500
+  seed=8 blank: 50/500
+  seed=8 blank: 100/500
+  seed=8 blank: 150/500
+  seed=8 blank: 200/500
+  seed=8 blank: 250/500
+  seed=8 blank: 300/500
+  seed=8 blank: 350/500
+  seed=8 blank: 400/500
+  seed=8 blank: 450/500
+  seed=8 blank: 500/500
+  seed=0 real: 50/500
+  seed=0 real: 100/500
+  seed=0 real: 150/500
+  seed=0 real: 200/500
+  seed=0 real: 250/500
+  seed=0 real: 300/500
+  seed=0 real: 350/500
+  seed=0 real: 400/500
+  seed=0 real: 450/500
+  seed=0 real: 500/500
+A {'n': 500, 'blind_acc_fresh_orders': {6: 0.248, 7: 0.294, 8: 0.264}, 'blind_acc_fresh_mean': 0.26866666666666666, 'real_acc_base_canonical': 0.454, 'analytic_se_real': 0.022265848288354075}
+  seed=6 blank: 50/581
+  seed=6 blank: 100/581
+  seed=6 blank: 150/581
+  seed=6 blank: 200/581
+  seed=6 blank: 250/581
+  seed=6 blank: 300/581
+  seed=6 blank: 350/581
+  seed=6 blank: 400/581
+  seed=6 blank: 450/581
+  seed=6 blank: 500/581
+  seed=6 blank: 550/581
+  seed=7 blank: 50/581
+  seed=7 blank: 100/581
+  seed=7 blank: 150/581
+  seed=7 blank: 200/581
+  seed=7 blank: 250/581
+  seed=7 blank: 300/581
+  seed=7 blank: 350/581
+  seed=7 blank: 400/581
+  seed=7 blank: 450/581
+  seed=7 blank: 500/581
+  seed=7 blank: 550/581
+  seed=8 blank: 50/581
+  seed=8 blank: 100/581
+  seed=8 blank: 150/581
+  seed=8 blank: 200/581
+  seed=8 blank: 250/581
+  seed=8 blank: 300/581
+  seed=8 blank: 350/581
+  seed=8 blank: 400/581
+  seed=8 blank: 450/581
+  seed=8 blank: 500/581
+  seed=8 blank: 550/581
+  seed=0 real: 50/581
+  seed=0 real: 100/581
+  seed=0 real: 150/581
+  seed=0 real: 200/581
+  seed=0 real: 250/581
+  seed=0 real: 300/581
+  seed=0 real: 350/581
+  seed=0 real: 400/581
+  seed=0 real: 450/581
+  seed=0 real: 500/581
+  seed=0 real: 550/581
+G {'n': 581, 'blind_acc_fresh_orders': {6: 0.08261617900172118, 7: 0.0757314974182444, 8: 0.06196213425129088}, 'blind_acc_fresh_mean': 0.07343660355708549, 'real_acc_base_canonical': 0.40619621342512907, 'analytic_se_real': 0.020375175136221457}

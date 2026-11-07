@@ -1,0 +1,16 @@
+{
+  "run": "matched_text90_smoke",
+  "mixture": "matched_text90",
+  "n_mix": 16,
+  "text_share": 1.0,
+  "steps": 6,
+  "batch_size": 2,
+  "lr": 0.0002,
+  "seed": 0,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "peak_vram_gib": 2.067020893096924,
+  "train_minutes": 1.198867964744568,
+  "sec_per_step": 10.30359665552775
+}

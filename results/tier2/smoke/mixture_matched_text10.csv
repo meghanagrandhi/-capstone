@@ -1,0 +1,43 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-vsr-0,vsr,image_necessary,0.2620221227407455,0.1286673992872238,0.3906895220279693,"Is the statement ""The cake is next to the person."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-0.jpg,24e2973361390b0f,is the statement the cake is next to the person accurate regarding the image
+cauldron-vsr-8,vsr,image_necessary,0.3323748670518398,0.022792462259531,0.3551673293113708,"Does the image validate the caption ""The pizza is above the dining table.""?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-8.jpg,66e078d1f2f2e1e1,does the image validate the caption the pizza is above the dining table
+cauldron-aokvqa-4,aokvqa,image_necessary,0.2151715755462646,2.5043861865997314,2.719557762145996,"How many people can ride this motorcycle at a time?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Four, two, three, one.","Answer: two.
+Rationale: There are two seats and seat backs on the motorcycle that apply that two could ride simultaneously.",results/tier2\smoke\images\cauldron-aokvqa-4.jpg,e3e76343130b3f5f,how many people can ride this motorcycle at a time
+cauldron-cocoqa-9,cocoqa,image_necessary,1.5031777769327164,0.1513120979070663,1.6544898748397827,"What is the pug dog wearing
+Short answer required.",Tie.,results/tier2\smoke\images\cauldron-cocoqa-9.jpg,6171a4acce8edca6,what is the pug dog wearing
+cauldron-vsr-2,vsr,image_necessary,0.3163046240806579,0.1019584834575653,0.4182631075382232,"Is the given caption ""The person is at the left side of the tv."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-2.jpg,3c3c0c8cc6e42703,is the given caption the person is at the left side of the tv fitting for the image
+cauldron-aokvqa-2,aokvqa,image_necessary,0.3656597137451172,3.1083626747131348,3.474022388458252,"What is the occupation of the person driving?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Waiter, farmer, cashier, musician.",Farmer.,results/tier2\smoke\images\cauldron-aokvqa-2.jpg,e06032fad9e9e1f0,what is the occupation of the person driving
+cauldron-tallyqa-5,tallyqa,image_necessary,1.881945163011551,0.0171340405941009,1.899079203605652,"How many people are wearing bright green?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-5.jpg,d9d99f9f9fd6c0f0,how many people are wearing bright green
+cauldron-cocoqa-4,cocoqa,image_necessary,2.0618243031203747,0.0385301299393177,2.1003544330596924,"What is the color of the character
+Short answer required.",Purple.,results/tier2\smoke\images\cauldron-cocoqa-4.jpg,79fc9c9e49038384,what is the color of the character
+cauldron-cocoqa-1,cocoqa,image_necessary,2.267998456954956,0.1590783596038818,2.427076816558838,"What walks toward the rope perimeter fence
+Write a very short answer.",Elephant.,results/tier2\smoke\images\cauldron-cocoqa-1.jpg,d1c78d8c464e667a,what walks toward the rope perimeter fence
+cauldron-tallyqa-4,tallyqa,image_necessary,1.4662529230117798,0.8747450113296509,2.3409979343414307,"How many people are walking?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-4.jpg,e2ea0e8e6e70e0e0,how many people are walking
+cauldron-aokvqa-1,aokvqa,image_necessary,0.2291430830955505,0.8904382586479187,1.1195813417434692,"Where does this man eat pizza?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Office, cafe, motel, outside.","Answer: office.
+Rationale: The man is eating pizza at a work desk in an office setting.",results/tier2\smoke\images\cauldron-aokvqa-1.jpg,f1cb4a7ad8983030,where does this man eat pizza
+cauldron-aokvqa-9,aokvqa,image_necessary,0.1512399911880493,1.5396937131881714,1.6909337043762207,"If the cameraman were driving what do they have to do from this position?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Turn left, drive straight, reverse course, turn right.","Answer: turn right.
+Rationale: The sign on the road says to turn right.",results/tier2\smoke\images\cauldron-aokvqa-9.jpg,f0f0e6e2949adce4,if the cameraman were driving what do they have to do from this position
+cauldron-cocoqa-3,cocoqa,image_necessary,3.725300073623657,0.7206156253814697,4.445915699005127,"Where is the black cat laying down
+Give a very brief answer.",Sink.,results/tier2\smoke\images\cauldron-cocoqa-3.jpg,c9498381070f3f78,where is the black cat laying down
+cauldron-tallyqa-6,tallyqa,image_necessary,1.0648582577705383,0.8687743544578552,1.9336326122283936,"How many upper cabinet handles are shown?
+Give a very brief answer.",8.,results/tier2\smoke\images\cauldron-tallyqa-6.jpg,fdfddd59391b3179,how many upper cabinet handles are shown
+cauldron-tallyqa-0,tallyqa,image_necessary,1.197616010904312,0.2851576507091522,1.4827736616134644,"How many chairs are pictured?
+Give a very brief answer.",2.,results/tier2\smoke\images\cauldron-tallyqa-0.jpg,9e9e9e9e2e7dfcfe,how many chairs are pictured
+cauldron-vsr-7,vsr,image_necessary,0.3427322153002023,0.016681408509612,0.3594136238098144,"Is this affirmation: ""The teddy bear is in the couch."" correct?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-7.jpg,7171b1e8f0f0f0f0,is this affirmation the teddy bear is in the couch correct

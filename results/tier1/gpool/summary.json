@@ -1,0 +1,17 @@
+{
+  "n_items": 999,
+  "n_orders": 6,
+  "k_hist": [
+    457,
+    124,
+    115,
+    117,
+    82,
+    46,
+    58
+  ],
+  "blind_acc_mean": 0.26876876876876876,
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "runtime_min": 19.149425049622852,
+  "note": "k alone is not proof of image-necessity; see README. Separate from the 500-item calibration sample."
+}

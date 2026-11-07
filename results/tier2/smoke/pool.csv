@@ -1,0 +1,97 @@
+id,subset,row,user,answer,image_path,w,h,dhash,qnorm
+cauldron-vsr-0,vsr,0,"Is the statement ""The cake is next to the person."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-0.jpg,640,640,24e2973361390b0f,is the statement the cake is next to the person accurate regarding the image
+cauldron-vsr-1,vsr,1,"Evaluate: Does the caption ""The horse is next to the bus."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-1.jpg,640,428,e0fcdcdedc7af0b8,evaluate does the caption the horse is next to the bus match the image
+cauldron-vsr-2,vsr,2,"Is the given caption ""The person is at the left side of the tv."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-2.jpg,640,480,3c3c0c8cc6e42703,is the given caption the person is at the left side of the tv fitting for the image
+cauldron-vsr-3,vsr,3,"Is ""The elephant is touching the bus."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-3.jpg,640,480,2320040405058103,is the elephant is touching the bus an appropriate description for the image
+cauldron-vsr-4,vsr,4,"Is the statement ""The truck is part of the cake."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-4.jpg,640,426,e6fe5ccccecff8e2,is the statement the truck is part of the cake accurate regarding the image
+cauldron-vsr-5,vsr,5,"Verify the accuracy of this image caption: ""The person is facing away from the banana."".
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-5.jpg,640,427,f0706068e098daf8,verify the accuracy of this image caption the person is facing away from the banana
+cauldron-vsr-6,vsr,6,"Evaluate: Does the caption ""The pizza is touching the person."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-6.jpg,640,428,ecf0f08cc69a9dd5,evaluate does the caption the pizza is touching the person match the image
+cauldron-vsr-7,vsr,7,"Is this affirmation: ""The teddy bear is in the couch."" correct?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-7.jpg,640,480,7171b1e8f0f0f0f0,is this affirmation the teddy bear is in the couch correct
+cauldron-vsr-8,vsr,8,"Does the image validate the caption ""The pizza is above the dining table.""?
+Answer yes or no.",Yes.,results/tier2\smoke\images\cauldron-vsr-8.jpg,640,480,66e078d1f2f2e1e1,does the image validate the caption the pizza is above the dining table
+cauldron-vsr-9,vsr,9,"Evaluate: Does the caption ""The person is touching the pizza."" match the image?
+Answer yes or no.",No.,results/tier2\smoke\images\cauldron-vsr-9.jpg,640,480,60e8dadecef2f1b1,evaluate does the caption the person is touching the pizza match the image
+cauldron-aokvqa-0,aokvqa,0,"What is the man by the bags awaiting?
+Make your selection from the four choices given to correctly answer the question.
+Options: Skateboarder, train, delivery, cab.",Cab.,results/tier2\smoke\images\cauldron-aokvqa-0.jpg,640,480,c5c1c01818385d5d,what is the man by the bags awaiting
+cauldron-aokvqa-1,aokvqa,1,"Where does this man eat pizza?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Office, cafe, motel, outside.","Answer: office.
+Rationale: The man is eating pizza at a work desk in an office setting.",results/tier2\smoke\images\cauldron-aokvqa-1.jpg,480,640,f1cb4a7ad8983030,where does this man eat pizza
+cauldron-aokvqa-2,aokvqa,2,"What is the occupation of the person driving?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Waiter, farmer, cashier, musician.",Farmer.,results/tier2\smoke\images\cauldron-aokvqa-2.jpg,640,428,e06032fad9e9e1f0,what is the occupation of the person driving
+cauldron-aokvqa-3,aokvqa,3,"How were the drivers of the cars able to park here?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Firemen, airport workers, police, postal workers.",Airport workers.,results/tier2\smoke\images\cauldron-aokvqa-3.jpg,640,480,d0dce8fc4e11200b,how were the drivers of the cars able to park here
+cauldron-aokvqa-4,aokvqa,4,"How many people can ride this motorcycle at a time?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Four, two, three, one.","Answer: two.
+Rationale: There are two seats and seat backs on the motorcycle that apply that two could ride simultaneously.",results/tier2\smoke\images\cauldron-aokvqa-4.jpg,640,427,e3e76343130b3f5f,how many people can ride this motorcycle at a time
+cauldron-aokvqa-5,aokvqa,5,"Where would one most likely see the show advertised in the poster?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Theater, tv, internet, cinema.",Theater.,results/tier2\smoke\images\cauldron-aokvqa-5.jpg,519,640,fcfcfdd9d98f9c9c,where would one most likely see the show advertised in the poster
+cauldron-aokvqa-6,aokvqa,6,"What mood do the cows seem to be in?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Sad, happy, curious, scared.",Happy.,results/tier2\smoke\images\cauldron-aokvqa-6.jpg,640,427,d89830e4e6b874e6,what mood do the cows seem to be in
+cauldron-aokvqa-7,aokvqa,7,"What type of rain is this called?
+Select the accurate response from the four choices given to answer the question.
+Options: Average, drizzle, sprinkle, downpour.",Downpour.,results/tier2\smoke\images\cauldron-aokvqa-7.jpg,640,427,a17373736363636,what type of rain is this called
+cauldron-aokvqa-8,aokvqa,8,"What is the man putting on the bus?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Camera, ribbon, rag, bow.",Bow.,results/tier2\smoke\images\cauldron-aokvqa-8.jpg,640,427,e7e4c4c8c5cf9e0e,what is the man putting on the bus
+cauldron-aokvqa-9,aokvqa,9,"If the cameraman were driving what do they have to do from this position?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Turn left, drive straight, reverse course, turn right.","Answer: turn right.
+Rationale: The sign on the road says to turn right.",results/tier2\smoke\images\cauldron-aokvqa-9.jpg,640,401,f0f0e6e2949adce4,if the cameraman were driving what do they have to do from this position
+cauldron-cocoqa-0,cocoqa,0,"What is using umbrellas as a central theme
+Give a very brief answer.",Sculpture.,results/tier2\smoke\images\cauldron-cocoqa-0.jpg,640,480,8cd0f1f1eef676c6,what is using umbrellas as a central theme
+cauldron-cocoqa-1,cocoqa,1,"What walks toward the rope perimeter fence
+Write a very short answer.",Elephant.,results/tier2\smoke\images\cauldron-cocoqa-1.jpg,640,480,d1c78d8c464e667a,what walks toward the rope perimeter fence
+cauldron-cocoqa-2,cocoqa,2,"What is the color of the horses
+Short answer required.",Brown.,results/tier2\smoke\images\cauldron-cocoqa-2.jpg,640,424,686074bcdc4e666a,what is the color of the horses
+cauldron-cocoqa-3,cocoqa,3,"Where is the black cat laying down
+Give a very brief answer.",Sink.,results/tier2\smoke\images\cauldron-cocoqa-3.jpg,640,480,c9498381070f3f78,where is the black cat laying down
+cauldron-cocoqa-4,cocoqa,4,"What is the color of the character
+Short answer required.",Purple.,results/tier2\smoke\images\cauldron-cocoqa-4.jpg,525,640,79fc9c9e49038384,what is the color of the character
+cauldron-cocoqa-5,cocoqa,5,"What is the color of the dog
+Be succinct.",Black.,results/tier2\smoke\images\cauldron-cocoqa-5.jpg,640,480,1880c0f0e2e0e8e3,what is the color of the dog
+cauldron-cocoqa-6,cocoqa,6,"What is the pitcher throwing toward a batter
+Answer briefly.",Ball.,results/tier2\smoke\images\cauldron-cocoqa-6.jpg,640,439,e0f0e0e8e1f0f0f0,what is the pitcher throwing toward a batter
+cauldron-cocoqa-7,cocoqa,7,"What stands open revealing the stocked fridge
+Answer briefly.",Door.,results/tier2\smoke\images\cauldron-cocoqa-7.jpg,427,640,6ef8fcdaeee8fcf8,what stands open revealing the stocked fridge
+cauldron-cocoqa-8,cocoqa,8,"What is the color of the sign
+Be succinct.",Red.,results/tier2\smoke\images\cauldron-cocoqa-8.jpg,480,640,638747e7e4e18cd8,what is the color of the sign
+cauldron-cocoqa-9,cocoqa,9,"What is the pug dog wearing
+Short answer required.",Tie.,results/tier2\smoke\images\cauldron-cocoqa-9.jpg,424,640,6171a4acce8edca6,what is the pug dog wearing
+cauldron-tallyqa-0,tallyqa,0,"How many chairs are pictured?
+Give a very brief answer.",2.,results/tier2\smoke\images\cauldron-tallyqa-0.jpg,640,480,9e9e9e9e2e7dfcfe,how many chairs are pictured
+cauldron-tallyqa-1,tallyqa,1,"How many windows are there?
+Give a very brief answer.",3.,results/tier2\smoke\images\cauldron-tallyqa-1.jpg,640,480,3c3f3b3f9e8e8e1f,how many windows are there
+cauldron-tallyqa-2,tallyqa,2,"How many computer screens?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-2.jpg,800,600,e666e44ce461614c,how many computer screens
+cauldron-tallyqa-3,tallyqa,3,"How many computers?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-3.jpg,800,600,e42c1c9cbee342e2,how many computers
+cauldron-tallyqa-4,tallyqa,4,"How many people are walking?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-4.jpg,800,600,e2ea0e8e6e70e0e0,how many people are walking
+cauldron-tallyqa-5,tallyqa,5,"How many people are wearing bright green?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-5.jpg,800,600,d9d99f9f9fd6c0f0,how many people are wearing bright green
+cauldron-tallyqa-6,tallyqa,6,"How many upper cabinet handles are shown?
+Give a very brief answer.",8.,results/tier2\smoke\images\cauldron-tallyqa-6.jpg,800,600,fdfddd59391b3179,how many upper cabinet handles are shown
+cauldron-tallyqa-7,tallyqa,7,"How many people on the right holding an umbrella?
+Give a very brief answer.",1.,results/tier2\smoke\images\cauldron-tallyqa-7.jpg,800,600,dcdeded4dadadefc,how many people on the right holding an umbrella
+cauldron-tallyqa-8,tallyqa,8,"How many books are standing up?
+Give a very brief answer.",4.,results/tier2\smoke\images\cauldron-tallyqa-8.jpg,800,600,f8d8d0c5c5ccccc8,how many books are standing up
+cauldron-tallyqa-9,tallyqa,9,"How many cities are on the sign?
+Give a very brief answer.",3.,results/tier2\smoke\images\cauldron-tallyqa-9.jpg,500,375,918995989890b060,how many cities are on the sign

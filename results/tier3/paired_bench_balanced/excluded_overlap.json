@@ -1,0 +1,26 @@
+[
+ {
+  "id": "nb-1070-q0-i1",
+  "pair": "nb-1070",
+  "question": "What is the girl doing in the pool?",
+  "reason": "image near-duplicate of an eval image"
+ },
+ {
+  "id": "nb-1070-q1-i1",
+  "pair": "nb-1070",
+  "question": "Where does the girl appear to be located in the water?",
+  "reason": "image near-duplicate of an eval image"
+ },
+ {
+  "id": "nb-1235-q1-i0",
+  "pair": "nb-1235",
+  "question": "How many people are in the image?",
+  "reason": "identical question text to an eval item"
+ },
+ {
+  "id": "nb-1235-q1-i1",
+  "pair": "nb-1235",
+  "question": "How many people are in the image?",
+  "reason": "identical question text to an eval item"
+ }
+]

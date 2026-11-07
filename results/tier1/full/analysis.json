@@ -1,0 +1,92 @@
+{
+  "n_items": 500,
+  "real_acc": 0.454,
+  "real_wilson95": [
+    0.4108757263390157,
+    0.49782571299442857
+  ],
+  "blank_acc": 0.264,
+  "blank_wilson95": [
+    0.22726783113894938,
+    0.30433085761524253
+  ],
+  "table_2x2": {
+    "real_right_blind_right": 83,
+    "real_right_blind_wrong": 144,
+    "real_wrong_blind_right": 49,
+    "real_wrong_blind_wrong": 224
+  },
+  "mcnemar_exact_p": 4.850393094558353e-12,
+  "blind_k_hist_observed": [
+    230,
+    67,
+    57,
+    53,
+    39,
+    28,
+    26
+  ],
+  "blind_k_hist_binom_expected": [
+    88.99,
+    177.98,
+    148.32,
+    65.92,
+    16.48,
+    2.2,
+    0.12
+  ],
+  "real_acc_blind_k<=1": {
+    "n": 297,
+    "mean_over_orders": 0.404601571268238,
+    "per_order": [
+      0.421,
+      0.404,
+      0.411,
+      0.391,
+      0.404,
+      0.397
+    ]
+  },
+  "real_acc_blind_k>=4": {
+    "n": 93,
+    "mean_over_orders": 0.5913978494623655,
+    "per_order": [
+      0.548,
+      0.634,
+      0.602,
+      0.602,
+      0.613,
+      0.548
+    ]
+  },
+  "real_acc_blind_k in 2..3": {
+    "n": 110,
+    "mean_over_orders": 0.4772727272727273,
+    "per_order": [
+      0.464,
+      0.582,
+      0.427,
+      0.482,
+      0.473,
+      0.436
+    ]
+  },
+  "real_pred_letter_canonical": {
+    "A": 0.238,
+    "B": 0.342,
+    "C": 0.232,
+    "D": 0.188
+  },
+  "real_pred_letter_shuffled": {
+    "A": 0.238,
+    "B": 0.296,
+    "C": 0.233,
+    "D": 0.232
+  },
+  "gold_position_shuffled": {
+    "A": 0.266,
+    "B": 0.236,
+    "C": 0.25,
+    "D": 0.248
+  }
+}

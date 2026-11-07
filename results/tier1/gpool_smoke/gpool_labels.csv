@@ -1,0 +1,11 @@
+id,blank_correct_seed0,blank_correct_seed1,k_blind,n_orders,category
+mmstar-0,0,0,0,2,coarse perception
+mmstar-10,0,0,0,2,coarse perception
+mmstar-11,1,0,1,2,coarse perception
+mmstar-12,0,0,0,2,coarse perception
+mmstar-13,1,1,2,2,coarse perception
+mmstar-15,1,0,1,2,coarse perception
+mmstar-16,0,0,0,2,coarse perception
+mmstar-3,0,0,0,2,coarse perception
+mmstar-6,0,0,0,2,coarse perception
+mmstar-7,0,0,0,2,coarse perception

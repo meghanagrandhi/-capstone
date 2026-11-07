@@ -1,0 +1,29 @@
+[overlap check OK] mixture_matched_text10 (at training time): 1000 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:15,  8.73it/s]Loading weights:   2%|▏         | 12/657 [00:00<00:10, 64.00it/s]Loading weights:   5%|▌         | 33/657 [00:00<00:04, 125.57it/s]Loading weights:   8%|▊         | 54/657 [00:00<00:03, 156.19it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:03, 178.92it/s]Loading weights:  15%|█▍        | 96/657 [00:00<00:03, 175.82it/s]Loading weights:  19%|█▊        | 123/657 [00:00<00:02, 199.85it/s]Loading weights:  23%|██▎       | 150/657 [00:00<00:02, 216.18it/s]Loading weights:  27%|██▋       | 177/657 [00:00<00:02, 227.50it/s]Loading weights:  31%|███       | 204/657 [00:01<00:01, 235.86it/s]Loading weights:  45%|████▍     | 295/657 [00:01<00:00, 432.67it/s]Loading weights:  69%|██████▉   | 455/657 [00:01<00:00, 772.60it/s]Loading weights:  94%|█████████▎| 615/657 [00:01<00:00, 1015.24it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 470.77it/s] 
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1031 02:03:56.955000 2472 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.268 probe_attn_img_mass_image_necessary=0.073 probe_gap_text_answerable=0.107 probe_attn_img_mass_text_answerable=0.070
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.436 probe_attn_img_mass_image_necessary=0.075 probe_gap_text_answerable=0.238 probe_attn_img_mass_text_answerable=0.071
+  step 10/125 loss 1.150 gn 4.37 11.0s/step
+  [ckpt step 12] probe_gap_image_necessary=0.827 probe_attn_img_mass_image_necessary=0.079 probe_gap_text_answerable=0.524 probe_attn_img_mass_text_answerable=0.076
+  step 20/125 loss 0.407 gn 2.10 10.6s/step
+  [ckpt step 25] probe_gap_image_necessary=0.594 probe_attn_img_mass_image_necessary=0.073 probe_gap_text_answerable=0.474 probe_attn_img_mass_text_answerable=0.067
+  step 30/125 loss 0.226 gn 1.03 10.6s/step
+  step 40/125 loss 0.348 gn 0.82 10.2s/step
+  step 50/125 loss 0.365 gn 1.06 9.9s/step
+  [ckpt step 50] probe_gap_image_necessary=0.403 probe_attn_img_mass_image_necessary=0.070 probe_gap_text_answerable=0.494 probe_attn_img_mass_text_answerable=0.064
+  step 60/125 loss 0.434 gn 0.88 10.1s/step
+  step 70/125 loss 0.223 gn 1.09 9.9s/step
+  [ckpt step 75] probe_gap_image_necessary=0.386 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.440 probe_attn_img_mass_text_answerable=0.065
+  step 80/125 loss 0.299 gn 0.75 10.0s/step
+  step 90/125 loss 0.271 gn 0.77 9.9s/step
+  step 100/125 loss 0.570 gn 0.68 9.8s/step
+  [ckpt step 100] probe_gap_image_necessary=0.445 probe_attn_img_mass_image_necessary=0.072 probe_gap_text_answerable=0.501 probe_attn_img_mass_text_answerable=0.067
+  step 110/125 loss 0.525 gn 0.60 9.9s/step
+  step 120/125 loss 0.451 gn 2.25 9.9s/step
+  step 125/125 loss 0.441 gn 1.18 9.8s/step
+  [ckpt step 125] probe_gap_image_necessary=0.460 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.487 probe_attn_img_mass_text_answerable=0.067
+run meta: {'run': 'smolvlm_matched_text10_s2', 'mixture': 'matched_text10', 'n_mix': 1000, 'text_share': 0.1, 'steps': 125, 'batch_size': 8, 'lr': 0.0002, 'seed': 2, 'lora_r': 16, 'lora_alpha': 32, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.494479656219482, 'train_minutes': 20.753036697705586, 'sec_per_step': 9.82493943977356}

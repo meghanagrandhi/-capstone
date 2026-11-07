@@ -1,0 +1,16 @@
+{
+  "run": "matched_text10_s1",
+  "mixture": "matched_text10",
+  "n_mix": 1000,
+  "text_share": 0.1,
+  "steps": 120,
+  "batch_size": 8,
+  "lr": 0.0002,
+  "seed": 1,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "model_revision": "895c3a49bc3fa70a340399125c650a463535e71c",
+  "peak_vram_gib": 2.0650391578674316,
+  "train_minutes": 19.316454962889352,
+  "sec_per_step": 9.56130622625351
+}

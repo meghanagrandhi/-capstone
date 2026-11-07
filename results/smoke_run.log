@@ -1,0 +1,29 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1005 20:40:02.131000 21172 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+10 items; categories: {'coarse perception': 3, 'science & technology': 3, 'fine-grained perception': 2, 'instance reasoning': 1, 'math': 1}
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [12:06<12:06, 726.20s/it]Fetching 2 files: 100%|██████████| 2/2 [12:06<00:00, 363.10s/it]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<09:28,  1.28it/s]Loading weights:   0%|          | 3/729 [00:00<03:19,  3.63it/s]Loading weights:   1%|          | 9/729 [00:01<00:56, 12.64it/s]Loading weights:   2%|▏         | 17/729 [00:01<00:30, 23.72it/s]Loading weights:   5%|▌         | 39/729 [00:01<00:11, 62.46it/s]Loading weights:   9%|▉         | 64/729 [00:01<00:06, 103.33it/s]Loading weights:  12%|█▏        | 89/729 [00:01<00:04, 135.49it/s]Loading weights:  17%|█▋        | 122/729 [00:01<00:03, 184.18it/s]Loading weights:  20%|█▉        | 145/729 [00:01<00:04, 129.09it/s]Loading weights:  22%|██▏       | 163/729 [00:02<00:05, 104.47it/s]Loading weights:  24%|██▍       | 178/729 [00:02<00:05, 102.19it/s]Loading weights:  26%|██▌       | 191/729 [00:02<00:05, 95.51it/s] Loading weights:  28%|██▊       | 203/729 [00:02<00:05, 90.04it/s]Loading weights:  29%|██▉       | 214/729 [00:02<00:05, 87.08it/s]Loading weights:  31%|███       | 224/729 [00:02<00:06, 83.88it/s]Loading weights:  32%|███▏      | 233/729 [00:03<00:06, 78.48it/s]Loading weights:  34%|███▎      | 245/729 [00:03<00:05, 80.88it/s]Loading weights:  35%|███▌      | 256/729 [00:03<00:05, 85.63it/s]Loading weights:  37%|███▋      | 268/729 [00:03<00:05, 86.65it/s]Loading weights:  38%|███▊      | 279/729 [00:03<00:04, 92.14it/s]Loading weights:  40%|███▉      | 289/729 [00:03<00:04, 92.75it/s]Loading weights:  41%|████      | 299/729 [00:03<00:04, 88.55it/s]Loading weights:  42%|████▏     | 309/729 [00:03<00:05, 81.13it/s]Loading weights:  44%|████▎     | 318/729 [00:04<00:05, 74.74it/s]Loading weights:  45%|████▍     | 328/729 [00:04<00:05, 78.39it/s]Loading weights:  47%|████▋     | 344/729 [00:04<00:03, 96.48it/s]Loading weights:  50%|█████     | 368/729 [00:04<00:02, 131.72it/s]Loading weights:  58%|█████▊    | 425/729 [00:04<00:01, 248.78it/s]Loading weights:  64%|██████▍   | 465/729 [00:04<00:00, 290.48it/s]Loading weights:  68%|██████▊   | 496/729 [00:04<00:00, 243.39it/s]Loading weights:  72%|███████▏  | 523/729 [00:04<00:00, 232.43it/s]Loading weights:  75%|███████▌  | 548/729 [00:05<00:00, 231.29it/s]Loading weights:  83%|████████▎ | 606/729 [00:05<00:00, 318.29it/s]Loading weights:  90%|█████████ | 657/729 [00:05<00:00, 369.34it/s]Loading weights:  98%|█████████▊| 714/729 [00:05<00:00, 423.84it/s]Loading weights: 100%|██████████| 729/729 [00:05<00:00, 134.95it/s]
+image tokens (first item): 180  max_pixels=200704
+VRAM after load: torch alloc 1.42 GiB, nvidia-smi 1617 MiB
+
+                                       metric  value
+            acc, real image (canonical order) 0.4000
+           acc, blank image (canonical order) 0.0000
+                         chance (1/n_options) 0.2500
+frac of real-correct items also correct blind 0.0000
+               acc real, shuffled seeds: mean 0.4000
+                 acc real, shuffled seeds: SD    NaN
+                   analytic SE sqrt(p(1-p)/n) 0.1549
+              acc blank, shuffled seeds: mean 0.2000
+blind predicted-letter share (shuffled): {'C': 0.5, 'B': 0.3, 'D': 0.2}
+per-category real : {'coarse perception': 0.333, 'fine-grained perception': 0.5, 'instance reasoning': 0.0, 'math': 1.0, 'science & technology': 0.333}
+per-category blind: {'coarse perception': 0.0, 'fine-grained perception': 0.0, 'instance reasoning': 0.0, 'math': 0.0, 'science & technology': 0.0}
+peak VRAM (torch) 1.54 GiB; runtime 13.3 min
+saved results/tier1\smoke\tier1_bar.png
+
+=== 3-LINE SUMMARY ===
+1) With the real image the model gets 40.0% on 10 MMStar items; with a blank gray image it gets 0.0% (chance = 25%).
+2) Of the items it answers correctly with the image, 0% are also answered correctly blind.
+3) Reshuffling options over 1 seeds moves accuracy by SD nan% (mean 40.0%); analytic SE is 15.5%, so differences under ~2 SE are noise.

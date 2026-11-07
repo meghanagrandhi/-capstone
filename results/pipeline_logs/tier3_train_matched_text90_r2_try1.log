@@ -1,0 +1,59 @@
+[overlap check OK] mixture_matched_text90 (at training time): 1000 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1029 20:36:19.702000 31340 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 10565.00it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<03:47,  3.20it/s]Loading weights:   1%|          | 5/729 [00:00<00:50, 14.39it/s]Loading weights:   4%|▍         | 28/729 [00:00<00:09, 76.82it/s]Loading weights:   6%|▌         | 42/729 [00:00<00:07, 95.41it/s]Loading weights:   9%|▊         | 63/729 [00:00<00:05, 124.30it/s]Loading weights:  11%|█         | 78/729 [00:00<00:05, 123.08it/s]Loading weights:  13%|█▎        | 95/729 [00:00<00:04, 134.77it/s]Loading weights:  15%|█▌        | 112/729 [00:01<00:04, 142.14it/s]Loading weights:  17%|█▋        | 127/729 [00:01<00:04, 139.83it/s]Loading weights:  20%|██        | 147/729 [00:01<00:03, 152.66it/s]Loading weights:  22%|██▏       | 163/729 [00:01<00:03, 144.74it/s]Loading weights:  25%|██▌       | 183/729 [00:01<00:03, 155.41it/s]Loading weights:  27%|██▋       | 199/729 [00:01<00:03, 146.51it/s]Loading weights:  30%|███       | 219/729 [00:01<00:03, 153.01it/s]Loading weights:  32%|███▏      | 235/729 [00:01<00:03, 148.07it/s]Loading weights:  34%|███▍      | 251/729 [00:02<00:03, 150.76it/s]Loading weights:  37%|███▋      | 268/729 [00:02<00:02, 154.66it/s]Loading weights:  39%|███▉      | 284/729 [00:02<00:02, 151.82it/s]Loading weights:  42%|████▏     | 303/729 [00:02<00:02, 158.26it/s]Loading weights:  44%|████▍     | 319/729 [00:02<00:02, 148.83it/s]Loading weights:  47%|████▋     | 340/729 [00:02<00:02, 165.25it/s]Loading weights:  51%|█████     | 373/729 [00:02<00:01, 211.38it/s]Loading weights:  55%|█████▌    | 404/729 [00:02<00:01, 232.85it/s]Loading weights:  61%|██████    | 442/729 [00:02<00:01, 267.71it/s]Loading weights:  65%|██████▌   | 474/729 [00:02<00:00, 280.43it/s]Loading weights:  70%|██████▉   | 510/729 [00:03<00:00, 298.53it/s]Loading weights:  75%|███████▍  | 544/729 [00:03<00:00, 310.39it/s]Loading weights:  79%|███████▉  | 576/729 [00:03<00:00, 301.65it/s]Loading weights:  85%|████████▍ | 617/729 [00:03<00:00, 332.39it/s]Loading weights:  89%|████████▉ | 651/729 [00:03<00:00, 317.45it/s]Loading weights:  94%|█████████▍| 684/729 [00:03<00:00, 319.63it/s]Loading weights:  98%|█████████▊| 717/729 [00:03<00:00, 317.11it/s]Loading weights: 100%|██████████| 729/729 [00:03<00:00, 192.25it/s]
+LoRA: 196 target modules (language model only), 18.46M trainable params
+  [ckpt step 0] probe_gap_image_necessary=1.161 probe_attn_img_mass_image_necessary=0.104 probe_gap_text_answerable=0.010 probe_attn_img_mass_text_answerable=0.090
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.932 probe_attn_img_mass_image_necessary=0.108 probe_gap_text_answerable=0.204 probe_attn_img_mass_text_answerable=0.096
+  step 10/120 loss 0.267 gn 1.54 16.8s/step
+  [ckpt step 12] probe_gap_image_necessary=0.576 probe_attn_img_mass_image_necessary=0.103 probe_gap_text_answerable=0.170 probe_attn_img_mass_text_answerable=0.091
+  step 20/120 loss 0.535 gn 1.99 16.9s/step
+  [ckpt step 24] probe_gap_image_necessary=0.446 probe_attn_img_mass_image_necessary=0.096 probe_gap_text_answerable=0.271 probe_attn_img_mass_text_answerable=0.084
+  step 30/120 loss 0.252 gn 1.23 16.6s/step
+  step 40/120 loss 0.160 gn 1.61 15.9s/step
+  [ckpt step 48] probe_gap_image_necessary=0.435 probe_attn_img_mass_image_necessary=0.084 probe_gap_text_answerable=0.262 probe_attn_img_mass_text_answerable=0.076
+  step 50/120 loss 0.187 gn 0.93 16.0s/step
+  step 60/120 loss 0.715 gn 2.04 15.7s/step
+  step 70/120 loss 0.186 gn 1.01 15.6s/step
+  [io] write results/tier3\matched_text90\train_log.csv.tmp: OSError ([Errno 28] No space left on device); retry 1/7
+  [io] write results/tier3\matched_text90\train_log.csv.tmp: OSError ([Errno 28] No space left on device); retry 2/7
+  [io] write results/tier3\matched_text90\train_log.csv.tmp: OSError ([Errno 28] No space left on device); retry 3/7
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\mailt\Documents\capstone\scripts\run_tier3_train.py", line 74, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\mailt\Documents\capstone\scripts\run_tier3_train.py", line 64, in main
+    tlog, plog = train(vlm, mix, probe, steps, bs, t3["lr"], t3["seed"], out, t3["max_answer_tokens"])
+                 ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mailt\Documents\capstone\src\train.py", line 154, in train
+    checkpoint(step)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\mailt\Documents\capstone\src\train.py", line 121, in checkpoint
+    retry(lambda: pm.save_pretrained(os.path.join(out_dir, "adapters", f"step_{step:04d}")), f"save adapter step {step}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mailt\Documents\capstone\src\ioutil.py", line 12, in retry
+    return fn()
+  File "C:\Users\mailt\Documents\capstone\src\train.py", line 121, in <lambda>
+    retry(lambda: pm.save_pretrained(os.path.join(out_dir, "adapters", f"step_{step:04d}")), f"save adapter step {step}")
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mailt\Documents\capstone\.venv\Lib\site-packages\peft\peft_model.py", line 356, in save_pretrained
+    safe_save_file(
+    ~~~~~~~~~~~~~~^
+        output_state_dict,
+        ^^^^^^^^^^^^^^^^^^
+        os.path.join(output_dir, SAFETENSORS_WEIGHTS_NAME),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        metadata={"format": "pt"},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\safetensors\torch.py", line 307, in save_file
+    serialize_file(_flatten(tensors), filename, metadata=metadata)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+safetensors_rust.SafetensorError: Error while serializing: I/O error: There is not enough space on the disk. (os error 112)

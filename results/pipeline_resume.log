@@ -1,0 +1,38 @@
+=== START tier3_train_matched_text90 try 1 19:55:04
+=== END tier3_train_matched_text90 rc=1 20:31:31
+=== START tier3_train_matched_text90 try 2 20:31:31
+=== RELAUNCH 20:32:24 (robust writes)
+=== START tier3_train_matched_text90 try 1 20:32:24
+=== END tier3_train_matched_text90 try 1 rc=139 20:32:42
+=== START tier3_train_matched_text90 try 2 20:32:42
+=== END tier3_train_matched_text90 try 2 rc=139 20:33:02
+=== FAILED tier3_train_matched_text90
+=== RELAUNCH 20:35:47 (robust writes + single-threaded weight load)
+=== START tier3_train_matched_text90 try 1 20:36:08
+=== END tier3_train_matched_text90 try 1 rc=1 20:55:29
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\mailt\Documents\capstone\scripts\run_tier3_train.py", line 74, in <module>
+--
+safetensors_rust.SafetensorError: Error while serializing: I/O error: There is not enough space on the disk. (os error 112)
+=== RELAUNCH 20:57:13 (freed disk: 7G free)
+=== START tier3_train_matched_text90 try 1 20:57:34 (7 GB free)
+=== END tier3_train_matched_text90 try 1 rc=1 21:01:19
+  File "C:\Users\mailt\Documents\capstone\scripts\run_tier3_train.py", line 74, in <module>
+--
+OSError: [Errno 28] No space left on device
+
+object address  : 0000022C2714AD40
+object refcount : 3
+=== START tier3_train_matched_text90 try 2 21:01:39 (6 GB free)
+=== RELAUNCH 21:51:27 (pip cache purged)
+=== START tier3_train_matched_text90 try 1 21:51:48 (20 GB free)
+=== END tier3_train_matched_text90 try 1 rc=139 21:52:02 (16 GB free)
+=== START tier3_train_matched_text90 try 2 21:52:22 (24 GB free)
+=== END tier3_train_matched_text90 try 2 rc=0 22:13:44 (23 GB free)
+=== START tier3_eval try 1 22:14:04 (23 GB free)
+=== END tier3_eval try 1 rc=0 23:02:03 (23 GB free)
+=== START tier3_plot try 1 23:02:23 (23 GB free)
+=== END tier3_plot try 1 rc=0 23:02:26 (23 GB free)
+=== COMPLETE 23:02:26

@@ -1,0 +1,22 @@
+NaturalBench: kept 300 samples, skipped 2 malformed: [911, 187]
+!!! OVERLAP: 4 benchmark questions match training data -> dropping 2 pairs/samples (8 questions): ['nb-1070', 'nb-1235']
+MMVP=300 NaturalBench=1192 questions; no overlap with training mixtures
+W1031 07:50:06.730000 30008 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:44,  6.28it/s]Loading weights:   1%|          | 8/657 [00:00<00:17, 36.41it/s]Loading weights:   4%|▍         | 25/657 [00:00<00:07, 87.27it/s]Loading weights:   8%|▊         | 51/657 [00:00<00:04, 145.69it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:03, 179.50it/s]Loading weights:  15%|█▌        | 99/657 [00:00<00:02, 191.93it/s]Loading weights:  19%|█▊        | 123/657 [00:00<00:02, 203.15it/s]Loading weights:  23%|██▎       | 149/657 [00:00<00:02, 215.00it/s]Loading weights:  26%|██▋       | 173/657 [00:00<00:02, 221.33it/s]Loading weights:  30%|██▉       | 196/657 [00:01<00:02, 221.43it/s]Loading weights:  38%|███▊      | 247/657 [00:01<00:01, 305.64it/s]Loading weights:  62%|██████▏   | 407/657 [00:01<00:00, 686.15it/s]Loading weights:  86%|████████▋ | 567/657 [00:01<00:00, 951.80it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 449.64it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  seed=0 real: 1000/1492
+  smolvlm_matched_text10 step 0: {"mmvp": {"n_questions": 300, "acc": 0.597, "pair_acc": 0.247, "same_answer_rate": 0.7}, "naturalbench": {"n_questions": 1192, "acc": 0.664, "pair_acc": 0.367, "same_answer_rate": 0.592, "group_acc": 0.141}}  [9.1 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text10 step 125: {"mmvp": {"n_questions": 300, "acc": 0.613, "pair_acc": 0.267, "same_answer_rate": 0.693}, "naturalbench": {"n_questions": 1192, "acc": 0.669, "pair_acc": 0.374, "same_answer_rate": 0.589, "group_acc": 0.148}}  [18.8 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text90 step 125: {"mmvp": {"n_questions": 300, "acc": 0.597, "pair_acc": 0.267, "same_answer_rate": 0.66}, "naturalbench": {"n_questions": 1192, "acc": 0.675, "pair_acc": 0.389, "same_answer_rate": 0.572, "group_acc": 0.158}}  [28.5 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text10_s1 step 125: {"mmvp": {"n_questions": 300, "acc": 0.587, "pair_acc": 0.2, "same_answer_rate": 0.773}, "naturalbench": {"n_questions": 1192, "acc": 0.622, "pair_acc": 0.27, "same_answer_rate": 0.705, "group_acc": 0.111}}  [38.2 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text90_s1 step 125: {"mmvp": {"n_questions": 300, "acc": 0.59, "pair_acc": 0.233, "same_answer_rate": 0.713}, "naturalbench": {"n_questions": 1192, "acc": 0.663, "pair_acc": 0.362, "same_answer_rate": 0.601, "group_acc": 0.134}}  [47.9 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text10_s2 step 125: {"mmvp": {"n_questions": 300, "acc": 0.597, "pair_acc": 0.24, "same_answer_rate": 0.713}, "naturalbench": {"n_questions": 1192, "acc": 0.656, "pair_acc": 0.346, "same_answer_rate": 0.621, "group_acc": 0.144}}  [57.7 min]
+  seed=0 real: 1000/1492
+  smolvlm_matched_text90_s2 step 125: {"mmvp": {"n_questions": 300, "acc": 0.627, "pair_acc": 0.293, "same_answer_rate": 0.667}, "naturalbench": {"n_questions": 1192, "acc": 0.664, "pair_acc": 0.362, "same_answer_rate": 0.604, "group_acc": 0.148}}  [67.5 min]
+done 67.5 min

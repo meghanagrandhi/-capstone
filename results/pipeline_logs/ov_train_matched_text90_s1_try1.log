@@ -1,0 +1,30 @@
+[overlap check OK] mixture_matched_text90 (at training time): 1000 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in C:\Users\mailt\AppData\Roaming\Python\Python313\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1029 23:43:40.391000 32340 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 65027.97it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<03:01,  4.01it/s]Loading weights:   2%|▏         | 11/729 [00:00<00:18, 38.48it/s]Loading weights:   4%|▍         | 29/729 [00:00<00:08, 82.48it/s]Loading weights:   7%|▋         | 52/729 [00:00<00:05, 125.17it/s]Loading weights:  10%|█         | 75/729 [00:00<00:04, 153.07it/s]Loading weights:  13%|█▎        | 93/729 [00:00<00:03, 160.05it/s]Loading weights:  15%|█▌        | 112/729 [00:00<00:03, 167.23it/s]Loading weights:  19%|█▊        | 135/729 [00:00<00:03, 181.76it/s]Loading weights:  21%|██        | 154/729 [00:01<00:03, 183.56it/s]Loading weights:  24%|██▎       | 173/729 [00:01<00:03, 176.59it/s]Loading weights:  27%|██▋       | 196/729 [00:01<00:02, 188.24it/s]Loading weights:  30%|███       | 219/729 [00:01<00:02, 196.88it/s]Loading weights:  33%|███▎      | 239/729 [00:01<00:02, 193.11it/s]Loading weights:  36%|███▌      | 259/729 [00:01<00:02, 186.01it/s]Loading weights:  38%|███▊      | 280/729 [00:01<00:02, 188.55it/s]Loading weights:  42%|████▏     | 303/729 [00:01<00:02, 196.11it/s]Loading weights:  44%|████▍     | 323/729 [00:01<00:02, 194.29it/s]Loading weights:  49%|████▊     | 354/729 [00:02<00:01, 226.04it/s]Loading weights:  54%|█████▍    | 394/729 [00:02<00:01, 273.31it/s]Loading weights:  60%|██████    | 440/729 [00:02<00:00, 322.78it/s]Loading weights:  67%|██████▋   | 486/729 [00:02<00:00, 356.10it/s]Loading weights:  72%|███████▏  | 526/729 [00:02<00:00, 367.34it/s]Loading weights:  78%|███████▊  | 572/729 [00:02<00:00, 389.17it/s]Loading weights:  85%|████████▍ | 618/729 [00:02<00:00, 407.07it/s]Loading weights:  90%|█████████ | 659/729 [00:02<00:00, 405.22it/s]Loading weights:  97%|█████████▋| 704/729 [00:02<00:00, 415.18it/s]Loading weights: 100%|██████████| 729/729 [00:02<00:00, 243.85it/s]
+LoRA: 196 target modules (language model only), 18.46M trainable params
+  [ckpt step 0] probe_gap_image_necessary=1.161 probe_attn_img_mass_image_necessary=0.104 probe_gap_text_answerable=0.010 probe_attn_img_mass_text_answerable=0.090
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.848 probe_attn_img_mass_image_necessary=0.106 probe_gap_text_answerable=0.163 probe_attn_img_mass_text_answerable=0.094
+  step 10/120 loss 0.204 gn 1.39 11.0s/step
+  [ckpt step 12] probe_gap_image_necessary=0.606 probe_attn_img_mass_image_necessary=0.103 probe_gap_text_answerable=0.126 probe_attn_img_mass_text_answerable=0.092
+  step 20/120 loss 0.302 gn 3.26 10.5s/step
+  [ckpt step 24] probe_gap_image_necessary=0.439 probe_attn_img_mass_image_necessary=0.097 probe_gap_text_answerable=0.147 probe_attn_img_mass_text_answerable=0.084
+  step 30/120 loss 0.462 gn 4.09 10.3s/step
+  step 40/120 loss 0.384 gn 2.73 9.9s/step
+  [ckpt step 48] probe_gap_image_necessary=0.303 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.173 probe_attn_img_mass_text_answerable=0.077
+  step 50/120 loss 0.421 gn 1.92 10.0s/step
+  step 60/120 loss 0.420 gn 3.55 9.8s/step
+  step 70/120 loss 0.336 gn 1.80 9.6s/step
+  [ckpt step 72] probe_gap_image_necessary=0.436 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.182 probe_attn_img_mass_text_answerable=0.076
+  step 80/120 loss 0.589 gn 2.85 9.7s/step
+  step 90/120 loss 0.384 gn 1.20 9.6s/step
+  [ckpt step 96] probe_gap_image_necessary=0.478 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.110 probe_attn_img_mass_text_answerable=0.076
+  step 100/120 loss 0.217 gn 2.40 9.6s/step
+  step 110/120 loss 0.119 gn 0.91 9.6s/step
+  step 120/120 loss 0.181 gn 2.19 9.5s/step
+  [ckpt step 120] probe_gap_image_necessary=0.467 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.126 probe_attn_img_mass_text_answerable=0.075
+run meta: {'run': 'matched_text90_s1', 'mixture': 'matched_text90', 'n_mix': 1000, 'text_share': 0.9, 'steps': 120, 'batch_size': 8, 'lr': 0.0002, 'seed': 1, 'lora_r': 16, 'lora_alpha': 32, 'model_revision': '895c3a49bc3fa70a340399125c650a463535e71c', 'peak_vram_gib': 2.06691837310791, 'train_minutes': 19.18561815818151, 'sec_per_step': 9.497122617562612}

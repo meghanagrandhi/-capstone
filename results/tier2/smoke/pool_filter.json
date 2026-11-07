@@ -1,0 +1,14 @@
+{
+  "n_streamed": 40,
+  "n_in_pool_duplicate_images": 0,
+  "n_dropped_overlap_with_eval": 0,
+  "overlap_reasons": {},
+  "n_final": 40,
+  "per_subset": {
+    "vsr": 10,
+    "aokvqa": 10,
+    "cocoqa": 10,
+    "tallyqa": 10
+  },
+  "runtime_min": 1.1597677628199259
+}

@@ -1,0 +1,135 @@
+=== OVERNIGHT START 2026-10-29 23:06:21 steps=120
+=== START eval_sets_v2 try 1 23:06:41 (23 GB free)
+=== END eval_sets_v2 try 1 rc=0 23:23:14
+=== START train_matched_text10_s1 try 1 23:23:34 (23 GB free)
+=== END train_matched_text10_s1 try 1 rc=0 23:43:13
+=== START train_matched_text90_s1 try 1 23:43:33 (22 GB free)
+=== END train_matched_text90_s1 try 1 rc=0 00:03:04
+=== START train_matched_text10_s2 try 1 00:03:24 (22 GB free)
+=== END train_matched_text10_s2 try 1 rc=0 00:22:59
+=== START train_matched_text90_s2 try 1 00:23:19 (21 GB free)
+=== END train_matched_text90_s2 try 1 rc=0 00:42:53
+=== START eval_v2_matched_text10 try 1 00:43:13 (21 GB free)
+=== END eval_v2_matched_text10 try 1 rc=0 02:11:51
+=== START eval_v2_matched_text90 try 1 02:12:11 (21 GB free)
+=== END eval_v2_matched_text90 try 1 rc=0 03:40:49
+=== START eval_v2_matched_text10_s1 try 1 03:41:09 (21 GB free)
+=== EVAL RESUME START 2026-10-30 07:14:35
+=== EVAL RESUME START 2026-10-30 17:02:04
+=== FAILED eval_v2_matched_text10: only 1 GB free on C:
+=== EVAL RESUME START 2026-10-30 17:08:06
+=== START eval_v2_matched_text10 try 1 17:08:26 (17 GB free)
+=== END eval_v2_matched_text10 try 1 rc=0 17:10:02
+=== START eval_v2_matched_text90 try 1 17:10:22 (17 GB free)
+=== END eval_v2_matched_text90 try 1 rc=0 17:10:58
+=== START eval_v2_matched_text10_s1 try 1 17:11:18 (16 GB free)
+=== END eval_v2_matched_text10_s1 try 1 rc=0 18:18:59
+=== START eval_v2_matched_text90_s1 try 1 18:19:19 (14 GB free)
+=== END eval_v2_matched_text90_s1 try 1 rc=0 19:46:44
+=== START eval_v2_matched_text10_s2 try 1 19:47:04 (18 GB free)
+=== END eval_v2_matched_text10_s2 try 1 rc=0 21:14:24
+=== START eval_v2_matched_text90_s2 try 1 21:14:45 (18 GB free)
+=== END eval_v2_matched_text90_s2 try 1 rc=0 22:41:24
+=== OVERNIGHT COMPLETE 2026-10-30 22:41:24
+=== PAIRED BENCH START 2026-10-30 23:29:23 (16G free)
+=== END paired_bench try 1 rc=1 23:29:52
+=== END paired_bench try 2 rc=1 23:30:32
+=== END paired_bench try 3 rc=1 23:31:12
+=== FAILED paired_bench
+=== PAIRED BENCH START 2026-10-30 23:31:55 (13G free)
+=== END paired_bench try 1 rc=0 00:18:44
+=== PAIRED BENCH COMPLETE 2026-10-31 00:18:44
+=== SMOLVLM QUEUE START 2026-10-31 00:29:07
+=== START train_smolvlm_matched_text10 try 1 00:31:09 (21 GB free, GPU 58C)
+=== END train_smolvlm_matched_text10 try 1 rc=0 00:52:15
+=== START train_smolvlm_matched_text90 try 1 00:54:17 (21 GB free, GPU 86C)
+=== END train_smolvlm_matched_text90 try 1 rc=0 01:15:24
+=== START train_smolvlm_matched_text10_s1 try 1 01:17:26 (20 GB free, GPU 85C)
+=== END train_smolvlm_matched_text10_s1 try 1 rc=0 01:38:33
+=== START train_smolvlm_matched_text90_s1 try 1 01:40:35 (20 GB free, GPU 90C)
+=== END train_smolvlm_matched_text90_s1 try 1 rc=0 02:01:43
+=== START train_smolvlm_matched_text10_s2 try 1 02:03:45 (19 GB free, GPU 83C)
+=== END train_smolvlm_matched_text10_s2 try 1 rc=0 02:24:53
+=== START train_smolvlm_matched_text90_s2 try 1 02:26:55 (19 GB free, GPU 83C)
+=== END train_smolvlm_matched_text90_s2 try 1 rc=0 02:48:02
+=== START eval_v2_smolvlm_matched_text10 try 1 02:50:03 (19 GB free, GPU 85C)
+=== END eval_v2_smolvlm_matched_text10 try 1 rc=0 03:56:53
+=== START eval_v2_smolvlm_matched_text90 try 1 03:58:55 (19 GB free, GPU 86C)
+=== END eval_v2_smolvlm_matched_text90 try 1 rc=0 04:43:39
+=== START eval_v2_smolvlm_matched_text10_s1 try 1 04:45:41 (19 GB free, GPU 85C)
+=== END eval_v2_smolvlm_matched_text10_s1 try 1 rc=0 05:29:25
+=== START eval_v2_smolvlm_matched_text90_s1 try 1 05:31:26 (18 GB free, GPU 83C)
+=== END eval_v2_smolvlm_matched_text90_s1 try 1 rc=0 06:15:10
+=== START eval_v2_smolvlm_matched_text10_s2 try 1 06:17:12 (18 GB free, GPU 86C)
+=== END eval_v2_smolvlm_matched_text10_s2 try 1 rc=0 07:01:27
+=== START eval_v2_smolvlm_matched_text90_s2 try 1 07:03:29 (17 GB free, GPU 87C)
+=== END eval_v2_smolvlm_matched_text90_s2 try 1 rc=0 07:47:43
+=== START paired_bench_smolvlm try 1 07:49:45 (17 GB free, GPU 86C)
+=== END paired_bench_smolvlm try 1 rc=0 08:58:06
+=== SMOLVLM QUEUE COMPLETE 2026-10-31 08:58:06
+=== MODEL QUEUE internvl START 2026-10-31 09:56:41
+=== START train_internvl_matched_text10 try 1 09:58:44 (14 GB free, GPU 51C)
+=== END train_internvl_matched_text10 try 1 rc=0 10:12:49
+=== START train_internvl_matched_text90 try 1 10:14:51 (14 GB free, GPU 85C)
+=== END train_internvl_matched_text90 try 1 rc=0 10:27:26
+=== START train_internvl_matched_text10_s1 try 1 10:29:28 (14 GB free, GPU 69C)
+=== END train_internvl_matched_text10_s1 try 1 rc=0 10:39:32
+=== START train_internvl_matched_text90_s1 try 1 10:41:34 (13 GB free, GPU 69C)
+=== END train_internvl_matched_text90_s1 try 1 rc=0 10:51:39
+=== START train_internvl_matched_text10_s2 try 1 10:53:40 (13 GB free, GPU 89C)
+=== END train_internvl_matched_text10_s2 try 1 rc=0 11:03:45
+=== START train_internvl_matched_text90_s2 try 1 11:05:47 (13 GB free, GPU 86C)
+=== END train_internvl_matched_text90_s2 try 1 rc=0 11:15:53
+=== START eval_v2_internvl_matched_text10 try 1 11:17:54 (13 GB free, GPU 86C)
+=== END eval_v2_internvl_matched_text10 try 1 rc=0 11:47:05
+=== START eval_v2_internvl_matched_text90 try 1 11:49:07 (13 GB free, GPU 59C)
+=== END eval_v2_internvl_matched_text90 try 1 rc=0 12:08:46
+=== START eval_v2_internvl_matched_text10_s1 try 1 12:10:48 (13 GB free, GPU 59C)
+=== END eval_v2_internvl_matched_text10_s1 try 1 rc=0 12:30:26
+=== START eval_v2_internvl_matched_text90_s1 try 1 12:32:28 (13 GB free, GPU 87C)
+=== END eval_v2_internvl_matched_text90_s1 try 1 rc=0 12:52:06
+=== START eval_v2_internvl_matched_text10_s2 try 1 12:54:08 (13 GB free, GPU 58C)
+=== END eval_v2_internvl_matched_text10_s2 try 1 rc=0 13:13:46
+=== START eval_v2_internvl_matched_text90_s2 try 1 13:15:46 (13 GB free, GPU 61C)
+=== END eval_v2_internvl_matched_text90_s2 try 1 rc=139 13:16:18
+=== START eval_v2_internvl_matched_text90_s2 try 2 13:18:40 (12 GB free, GPU 55C)
+=== END eval_v2_internvl_matched_text90_s2 try 2 rc=0 13:43:17
+=== START paired_bench_internvl try 1 13:45:18 (12 GB free, GPU 63C)
+=== END paired_bench_internvl try 1 rc=139 13:45:49
+=== START paired_bench_internvl try 2 13:48:25 (13 GB free, GPU 54C)
+=== END paired_bench_internvl try 2 rc=0 14:19:07
+=== MODEL QUEUE internvl COMPLETE 2026-10-31 14:19:07
+=== MODEL QUEUE smolvlm balanced START 2026-10-31 22:44:34
+=== START train_smolvlm_balanced_text10 try 1 22:47:39 (9 GB free, GPU 62C)
+=== END train_smolvlm_balanced_text10 try 1 rc=0 23:18:03
+=== START train_smolvlm_balanced_text90 try 1 23:25:22 (4 GB free, GPU 64C)
+=== END train_smolvlm_balanced_text90 try 1 rc=0 23:56:04
+=== START train_smolvlm_balanced_text10_s1 try 1 00:01:14 (6 GB free, GPU 62C)
+=== END train_smolvlm_balanced_text10_s1 try 1 rc=0 00:24:52
+=== START train_smolvlm_balanced_text90_s1 try 1 00:26:54 (6 GB free, GPU 60C)
+=== END train_smolvlm_balanced_text90_s1 try 1 rc=0 00:50:01
+=== START train_smolvlm_balanced_text10_s2 try 1 00:52:03 (13 GB free, GPU 62C)
+=== END train_smolvlm_balanced_text10_s2 try 1 rc=0 01:16:39
+=== PAUSED by user after train_smolvlm_balanced_text10_s2 2026-11-01 01:17:05 (resume: rerun run_model_queue.sh smolvlm balanced; finished runs are skipped)
+=== MODEL QUEUE smolvlm balanced START 2026-11-01 11:51:08
+=== START train_smolvlm_balanced_text90_s2 try 1 11:53:10 (19 GB free, GPU 53C)
+=== END train_smolvlm_balanced_text90_s2 try 1 rc=0 12:16:18
+=== START paired_bench_smolvlm_balanced try 1 12:18:20 (22 GB free, GPU 61C)
+=== END paired_bench_smolvlm_balanced try 1 rc=0 13:17:44
+=== MODEL QUEUE smolvlm balanced COMPLETE 2026-11-01 13:17:44
+=== MODEL QUEUE smolvlm balanced START 2026-11-07 12:34:24
+=== START eval_balanced_smolvlm_balanced_text10 try 1 12:36:26 (16 GB free, GPU 54C)
+=== END eval_balanced_smolvlm_balanced_text10 try 1 rc=0 13:23:21
+=== START eval_balanced_smolvlm_balanced_text90 try 1 13:25:22 (15 GB free, GPU 57C)
+=== END eval_balanced_smolvlm_balanced_text90 try 1 rc=0 14:13:12
+=== START eval_balanced_smolvlm_balanced_text10_s1 try 1 14:15:14 (15 GB free, GPU 87C)
+=== END eval_balanced_smolvlm_balanced_text10_s1 try 1 rc=0 15:03:05
+=== START eval_balanced_smolvlm_balanced_text90_s1 try 1 15:05:07 (15 GB free, GPU 59C)
+=== END eval_balanced_smolvlm_balanced_text90_s1 try 1 rc=0 15:53:02
+=== START eval_balanced_smolvlm_balanced_text10_s2 try 1 15:55:04 (15 GB free, GPU 60C)
+=== END eval_balanced_smolvlm_balanced_text10_s2 try 1 rc=0 16:43:29
+=== START eval_balanced_smolvlm_balanced_text90_s2 try 1 16:45:31 (15 GB free, GPU 59C)
+=== END eval_balanced_smolvlm_balanced_text90_s2 try 1 rc=0 17:33:56
+=== START paired_bench_smolvlm_balanced try 1 17:35:58 (15 GB free, GPU 62C)
+=== END paired_bench_smolvlm_balanced try 1 rc=0 17:37:00
+=== MODEL QUEUE smolvlm balanced COMPLETE 2026-11-07 17:37:00

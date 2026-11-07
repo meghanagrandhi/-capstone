@@ -1,0 +1,30 @@
+[overlap check OK] mixture_matched_text90 (at training time): 1000 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+Loading weights:   0%|          | 0/781 [00:00<?, ?it/s]Loading weights:   0%|          | 1/781 [00:00<02:06,  6.19it/s]Loading weights:   0%|          | 2/781 [00:00<01:50,  7.07it/s]Loading weights:   5%|▌         | 42/781 [00:00<00:04, 150.49it/s]Loading weights:  11%|█▏        | 89/781 [00:00<00:02, 257.32it/s]Loading weights:  18%|█▊        | 137/781 [00:00<00:02, 321.44it/s]Loading weights:  24%|██▎       | 184/781 [00:00<00:01, 357.68it/s]Loading weights:  28%|██▊       | 222/781 [00:00<00:01, 355.43it/s]Loading weights:  33%|███▎      | 259/781 [00:00<00:01, 351.04it/s]Loading weights:  39%|███▉      | 305/781 [00:01<00:01, 379.12it/s]Loading weights:  52%|█████▏    | 407/781 [00:01<00:00, 566.60it/s]Loading weights:  78%|███████▊  | 607/781 [00:01<00:00, 988.34it/s]Loading weights: 100%|██████████| 781/781 [00:01<00:00, 590.36it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Image processor InternVLVideoProcessor: kwargs ['crop_to_patches'] were applied for backward compatibility. To avoid this warning, add them to valid_kwargs: create a custom TypedDict extending ImagesKwargs with these keys and set it as the `valid_kwargs` class attribute.
+W1031 11:05:59.680000 21844 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 196 target modules (language model only), 18.46M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.328 probe_attn_img_mass_image_necessary=0.074 probe_gap_text_answerable=0.385 probe_attn_img_mass_text_answerable=0.065
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.541 probe_attn_img_mass_image_necessary=0.076 probe_gap_text_answerable=0.677 probe_attn_img_mass_text_answerable=0.065
+  step 10/125 loss 0.173 gn 1.44 4.9s/step
+  [ckpt step 12] probe_gap_image_necessary=0.385 probe_attn_img_mass_image_necessary=0.075 probe_gap_text_answerable=0.288 probe_attn_img_mass_text_answerable=0.065
+  step 20/125 loss 0.121 gn 0.96 4.6s/step
+  [ckpt step 25] probe_gap_image_necessary=0.366 probe_attn_img_mass_image_necessary=0.066 probe_gap_text_answerable=0.186 probe_attn_img_mass_text_answerable=0.055
+  step 30/125 loss 0.361 gn 2.59 4.7s/step
+  step 40/125 loss 0.289 gn 3.33 4.5s/step
+  step 50/125 loss 0.588 gn 1.91 4.5s/step
+  [ckpt step 50] probe_gap_image_necessary=0.281 probe_attn_img_mass_image_necessary=0.069 probe_gap_text_answerable=0.309 probe_attn_img_mass_text_answerable=0.057
+  step 60/125 loss 0.279 gn 0.82 4.5s/step
+  step 70/125 loss 0.560 gn 2.12 4.5s/step
+  [ckpt step 75] probe_gap_image_necessary=0.342 probe_attn_img_mass_image_necessary=0.068 probe_gap_text_answerable=0.339 probe_attn_img_mass_text_answerable=0.056
+  step 80/125 loss 0.185 gn 1.51 4.5s/step
+  step 90/125 loss 0.675 gn 2.34 4.5s/step
+  step 100/125 loss 0.262 gn 2.39 4.5s/step
+  [ckpt step 100] probe_gap_image_necessary=0.325 probe_attn_img_mass_image_necessary=0.066 probe_gap_text_answerable=0.371 probe_attn_img_mass_text_answerable=0.055
+  step 110/125 loss 0.269 gn 2.23 4.5s/step
+  step 120/125 loss 0.645 gn 4.61 4.5s/step
+  step 125/125 loss 0.426 gn 1.86 4.5s/step
+  [ckpt step 125] probe_gap_image_necessary=0.343 probe_attn_img_mass_image_necessary=0.066 probe_gap_text_answerable=0.390 probe_attn_img_mass_text_answerable=0.055
+run meta: {'run': 'internvl_matched_text90_s2', 'mixture': 'matched_text90', 'n_mix': 1000, 'text_share': 0.9, 'steps': 125, 'batch_size': 8, 'lr': 0.0002, 'seed': 2, 'lora_r': 16, 'lora_alpha': 32, 'model': 'OpenGVLab/InternVL3-2B-hf', 'model_revision': 'cb57a075cb75a2e6d1b668b128d48bb00ae321d2', 'peak_vram_gib': 4.466172695159912, 'train_minutes': 9.423145993550618, 'sec_per_step': 4.475500890731811}
