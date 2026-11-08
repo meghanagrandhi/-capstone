@@ -7,12 +7,15 @@
          answer NLL with real/blank image and mean attention mass on image tokens
 Evaluated at the checkpoints closest to --pcts of training. Everything is cached per (run, step, set, condition).
 Usage: python -m scripts.run_tier3_eval_v2 --runs matched_text10 matched_text90 matched_text10_s1 ...
+Grid (next semester): --fast --out results/tier3/eval_grid: only A real, G real, G blank, at 0/40/100% by default, no
+attention probe (early signals come from the in-training probe_log.csv); step 0 = base model, scored once per model.
 """
 import argparse
 import glob
 import json
 import os
 import re
+import shutil
 import sys
 import time
 
@@ -53,7 +56,8 @@ def build_probe(per_class, mixes=("matched",), seed=123):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--runs", nargs="+", required=True)
-    ap.add_argument("--pcts", nargs="+", type=float, default=[0, 20, 40, 60, 100])
+    ap.add_argument("--pcts", nargs="+", type=float, default=None, help="default 0 20 40 60 100 (--fast: 0 40 100)")
+    ap.add_argument("--fast", action="store_true", help="grid mode: A real + G real/blank only, no probe")
     ap.add_argument("--probe-per-class", type=int, default=50)
     ap.add_argument("--probe-mixes", nargs="+", default=["matched"], choices=["matched", "balanced"],
                     help="mixtures the probe items must stay out of; use both for balanced runs")
@@ -67,13 +71,17 @@ def main():
     select_model(cfg, a.model)
     t1 = cfg["tier1"]
     out = a.out
+    pcts = a.pcts or ([0, 40, 100] if a.fast else [0, 20, 40, 60, 100])
     os.makedirs(out, exist_ok=True)
     sets = json.load(open(os.path.join(a.sets_dir, "eval_sets.json")))
     items = {k: load_mmstar_by_ids(t1, sets[k][: a.limit or None]) for k in ("A", "G")}
     swaps = {k: swap_map(items[k], seed=0) for k in ("A", "G")}  # swapped images stay within the same set
-    probe = build_probe(a.probe_per_class, a.probe_mixes)
-    probe[["id", "subset", "label", "gap"]].to_csv(os.path.join(out, "probe_items.csv"), index=False)
-    print(f"A={len(items['A'])} G={len(items['G'])} probe={len(probe)} ({probe.label.value_counts().to_dict()})", flush=True)
+    probe = None
+    if not a.fast:
+        probe = build_probe(a.probe_per_class, a.probe_mixes)
+        probe[["id", "subset", "label", "gap"]].to_csv(os.path.join(out, "probe_items.csv"), index=False)
+    print(f"A={len(items['A'])} G={len(items['G'])} probe={0 if probe is None else len(probe)}", flush=True)
+    conds = (("A", "real"), ("G", "real"), ("G", "blank")) if a.fast else         (("A", "real"), ("G", "real"), ("G", "swap"), ("G", "blank"), ("A", "blank"), ("A", "swap"))
 
     from peft import PeftModel, load_peft_weights, set_peft_model_state_dict
     vlm = make_model(cfg["model"]).load()
@@ -85,7 +93,7 @@ def main():
                for c in glob.glob(os.path.join("results/tier3", run, "adapters", "step_*"))}
         assert cks, f"no adapters for {run}"
         total = max(cks)
-        for step in pick_steps(list(cks), a.pcts):
+        for step in pick_steps(list(cks), pcts):
             if pm is None:
                 pm = PeftModel.from_pretrained(base, cks[step], is_trainable=False)
             else:
@@ -95,12 +103,17 @@ def main():
             tag = f"{run}_step{step:04d}"
             accs = {}
             # image benefit = acc(real) - acc(blank) and acc(real) - acc(swap), paired on the same items, for A and G
-            for k, cond in (("A", "real"), ("G", "real"), ("G", "swap"), ("G", "blank"), ("A", "blank"), ("A", "swap")):
-                d = evaluate(vlm, items[k], 0, cond, os.path.join(out, f"{tag}_{k}_{cond}.csv"), t1["blank_gray"],
+            for k, cond in conds:
+                dst = os.path.join(out, f"{tag}_{k}_{cond}.csv")
+                # fast mode: step 0 is the untouched base model (LoRA B = 0), scored once per model and copied
+                path = os.path.join(out, f"_base_{a.model}_{k}_{cond}.csv") if a.fast and step == 0 and not a.limit else dst
+                d = evaluate(vlm, items[k], 0, cond, path, t1["blank_gray"],
                              log_every=1000, swap=swaps[k] if cond == "swap" else None)
+                if path != dst and not os.path.exists(dst):
+                    shutil.copyfile(path, dst)
                 accs[f"{k}_{cond}"] = float(d.correct.mean())
             pf = os.path.join(out, f"{tag}_probe.json")
-            if not os.path.exists(pf):
+            if probe is not None and not os.path.exists(pf):
                 m = {k: float(v) for k, v in probe_metrics(vlm, probe).items()}
                 json.dump(m, open(pf, "w"), indent=1)
             print(f"  {run} step {step}/{total}: " + " ".join(f"{k}={v:.3f}" for k, v in accs.items()) +
@@ -114,9 +127,15 @@ def main():
         d = pd.read_csv(f)
         run, step = m.group(1), int(m.group(2))
         sm = re.match(r"(?:(smolvlm|internvl)_)?((?:matched|balanced)_text\d+)(?:_s(\d+))?$", run)
+        mf = os.path.join("results/tier3", run, "run_meta.json")
+        if not sm and os.path.exists(mf):  # grid runs: read model / mixture / seed from the run's metadata
+            mt = json.load(open(mf))
+            info = dict(model=mt.get("model_key", "?"), mixture=mt["mixture"], seed=int(mt["seed"]))
+        else:
+            info = dict(model=(sm.group(1) or "qwen2vl") if sm else "?", mixture=sm.group(2) if sm else run,
+                        seed=int(sm.group(3) or 0) if sm else -1)
         acc = float(d.correct.mean())
-        rows.append(dict(run=run, model=(sm.group(1) or "qwen2vl") if sm else "?", mixture=sm.group(2) if sm else run,
-                         seed=int(sm.group(3) or 0) if sm else -1,
+        rows.append(dict(run=run, **info,
                          step=step, set=m.group(3), cond=m.group(4), n=len(d), acc=acc,
                          se=float(np.sqrt(acc * (1 - acc) / len(d)))))
     safe_to_csv(pd.DataFrame(rows).sort_values(["model", "mixture", "seed", "step", "set", "cond"]), os.path.join(out, "checkpoint_eval_v2.csv"))

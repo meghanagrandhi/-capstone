@@ -1,0 +1,155 @@
+id,subset,row,user,answer,image_path,w,h,dhash,qnorm,nll_real,nll_blank,gap,n_ans_tokens,mc_valid,mc_real_correct,mc_blank_correct,label
+cauldron-aokvqa-110,aokvqa,110,"What is the flush on the toilet called?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Toilet flapper, tap, influencer, shower pipe.",Toilet flapper.,results/tier2\full\images\cauldron-aokvqa-110.jpg,640,480,737373631303232b,what is the flush on the toilet called,1.375712752342224,1.178862452507019,-0.196850299835205,5,1,1.0,1.0,text_answerable
+cauldron-aokvqa-769,aokvqa,769,"Where is this dog's owner?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Down street, inside building, prison, at school.",Inside building.,results/tier2\full\images\cauldron-aokvqa-769.jpg,640,640,3e5e5667336f6e5c,where is this dogs owner,3.3747479915618896,2.43601942062378,-0.9387285709381104,3,1,1.0,1.0,text_answerable
+cauldron-aokvqa-744,aokvqa,744,"What kind of dog is it?
+From the following four choices, select the correct answer to address the question.
+Options: Service dog, pet, farm dog, strayed dog.",Pet.,results/tier2\full\images\cauldron-aokvqa-744.jpg,330,500,242f9b3494121e17,what kind of dog is it,4.86125373840332,4.347414970397949,-0.5138387680053711,2,1,1.0,0.0,text_answerable
+cauldron-aokvqa-338,aokvqa,338,"What sort of trees are visible here?
+Choose the right answer from the provided options to respond to the question.
+Options: Oak, evergreen, spring blooming, deciduous.",Evergreen.,results/tier2\full\images\cauldron-aokvqa-338.jpg,480,640,a0a230f8e0f0f8c,what sort of trees are visible here,3.675464153289795,3.063164710998535,-0.6122994422912598,3,1,1.0,0.0,text_answerable
+cauldron-aokvqa-350,aokvqa,350,"What are the rectangular green structures on the left used as?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Bathrooms, changing rooms, kitchens, showers.",Bathrooms.,results/tier2\full\images\cauldron-aokvqa-350.jpg,640,426,8c2624a1993916b6,what are the rectangular green structures on the left used as,1.826676726341248,1.3413716554641724,-0.4853050708770752,4,1,1.0,0.0,text_answerable
+cauldron-aokvqa-581,aokvqa,581,"What is one of the favorite food of this person?
+Pick the correct solution from the four options below to address the question.
+Options: Korean food, chinese food, mediterranean food, japanese food.",Chinese food.,results/tier2\full\images\cauldron-aokvqa-581.jpg,640,480,e4e4f0f8386c2ca5,what is one of the favorite food of this person,2.653311252593994,1.9303441047668457,-0.7229671478271484,3,1,0.0,0.0,text_answerable
+cauldron-aokvqa-797,aokvqa,797,"Who would most likely fly that colorful flag?
+Pick the correct solution from the four options below to address the question.
+Options: Heterosexual, plumber, politician, homosexual.",Homosexual.,results/tier2\full\images\cauldron-aokvqa-797.jpg,640,427,676f6e8a8ceae9c8,who would most likely fly that colorful flag,2.9385766983032227,1.4834483861923218,-1.4551283121109009,3,1,1.0,1.0,text_answerable
+cauldron-aokvqa-526,aokvqa,526,"What is the man wearing?
+Make your selection from the four choices given to correctly answer the question.
+Options: Wetsuit, leggings, swimsuit, scuba gear.",Wetsuit.,results/tier2\full\images\cauldron-aokvqa-526.jpg,640,506,40083039f1f98001,what is the man wearing,1.834206223487854,1.383759617805481,-0.450446605682373,4,1,1.0,0.0,text_answerable
+cauldron-cocoqa-633,cocoqa,633,"What are inside the back of a horse trailer
+Write a very short answer.",Horses.,results/tier2\full\images\cauldron-cocoqa-633.jpg,612,612,d8cacada9292531b,what are inside the back of a horse trailer,0.0960527881979942,0.8485259413719177,0.7524731531739235,3,0,,,text_answerable
+cauldron-cocoqa-26,cocoqa,26,"What is the color of the dog
+Short answer required.",Black.,results/tier2\full\images\cauldron-cocoqa-26.jpg,500,375,843133232797f2e0,what is the color of the dog,0.2680586576461792,1.0615005493164062,0.793441891670227,2,0,,,text_answerable
+cauldron-cocoqa-459,cocoqa,459,"What waits at an empty train station
+Short answer required.",Train.,results/tier2\full\images\cauldron-cocoqa-459.jpg,640,441,ce4e3638783c38f8,what waits at an empty train station,0.0778882652521133,1.293262243270874,1.215373978018761,2,0,,,text_answerable
+cauldron-cocoqa-489,cocoqa,489,"What is the color of the linens
+Give a very brief answer.",White.,results/tier2\full\images\cauldron-cocoqa-489.jpg,640,480,70ec0c198786e6f0,what is the color of the linens,0.1049005016684532,0.7122898101806641,0.6073893085122108,2,0,,,text_answerable
+cauldron-cocoqa-711,cocoqa,711,"What is the woman hitting with a racket
+Keep it brief.",Ball.,results/tier2\full\images\cauldron-cocoqa-711.jpg,640,363,1ef8f934944c1d1d,what is the woman hitting with a racket,0.5575239658355713,1.7069921493530271,1.149468183517456,2,0,,,text_answerable
+cauldron-cocoqa-556,cocoqa,556,"What is crossing warns to stop before crossing three tracks
+Write a very short answer.",Rail.,results/tier2\full\images\cauldron-cocoqa-556.jpg,640,433,e6e6c3e3e1e0e0e3,what is crossing warns to stop before crossing three tracks,4.112964153289795,2.2008330821990967,-1.9121310710906985,2,0,,,text_answerable
+cauldron-cocoqa-0,cocoqa,0,"What is using umbrellas as a central theme
+Give a very brief answer.",Sculpture.,results/tier2\full\images\cauldron-cocoqa-0.jpg,640,480,8cd0f1f1eef676c6,what is using umbrellas as a central theme,0.8564462661743164,1.6655677556991575,0.8091214895248413,5,0,,,text_answerable
+cauldron-cocoqa-218,cocoqa,218,"What is the color of the suit
+Answer briefly.",Blue.,results/tier2\full\images\cauldron-cocoqa-218.jpg,480,640,fcfffff7e3e38387,what is the color of the suit,1.7966288328170776,1.051322340965271,-0.7453064918518066,2,0,,,text_answerable
+cauldron-tallyqa-659,tallyqa,659,"How many electronics can be seen on the table?
+Give a very brief answer.",2.,results/tier2\full\images\cauldron-tallyqa-659.jpg,500,375,7f3f3dacccdd9f9f,how many electronics can be seen on the table,0.778089165687561,1.570735216140747,0.792646050453186,2,0,,,text_answerable
+cauldron-tallyqa-226,tallyqa,226,"How many people are on the elephant?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-226.jpg,1024,731,4d4f1727273283e5,how many people are on the elephant,0.9993270635604858,1.478278398513794,0.4789513349533081,2,0,,,text_answerable
+cauldron-tallyqa-124,tallyqa,124,"How many players are wearing a baseball mitt?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-124.jpg,1024,678,e1713b0bcf4f4d4f,how many players are wearing a baseball mitt,0.3362047076225281,0.8047071695327759,0.4685024619102478,2,0,,,text_answerable
+cauldron-tallyqa-422,tallyqa,422,"How many frisbees are pictured?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-422.jpg,500,333,f1f088c8e8cc4c6c,how many frisbees are pictured,0.0683173537254333,0.7722314596176147,0.7039141058921814,2,0,,,text_answerable
+cauldron-tallyqa-556,tallyqa,556,"How many tires are shown?
+Give a very brief answer.",2.,results/tier2\full\images\cauldron-tallyqa-556.jpg,500,375,a08307073536361f,how many tires are shown,0.0812861546874046,0.5535976886749268,0.4723115339875221,2,0,,,text_answerable
+cauldron-tallyqa-273,tallyqa,273,"How many hands is the girl petting the elephant with?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-273.jpg,332,500,70f3e04766761cc8,how many hands is the girl petting the elephant with,0.0120455836877226,0.5206788182258606,0.5086332345381379,2,0,,,text_answerable
+cauldron-tallyqa-238,tallyqa,238,"How many clock towers are there?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-238.jpg,758,1024,808c1c74f4c74771,how many clock towers are there,0.0726307332515716,0.5436626076698303,0.4710318744182586,2,0,,,text_answerable
+cauldron-tallyqa-2,tallyqa,2,"How many computer screens?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-2.jpg,800,600,e666e44ce461614c,how many computer screens,0.153170645236969,0.6899762153625488,0.5368055701255798,2,0,,,text_answerable
+cauldron-vsr-474,vsr,474,"Is the caption ""The boat is around the dining table."" a true representation of the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-474.jpg,480,640,f0baa7a7335e6363,is the caption the boat is around the dining table a true representation of the image,0.4897470474243164,0.4973340928554535,0.007587045431137,2,0,,,text_answerable
+cauldron-vsr-425,vsr,425,"Is this affirmation: ""The cake is at the edge of the dining table."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-425.jpg,640,426,bfbfbefefbd9dbdf,is this affirmation the cake is at the edge of the dining table correct,0.3191898465156555,0.25023353099823,-0.0689563155174255,2,0,,,text_answerable
+cauldron-vsr-374,vsr,374,"Is ""The teddy bear is on top of the dining table."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-374.jpg,612,612,cfdc9eaebc3ade3f,is the teddy bear is on top of the dining table an appropriate description for the image,0.1764542609453201,0.2202920168638229,0.0438377559185028,2,0,,,text_answerable
+cauldron-vsr-481,vsr,481,"Does the description: ""The bicycle is beside the couch."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-481.jpg,640,593,f8f8f8587cdcdde9,does the description the bicycle is beside the couch accurately reflect the image,0.2696264982223511,0.329409509897232,0.0597830116748809,2,0,,,text_answerable
+cauldron-vsr-415,vsr,415,"Is ""The person is touching the dining table."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-415.jpg,480,640,dcdad373e3137878,is the person is touching the dining table an appropriate description for the image,0.4160451591014862,0.2431598752737045,-0.1728852838277816,2,0,,,text_answerable
+cauldron-vsr-735,vsr,735,"Is the given caption ""The donut is at the edge of the dining table."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-735.jpg,640,428,32a3a3e1e1d898d8,is the given caption the donut is at the edge of the dining table fitting for the image,0.7054519653320312,0.2198717445135116,-0.4855802208185196,2,0,,,text_answerable
+cauldron-vsr-370,vsr,370,"Verify the accuracy of this image caption: ""The teddy bear is below the couch."".
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-370.jpg,640,426,b292525bdbdbd9d1,verify the accuracy of this image caption the teddy bear is below the couch,0.3573271036148071,0.3908217251300812,0.033494621515274,2,0,,,text_answerable
+cauldron-vsr-602,vsr,602,"Does the caption ""The bowl contains the pizza."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-602.jpg,640,640,1bd9c931712b0f71,does the caption the bowl contains the pizza correctly depict the image,1.525758981704712,0.4214760661125183,-1.1042829155921936,2,0,,,text_answerable
+cauldron-aokvqa-767,aokvqa,767,"Where does the pitcher here stand?
+From the following four choices, select the correct answer to address the question.
+Options: Pitcher's mound, home base, grandstands, infield.",Pitcher's mound.,results/tier2\full\images\cauldron-aokvqa-767.jpg,640,427,ccfcf9f158ecc898,where does the pitcher here stand,0.8781554102897644,1.0511354207992554,0.1729800105094909,5,1,1.0,1.0,image_necessary
+cauldron-aokvqa-26,aokvqa,26,"What sort of building is seen behind this amusement?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: School, barn, cafe, financial.",Financial.,results/tier2\full\images\cauldron-aokvqa-26.jpg,640,480,50514c4ef0f43018,what sort of building is seen behind this amusement,2.8078689575195312,3.4179372787475586,0.6100683212280273,2,1,1.0,0.0,image_necessary
+cauldron-aokvqa-33,aokvqa,33,"One of the umbrellas is inspired by which country's flag?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Morocco, germany, usa, denmark.","Answer: usa.
+Rationale: It has red,white,blue and stars.",results/tier2\full\images\cauldron-aokvqa-33.jpg,640,429,5c7c49591d0d4dc,one of the umbrellas is inspired by which countrys flag,1.863980054855347,2.641142606735229,0.7771625518798828,17,0,,,image_necessary
+cauldron-aokvqa-710,aokvqa,710,"What demographic most likely lives in this area?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Black, white, hispanic, asian.","Answer: asian.
+Rationale: The writing is in korean.",results/tier2\full\images\cauldron-aokvqa-710.jpg,640,361,1e1b49c7c65e3e33,what demographic most likely lives in this area,2.104283332824707,2.6061794757843018,0.5018961429595947,14,0,,,image_necessary
+cauldron-aokvqa-533,aokvqa,533,"Which one likely weighs the least?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Blue shirt, brown shirt, floral shirt, red head.","Answer: blue shirt.
+Rationale: She has the thinnest face and arms",results/tier2\full\images\cauldron-aokvqa-533.jpg,640,480,7171f5d4f4f07515,which one likely weighs the least,2.047541856765747,2.8780829906463623,0.8305411338806152,17,0,,,image_necessary
+cauldron-aokvqa-742,aokvqa,742,"What type of medium is the woman reading?
+Make your selection from the four choices given to correctly answer the question.
+Options: Book, diary, magazine, kindle.",Magazine.,results/tier2\full\images\cauldron-aokvqa-742.jpg,640,427,e6fd3dc72713130d,what type of medium is the woman reading,2.0445594787597656,2.862741470336914,0.8181819915771484,3,1,1.0,0.0,image_necessary
+cauldron-aokvqa-166,aokvqa,166,"What setting does the boarder pose in here?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Urban, suburban, desert, farm.","Answer: suburban.
+Rationale: The boarder is posing on a street in the suburbs.",results/tier2\full\images\cauldron-aokvqa-166.jpg,480,640,20bcfcfce8c1e1f,what setting does the boarder pose in here,1.2823445796966553,1.5509049892425537,0.2685604095458984,19,0,,,image_necessary
+cauldron-aokvqa-491,aokvqa,491,"The humanoid kite is dressed for which environment?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Mountains, sea, north pole, tundra.","Answer: sea.
+Rationale: The humanoid kite is dressed in flippers and a snorkel for diving.",results/tier2\full\images\cauldron-aokvqa-491.jpg,640,480,40a1a5006185818,the humanoid kite is dressed for which environment,2.0187466144561768,2.2853147983551025,0.2665681838989258,22,0,,,image_necessary
+cauldron-cocoqa-33,cocoqa,33,"What is attached to the silver train car
+Answer briefly.",Car.,results/tier2\full\images\cauldron-cocoqa-33.jpg,640,425,e9c3861e9dc1e7f8,what is attached to the silver train car,1.221809983253479,4.351081848144531,3.129271864891052,2,0,,,image_necessary
+cauldron-cocoqa-627,cocoqa,627,"What is on the grill with meatballs
+Keep it brief.",Sandwich.,results/tier2\full\images\cauldron-cocoqa-627.jpg,500,375,70f0f0ccccccdcc8,what is on the grill with meatballs,1.5528149604797363,3.891393423080444,2.338578462600708,3,0,,,image_necessary
+cauldron-cocoqa-135,cocoqa,135,"What is really big compared to her tiny baby
+Write a very short answer.",Elephant.,results/tier2\full\images\cauldron-cocoqa-135.jpg,640,426,c949698d1dcfca31,what is really big compared to her tiny baby,0.5918769240379333,3.0742928981781006,2.4824159741401672,3,0,,,image_necessary
+cauldron-cocoqa-183,cocoqa,183,"How many white birds is flying around a grassy spot
+Short answer required.",Three.,results/tier2\full\images\cauldron-cocoqa-183.jpg,640,427,e0f0f0e4f0f0e8e8,how many white birds is flying around a grassy spot,1.969554781913757,4.489263534545898,2.519708752632141,2,0,,,image_necessary
+cauldron-cocoqa-600,cocoqa,600,"How many bananas are hanging from the wooden stand
+Give a very brief answer.",Three.,results/tier2\full\images\cauldron-cocoqa-600.jpg,500,375,d0dbdb9b9b92909c,how many bananas are hanging from the wooden stand,2.220651865005493,4.14407205581665,1.9234201908111568,2,0,,,image_necessary
+cauldron-cocoqa-508,cocoqa,508,"What parked next to each other in a garage
+Concise answer only.",Motorcycles.,results/tier2\full\images\cauldron-cocoqa-508.jpg,640,480,6b7929232d656d60,what parked next to each other in a garage,0.3532235026359558,3.21929931640625,2.866075813770294,3,0,,,image_necessary
+cauldron-cocoqa-13,cocoqa,13,"What one green with the back off
+Give a very brief answer.",Cellphone.,results/tier2\full\images\cauldron-cocoqa-13.jpg,640,480,88f06d6d4d49c9f0,what one green with the back off,2.1212799549102783,4.328815460205078,2.2075355052948,3,0,,,image_necessary
+cauldron-cocoqa-688,cocoqa,688,"What is the color of the counter
+Concise answer only.",Blue.,results/tier2\full\images\cauldron-cocoqa-688.jpg,480,640,9afbebe3e3ad6979,what is the color of the counter,0.0484654530882835,1.9268187284469604,1.878353275358677,2,0,,,image_necessary
+cauldron-tallyqa-418,tallyqa,418,"How many donuts are in the box?
+Give a very brief answer.",4.,results/tier2\full\images\cauldron-tallyqa-418.jpg,500,281,c54323232370d8d0,how many donuts are in the box,0.0872085615992546,1.6534111499786377,1.566202588379383,2,0,,,image_necessary
+cauldron-tallyqa-526,tallyqa,526,"How many dogs are there?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-526.jpg,500,357,673939b80686464a,how many dogs are there,0.3217722177505493,2.239664554595948,1.917892336845398,2,0,,,image_necessary
+cauldron-tallyqa-203,tallyqa,203,"How many bicycles are leaning against the fence?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-203.jpg,1024,706,8c1c286804640232,how many bicycles are leaning against the fence,0.1081319078803062,1.9167518615722656,1.80861995369196,2,0,,,image_necessary
+cauldron-tallyqa-284,tallyqa,284,"How many surfers are in the scene?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-284.jpg,500,360,5e46de6c3c3c31e0,how many surfers are in the scene,0.0383167192339897,1.4379092454910278,1.399592526257038,2,0,,,image_necessary
+cauldron-tallyqa-672,tallyqa,672,"How many police officers are pictured?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-672.jpg,373,500,fe909ab83ffeec68,how many police officers are pictured,0.0191106833517551,1.2508217096328735,1.2317110262811184,2,0,,,image_necessary
+cauldron-tallyqa-327,tallyqa,327,"How many people are looking at the computer screen?
+Give a very brief answer.",2.,results/tier2\full\images\cauldron-tallyqa-327.jpg,500,333,c860343634646464,how many people are looking at the computer screen,0.1774269640445709,1.6323018074035645,1.4548748433589935,2,0,,,image_necessary
+cauldron-tallyqa-368,tallyqa,368,"How many cats are there?
+Give a very brief answer.",2.,results/tier2\full\images\cauldron-tallyqa-368.jpg,500,375,3c79397c3c3c0edb,how many cats are there,0.2554079890251159,1.9384677410125728,1.6830597519874573,2,0,,,image_necessary
+cauldron-tallyqa-78,tallyqa,78,"How many kites are shown?
+Give a very brief answer.",1.,results/tier2\full\images\cauldron-tallyqa-78.jpg,800,531,e006841c18103090,how many kites are shown,0.1471669673919677,1.466576337814331,1.3194093704223633,2,0,,,image_necessary
+cauldron-vsr-143,vsr,143,"Is the statement ""The dining table is near the person."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-143.jpg,428,640,95bdad896737370c,is the statement the dining table is near the person accurate regarding the image,0.021000750362873,0.2278986275196075,0.2068978771567344,2,0,,,image_necessary
+cauldron-vsr-68,vsr,68,"Is ""The fire hydrant is touching the person."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-68.jpg,422,640,3038782951515949,is the fire hydrant is touching the person an appropriate description for the image,0.2172866314649582,0.6619338393211365,0.4446472078561783,2,0,,,image_necessary
+cauldron-vsr-586,vsr,586,"Is ""The cow is under the person."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-586.jpg,612,612,37355455737f0b1b,is the cow is under the person an appropriate description for the image,0.1414946913719177,0.4179276525974273,0.2764329612255096,2,0,,,image_necessary
+cauldron-vsr-728,vsr,728,"Is the given caption ""The bicycle is behind the couch."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-728.jpg,640,485,9b999d1d64e70e02,is the given caption the bicycle is behind the couch fitting for the image,0.0579664595425128,0.531768798828125,0.4738023392856121,2,0,,,image_necessary
+cauldron-vsr-178,vsr,178,"Is ""The couch is behind the person."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-178.jpg,480,640,6949c8b2180e4406,is the couch is behind the person an appropriate description for the image,0.1456078290939331,0.3521530926227569,0.2065452635288238,2,0,,,image_necessary
+cauldron-vsr-588,vsr,588,"Evaluate: Does the caption ""The couch is beneath the person."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-588.jpg,640,480,c74f0f0f33333777,evaluate does the caption the couch is beneath the person match the image,0.0727430954575538,0.3578885197639465,0.2851454243063926,2,0,,,image_necessary
+cauldron-vsr-660,vsr,660,"Is this affirmation: ""The person is touching the banana."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-660.jpg,500,375,3939707010a0e1c3,is this affirmation the person is touching the banana correct,0.0468126274645328,0.4669812023639679,0.420168574899435,2,0,,,image_necessary
+cauldron-vsr-330,vsr,330,"Does the image validate the caption ""The person is out of the couch.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-330.jpg,480,640,50b03498bcb0f6b3,does the image validate the caption the person is out of the couch,0.0864811241626739,0.5339685678482056,0.4474874436855316,2,0,,,image_necessary

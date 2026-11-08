@@ -39,8 +39,9 @@ def run_name(model, mixture, seed):
 
 
 def build_table():
-    ck = pd.concat([pd.read_csv("results/tier3/eval_v2/checkpoint_eval_v2.csv"),
-                    pd.read_csv("results/tier3/eval_v2_balanced/checkpoint_eval_v2.csv")], ignore_index=True)
+    files = ["results/tier3/eval_v2/checkpoint_eval_v2.csv", "results/tier3/eval_v2_balanced/checkpoint_eval_v2.csv",
+             "results/tier3/eval_grid/checkpoint_eval_v2.csv"]  # grid: next-semester runs (fast eval), if any exist yet
+    ck = pd.concat([pd.read_csv(f) for f in files if os.path.exists(f)], ignore_index=True)
     ck = ck[ck.set.isin(["A", "G"])]
     p = ck.pivot_table(index=["run", "model", "mixture", "seed", "step"], columns=["set", "cond"], values="acc") * 100
     p = pd.DataFrame({"G_ben": p[("G", "real")] - p[("G", "blank")], "A": p[("A", "real")]}).reset_index()
@@ -49,7 +50,8 @@ def build_table():
         meta = json.load(open(f"results/tier3/{run}/run_meta.json"))
         n = int(meta["steps"])
         r = dict(run=run, model=model, mix_type=mixture.split("_")[0], text_share=int(mixture.split("text")[1]),
-                 seed=int(seed), n_steps=n)
+                 seed=int(seed), n_steps=n, lr=float(meta["lr"]), lora_r=int(meta["lora_r"]))
+        r["locked_test"] = int(r["mix_type"] == "grid" and r["text_share"] == 50)  # never fit or tune on these
         g = g.set_index("step")
         for pct in PCTS:
             st = [s for s in g.index if round(100 * s / n) == pct]
@@ -59,11 +61,19 @@ def build_table():
         e = tl[tl.step <= 0.4 * n]
         r["loss_early_mean"] = float(e.loss.mean())
         r["loss_early_gap_img_minus_text"] = float(e.loss_image_necessary.mean() - e.loss_text_answerable.mean())
+        r["gradnorm_early_mean"] = float(e.grad_norm.mean())
+        r["gradnorm_early_slope"] = float(np.polyfit(e.step, e.grad_norm, 1)[0]) if len(e) > 2 else np.nan
+        mixf = f"results/tier2/full/mixture_{mixture}.csv"
+        if os.path.exists(mixf):  # static dataset stats of the training mix (known before training)
+            mx = pd.read_csv(mixf, usecols=["gap", "answer"])
+            r["mix_mean_gap"] = float(mx.gap.mean())
+            r["mix_yes_share"] = float(mx.answer.astype(str).str.strip().str.lower().str.startswith("yes").mean())
         rows.append(r)
     t = pd.DataFrame(rows)
     for pct in PCTS[1:]:
         t[f"dG_{pct}"] = t[f"G_ben_{pct}"] - t["G_ben_0"]
     t["dA_100"] = t["A_100"] - t["A_0"]
+    t["step_ratio"] = (t.n_steps / t.model.map({"qwen2vl": 120}).fillna(125)).round(2)  # 1 = the model's pilot length
     t["dG_final"] = t["dG_100"]
     return t.sort_values(["model", "mix_type", "seed", "text_share"]).reset_index(drop=True)
 
@@ -85,10 +95,10 @@ def predict(t, name, split):
         if name == "zero":
             pred[i] = 0.0
         elif name == "static":
-            same = tr & (t.mix_type == t.mix_type[i]).to_numpy() & (t.text_share == t.text_share[i]).to_numpy()
+            same = tr & (t.mix_type == t.mix_type[i]).to_numpy() & (t.text_share == t.text_share[i]).to_numpy()                 & (t.lr == t.lr[i]).to_numpy() & (t.lora_r == t.lora_r[i]).to_numpy() & (t.step_ratio == t.step_ratio[i]).to_numpy()
             if split == "loo":
                 same &= (t.model == t.model[i]).to_numpy()
-            pred[i] = y[same].mean()
+            pred[i] = y[same].mean() if same.any() else np.nan
         else:
             f = feats[name]
             ok = tr & t[f].notna().all(1).to_numpy()
@@ -106,8 +116,8 @@ def score(t, pred, rng):
     rho = spearmanr(p, y).statistic if np.std(p) > 0 else np.nan
     tt = t[ok].assign(pred=p)
     hits = []
-    for _, g in tt.groupby(["model", "mix_type", "seed"]):
-        if len(g) != 2:
+    for _, g in tt.groupby(["model", "mix_type", "seed", "lr", "lora_r", "n_steps"]):
+        if not ((g.text_share == 10).any() and (g.text_share == 90).any()):
             continue
         a, b = g[g.text_share == 10].iloc[0], g[g.text_share == 90].iloc[0]
         dp, dy = b.pred - a.pred, b.dG_final - a.dG_final
@@ -123,6 +133,7 @@ def main():
     safe_to_csv(t, os.path.join(OUT, "run_table.csv"))
     rng = np.random.RandomState(0)
     res = []
+    t = t[t.locked_test == 0].reset_index(drop=True)  # locked share-50 grid runs: scored only at the very end
     early = t[t.dG_5.notna()].reset_index(drop=True)  # the 12 runs with 5/10/20% checkpoints
     for subset, d, names in (("all_runs", t, ["zero", "static", "loss", "early_G40"]),
                              ("early_ckpt_runs", early, ["zero", "static", "loss", "early_G5", "early_G10", "early_G20",

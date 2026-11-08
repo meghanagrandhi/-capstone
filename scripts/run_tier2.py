@@ -3,7 +3,7 @@ Stages (each cached/resumable):
   pool   stream subsets, drop in-pool duplicate images, drop anything overlapping MMStar (CPU/network)
   label  loss-gap labeling with the base model (GPU)
   mix    thresholds by quantile, histogram, two mixtures, HARD overlap assertions (CPU)
-Usage: python -m scripts.run_tier2 --stage {pool,label,mix,all} [--smoke] [--extra-eval-fp fp.json ...]
+Usage: python -m scripts.run_tier2 --stage {pool,label,mix,mix_matched,mix_balanced,mix_grid,all} [--shares 10 30 50 70 90] [--smoke] [--extra-eval-fp fp.json ...]
 """
 import argparse
 import json
@@ -202,19 +202,24 @@ def yes_no(answers: pd.Series) -> pd.Series:
     return pd.Series(np.where(a.str.startswith("yes"), "yes", np.where(a.str.startswith("no"), "no", None)), index=answers.index)
 
 
-def stage_mix_balanced(cfg, t2, out, eval_fp, smoke):
+def stage_mix_balanced(cfg, t2, out, eval_fp, smoke, fracs=None, prefix="balanced", summary="summary_balanced.json",
+                       exclude_ids=(), rng_per_frac=False):
     """Answer-balanced version of mix_matched (added after the runs: the matched mixtures had 75% vs 36% "yes" among VSR
     answers, because Qwen's image-necessary VSR items are mostly "yes"). Same within-subset labels; every yes/no subset
     (all answers yes/no, i.e. VSR) gets exactly 50% "yes" in BOTH mixtures. The pool has only 62 image-necessary "no"
-    items, so yes/no subsets get `balanced_yesno_items` (150) items per mixture instead of 250; mixtures are 900 items."""
+    items, so yes/no subsets get `balanced_yesno_items` (150) items per mixture instead of 250; mixtures are 900 items.
+    Also used by stage_mix_grid (other fracs, prefix "grid", probe items excluded, one RNG per share)."""
     df = pd.read_csv(os.path.join(out, "pool_labeled_matched.csv"))
+    df = df[~df.id.isin(set(exclude_ids))]
     df["yn"] = yes_no(df.answer)
     subs = sorted(df.subset.unique())
     per = (t2["smoke_mixture_size"] if smoke else t2["mixture_size"]) // len(subs)
     n_bin = t2["balanced_yesno_items"]
     rng = np.random.RandomState(t2["mixture_seed"])
     comp = {}
-    for frac in t2["mixture_text_fracs"]:
+    for frac in (fracs or t2["mixture_text_fracs"]):
+        if rng_per_frac:  # grid: each share reproducible on its own, whatever other shares are built
+            rng = np.random.RandomState(t2["mixture_seed"] * 1000 + int(round(frac * 100)))
         picks = []
         for s in subs:
             g = df[df.subset == s]
@@ -238,7 +243,7 @@ def stage_mix_balanced(cfg, t2, out, eval_fp, smoke):
                 picks.append(c.iloc[rng.permutation(len(c))[:k]])
         pick = pd.concat(picks)
         pick = pick.iloc[rng.permutation(len(pick))].reset_index(drop=True)
-        name = f"mixture_balanced_text{int(round(frac*100))}"
+        name = f"mixture_{prefix}_text{int(round(frac*100))}"
         pick[["id", "subset", "label", "gap", "nll_real", "nll_blank", "user", "answer", "image_path", "dhash", "qnorm"]].to_csv(
             os.path.join(out, f"{name}.csv"), index=False)
         assert_no_overlap(pick.id.tolist(), pick.dhash.map(lambda x: int(x, 16)).tolist(), pick.qnorm.tolist(),
@@ -248,14 +253,45 @@ def stage_mix_balanced(cfg, t2, out, eval_fp, smoke):
                           mean_gap=float(pick.gap.mean()), yes_share_of_yes_no=float((b.yn == "yes").mean()),
                           by_subset=pick.groupby(["subset", "label"]).size().unstack(fill_value=0).to_dict("index"),
                           yes_no_cells={f"{l}/{y}": int(k) for (l, y), k in b.groupby(["label", "yn"]).size().items()})
-    json.dump(comp, open(os.path.join(out, "summary_balanced.json"), "w"), indent=2, default=str)
+    json.dump(comp, open(os.path.join(out, summary), "w"), indent=2, default=str)
     for n, c in comp.items():
         print(n, c)
 
 
+def stage_mix_grid(cfg, t2, out, eval_fp, smoke, shares, probe_per_class):
+    """Forecaster grid (next semester): balanced-style mixtures (900 items, VSR 50% yes) at any text share.
+    First reserves a FIXED in-training probe (probe_per_class per label, spread over subsets) that is excluded from every
+    grid mixture, so all grid runs are probed on the same held-out items -> grid_probe_items.csv."""
+    df = pd.read_csv(os.path.join(out, "pool_labeled_matched.csv"))
+    pf = os.path.join(out, "grid_probe_items.csv")
+    if os.path.exists(pf):
+        probe = pd.read_csv(pf)
+    else:
+        rng = np.random.RandomState(t2["mixture_seed"] + 777)
+        subs = sorted(df.subset.unique())
+        parts = []
+        for lab in ("text_answerable", "image_necessary"):
+            for i, s in enumerate(subs):
+                k = probe_per_class // len(subs) + (1 if i < probe_per_class % len(subs) else 0)
+                c = df[(df.subset == s) & (df.label == lab)]
+                if s == "vsr":  # keep the scarce image-necessary "no" items for the mixtures: probe takes VSR "yes" only
+                    c = c[yes_no(c.answer) == "yes"]
+                parts.append(c.iloc[rng.permutation(len(c))[:k]])
+        probe = pd.concat(parts).reset_index(drop=True)
+        probe.to_csv(pf, index=False)
+    print(f"grid probe: {len(probe)} items {probe.label.value_counts().to_dict()}")
+    stage_mix_balanced(cfg, t2, out, eval_fp, smoke, fracs=[s / 100 for s in shares], prefix="grid",
+                       summary="summary_grid.json", exclude_ids=probe.id, rng_per_frac=True)
+    for s in shares:
+        m = pd.read_csv(os.path.join(out, f"mixture_grid_text{s}.csv"))
+        assert not set(m.id) & set(probe.id), f"grid_text{s} overlaps the probe"
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stage", default="all", choices=["pool", "label", "mix", "mix_matched", "mix_balanced", "all"])
+    ap.add_argument("--stage", default="all", choices=["pool", "label", "mix", "mix_matched", "mix_balanced", "mix_grid", "all"])
+    ap.add_argument("--shares", nargs="+", type=int, default=[10, 30, 50, 70, 90], help="mix_grid: text shares in %%")
+    ap.add_argument("--probe-per-class", type=int, default=32, help="mix_grid: fixed in-training probe items per label")
     ap.add_argument("--smoke", action="store_true")
     ap.add_argument("--config", default="configs/config.yaml")
     ap.add_argument("--extra-eval-fp", nargs="*", default=[], help="extra eval fingerprint json files (same format as mmstar_fingerprints.json)")
@@ -280,6 +316,8 @@ def main():
         stage_mix_matched(cfg, t2, out, eval_fp, a.smoke)
     if a.stage == "mix_balanced":  # not part of "all": added after the main runs
         stage_mix_balanced(cfg, t2, out, eval_fp, a.smoke)
+    if a.stage == "mix_grid":  # next-semester forecaster grid
+        stage_mix_grid(cfg, t2, out, eval_fp, a.smoke, a.shares, a.probe_per_class)
 
 
 if __name__ == "__main__":

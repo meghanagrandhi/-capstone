@@ -32,7 +32,10 @@ CUTS = (5, 10, 20, 40)
 PROBE = {"d_gap_img": "probe_gap_image_necessary", "d_gap_text": "probe_gap_text_answerable",
          "d_attn_img": "probe_attn_img_mass_image_necessary", "d_attn_text": "probe_attn_img_mass_text_answerable"}
 SETS = {"probe": list(PROBE), "probe+static": list(PROBE) + ["text_share"],
-        "probe+static+loss": list(PROBE) + ["text_share", "loss_mean"]}
+        "probe+static+loss": list(PROBE) + ["text_share", "loss_mean"],
+        # added for next semester: training dynamics + dataset stats (TuneAhead-style static/dynamic features)
+        "probe+static+gradnorm": list(PROBE) + ["text_share", "gn_mean", "gn_slope"],
+        "all": list(PROBE) + ["text_share", "mix_mean_gap", "lr", "lora_r", "loss_mean", "loss_gap", "gn_mean", "gn_slope"]}
 
 
 def features(t, cut):
@@ -43,9 +46,14 @@ def features(t, cut):
         assert st, (r.run, cut)
         f = {k: float(p.loc[st[0], c] - p.loc[0, c]) for k, c in PROBE.items()}
         tl = pd.read_csv(f"results/tier3/{r.run}/train_log.csv")
-        f["loss_mean"] = float(tl[tl.step <= st[0]].loss.mean())
+        e = tl[tl.step <= st[0]]
+        f["loss_mean"] = float(e.loss.mean())
+        f["loss_gap"] = float(e.loss_image_necessary.mean() - e.loss_text_answerable.mean())
+        f["gn_mean"] = float(e.grad_norm.mean())
+        f["gn_slope"] = float(np.polyfit(e.step, e.grad_norm, 1)[0]) if len(e) > 2 else 0.0
         rows.append(f)
-    return pd.concat([t[["run", "model", "mix_type", "text_share", "seed", "dG_final"]], pd.DataFrame(rows)], axis=1)
+    keep = ["run", "model", "mix_type", "text_share", "seed", "lr", "lora_r", "n_steps", "mix_mean_gap", "dG_final"]
+    return pd.concat([t[keep], pd.DataFrame(rows)], axis=1)
 
 
 def predict(d, cols, split):
@@ -63,6 +71,7 @@ def predict(d, cols, split):
 def main():
     os.makedirs(OUT, exist_ok=True)
     t = pd.read_csv("results/tier3/baselines/run_table.csv")
+    t = t[t.locked_test == 0].reset_index(drop=True)  # locked share-50 grid runs: never used here
     rng = np.random.RandomState(0)
     res, coefs = [], []
     for cut in CUTS:

@@ -69,6 +69,10 @@ confound), LoRA r=16 on language-model linear layers only, lr 2e-4, batch 8, 120
 .\.venv\Scripts\python -m scripts.baselines                          # run table (36 runs) + simple baselines -> results/tier3/baselines
 .\.venv\Scripts\python -m scripts.plot_baselines                     # results/figures/fig5_balanced_curves, fig6_baselines
 .\.venv\Scripts\python -m scripts.forecaster_v0                      # first forecaster sketch: ridge on early probe features -> results/tier3/forecaster_v0
+# Next semester (forecaster grid), see NEXT_SEM_PLAN.md:
+.\.venv\Scripts\python -m scripts.run_tier2 --stage mix_grid       # mixes at 10/30/50/70/90% text + fixed 64-item probe
+.\.venv\Scripts\python -m scripts.make_grid                         # configs/grid_runs.csv (141 runs; share 50 = locked test)
+#   bash scripts/run_grid_queue.sh qwen2vl|smolvlm|internvl ...   (DRY=1 to print jobs; train -> eval --fast -> keep final adapter)
 .\.venv\Scripts\python -m scripts.plot_architecture                    # results/figures/architecture.png (built vs proposed)
 .\.venv\Scripts\python -m scripts.demo --part eval|data|results [--cached]   # review demo, see DEMO.md
 .\.venv\Scripts\python tests/smoke_model.py smolvlm|internvl          # letter-scoring + accuracy sanity check
