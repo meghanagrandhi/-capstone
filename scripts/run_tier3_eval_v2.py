@@ -7,7 +7,7 @@
          answer NLL with real/blank image and mean attention mass on image tokens
 Evaluated at the checkpoints closest to --pcts of training. Everything is cached per (run, step, set, condition).
 Usage: python -m scripts.run_tier3_eval_v2 --runs matched_text10 matched_text90 matched_text10_s1 ...
-Grid (next semester): --fast --out results/tier3/eval_grid: only A real, G real, G blank, at 0/40/100% by default, no
+Grid (next semester): --fast --out results/tier3/eval_grid: only A real, G real, G blank, at 0/5/10/20/40/100% by default, no
 attention probe (early signals come from the in-training probe_log.csv); step 0 = base model, scored once per model.
 """
 import argparse
@@ -56,7 +56,7 @@ def build_probe(per_class, mixes=("matched",), seed=123):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--runs", nargs="+", required=True)
-    ap.add_argument("--pcts", nargs="+", type=float, default=None, help="default 0 20 40 60 100 (--fast: 0 40 100)")
+    ap.add_argument("--pcts", nargs="+", type=float, default=None, help="default 0 20 40 60 100 (--fast: 0 5 10 20 40 100)")
     ap.add_argument("--fast", action="store_true", help="grid mode: A real + G real/blank only, no probe")
     ap.add_argument("--probe-per-class", type=int, default=50)
     ap.add_argument("--probe-mixes", nargs="+", default=["matched"], choices=["matched", "balanced"],
@@ -71,7 +71,7 @@ def main():
     select_model(cfg, a.model)
     t1 = cfg["tier1"]
     out = a.out
-    pcts = a.pcts or ([0, 40, 100] if a.fast else [0, 20, 40, 60, 100])
+    pcts = a.pcts or ([0, 5, 10, 20, 40, 100] if a.fast else [0, 20, 40, 60, 100])
     os.makedirs(out, exist_ok=True)
     sets = json.load(open(os.path.join(a.sets_dir, "eval_sets.json")))
     items = {k: load_mmstar_by_ids(t1, sets[k][: a.limit or None]) for k in ("A", "G")}

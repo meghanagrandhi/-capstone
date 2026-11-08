@@ -28,7 +28,7 @@ Per model, 47 runs: text share {10,30,50,70,90} x lr {1e-4, 2e-4} x LoRA rank {8
 settings (5) + half-length runs at share 10/90 (2). 3 models -> 141 runs (+ 36 pilot = 177).
 Mixes: `results/tier2/full/mixture_grid_text{10,30,50,70,90}.csv` (900 items, VSR 50% "yes", 0 overlap with MMStar).
 Every grid run is probed during training on the SAME 64 held-out items (`grid_probe_items.csv`; the pilot used only 16,
-which is part of why v0's early signals are noisy). Fast eval scores A real + G real/blank at 0/40/100% of training.
+which is part of why v0's early signals are noisy). Fast eval scores A real + G real/blank at 0/5/10/20/40/100% of training (early G checkpoints added 2026-11-08).
 
 ## How to run (GPU machines)
 ```powershell
@@ -56,19 +56,19 @@ To send results: zip `results/tier3/eval_grid/`, every `results/tier3/*grid_text
 
 ## Person 2: RTX 5070 (94 runs: Qwen + InternVL)
 1. `git pull`, dry run, then start `run_grid_queue.sh qwen2vl internvl`.
-2. About 30 min per run -> ~47 GPU hours (5-6 nights). Zip results after every ~20 runs, send to Person 1.
+2. About 55 min per run (6 eval checkpoints) -> ~86 GPU hours (about 1 week of nights + some days). Zip results after every ~20 runs, send to Person 1.
 3. Model weights are already on this machine.
 
 ## Person 3: RTX 4060 laptop (47 runs: SmolVLM)
 1. FREE DISK SPACE FIRST: C: has only ~11 GB free (2026-11-08). The grid needs ~5 GB (47 final adapters + eval files);
    aim for 20 GB+ free. (Qwen weights, ~4.5 GB, were deleted on 2026-11-01; not needed for the SmolVLM grid.)
 2. `git pull`, dry run, then start `run_grid_queue.sh smolvlm`.
-3. About 60 min per run (train ~29 min, probe ~8 min, eval ~20 min) -> ~47 GPU hours, overnight. Never run two GPU jobs at once.
+3. About 90 min per run (train ~29 min, probe ~8 min, eval ~50 min for 5 checkpoints) -> ~70 GPU hours. Never run two GPU jobs at once.
 4. Zip results the same way, send to Person 1.
 
 ## Timeline
 - Week 1: everyone reads this + the code; GPU machines do a dry run and start the queues.
-- Weeks 1-3: ~141 grid runs (both GPUs in parallel, ~47 GPU hours each). Person 1 merges weekly.
+- Weeks 1-3: ~141 grid runs (both GPUs in parallel, ~70-86 GPU hours each). Person 1 merges weekly.
 - Week 4 on: forecaster built and scored by Person 1 (others help); locked share-50 test at the very end.
 
 Everything is a feasibility study: report failures plainly, never claim a result is confirmed.
