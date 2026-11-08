@@ -1,0 +1,56 @@
+=== MODEL QUEUE internvl balanced START 2026-11-07 22:52:36
+=== START train_internvl_balanced_text10 try 1 22:54:41 (71 GB free, GPU 44C)
+=== END train_internvl_balanced_text10 try 1 rc=0 23:04:57
+=== START train_internvl_balanced_text90 try 1 23:07:00 (71 GB free, GPU 48C)
+=== END train_internvl_balanced_text90 try 1 rc=0 23:17:45
+=== START train_internvl_balanced_text10_s1 try 1 23:19:48 (71 GB free, GPU 47C)
+=== END train_internvl_balanced_text10_s1 try 1 rc=0 23:30:03
+=== START train_internvl_balanced_text90_s1 try 1 23:32:06 (71 GB free, GPU 48C)
+=== END train_internvl_balanced_text90_s1 try 1 rc=0 23:42:54
+=== START train_internvl_balanced_text10_s2 try 1 23:44:57 (71 GB free, GPU 48C)
+=== END train_internvl_balanced_text10_s2 try 1 rc=0 23:55:44
+=== START train_internvl_balanced_text90_s2 try 1 23:57:47 (71 GB free, GPU 47C)
+=== END train_internvl_balanced_text90_s2 try 1 rc=0 00:08:02
+=== START eval_balanced_internvl_balanced_text10 try 1 00:10:07 (71 GB free, GPU 47C)
+=== END eval_balanced_internvl_balanced_text10 try 1 rc=0 01:04:56
+=== START eval_balanced_internvl_balanced_text90 try 1 01:06:59 (71 GB free, GPU 47C)
+=== END eval_balanced_internvl_balanced_text90 try 1 rc=0 02:02:20
+=== START eval_balanced_internvl_balanced_text10_s1 try 1 02:04:23 (71 GB free, GPU 47C)
+=== END eval_balanced_internvl_balanced_text10_s1 try 1 rc=0 02:57:06
+=== START eval_balanced_internvl_balanced_text90_s1 try 1 02:59:10 (71 GB free, GPU 48C)
+=== END eval_balanced_internvl_balanced_text90_s1 try 1 rc=0 03:52:54
+=== START eval_balanced_internvl_balanced_text10_s2 try 1 03:54:58 (71 GB free, GPU 46C)
+=== END eval_balanced_internvl_balanced_text10_s2 try 1 rc=0 04:49:12
+=== START eval_balanced_internvl_balanced_text90_s2 try 1 04:51:15 (71 GB free, GPU 46C)
+=== END eval_balanced_internvl_balanced_text90_s2 try 1 rc=0 05:46:02
+=== START paired_bench_internvl_balanced try 1 05:48:05 (71 GB free, GPU 47C)
+=== END paired_bench_internvl_balanced try 1 rc=0 06:17:16
+=== MODEL QUEUE internvl balanced COMPLETE 2026-11-08 06:17:16
+=== MODEL QUEUE qwen2vl balanced START 2026-11-08 06:17:16
+=== START train_balanced_text10 try 1 06:19:19 (71 GB free, GPU 46C)
+=== END train_balanced_text10 try 1 rc=0 06:40:30
+=== START train_balanced_text90 try 1 06:42:33 (67 GB free, GPU 47C)
+=== END train_balanced_text90 try 1 rc=0 06:57:23
+=== START train_balanced_text10_s1 try 1 06:59:26 (67 GB free, GPU 46C)
+=== END train_balanced_text10_s1 try 1 rc=0 07:13:46
+=== START train_balanced_text90_s1 try 1 07:15:48 (67 GB free, GPU 47C)
+=== END train_balanced_text90_s1 try 1 rc=0 07:30:08
+=== START train_balanced_text10_s2 try 1 07:32:11 (67 GB free, GPU 47C)
+=== END train_balanced_text10_s2 try 1 rc=0 07:46:31
+=== START train_balanced_text90_s2 try 1 07:48:34 (67 GB free, GPU 48C)
+=== END train_balanced_text90_s2 try 1 rc=0 08:02:55
+=== START eval_balanced_balanced_text10 try 1 08:04:59 (67 GB free, GPU 46C)
+=== END eval_balanced_balanced_text10 try 1 rc=0 09:24:44
+=== START eval_balanced_balanced_text90 try 1 09:26:47 (67 GB free, GPU 47C)
+=== END eval_balanced_balanced_text90 try 1 rc=0 10:46:04
+=== START eval_balanced_balanced_text10_s1 try 1 10:48:07 (67 GB free, GPU 47C)
+=== END eval_balanced_balanced_text10_s1 try 1 rc=0 12:07:27
+=== START eval_balanced_balanced_text90_s1 try 1 12:09:30 (67 GB free, GPU 46C)
+=== END eval_balanced_balanced_text90_s1 try 1 rc=0 13:26:44
+=== START eval_balanced_balanced_text10_s2 try 1 13:28:48 (66 GB free, GPU 48C)
+=== END eval_balanced_balanced_text10_s2 try 1 rc=0 15:00:10
+=== START eval_balanced_balanced_text90_s2 try 1 15:02:14 (66 GB free, GPU 47C)
+=== END eval_balanced_balanced_text90_s2 try 1 rc=0 16:43:17
+=== START paired_bench_qwen2vl_balanced try 1 16:45:20 (67 GB free, GPU 47C)
+=== END paired_bench_qwen2vl_balanced try 1 rc=0 17:42:02
+=== MODEL QUEUE qwen2vl balanced COMPLETE 2026-11-08 17:42:02

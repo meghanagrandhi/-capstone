@@ -1,0 +1,14 @@
+{
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "steps": [
+  0,
+  50,
+  125
+ ],
+ "n_boot": 2000,
+ "note": "G blank at step 0 biased low by selection (orders 0-5 used to pick G, eval uses order 0)."
+}

@@ -65,6 +65,9 @@ confound), LoRA r=16 on language-model linear layers only, lr 2e-4, batch 8, 120
 #   then: bash scripts/run_model_queue.sh qwen2vl|smolvlm|internvl balanced (eval v2 at 0/5/10/20/40/100% in results/tier3/eval_v2_balanced, then paired benchmarks)
 #   then: analyze_paired_bench / analyze_yes_bias --dir results/tier3/paired_bench_balanced --mix balanced
 .\.venv\Scripts\python -m scripts.plot_final                           # results/figures/fig1-4
+.\.venv\Scripts\python -m scripts.analyze_tier3_v2 --mix balanced [--model smolvlm|internvl]  # bootstrap CIs, balanced runs
+.\.venv\Scripts\python -m scripts.baselines                          # run table (36 runs) + simple baselines -> results/tier3/baselines
+.\.venv\Scripts\python -m scripts.plot_baselines                     # results/figures/fig5_balanced_curves, fig6_baselines
 .\.venv\Scripts\python -m scripts.plot_architecture                    # results/figures/architecture.png (built vs proposed)
 .\.venv\Scripts\python -m scripts.demo --part eval|data|results [--cached]   # review demo, see DEMO.md
 .\.venv\Scripts\python tests/smoke_model.py smolvlm|internvl          # letter-scoring + accuracy sanity check
@@ -88,8 +91,8 @@ Outputs: `results/tier3/<run>/` (adapters, train/probe logs), `results/tier3/eva
 - Paired benchmarks: 2 NaturalBench samples dropped by the overlap guard (false positives, dropped anyway), 2 skipped as
   malformed in the source data; 300 MMVP + 1192 NaturalBench questions remain.
 - **The two mixtures differ in yes/no balance** (found after the runs): 75% vs 36% "yes" among VSR answers in text10 vs
-  text90. Tier 2 matched source datasets but not answer type. Affects all models; see `yes_bias.csv`. Only SmolVLM was
-  retrained on balanced mixes (results in `results/tier3/paired_bench_balanced/`).
+  text90. Tier 2 matched source datasets but not answer type. Affects all models; see `yes_bias.csv`. All three models were
+  retrained on balanced mixes (SmolVLM here; Qwen and InternVL on a teammate's RTX 5070, log `results/overnight_friend_5070.log`).
 - 18+ comparisons per model without multiple-testing correction.
 
 ### Results in one paragraph

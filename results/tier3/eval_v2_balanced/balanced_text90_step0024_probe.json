@@ -1,0 +1,10 @@
+{
+ "probe_nll_real_image_necessary": 0.7453092344105243,
+ "probe_nll_blank_image_necessary": 1.0982772624492645,
+ "probe_gap_image_necessary": 0.35296802803874017,
+ "probe_attn_img_mass_image_necessary": 0.08997650146484375,
+ "probe_nll_real_text_answerable": 0.3384298680908978,
+ "probe_nll_blank_text_answerable": 0.3863809802569449,
+ "probe_gap_text_answerable": 0.0479511121660471,
+ "probe_attn_img_mass_text_answerable": 0.08154702322823662
+}

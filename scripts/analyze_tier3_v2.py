@@ -9,7 +9,8 @@ A split by Tier 1 blind k (k<=1 vs k>=4), per-category change.
 NOTE: G was selected for low blind accuracy on orders 0-5, and eval uses order 0, so G_blank at step 0 is biased low
 (3.8% vs 7.3% on fresh orders). Any model change regresses it upward -> real-blank on G overstates the drop.
 real-swap and the text90-vs-text10 contrast are not affected by this selection.
-Usage: python -m scripts.analyze_tier3_v2 [--model smolvlm|internvl]
+Usage: python -m scripts.analyze_tier3_v2 [--model smolvlm|internvl] [--mix balanced]
+(--mix balanced reads results/tier3/eval_v2_balanced, writes results/tier3/analysis_v2_balanced[_model])
 """
 import argparse
 import glob
@@ -31,10 +32,10 @@ B = 2000
 MIX = ("matched_text10", "matched_text90")
 
 
-def load(model):
+def load(model, mixtype="matched"):
     rows = []
     for f in glob.glob(os.path.join(D, "*_step*_*_*.csv")):
-        m = re.match(r"(?:(smolvlm|internvl)_)?(matched_text\d+)(?:_s(\d+))?_step(\d+)_([AG])_(real|swap|blank)\.csv",
+        m = re.match(r"(?:(smolvlm|internvl)_)?(" + mixtype + r"_text\d+)(?:_s(\d+))?_step(\d+)_([AG])_(real|swap|blank)\.csv",
                      os.path.basename(f))
         if not m or (m.group(1) or "qwen2vl") != model:
             continue
@@ -74,10 +75,16 @@ def mcnemar(a, b):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="qwen2vl", choices=["qwen2vl", "smolvlm", "internvl"])
-    model = ap.parse_args().model
-    out = OUT if model == "qwen2vl" else f"{OUT}_{model}"
+    ap.add_argument("--mix", default="matched", choices=["matched", "balanced"])
+    a = ap.parse_args()
+    model = a.model
+    global D, MIX
+    if a.mix == "balanced":
+        D, MIX = "results/tier3/eval_v2_balanced", ("balanced_text10", "balanced_text90")
+    base_out = OUT if a.mix == "matched" else f"{OUT}_balanced"
+    out = base_out if model == "qwen2vl" else f"{base_out}_{model}"
     os.makedirs(out, exist_ok=True)
-    df = load(model)
+    df = load(model, a.mix)
     rng = np.random.RandomState(0)
     steps = sorted(df.step.unique())
     s0, sF = steps[0], steps[-1]

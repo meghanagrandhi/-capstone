@@ -1,0 +1,9 @@
+mixture,step,group,n_items,acc_real
+balanced_text10,0,blind_k<=1 (needs image),297,0.38047138047138046
+balanced_text10,0,blind_k>=4 (text-guessable),93,0.46236559139784944
+balanced_text10,125,blind_k<=1 (needs image),297,0.38047138047138046
+balanced_text10,125,blind_k>=4 (text-guessable),93,0.48028673835125446
+balanced_text90,0,blind_k<=1 (needs image),297,0.38047138047138046
+balanced_text90,0,blind_k>=4 (text-guessable),93,0.46236559139784944
+balanced_text90,125,blind_k<=1 (needs image),297,0.3894500561167228
+balanced_text90,125,blind_k>=4 (text-guessable),93,0.4910394265232975
