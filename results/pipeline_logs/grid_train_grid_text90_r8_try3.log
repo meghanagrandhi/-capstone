@@ -1,0 +1,28 @@
+[overlap check OK] mixture_grid_text90 (at training time): 900 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\Backup D\Capstone\capstone_run\scripts\run_tier3_train.py", line 98, in <module>
+    main()
+    ~~~~^^
+  File "G:\Backup D\Capstone\capstone_run\scripts\run_tier3_train.py", line 83, in main
+    vlm = make_model(mc).load()
+  File "G:\Backup D\Capstone\capstone_run\src\vlm.py", line 36, in load
+    from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2VLForConditionalGeneration
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\__init__.py", line 30, in <module>
+    from . import dependency_versions_check
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\utils\__init__.py", line 22, in <module>
+    from .auto_docstring import (
+    ...<10 lines>...
+    )
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\utils\auto_docstring.py", line 24, in <module>
+    import regex as re
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\regex\__init__.py", line 1, in <module>
+    import regex._main
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\regex\_main.py", line 428, in <module>
+    from regex import _regex_core
+  File "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\regex\_regex_core.py", line 21, in <module>
+    from regex import _regex
+ImportError: DLL load failed while importing _regex: An Application Control policy has blocked this file.

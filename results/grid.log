@@ -1,4 +1,4 @@
-=== GRID QUEUE smolvlm START 2026-11-08 23:00:24
+﻿=== GRID QUEUE smolvlm START 2026-11-08 23:00:24
 === START train_smolvlm_grid_text10 try 1 2026-11-08 23:02:26 (12 GB free, GPU 61C)
 === END train_smolvlm_grid_text10 try 1 rc=0 23:34:37
 === START eval_smolvlm_grid_text10 try 1 2026-11-08 23:37:42 (11 GB free, GPU 64C)
@@ -133,3 +133,114 @@
 === PAUSED by user (moving to another machine) 2026-11-10 11:53:01
 === GRID QUEUE smolvlm START 2026-11-10 11:53:34
 === GRID QUEUE smolvlm COMPLETE 2026-11-10 11:53:40
+=== GRID QUEUE qwen2vl internvl START 2026-11-09 16:15:11
+=== START train_grid_text30 try 1 2026-11-09 16:17:14 (256 GB free, GPU 41C)
+=== END train_grid_text30 try 1 rc=0 17:37:50
+=== START eval_grid_text30 try 1 2026-11-09 17:39:52 (255 GB free, GPU 48C)
+=== END eval_grid_text30 try 1 rc=0 18:31:05
+=== DONE grid_text30 (locked_test=0) 2026-11-09 18:31:06
+=== START train_grid_text50 try 1 2026-11-09 18:33:09 (256 GB free, GPU 47C)
+=== END train_grid_text50 try 1 rc=0 18:54:58
+=== START eval_grid_text50 try 1 2026-11-09 18:57:00 (255 GB free, GPU 47C)
+=== END eval_grid_text50 try 1 rc=0 19:44:38
+=== DONE grid_text50 (locked_test=1) 2026-11-09 19:44:39
+=== SESSION PAUSED after 2 runs 2026-11-09 19:44:39
+=== GRID QUEUE SESSION END 2026-11-09 19:44:39
+=== GRID QUEUE qwen2vl internvl START 2026-11-09 19:59:16
+=== START train_grid_text70 try 1 2026-11-09 20:01:20 (256 GB free, GPU 43C)
+=== END train_grid_text70 try 1 rc=0 20:22:07
+=== START eval_grid_text70 try 1 2026-11-09 20:24:09 (255 GB free, GPU 48C)
+=== END eval_grid_text70 try 1 rc=0 21:13:19
+=== DONE grid_text70 (locked_test=0) 2026-11-09 21:13:20
+=== SESSION PAUSED after 1 runs 2026-11-09 21:13:20
+=== GRID QUEUE SESSION END 2026-11-09 21:13:20
+=== GRID QUEUE qwen2vl internvl START 2026-11-09 23:13:22
+=== START train_grid_text90 try 1 2026-11-09 23:15:26 (256 GB free, GPU 46C)
+=== END train_grid_text90 try 1 rc=0 23:37:18
+=== START eval_grid_text90 try 1 2026-11-09 23:39:20 (255 GB free, GPU 49C)
+=== END eval_grid_text90 try 1 rc=0 00:27:59
+=== DONE grid_text90 (locked_test=0) 2026-11-10 00:28:00
+=== START train_grid_text10_r8 try 1 2026-11-10 00:30:03 (255 GB free, GPU 47C)
+=== END train_grid_text10_r8 try 1 rc=0 00:51:22
+=== START eval_grid_text10_r8 try 1 2026-11-10 00:53:24 (255 GB free, GPU 47C)
+=== END eval_grid_text10_r8 try 1 rc=0 01:41:03
+=== DONE grid_text10_r8 (locked_test=0) 2026-11-10 01:41:04
+=== START train_grid_text30_r8 try 1 2026-11-10 01:43:07 (255 GB free, GPU 45C)
+=== END train_grid_text30_r8 try 1 rc=0 02:03:55
+=== START eval_grid_text30_r8 try 1 2026-11-10 02:05:57 (255 GB free, GPU 45C)
+=== END eval_grid_text30_r8 try 1 rc=0 02:53:02
+=== DONE grid_text30_r8 (locked_test=0) 2026-11-10 02:53:03
+=== START train_grid_text50_r8 try 1 2026-11-10 02:55:06 (255 GB free, GPU 45C)
+=== END train_grid_text50_r8 try 1 rc=0 03:15:24
+=== START eval_grid_text50_r8 try 1 2026-11-10 03:17:26 (255 GB free, GPU 45C)
+=== END eval_grid_text50_r8 try 1 rc=0 04:05:03
+=== DONE grid_text50_r8 (locked_test=1) 2026-11-10 04:05:04
+=== START train_grid_text70_r8 try 1 2026-11-10 04:07:06 (255 GB free, GPU 44C)
+=== END train_grid_text70_r8 try 1 rc=0 04:27:24
+=== START eval_grid_text70_r8 try 1 2026-11-10 04:29:26 (255 GB free, GPU 46C)
+=== END eval_grid_text70_r8 try 1 rc=0 05:17:03
+=== DONE grid_text70_r8 (locked_test=0) 2026-11-10 05:17:04
+=== SESSION PAUSED after 5 runs 2026-11-10 05:17:04
+=== GRID QUEUE SESSION END 2026-11-10 05:17:04
+=== GRID QUEUE qwen2vl internvl START 2026-11-10 07:42:08
+=== START train_grid_text90_r8 try 1 2026-11-10 07:44:15 (255 GB free, GPU 42C)
+=== END train_grid_text90_r8 try 1 rc=1 07:46:23
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\Backup D\Capstone\capstone_run\scripts\run_tier3_train.py", line 14, in <module>
+--
+OSError: [WinError 4551] An Application Control policy has blocked this file. Error loading "G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\torch\lib\torch_python.dll" or one of its dependencies.
+=== START train_grid_text90_r8 try 2 2026-11-10 07:48:45 (255 GB free, GPU 42C)
+=== END train_grid_text90_r8 try 2 rc=1 07:49:19
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\Backup D\Capstone\capstone_run\scripts\run_tier3_train.py", line 98, in <module>
+--
+ImportError: DLL load failed while importing _regex: An Application Control policy has blocked this file.
+=== START train_grid_text90_r8 try 3 2026-11-10 07:51:41 (255 GB free, GPU 43C)
+=== END train_grid_text90_r8 try 3 rc=1 07:52:14
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\Backup D\Capstone\capstone_run\scripts\run_tier3_train.py", line 98, in <module>
+--
+ImportError: DLL load failed while importing _regex: An Application Control policy has blocked this file.
+=== FAILED train_grid_text90_r8
+=== GRID QUEUE qwen2vl internvl START 2026-11-10 08:12:48
+=== START train_grid_text90_r8 try 1 2026-11-10 08:14:54 (255 GB free, GPU 42C)
+=== END train_grid_text90_r8 try 1 rc=0 08:35:41
+=== START eval_grid_text90_r8 try 1 2026-11-10 08:37:43 (255 GB free, GPU 44C)
+=== END eval_grid_text90_r8 try 1 rc=0 09:25:54
+=== DONE grid_text90_r8 (locked_test=0) 2026-11-10 09:25:55
+=== SESSION PAUSED after 1 runs 2026-11-10 09:25:55
+=== GRID QUEUE SESSION END 2026-11-10 09:25:55
+=== GRID QUEUE qwen2vl internvl START 2026-11-10 11:51:55
+=== START train_grid_text10_lr0.0001 try 1 2026-11-10 11:54:01 (255 GB free, GPU 42C)
+=== END train_grid_text10_lr0.0001 try 1 rc=0 12:14:49
+=== START eval_grid_text10_lr0.0001 try 1 2026-11-10 12:16:51 (255 GB free, GPU 47C)
+=== END eval_grid_text10_lr0.0001 try 1 rc=0 13:04:30
+=== DONE grid_text10_lr0.0001 (locked_test=0) 2026-11-10 13:04:31
+=== START train_grid_text30_lr0.0001 try 1 2026-11-10 13:06:34 (255 GB free, GPU 47C)
+=== END train_grid_text30_lr0.0001 try 1 rc=0 13:28:24
+=== START eval_grid_text30_lr0.0001 try 1 2026-11-10 13:30:26 (255 GB free, GPU 47C)
+=== END eval_grid_text30_lr0.0001 try 1 rc=0 14:18:04
+=== DONE grid_text30_lr0.0001 (locked_test=0) 2026-11-10 14:18:05
+=== START train_grid_text50_lr0.0001 try 1 2026-11-10 14:20:08 (255 GB free, GPU 46C)
+=== END train_grid_text50_lr0.0001 try 1 rc=0 14:40:56
+=== START eval_grid_text50_lr0.0001 try 1 2026-11-10 14:42:58 (255 GB free, GPU 47C)
+=== END eval_grid_text50_lr0.0001 try 1 rc=0 15:30:36
+=== DONE grid_text50_lr0.0001 (locked_test=1) 2026-11-10 15:30:37
+=== START train_grid_text70_lr0.0001 try 1 2026-11-10 15:32:40 (255 GB free, GPU 46C)
+=== END train_grid_text70_lr0.0001 try 1 rc=0 15:53:59
+=== START eval_grid_text70_lr0.0001 try 1 2026-11-10 15:56:01 (255 GB free, GPU 49C)
+=== END eval_grid_text70_lr0.0001 try 1 rc=0 16:44:51
+=== DONE grid_text70_lr0.0001 (locked_test=0) 2026-11-10 16:44:52
+=== START train_grid_text90_lr0.0001 try 1 2026-11-10 16:46:56 (255 GB free, GPU 47C)
+=== END train_grid_text90_lr0.0001 try 1 rc=0 17:07:52
+=== START eval_grid_text90_lr0.0001 try 1 2026-11-10 17:09:54 (254 GB free, GPU 45C)
+=== END eval_grid_text90_lr0.0001 try 1 rc=0 18:00:58
+=== DONE grid_text90_lr0.0001 (locked_test=0) 2026-11-10 18:00:59
+=== SESSION PAUSED after 5 runs 2026-11-10 18:00:59
+=== GRID QUEUE SESSION END 2026-11-10 18:00:59

@@ -52,6 +52,8 @@ runstep(){
   echo "=== FAILED $name" >> $L; exit 1
 }
 echo "=== GRID QUEUE $* START $(date '+%F %H:%M:%S')" >> $L
+MAX_RUNS=${MAX_RUNS:-2}
+completed=0
 # run name = what run_tier3_train.py builds: [model_]grid_textNN[_lr..][_r..][_st..][_sN]
 while IFS=, read -r model share lr rank steps seed locked <&3; do
   case " $* " in *" $model "*) ;; *) continue;; esac
@@ -73,5 +75,10 @@ while IFS=, read -r model share lr rank steps seed locked <&3; do
   for d in results/tier3/$run/adapters/step_*; do [ "$d" = "results/tier3/$run/adapters/step_$final" ] || rm -rf "$d"; done
   [ -n "$DRY" ] && continue
   echo "=== DONE $run (locked_test=$locked) $(date '+%F %H:%M:%S')" >> $L
+  completed=$((completed + 1))
+  if [ "$completed" -ge "$MAX_RUNS" ]; then
+    echo "=== SESSION PAUSED after $completed runs $(date '+%F %H:%M:%S')" >> $L
+    break
+  fi
 done 3< <(tail -n +2 configs/grid_runs.csv | tr -d '\r')  # not a pipe, so a failed job (exit) stops the whole queue
-echo "=== GRID QUEUE $* COMPLETE $(date '+%F %H:%M:%S')" >> $L
+echo "=== GRID QUEUE SESSION END $(date '+%F %H:%M:%S')" >> $L

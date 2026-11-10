@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=100 ({'text_answerable': 50, 'image_necessary': 50})
+W1108 08:05:11.702000 20516 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 765.10it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:45,  6.91it/s]Loading weights:   2%|▏         | 15/729 [00:00<00:10, 69.42it/s]Loading weights:   7%|▋         | 51/729 [00:00<00:03, 184.30it/s]Loading weights:  12%|█▏        | 89/729 [00:00<00:02, 248.55it/s]Loading weights:  19%|█▊        | 135/729 [00:00<00:01, 315.40it/s]Loading weights:  24%|██▎       | 172/729 [00:00<00:01, 330.90it/s]Loading weights:  29%|██▊       | 209/729 [00:00<00:01, 339.21it/s]Loading weights:  35%|███▍      | 255/729 [00:00<00:01, 368.61it/s]Loading weights:  40%|████      | 293/729 [00:00<00:01, 360.83it/s]Loading weights:  47%|████▋     | 342/729 [00:01<00:00, 396.20it/s]Loading weights:  59%|█████▉    | 430/729 [00:01<00:00, 538.22it/s]Loading weights:  72%|███████▏  | 524/729 [00:01<00:00, 650.90it/s]Loading weights:  84%|████████▎ | 610/729 [00:01<00:00, 706.39it/s]Loading weights:  95%|█████████▌| 694/729 [00:01<00:00, 743.70it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 468.94it/s]
+  balanced_text10 step 0/120: A_real=0.454 G_real=0.406 G_swap=0.129 G_blank=0.038 A_blank=0.264 A_swap=0.230  [0.9 min]
+  balanced_text10 step 6/120: A_real=0.452 G_real=0.401 G_swap=0.124 G_blank=0.052 A_blank=0.270 A_swap=0.228  [16.5 min]
+  balanced_text10 step 12/120: A_real=0.464 G_real=0.403 G_swap=0.124 G_blank=0.059 A_blank=0.256 A_swap=0.246  [31.8 min]
+  balanced_text10 step 24/120: A_real=0.464 G_real=0.399 G_swap=0.139 G_blank=0.072 A_blank=0.260 A_swap=0.248  [47.3 min]
+  balanced_text10 step 48/120: A_real=0.472 G_real=0.404 G_swap=0.139 G_blank=0.079 A_blank=0.270 A_swap=0.252  [62.7 min]
+  balanced_text10 step 120/120: A_real=0.472 G_real=0.399 G_swap=0.124 G_blank=0.064 A_blank=0.264 A_swap=0.242  [79.0 min]
+saved results/tier3/eval_v2_balanced/checkpoint_eval_v2.csv (252 rows); 79.0 min

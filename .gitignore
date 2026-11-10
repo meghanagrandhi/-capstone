@@ -5,3 +5,6 @@ __pycache__/
 # LoRA adapter weights: 5.8 GB, too big for GitHub (retrain with scripts/run_model_queue.sh if needed)
 results/tier3/*/adapters/
 balanced_results.zip
+
+# Temporary Windows compatibility test
+_regex_compat_test_20261110/

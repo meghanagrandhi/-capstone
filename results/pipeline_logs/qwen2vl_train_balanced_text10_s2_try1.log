@@ -1,0 +1,30 @@
+[overlap check OK] mixture_balanced_text10 (at training time): 900 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+W1108 07:32:17.391000 15696 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 778.74it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:47,  6.78it/s]Loading weights:   2%|▏         | 17/729 [00:00<00:08, 81.81it/s]Loading weights:   9%|▊         | 63/729 [00:00<00:02, 231.52it/s]Loading weights:  14%|█▍        | 101/729 [00:00<00:02, 278.76it/s]Loading weights:  20%|██        | 147/729 [00:00<00:01, 334.94it/s]Loading weights:  25%|██▌       | 184/729 [00:00<00:01, 339.89it/s]Loading weights:  31%|███       | 225/729 [00:00<00:01, 360.03it/s]Loading weights:  37%|███▋      | 267/729 [00:00<00:01, 376.67it/s]Loading weights:  42%|████▏     | 306/729 [00:00<00:01, 373.33it/s]Loading weights:  50%|█████     | 368/729 [00:01<00:00, 445.37it/s]Loading weights:  63%|██████▎   | 460/729 [00:01<00:00, 585.04it/s]Loading weights:  75%|███████▌  | 548/729 [00:01<00:00, 665.73it/s]Loading weights:  88%|████████▊ | 640/729 [00:01<00:00, 740.25it/s]Loading weights: 100%|█████████▉| 726/729 [00:01<00:00, 760.30it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 485.81it/s]
+LoRA: 196 target modules (language model only), 18.46M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.717 probe_attn_img_mass_image_necessary=0.093 probe_gap_text_answerable=-0.048 probe_attn_img_mass_text_answerable=0.097
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.475 probe_attn_img_mass_image_necessary=0.097 probe_gap_text_answerable=0.069 probe_attn_img_mass_text_answerable=0.100
+  step 10/120 loss 0.371 gn 1.99 8.0s/step
+  [ckpt step 12] probe_gap_image_necessary=0.492 probe_attn_img_mass_image_necessary=0.095 probe_gap_text_answerable=-0.043 probe_attn_img_mass_text_answerable=0.097
+  step 20/120 loss 0.389 gn 3.42 7.6s/step
+  [ckpt step 24] probe_gap_image_necessary=0.535 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.032 probe_attn_img_mass_text_answerable=0.090
+  step 30/120 loss 0.689 gn 1.55 7.5s/step
+  step 40/120 loss 0.528 gn 2.08 7.3s/step
+  [ckpt step 48] probe_gap_image_necessary=0.536 probe_attn_img_mass_image_necessary=0.086 probe_gap_text_answerable=-0.040 probe_attn_img_mass_text_answerable=0.089
+  step 50/120 loss 0.266 gn 3.11 7.3s/step
+  step 60/120 loss 0.142 gn 0.72 7.1s/step
+  step 70/120 loss 0.146 gn 0.56 7.0s/step
+  [ckpt step 72] probe_gap_image_necessary=0.548 probe_attn_img_mass_image_necessary=0.085 probe_gap_text_answerable=0.027 probe_attn_img_mass_text_answerable=0.086
+  step 80/120 loss 0.110 gn 0.97 7.1s/step
+  step 90/120 loss 0.612 gn 1.05 7.0s/step
+  [ckpt step 96] probe_gap_image_necessary=0.592 probe_attn_img_mass_image_necessary=0.087 probe_gap_text_answerable=0.077 probe_attn_img_mass_text_answerable=0.088
+  step 100/120 loss 0.773 gn 1.21 7.0s/step
+  step 110/120 loss 0.433 gn 1.22 7.0s/step
+  step 120/120 loss 0.032 gn 0.55 6.9s/step
+  [ckpt step 120] probe_gap_image_necessary=0.614 probe_attn_img_mass_image_necessary=0.088 probe_gap_text_answerable=0.068 probe_attn_img_mass_text_answerable=0.088
+run meta: {'run': 'balanced_text10_s2', 'mixture': 'balanced_text10', 'n_mix': 900, 'text_share': 0.1, 'steps': 120, 'batch_size': 8, 'lr': 0.0002, 'seed': 2, 'lora_r': 16, 'lora_alpha': 32, 'model': 'Qwen/Qwen2-VL-2B-Instruct', 'model_revision': '895c3a49bc3fa70a340399125c650a463535e71c', 'peak_vram_gib': 2.0764846801757812, 'train_minutes': 14.03059987227122, 'sec_per_step': 6.933312823375066}

@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=100 ({'text_answerable': 50, 'image_necessary': 50})
+W1108 04:51:27.033000 20444 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/781 [00:00<?, ?it/s]Loading weights:   0%|          | 1/781 [00:00<02:07,  6.12it/s]Loading weights:   0%|          | 2/781 [00:00<01:49,  7.10it/s]Loading weights:   5%|▌         | 41/781 [00:00<00:04, 149.99it/s]Loading weights:  11%|█▏        | 88/781 [00:00<00:02, 256.13it/s]Loading weights:  16%|█▌        | 126/781 [00:00<00:02, 295.79it/s]Loading weights:  22%|██▏       | 174/781 [00:00<00:01, 346.69it/s]Loading weights:  28%|██▊       | 221/781 [00:00<00:01, 381.96it/s]Loading weights:  34%|███▍      | 268/781 [00:00<00:01, 405.89it/s]Loading weights:  40%|███▉      | 310/781 [00:01<00:01, 407.80it/s]Loading weights:  52%|█████▏    | 407/781 [00:01<00:00, 574.31it/s]Loading weights:  77%|███████▋  | 601/781 [00:01<00:00, 979.07it/s]Loading weights: 100%|██████████| 781/781 [00:01<00:00, 599.11it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[transformers] Image processor InternVLVideoProcessor: kwargs ['crop_to_patches'] were applied for backward compatibility. To avoid this warning, add them to valid_kwargs: create a custom TypedDict extending ImagesKwargs with these keys and set it as the `valid_kwargs` class attribute.
+  internvl_balanced_text90_s2 step 0/125: A_real=0.568 G_real=0.549 G_swap=0.210 G_blank=0.203 A_blank=0.302 A_swap=0.312  [0.0 min]
+  internvl_balanced_text90_s2 step 6/125: A_real=0.568 G_real=0.544 G_swap=0.200 G_blank=0.203 A_blank=0.312 A_swap=0.322  [10.6 min]
+  internvl_balanced_text90_s2 step 12/125: A_real=0.570 G_real=0.551 G_swap=0.225 G_blank=0.215 A_blank=0.328 A_swap=0.318  [21.1 min]
+  internvl_balanced_text90_s2 step 25/125: A_real=0.580 G_real=0.546 G_swap=0.243 G_blank=0.229 A_blank=0.330 A_swap=0.320  [32.6 min]
+  internvl_balanced_text90_s2 step 50/125: A_real=0.556 G_real=0.563 G_swap=0.227 G_blank=0.205 A_blank=0.306 A_swap=0.324  [43.6 min]
+  internvl_balanced_text90_s2 step 125/125: A_real=0.572 G_real=0.568 G_swap=0.212 G_blank=0.207 A_blank=0.312 A_swap=0.320  [54.4 min]
+saved results/tier3/eval_v2_balanced/checkpoint_eval_v2.csv (216 rows); 54.4 min
