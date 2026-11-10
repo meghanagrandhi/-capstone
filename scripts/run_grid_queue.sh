@@ -8,14 +8,13 @@
 # Log: results/grid.log ; per-job logs: results/pipeline_logs/ ; eval output: results/tier3/eval_grid/
 cd "$(dirname "$0")/.."
 [ $# -ge 1 ] || { echo "usage: run_grid_queue.sh qwen2vl|smolvlm|internvl [...]"; exit 1; }
-PY=.venv/Scripts/python; [ -x .venv/bin/python ] && PY=.venv/bin/python  # Windows or Linux venv
 export PYTHONIOENCODING=utf-8 HF_HUB_DISABLE_SYMLINKS_WARNING=1 HF_DEACTIVATE_ASYNC_LOAD=1
 L=results/grid.log
 E=results/tier3/eval_grid
 mkdir -p results/pipeline_logs $E
-[ -f configs/grid_runs.csv ] || $PY -m scripts.make_grid
+[ -f configs/grid_runs.csv ] || .venv/Scripts/python -m scripts.make_grid
 for m in grid_text10 grid_text30 grid_text50 grid_text70 grid_text90; do
-  [ -f results/tier2/full/mixture_$m.csv ] || $PY -m scripts.run_tier2 --stage mix_grid
+  [ -f results/tier2/full/mixture_$m.csv ] || .venv/Scripts/python -m scripts.run_tier2 --stage mix_grid
 done
 freegb(){ df -BG . | tail -1 | awk '{gsub("G","",$4); print $4}'; }
 gputemp(){ nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits | head -1 | tr -d ' \r'; }
@@ -28,7 +27,7 @@ runstep(){
     if [ "$(freegb)" -lt 3 ]; then echo "=== FAILED $name: only $(freegb) GB free" >> $L; exit 1; fi
     cooldown
     echo "=== START $name try $try $(date '+%F %H:%M:%S') ($(freegb) GB free, GPU $(gputemp)C)" >> $L
-    $PY -W ignore -u -m "$@" > results/pipeline_logs/grid_${name}_try$try.log 2>&1 &
+    .venv/Scripts/python -W ignore -u -m "$@" > results/pipeline_logs/grid_${name}_try$try.log 2>&1 &
     pid=$!; hot=0; killed=0
     while kill -0 $pid 2>/dev/null; do
       sleep 30
@@ -59,7 +58,7 @@ while IFS=, read -r model share lr rank steps seed locked <&3; do
   pfx=${model}_; [ $model = qwen2vl ] && pfx=""
   def=125; [ $model = qwen2vl ] && def=120
   hp=""
-  [ "$($PY -c "print(float('$lr') != 2e-4)")" = True ] && hp="${hp}_lr$($PY -c "print(f'{float(\"$lr\"):g}')")"
+  [ "$(.venv/Scripts/python -c "print(float('$lr') != 2e-4)")" = True ] && hp="${hp}_lr$(.venv/Scripts/python -c "print(f'{float(\"$lr\"):g}')")"
   [ $rank != 16 ] && hp="${hp}_r$rank"
   [ $steps != $def ] && hp="${hp}_st$steps"
   run=${pfx}grid_text${share}${hp}$([ $seed -ne 0 ] && echo _s$seed)
