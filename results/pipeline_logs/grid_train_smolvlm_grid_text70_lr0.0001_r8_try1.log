@@ -1,0 +1,29 @@
+[overlap check OK] mixture_grid_text70 (at training time): 900 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:17,  8.48it/s]Loading weights:   1%|          | 7/657 [00:00<00:18, 35.61it/s]Loading weights:   5%|▌         | 33/657 [00:00<00:04, 129.01it/s]Loading weights:   9%|▊         | 57/657 [00:00<00:03, 170.40it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:03, 183.40it/s]Loading weights:  15%|█▌        | 99/657 [00:00<00:02, 191.41it/s]Loading weights:  19%|█▊        | 123/657 [00:00<00:02, 200.97it/s]Loading weights:  23%|██▎       | 149/657 [00:00<00:02, 214.40it/s]Loading weights:  26%|██▌       | 171/657 [00:00<00:02, 208.19it/s]Loading weights:  30%|██▉       | 195/657 [00:01<00:02, 213.32it/s]Loading weights:  34%|███▍      | 223/657 [00:01<00:01, 232.48it/s]Loading weights:  59%|█████▊    | 385/657 [00:01<00:00, 639.48it/s]Loading weights:  83%|████████▎ | 543/657 [00:01<00:00, 916.80it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 455.70it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1110 00:52:03.932000 26236 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 9.04M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.617 probe_attn_img_mass_image_necessary=0.069 probe_gap_text_answerable=0.217 probe_attn_img_mass_text_answerable=0.065
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.638 probe_attn_img_mass_image_necessary=0.069 probe_gap_text_answerable=0.223 probe_attn_img_mass_text_answerable=0.065
+  step 10/125 loss 3.260 gn 1.91 20.7s/step
+  [ckpt step 12] probe_gap_image_necessary=0.845 probe_attn_img_mass_image_necessary=0.070 probe_gap_text_answerable=0.396 probe_attn_img_mass_text_answerable=0.067
+  step 20/125 loss 1.275 gn 5.63 18.1s/step
+  [ckpt step 25] probe_gap_image_necessary=0.800 probe_attn_img_mass_image_necessary=0.073 probe_gap_text_answerable=0.453 probe_attn_img_mass_text_answerable=0.069
+  step 30/125 loss 0.380 gn 1.57 17.3s/step
+  step 40/125 loss 0.259 gn 1.65 15.2s/step
+  step 50/125 loss 0.213 gn 1.44 13.9s/step
+  [ckpt step 50] probe_gap_image_necessary=0.538 probe_attn_img_mass_image_necessary=0.070 probe_gap_text_answerable=0.222 probe_attn_img_mass_text_answerable=0.066
+  step 60/125 loss 0.341 gn 0.60 14.2s/step
+  step 70/125 loss 0.274 gn 1.81 13.5s/step
+  [ckpt step 75] probe_gap_image_necessary=0.584 probe_attn_img_mass_image_necessary=0.068 probe_gap_text_answerable=0.245 probe_attn_img_mass_text_answerable=0.063
+  step 80/125 loss 0.212 gn 0.95 13.8s/step
+  step 90/125 loss 0.266 gn 1.15 13.2s/step
+  step 100/125 loss 0.221 gn 0.81 12.8s/step
+  [ckpt step 100] probe_gap_image_necessary=0.587 probe_attn_img_mass_image_necessary=0.067 probe_gap_text_answerable=0.242 probe_attn_img_mass_text_answerable=0.063
+  step 110/125 loss 0.247 gn 1.16 13.1s/step
+  step 120/125 loss 0.065 gn 0.52 12.7s/step
+  step 125/125 loss 0.309 gn 0.87 12.6s/step
+  [ckpt step 125] probe_gap_image_necessary=0.597 probe_attn_img_mass_image_necessary=0.067 probe_gap_text_answerable=0.245 probe_attn_img_mass_text_answerable=0.063
+run meta: {'run': 'smolvlm_grid_text70_lr0.0001_r8', 'mixture': 'grid_text70', 'n_mix': 900, 'text_share': 0.7, 'steps': 125, 'batch_size': 8, 'lr': 0.0001, 'seed': 0, 'lora_r': 8, 'lora_alpha': 16, 'model_key': 'smolvlm', 'n_probe': 64, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.479192733764648, 'train_minutes': 27.33128430445989, 'sec_per_step': 12.566316844940186}

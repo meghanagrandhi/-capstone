@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1110 01:21:52.098000 28112 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:18,  8.40it/s]Loading weights:   1%|▏         | 9/657 [00:00<00:13, 46.90it/s]Loading weights:   5%|▌         | 33/657 [00:00<00:04, 128.42it/s]Loading weights:   9%|▊         | 56/657 [00:00<00:03, 165.59it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:03, 184.19it/s]Loading weights:  16%|█▌        | 104/657 [00:00<00:02, 205.51it/s]Loading weights:  20%|█▉        | 129/657 [00:00<00:02, 218.06it/s]Loading weights:  23%|██▎       | 151/657 [00:00<00:02, 216.08it/s]Loading weights:  27%|██▋       | 177/657 [00:00<00:02, 224.40it/s]Loading weights:  31%|███       | 203/657 [00:01<00:01, 229.69it/s]Loading weights:  40%|████      | 263/657 [00:01<00:01, 337.01it/s]Loading weights:  63%|██████▎   | 415/657 [00:01<00:00, 685.65it/s]Loading weights:  87%|████████▋ | 574/657 [00:01<00:00, 953.53it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 466.78it/s]
+  smolvlm_grid_text70_lr0.0001_r8 step 0/125: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_grid_text70_lr0.0001_r8 step 6/125: A_real=0.396 G_real=0.384 G_blank=0.194  [9.8 min]
+  smolvlm_grid_text70_lr0.0001_r8 step 12/125: A_real=0.394 G_real=0.384 G_blank=0.191  [20.1 min]
+  smolvlm_grid_text70_lr0.0001_r8 step 25/125: A_real=0.426 G_real=0.389 G_blank=0.196  [30.5 min]
+  smolvlm_grid_text70_lr0.0001_r8 step 50/125: A_real=0.422 G_real=0.377 G_blank=0.196  [40.9 min]
+  smolvlm_grid_text70_lr0.0001_r8 step 125/125: A_real=0.426 G_real=0.373 G_blank=0.196  [51.2 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (342 rows); 51.3 min

@@ -1,0 +1,19 @@
+{
+  "run": "smolvlm_grid_text30_lr0.0001",
+  "mixture": "grid_text30",
+  "n_mix": 900,
+  "text_share": 0.3,
+  "steps": 125,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "seed": 0,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "model_key": "smolvlm",
+  "n_probe": 64,
+  "model": "HuggingFaceTB/SmolVLM-Instruct",
+  "model_revision": "81cd9a775a4d644f2faf4e7becff4559b46b14c7",
+  "peak_vram_gib": 5.581516265869141,
+  "train_minutes": 29.276439527670544,
+  "sec_per_step": 13.465301710128784
+}

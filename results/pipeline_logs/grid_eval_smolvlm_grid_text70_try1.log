@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1109 03:55:56.662000 36536 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:15,  8.72it/s]Loading weights:   2%|▏         | 11/657 [00:00<00:10, 59.24it/s]Loading weights:   5%|▌         | 34/657 [00:00<00:04, 131.47it/s]Loading weights:   8%|▊         | 52/657 [00:00<00:04, 149.66it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:03, 184.82it/s]Loading weights:  16%|█▌        | 104/657 [00:00<00:02, 207.80it/s]Loading weights:  19%|█▉        | 128/657 [00:00<00:02, 218.01it/s]Loading weights:  23%|██▎       | 151/657 [00:00<00:02, 219.32it/s]Loading weights:  27%|██▋       | 177/657 [00:00<00:02, 228.35it/s]Loading weights:  31%|███       | 203/657 [00:01<00:01, 234.68it/s]Loading weights:  42%|████▏     | 277/657 [00:01<00:00, 384.46it/s]Loading weights:  67%|██████▋   | 437/657 [00:01<00:00, 743.65it/s]Loading weights:  90%|████████▉ | 591/657 [00:01<00:00, 980.42it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 473.91it/s]
+  smolvlm_grid_text70 step 0/125: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_grid_text70 step 6/125: A_real=0.394 G_real=0.392 G_blank=0.191  [9.7 min]
+  smolvlm_grid_text70 step 12/125: A_real=0.424 G_real=0.387 G_blank=0.189  [19.8 min]
+  smolvlm_grid_text70 step 25/125: A_real=0.408 G_real=0.373 G_blank=0.207  [29.9 min]
+  smolvlm_grid_text70 step 50/125: A_real=0.414 G_real=0.382 G_blank=0.210  [40.1 min]
+  smolvlm_grid_text70 step 125/125: A_real=0.428 G_real=0.380 G_blank=0.203  [50.4 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (72 rows); 50.4 min

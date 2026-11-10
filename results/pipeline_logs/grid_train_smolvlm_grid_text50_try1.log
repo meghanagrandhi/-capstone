@@ -1,0 +1,29 @@
+[overlap check OK] mixture_grid_text50 (at training time): 900 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:13,  8.95it/s]Loading weights:   2%|▏         | 12/657 [00:00<00:09, 64.88it/s]Loading weights:   5%|▌         | 34/657 [00:00<00:04, 131.94it/s]Loading weights:   9%|▉         | 60/657 [00:00<00:03, 175.33it/s]Loading weights:  13%|█▎        | 86/657 [00:00<00:02, 201.30it/s]Loading weights:  16%|█▋        | 107/657 [00:00<00:02, 184.67it/s]Loading weights:  20%|██        | 132/657 [00:00<00:02, 201.31it/s]Loading weights:  24%|██▍       | 158/657 [00:00<00:02, 215.09it/s]Loading weights:  28%|██▊       | 181/657 [00:00<00:02, 219.27it/s]Loading weights:  31%|███       | 204/657 [00:01<00:02, 220.97it/s]Loading weights:  44%|████▍     | 288/657 [00:01<00:00, 403.66it/s]Loading weights:  68%|██████▊   | 447/657 [00:01<00:00, 754.45it/s]Loading weights:  91%|█████████ | 599/657 [00:01<00:00, 978.11it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 464.47it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1109 02:03:46.359000 34424 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.617 probe_attn_img_mass_image_necessary=0.069 probe_gap_text_answerable=0.217 probe_attn_img_mass_text_answerable=0.065
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 6] probe_gap_image_necessary=0.899 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.451 probe_attn_img_mass_text_answerable=0.067
+  step 10/125 loss 0.656 gn 4.46 20.7s/step
+  [ckpt step 12] probe_gap_image_necessary=0.794 probe_attn_img_mass_image_necessary=0.076 probe_gap_text_answerable=0.423 probe_attn_img_mass_text_answerable=0.072
+  step 20/125 loss 0.375 gn 1.23 18.0s/step
+  [ckpt step 25] probe_gap_image_necessary=0.508 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.195 probe_attn_img_mass_text_answerable=0.066
+  step 30/125 loss 0.367 gn 1.26 17.1s/step
+  step 40/125 loss 0.478 gn 1.21 15.0s/step
+  step 50/125 loss 0.541 gn 1.00 13.8s/step
+  [ckpt step 50] probe_gap_image_necessary=0.504 probe_attn_img_mass_image_necessary=0.073 probe_gap_text_answerable=0.180 probe_attn_img_mass_text_answerable=0.068
+  step 60/125 loss 0.222 gn 1.18 14.1s/step
+  step 70/125 loss 0.281 gn 0.94 13.3s/step
+  [ckpt step 75] probe_gap_image_necessary=0.596 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.212 probe_attn_img_mass_text_answerable=0.067
+  step 80/125 loss 0.226 gn 0.97 13.6s/step
+  step 90/125 loss 0.352 gn 1.61 13.0s/step
+  step 100/125 loss 0.325 gn 1.21 12.6s/step
+  [ckpt step 100] probe_gap_image_necessary=0.576 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.222 probe_attn_img_mass_text_answerable=0.067
+  step 110/125 loss 0.076 gn 0.54 12.9s/step
+  step 120/125 loss 0.350 gn 0.96 12.5s/step
+  step 125/125 loss 0.219 gn 0.66 12.4s/step
+  [ckpt step 125] probe_gap_image_necessary=0.591 probe_attn_img_mass_image_necessary=0.071 probe_gap_text_answerable=0.234 probe_attn_img_mass_text_answerable=0.067
+run meta: {'run': 'smolvlm_grid_text50', 'mixture': 'grid_text50', 'n_mix': 900, 'text_share': 0.5, 'steps': 125, 'batch_size': 8, 'lr': 0.0002, 'seed': 0, 'lora_r': 16, 'lora_alpha': 32, 'model_key': 'smolvlm', 'n_probe': 64, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.581424713134766, 'train_minutes': 26.94620338280996, 'sec_per_step': 12.390014543533326}

@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1110 09:43:35.294000 26676 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:13,  8.92it/s]Loading weights:   2%|▏         | 11/657 [00:00<00:10, 59.62it/s]Loading weights:   5%|▌         | 34/657 [00:00<00:04, 129.83it/s]Loading weights:   9%|▉         | 59/657 [00:00<00:03, 171.63it/s]Loading weights:  13%|█▎        | 83/657 [00:00<00:02, 193.69it/s]Loading weights:  16%|█▌        | 106/657 [00:00<00:02, 203.06it/s]Loading weights:  20%|██        | 132/657 [00:00<00:02, 219.81it/s]Loading weights:  24%|██▍       | 158/657 [00:00<00:02, 230.23it/s]Loading weights:  28%|██▊       | 182/657 [00:00<00:02, 232.31it/s]Loading weights:  31%|███▏      | 206/657 [00:01<00:01, 230.16it/s]Loading weights:  47%|████▋     | 309/657 [00:01<00:00, 466.19it/s]Loading weights:  72%|███████▏  | 471/657 [00:01<00:00, 807.07it/s]Loading weights:  96%|█████████▋| 633/657 [00:01<00:00, 1048.35it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 482.29it/s] 
+  smolvlm_grid_text90_s1 step 0/125: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_grid_text90_s1 step 6/125: A_real=0.402 G_real=0.399 G_blank=0.189  [9.8 min]
+  smolvlm_grid_text90_s1 step 12/125: A_real=0.434 G_real=0.380 G_blank=0.196  [20.0 min]
+  smolvlm_grid_text90_s1 step 25/125: A_real=0.402 G_real=0.386 G_blank=0.225  [30.3 min]
+  smolvlm_grid_text90_s1 step 50/125: A_real=0.412 G_real=0.379 G_blank=0.231  [40.6 min]
+  smolvlm_grid_text90_s1 step 125/125: A_real=0.404 G_real=0.377 G_blank=0.196  [50.9 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (450 rows); 51.0 min

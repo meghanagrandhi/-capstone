@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1110 08:20:02.865000 14072 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:18,  8.39it/s]Loading weights:   1%|          | 7/657 [00:00<00:17, 36.26it/s]Loading weights:   5%|▍         | 32/657 [00:00<00:04, 127.98it/s]Loading weights:   8%|▊         | 52/657 [00:00<00:03, 153.30it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:03, 182.74it/s]Loading weights:  15%|█▍        | 97/657 [00:00<00:02, 187.15it/s]Loading weights:  19%|█▊        | 122/657 [00:00<00:02, 204.50it/s]Loading weights:  22%|██▏       | 143/657 [00:00<00:02, 205.27it/s]Loading weights:  26%|██▌       | 168/657 [00:00<00:02, 213.65it/s]Loading weights:  30%|██▉       | 194/657 [00:01<00:02, 221.98it/s]Loading weights:  33%|███▎      | 217/657 [00:01<00:01, 220.86it/s]Loading weights:  57%|█████▋    | 373/657 [00:01<00:00, 607.51it/s]Loading weights:  81%|████████▏ | 535/657 [00:01<00:00, 897.09it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 455.75it/s]
+  smolvlm_grid_text70_s1 step 0/125: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_grid_text70_s1 step 6/125: A_real=0.400 G_real=0.392 G_blank=0.193  [9.8 min]
+  smolvlm_grid_text70_s1 step 12/125: A_real=0.418 G_real=0.394 G_blank=0.203  [20.1 min]
+  smolvlm_grid_text70_s1 step 25/125: A_real=0.412 G_real=0.384 G_blank=0.212  [30.4 min]
+  smolvlm_grid_text70_s1 step 50/125: A_real=0.412 G_real=0.365 G_blank=0.193  [40.7 min]
+  smolvlm_grid_text70_s1 step 125/125: A_real=0.408 G_real=0.370 G_blank=0.203  [51.0 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (432 rows); 51.0 min

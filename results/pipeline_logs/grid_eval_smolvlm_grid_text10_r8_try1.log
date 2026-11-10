@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1109 06:41:21.693000 28840 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:16,  8.57it/s]Loading weights:   1%|▏         | 9/657 [00:00<00:13, 47.81it/s]Loading weights:   5%|▌         | 33/657 [00:00<00:04, 129.10it/s]Loading weights:   8%|▊         | 51/657 [00:00<00:04, 147.65it/s]Loading weights:  11%|█▏        | 75/657 [00:00<00:03, 178.89it/s]Loading weights:  15%|█▍        | 96/657 [00:00<00:02, 187.62it/s]Loading weights:  18%|█▊        | 120/657 [00:00<00:02, 203.40it/s]Loading weights:  21%|██▏       | 141/657 [00:00<00:02, 205.30it/s]Loading weights:  25%|██▌       | 165/657 [00:00<00:02, 215.68it/s]Loading weights:  28%|██▊       | 187/657 [00:01<00:02, 210.38it/s]Loading weights:  32%|███▏      | 212/657 [00:01<00:02, 221.85it/s]Loading weights:  50%|████▉     | 327/657 [00:01<00:00, 496.79it/s]Loading weights:  73%|███████▎  | 480/657 [00:01<00:00, 804.53it/s]Loading weights:  96%|█████████▌| 631/657 [00:01<00:00, 1012.98it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 450.61it/s] 
+  smolvlm_grid_text10_r8 step 0/125: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_grid_text10_r8 step 6/125: A_real=0.400 G_real=0.384 G_blank=0.200  [9.8 min]
+  smolvlm_grid_text10_r8 step 12/125: A_real=0.400 G_real=0.394 G_blank=0.194  [19.8 min]
+  smolvlm_grid_text10_r8 step 25/125: A_real=0.420 G_real=0.382 G_blank=0.188  [29.9 min]
+  smolvlm_grid_text10_r8 step 50/125: A_real=0.414 G_real=0.372 G_blank=0.201  [40.1 min]
+  smolvlm_grid_text10_r8 step 125/125: A_real=0.414 G_real=0.372 G_blank=0.200  [50.3 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (108 rows); 50.3 min
