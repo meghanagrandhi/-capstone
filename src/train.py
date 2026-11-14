@@ -100,7 +100,8 @@ def ckpt_steps_for(total: int, pcts=(0, 5, 10, 20, 40, 60, 80, 100)) -> list[int
 
 
 def train(vlm, mix: pd.DataFrame, probe: pd.DataFrame, steps: int, bs: int, lr: float, seed: int, out_dir: str,
-          max_ans: int = 96, warmup_frac: float = 0.05, clip: float = 1.0, gray: int = 127):
+          max_ans: int = 96, warmup_frac: float = 0.05, clip: float = 1.0, gray: int = 127,
+          checkpoint_pcts=(0, 5, 10, 20, 40, 60, 80, 100)):
     """Identical schedule for every run: same steps, bs, lr, warmup, seed. Resumable at checkpoint granularity is NOT
     implemented (runs are short); a finished run leaves adapters/step_XXXX + train_log.csv + probe_log.csv."""
     os.makedirs(os.path.join(out_dir, "adapters"), exist_ok=True)
@@ -114,7 +115,7 @@ def train(vlm, mix: pd.DataFrame, probe: pd.DataFrame, steps: int, bs: int, lr: 
     warm = max(1, int(round(warmup_frac * steps)))
     sched = torch.optim.lr_scheduler.LambdaLR(
         opt, lambda s: min(1.0, (s + 1) / warm) * 0.5 * (1 + math.cos(math.pi * min(s, steps) / steps)))
-    cks = set(ckpt_steps_for(steps))
+    cks = set(ckpt_steps_for(steps, checkpoint_pcts))
     log, plog = [], []
 
     def checkpoint(step):

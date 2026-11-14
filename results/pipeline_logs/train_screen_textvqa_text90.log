@@ -1,0 +1,31 @@
+[overlap check OK] mixture_screen_textvqa_text90 (at training time): 1050 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]
+Loading weights:   0%|          | 3/657 [00:00<00:31, 20.94it/s]
+Loading weights:   4%|▎         | 24/657 [00:00<00:05, 113.83it/s]
+Loading weights:   7%|▋         | 48/657 [00:00<00:03, 164.57it/s]
+Loading weights:  11%|█         | 70/657 [00:00<00:03, 178.32it/s]
+Loading weights:  15%|█▍        | 96/657 [00:00<00:02, 199.50it/s]
+Loading weights:  19%|█▊        | 122/657 [00:00<00:02, 213.60it/s]
+Loading weights:  22%|██▏       | 144/657 [00:00<00:02, 214.45it/s]
+Loading weights:  26%|██▌       | 168/657 [00:00<00:02, 216.36it/s]
+Loading weights:  29%|██▉       | 190/657 [00:00<00:02, 216.21it/s]
+Loading weights:  32%|███▏      | 213/657 [00:01<00:02, 215.52it/s]
+Loading weights:  52%|█████▏    | 343/657 [00:01<00:00, 532.75it/s]
+Loading weights:  77%|███████▋  | 503/657 [00:01<00:00, 841.09it/s]
+Loading weights: 100%|██████████| 657/657 [00:01<00:00, 470.25it/s]
+W1114 18:24:58.884000 6680 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=1.228 probe_attn_img_mass_image_necessary=0.121 probe_gap_text_answerable=0.123 probe_attn_img_mass_text_answerable=0.086
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  step 10/62 loss 1.606 gn 5.81 10.5s/step
+  step 20/62 loss 0.212 gn 1.68 9.7s/step
+  step 30/62 loss 0.193 gn 1.49 9.4s/step
+  step 40/62 loss 0.654 gn 1.91 9.3s/step
+  step 50/62 loss 0.174 gn 1.01 9.2s/step
+  step 60/62 loss 0.310 gn 1.04 9.1s/step
+  step 62/62 loss 0.661 gn 1.71 9.1s/step
+  [ckpt step 62] probe_gap_image_necessary=1.402 probe_attn_img_mass_image_necessary=0.122 probe_gap_text_answerable=0.740 probe_attn_img_mass_text_answerable=0.087
+run meta: {'run': 'smolvlm_screen_textvqa_text90', 'mixture': 'screen_textvqa_text90', 'n_mix': 1050, 'text_share': 0.9, 'steps': 62, 'batch_size': 8, 'lr': 0.0002, 'seed': 0, 'lora_r': 16, 'lora_alpha': 32, 'model_key': 'smolvlm', 'n_probe': 16, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.460010528564453, 'train_minutes': 9.698115209738413, 'sec_per_step': 9.116590511414312}

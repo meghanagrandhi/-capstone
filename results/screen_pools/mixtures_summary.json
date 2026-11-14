@@ -1,0 +1,307 @@
+{
+  "quantiles": {
+    "okvqa": {
+      "low": -0.2878302574157712,
+      "high": 0.6069959640502929,
+      "count": 850
+    },
+    "textvqa": {
+      "low": 1.5460259437561037,
+      "high": 2.8404111862182617,
+      "count": 850
+    },
+    "textcaps": {
+      "low": 1.484335231781006,
+      "high": 1.9069292068481443,
+      "count": 850
+    }
+  },
+  "mixtures": {
+    "screen_baseline_text10": {
+      "n": 1050,
+      "text_share": 0.1,
+      "by_subset": {
+        "aokvqa": 300,
+        "cocoqa": 300,
+        "tallyqa": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "cocoqa": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "tallyqa": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "vsr": {
+          "image_necessary": 135,
+          "text_answerable": 15
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_baseline_text90": {
+      "n": 1050,
+      "text_share": 0.9,
+      "by_subset": {
+        "aokvqa": 300,
+        "cocoqa": 300,
+        "tallyqa": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "cocoqa": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "tallyqa": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "vsr": {
+          "image_necessary": 15,
+          "text_answerable": 135
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_okvqa_text10": {
+      "n": 1050,
+      "text_share": 0.1,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "okvqa": 300,
+        "tallyqa": 200,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "cocoqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "okvqa": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "tallyqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "vsr": {
+          "image_necessary": 135,
+          "text_answerable": 15
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_okvqa_text90": {
+      "n": 1050,
+      "text_share": 0.9,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "okvqa": 300,
+        "tallyqa": 200,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "cocoqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "okvqa": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "tallyqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "vsr": {
+          "image_necessary": 15,
+          "text_answerable": 135
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_textvqa_text10": {
+      "n": 1050,
+      "text_share": 0.1,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "tallyqa": 200,
+        "textvqa": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "cocoqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "tallyqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "textvqa": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "vsr": {
+          "image_necessary": 135,
+          "text_answerable": 15
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_textvqa_text90": {
+      "n": 1050,
+      "text_share": 0.9,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "tallyqa": 200,
+        "textvqa": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "cocoqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "tallyqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "textvqa": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "vsr": {
+          "image_necessary": 15,
+          "text_answerable": 135
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_textcaps_text10": {
+      "n": 1050,
+      "text_share": 0.1,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "tallyqa": 200,
+        "textcaps": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "cocoqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "tallyqa": {
+          "image_necessary": 180,
+          "text_answerable": 20
+        },
+        "textcaps": {
+          "image_necessary": 270,
+          "text_answerable": 30
+        },
+        "vsr": {
+          "image_necessary": 135,
+          "text_answerable": 15
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    },
+    "screen_textcaps_text90": {
+      "n": 1050,
+      "text_share": 0.9,
+      "by_subset": {
+        "aokvqa": 200,
+        "cocoqa": 200,
+        "tallyqa": 200,
+        "textcaps": 300,
+        "vsr": 150
+      },
+      "by_label": {
+        "aokvqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "cocoqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "tallyqa": {
+          "image_necessary": 20,
+          "text_answerable": 180
+        },
+        "textcaps": {
+          "image_necessary": 30,
+          "text_answerable": 270
+        },
+        "vsr": {
+          "image_necessary": 15,
+          "text_answerable": 135
+        }
+      },
+      "vsr_yes_no": {
+        "yes": 75,
+        "no": 75
+      }
+    }
+  }
+}
