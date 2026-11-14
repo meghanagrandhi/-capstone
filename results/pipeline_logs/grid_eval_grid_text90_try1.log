@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1109 23:39:34.208000 820 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[ERROR] `loss` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+[ERROR] `logits` is part of Qwen2VLCausalLMOutputWithPast.__init__'s signature, but not documented. Make sure to add it to the docstring of the function in G:\Backup D\Capstone\capstone_run\.venv\Lib\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 580.77it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<02:42,  4.49it/s]Loading weights:   2%|▏         | 16/729 [00:00<00:11, 60.28it/s]Loading weights:   7%|▋         | 51/729 [00:00<00:04, 158.09it/s]Loading weights:  11%|█         | 77/729 [00:00<00:03, 188.97it/s]Loading weights:  14%|█▍        | 101/729 [00:00<00:03, 201.04it/s]Loading weights:  19%|█▊        | 136/729 [00:00<00:02, 246.54it/s]Loading weights:  24%|██▎       | 172/729 [00:00<00:02, 270.02it/s]Loading weights:  28%|██▊       | 207/729 [00:00<00:01, 290.51it/s]Loading weights:  33%|███▎      | 243/729 [00:01<00:01, 303.03it/s]Loading weights:  38%|███▊      | 274/729 [00:01<00:01, 291.05it/s]Loading weights:  42%|████▏     | 305/729 [00:01<00:01, 291.86it/s]Loading weights:  46%|████▌     | 335/729 [00:01<00:01, 276.31it/s]Loading weights:  54%|█████▍    | 397/729 [00:01<00:00, 371.36it/s]Loading weights:  64%|██████▍   | 466/729 [00:01<00:00, 460.87it/s]Loading weights:  74%|███████▍  | 538/729 [00:01<00:00, 528.28it/s]Loading weights:  83%|████████▎ | 604/729 [00:01<00:00, 565.21it/s]Loading weights:  92%|█████████▏| 670/729 [00:01<00:00, 585.63it/s]Loading weights: 100%|██████████| 729/729 [00:02<00:00, 355.45it/s]
+  grid_text90 step 0/120: A_real=0.438 G_real=0.403 G_blank=0.045  [0.0 min]
+  grid_text90 step 6/120: A_real=0.448 G_real=0.394 G_blank=0.059  [9.5 min]
+  grid_text90 step 12/120: A_real=0.448 G_real=0.384 G_blank=0.053  [19.3 min]
+  grid_text90 step 24/120: A_real=0.444 G_real=0.401 G_blank=0.069  [28.9 min]
+  grid_text90 step 48/120: A_real=0.472 G_real=0.401 G_blank=0.088  [38.4 min]
+  grid_text90 step 120/120: A_real=0.464 G_real=0.399 G_blank=0.083  [47.8 min]
+saved results/tier3/eval_grid/checkpoint_eval_v2.csv (90 rows); 47.8 min

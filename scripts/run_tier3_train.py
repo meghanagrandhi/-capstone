@@ -31,6 +31,8 @@ def main():
     ap.add_argument("--seed", type=int, default=None, help="training seed (default: config); non-default seeds get a _s<seed> suffix")
     ap.add_argument("--model", default="qwen2vl", choices=["qwen2vl", "smolvlm", "internvl"])
     ap.add_argument("--config", default="configs/config.yaml")
+    ap.add_argument("--checkpoint-pcts", nargs="+", type=int,
+                default=[0, 5, 10, 20, 40, 60, 80, 100])
     a = ap.parse_args()
     cfg = yaml.safe_load(open(a.config))
     prefix = select_model(cfg, a.model)
@@ -56,7 +58,11 @@ def main():
 
     mix = pd.read_csv(os.path.join(src_dir, f"mixture_{a.mixture}.csv"))
     pair = {"text10": "text90", "text90": "text10", "matched_text10": "matched_text90", "matched_text90": "matched_text10",
-            "balanced_text10": "balanced_text90", "balanced_text90": "balanced_text10"}
+            "balanced_text10": "balanced_text90", "balanced_text90": "balanced_text10",
+            "screen_baseline_text10": "screen_baseline_text90", "screen_baseline_text90": "screen_baseline_text10",
+            "screen_okvqa_text10": "screen_okvqa_text90", "screen_okvqa_text90": "screen_okvqa_text10",
+            "screen_textvqa_text10": "screen_textvqa_text90", "screen_textvqa_text90": "screen_textvqa_text10",
+            "screen_textcaps_text10": "screen_textcaps_text90", "screen_textcaps_text90": "screen_textcaps_text10"}
     other = mix if grid else pd.read_csv(os.path.join(src_dir, f"mixture_{pair[a.mixture]}.csv"))
     # HARD RULE re-checked at training time against ALL MMStar items (A and G sets are subsets of MMStar)
     fp = mmstar_fingerprints(cfg["tier1"], os.path.join(t2["out_dir"], "mmstar_fingerprints.json"))
@@ -64,7 +70,8 @@ def main():
                       t2["overlap_hamming"], f"mixture_{a.mixture} (at training time)")
 
     # held-out probe: fixed items from each class that are in NEITHER mixture
-    pl = pd.read_csv(os.path.join(src_dir, "pool_labeled_matched.csv" if a.mixture.startswith(("matched", "balanced")) else "pool_labeled.csv"))
+    pl_name = "pool_labeled_screen.csv" if a.mixture.startswith("screen_") else ("pool_labeled_matched.csv" if a.mixture.startswith(("matched", "balanced")) else "pool_labeled.csv")
+    pl = pd.read_csv(os.path.join(src_dir, pl_name))
     used = set(mix.id) | set(other.id)
     rng = np.random.RandomState(t3["seed"])
     probe = []
@@ -85,7 +92,11 @@ def main():
     attach_lora(vlm, r, alpha, t3["lora_dropout"])
     torch.cuda.reset_peak_memory_stats()
     t0 = time.time()
-    tlog, plog = train(vlm, mix, probe, steps, bs, lr, seed, out, t3["max_answer_tokens"])
+    tlog, plog = train(
+        vlm, mix, probe, steps, bs, lr, seed, out,
+        t3["max_answer_tokens"],
+        checkpoint_pcts=tuple(a.checkpoint_pcts)
+    )
     meta = dict(run=run, mixture=a.mixture, n_mix=len(mix), text_share=float((mix.label == "text_answerable").mean()),
                 steps=steps, batch_size=bs, lr=lr, seed=seed, lora_r=r, lora_alpha=alpha, model_key=a.model, n_probe=len(probe),
                 model=cfg["model"]["hf_id"], model_revision=cfg["model"].get("revision"), peak_vram_gib=torch.cuda.max_memory_allocated() / 2**30,

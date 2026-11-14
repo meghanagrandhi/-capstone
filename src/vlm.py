@@ -2,6 +2,9 @@
 from __future__ import annotations
 import abc
 import os
+import sys
+import re
+sys.modules.setdefault("regex", re)
 
 # transformers 5.x loads weights with a 4-thread pool; on this Windows machine that intermittently segfaults
 # (access violation reading the memory-mapped safetensors). Single-threaded loading is stable and only ~24 s.

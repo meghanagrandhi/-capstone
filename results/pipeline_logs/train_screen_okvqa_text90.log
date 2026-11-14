@@ -1,0 +1,35 @@
+[overlap check OK] mixture_screen_okvqa_text90 (at training time): 1050 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]
+Loading weights:   0%|          | 2/657 [00:00<00:37, 17.62it/s]
+Loading weights:   1%|▏         | 9/657 [00:00<00:13, 46.63it/s]
+Loading weights:   4%|▎         | 24/657 [00:00<00:07, 89.83it/s]
+Loading weights:   7%|▋         | 43/657 [00:00<00:04, 125.38it/s]
+Loading weights:   9%|▉         | 60/657 [00:00<00:04, 136.89it/s]
+Loading weights:  12%|█▏        | 77/657 [00:00<00:03, 145.69it/s]
+Loading weights:  15%|█▍        | 97/657 [00:00<00:03, 157.40it/s]
+Loading weights:  18%|█▊        | 118/657 [00:00<00:03, 172.66it/s]
+Loading weights:  21%|██▏       | 140/657 [00:00<00:02, 183.63it/s]
+Loading weights:  24%|██▍       | 159/657 [00:01<00:02, 178.66it/s]
+Loading weights:  27%|██▋       | 180/657 [00:01<00:02, 186.63it/s]
+Loading weights:  31%|███       | 203/657 [00:01<00:02, 194.20it/s]
+Loading weights:  35%|███▍      | 229/657 [00:01<00:02, 211.98it/s]
+Loading weights:  56%|█████▌    | 365/657 [00:01<00:00, 545.69it/s]
+Loading weights:  76%|███████▋  | 501/657 [00:01<00:00, 781.71it/s]
+Loading weights:  89%|████████▊ | 583/657 [00:01<00:00, 780.00it/s]
+Loading weights: 100%|██████████| 657/657 [00:01<00:00, 376.74it/s]
+W1114 18:05:01.774000 34820 .venv\Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=1.537 probe_attn_img_mass_image_necessary=0.124 probe_gap_text_answerable=-0.268 probe_attn_img_mass_text_answerable=0.087
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  step 10/62 loss 2.143 gn 6.23 10.6s/step
+  step 20/62 loss 0.707 gn 2.71 9.8s/step
+  step 30/62 loss 0.311 gn 1.30 9.5s/step
+  step 40/62 loss 0.591 gn 1.22 9.3s/step
+  step 50/62 loss 0.736 gn 2.15 9.2s/step
+  step 60/62 loss 0.544 gn 2.05 9.1s/step
+  step 62/62 loss 0.487 gn 1.49 9.1s/step
+  [ckpt step 62] probe_gap_image_necessary=1.593 probe_attn_img_mass_image_necessary=0.125 probe_gap_text_answerable=0.294 probe_attn_img_mass_text_answerable=0.085
+run meta: {'run': 'smolvlm_screen_okvqa_text90', 'mixture': 'screen_okvqa_text90', 'n_mix': 1050, 'text_share': 0.9, 'steps': 62, 'batch_size': 8, 'lr': 0.0002, 'seed': 0, 'lora_r': 16, 'lora_alpha': 32, 'model_key': 'smolvlm', 'n_probe': 16, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.458815097808838, 'train_minutes': 9.707497227191926, 'sec_per_step': 9.121244649733267}
