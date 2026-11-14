@@ -1,0 +1,601 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-tallyqa-132,tallyqa,text_answerable,0.3356331586837768,0.7456886768341064,1.0813218355178833,"How many men are standing near the train?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-132.jpg,e1e2c10107012810,how many men are standing near the train
+cauldron-tallyqa-248,tallyqa,text_answerable,0.5605447292327881,1.57155442237854,2.132099151611328,"How many windows are on the building to the left?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-248.jpg,e3a3612979d09e8e,how many windows are on the building to the left
+cauldron-tallyqa-118,tallyqa,text_answerable,0.4268629550933838,0.8575165271759033,1.284379482269287,"How many animals are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-118.jpg,cceceef1f0d8d0c0,how many animals are in the photo
+cauldron-tallyqa-694,tallyqa,text_answerable,0.0194987058639526,1.4546327590942385,1.474131464958191,"How many small window panes are there?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-694.jpg,f0d8d8c8c8c686f8,how many small window panes are there
+cauldron-tallyqa-593,tallyqa,text_answerable,0.2425436377525329,0.7108967304229736,0.9534403681755066,"How many buttons are buttoned on jacket?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-593.jpg,e6e2fa70f1d1dbd8,how many buttons are buttoned on jacket
+cauldron-tallyqa-456,tallyqa,image_necessary,1.1999684870243073,0.2143733203411102,1.4143418073654177,"How many plates are visible?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-456.jpg,da89bad2828392f4,how many plates are visible
+cauldron-tallyqa-749,tallyqa,text_answerable,0.5705319046974182,0.3551124930381775,0.9256443977355956,"How many people in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-749.jpg,a494de8f1b13131,how many people in the photo
+cauldron-tallyqa-597,tallyqa,text_answerable,0.45358607172966,0.298526257276535,0.7521123290061951,"How many horses are in the foreground?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-597.jpg,284c5a3abc34130,how many horses are in the foreground
+cauldron-tallyqa-149,tallyqa,text_answerable,0.2233814001083374,1.0709186792373655,1.2943000793457031,"How many trains are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-149.jpg,e0c888c0e2e4f074,how many trains are pictured
+cauldron-tallyqa-232,tallyqa,text_answerable,-0.2455177307128906,1.8300139904022217,1.584496259689331,"How many lit up lights are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-232.jpg,31313939393031bf,how many lit up lights are there
+cauldron-tallyqa-581,tallyqa,text_answerable,-0.5510765314102173,1.8212767839431765,1.270200252532959,"How many black helmets are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-581.jpg,ed6c504a5a7ec41c,how many black helmets are there
+cauldron-tallyqa-180,tallyqa,text_answerable,-2.0164932012557983,3.4275801181793213,1.411086916923523,"How many skateboarders are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-180.jpg,faeceb7a6673f1ee,how many skateboarders are there
+cauldron-tallyqa-122,tallyqa,text_answerable,0.4999460130929947,0.1394126266241073,0.639358639717102,"How many zebra are pictured?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-122.jpg,c0e0f070dcc6fef0,how many zebra are pictured
+cauldron-tallyqa-729,tallyqa,text_answerable,0.2667534351348877,1.1348085403442385,1.401561975479126,"How many people in the middle?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-729.jpg,6565253b1b01e3f0,how many people in the middle
+cauldron-tallyqa-107,tallyqa,text_answerable,0.4983946084976196,0.4812322854995727,0.9796268939971924,"How many clear glasses?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-107.jpg,7c1fe5607371f0c0,how many clear glasses
+cauldron-tallyqa-127,tallyqa,text_answerable,0.776198061183095,0.0122198741883039,0.7884179353713989,"How many televisions are in the picture?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-127.jpg,f8e4a4e4b0b2fcff,how many televisions are in the picture
+cauldron-tallyqa-196,tallyqa,text_answerable,0.4298726469278335,0.0962131470441818,0.5260857939720154,"How many levels is the bus?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-196.jpg,e0181e188a9e8000,how many levels is the bus
+cauldron-tallyqa-255,tallyqa,text_answerable,0.0174472332000732,1.2510284185409546,1.2684756517410278,"How many blue awnings are on the windows?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-255.jpg,c4869617733028e0,how many blue awnings are on the windows
+cauldron-tallyqa-350,tallyqa,image_necessary,2.084579050540924,0.0781578421592712,2.162736892700196,"How many people on the field?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-350.jpg,f0e0e0f0d0ece0f0,how many people on the field
+cauldron-tallyqa-172,tallyqa,image_necessary,1.3763680905103683,0.2104215174913406,1.586789608001709,"How many people are in this photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-172.jpg,c0c0d0944c0c1e04,how many people are in this photo
+cauldron-tallyqa-285,tallyqa,text_answerable,0.7630890049040318,0.0366458259522914,0.7997348308563232,"How many street signs are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-285.jpg,b6b6535391a3f1f4,how many street signs are there
+cauldron-tallyqa-300,tallyqa,text_answerable,-1.1752208471298218,1.9625322818756104,0.7873114347457886,"How many carpets are white?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-300.jpg,8363f0f8f86e3b73,how many carpets are white
+cauldron-tallyqa-634,tallyqa,text_answerable,0.5652129650115967,0.5323072671890259,1.0975202322006226,"How many elephants in the pic?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-634.jpg,7071b0b8b0347c1a,how many elephants in the pic
+cauldron-tallyqa-332,tallyqa,text_answerable,0.3708473443984985,0.9289993047714232,1.299846649169922,"How many trains are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-332.jpg,c00c8f85080c898,how many trains are there
+cauldron-tallyqa-588,tallyqa,text_answerable,-0.2265152931213379,2.013722896575928,1.7872076034545898,"How many people are on the shore?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-588.jpg,fffffffffffd0e81,how many people are on the shore
+cauldron-tallyqa-289,tallyqa,text_answerable,0.5915787667036057,0.2273495346307754,0.8189283013343811,"How many printers are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-289.jpg,c0c0cc80a1878fd9,how many printers are there
+cauldron-tallyqa-700,tallyqa,text_answerable,0.2380592823028564,2.056639671325684,2.29469895362854,"How many people are in yellow?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-700.jpg,d5963ffffffcfce8,how many people are in yellow
+cauldron-tallyqa-799,tallyqa,text_answerable,0.5510302186012268,0.783885657787323,1.3349158763885498,"How many giraffes are near the fence?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-799.jpg,585864e9e97bf1f3,how many giraffes are near the fence
+cauldron-tallyqa-466,tallyqa,text_answerable,0.1602531671524047,1.121403694152832,1.2816568613052368,"How many players are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-466.jpg,70d0c9cfce9795e1,how many players are there
+cauldron-tallyqa-47,tallyqa,text_answerable,0.15980926156044,0.2082229852676391,0.3680322468280792,"How many burners does the stove have?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-47.jpg,f9e9edccccd65ad8,how many burners does the stove have
+cauldron-tallyqa-204,tallyqa,image_necessary,1.2554154694080353,0.1669753491878509,1.4223908185958862,"How many horses are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-204.jpg,f0fcbc940bfbdcfe,how many horses are there
+cauldron-tallyqa-14,tallyqa,text_answerable,0.6550315022468567,0.3241124749183655,0.9791439771652222,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-14.jpg,f0f080b8bce4f3b3,how many people are in the picture
+cauldron-tallyqa-51,tallyqa,text_answerable,0.7935945987701416,1.508786678314209,2.3023812770843506,"How many women are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-51.jpg,c7c599c965674504,how many women are there
+cauldron-tallyqa-386,tallyqa,text_answerable,0.8047346919775009,0.2382581382989883,1.0429928302764893,"How many men are wearing suits in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-386.jpg,46171b1b1f1f170f,how many men are wearing suits in the photo
+cauldron-tallyqa-754,tallyqa,text_answerable,0.6557570695877075,1.2421311140060425,1.89788818359375,"How many pillows are in this room?
+Give a very brief answer.",5.0,results/tier2\full\images\cauldron-tallyqa-754.jpg,f8b23878e4eccef8,how many pillows are in this room
+cauldron-tallyqa-463,tallyqa,text_answerable,0.2453508377075195,0.8593389987945557,1.1046898365020752,"How many bowls are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-463.jpg,e0c8ece666133b8f,how many bowls are there
+cauldron-tallyqa-141,tallyqa,text_answerable,0.1665807366371154,0.1114278733730316,0.2780086100101471,"How many wheels does the motorcycle have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-141.jpg,5d9dd233334bc74f,how many wheels does the motorcycle have
+cauldron-tallyqa-583,tallyqa,text_answerable,-0.2292213439941406,1.9770941734313965,1.747872829437256,"How many feet are strapped into the snow board?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-583.jpg,f2f2f0989898989c,how many feet are strapped into the snow board
+cauldron-tallyqa-318,tallyqa,text_answerable,-0.5283387899398804,2.2696104049682617,1.7412716150283811,"How many horses are in the picture?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-318.jpg,bc3f3636b4b1c3ca,how many horses are in the picture
+cauldron-tallyqa-492,tallyqa,text_answerable,0.4170981347560882,0.0921775996685028,0.5092757344245911,"How many fire extinguisher canisters are on the wall?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-492.jpg,c8cdcfcf850d143c,how many fire extinguisher canisters are on the wall
+cauldron-tallyqa-207,tallyqa,text_answerable,0.1466067805886268,0.0622054263949394,0.2088122069835662,"How many windshield wipers are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-207.jpg,21a1709cac7642e0,how many windshield wipers are there
+cauldron-tallyqa-371,tallyqa,text_answerable,0.3982278108596802,1.2217320203781128,1.619959831237793,"How many chocolate donuts are in the display case?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-371.jpg,ddcdcad01036ee62,how many chocolate donuts are in the display case
+cauldron-tallyqa-26,tallyqa,text_answerable,0.7762166559696198,0.3409083783626556,1.1171250343322754,"How many giraffes are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-26.jpg,e0e2988ce3e30280,how many giraffes are there
+cauldron-tallyqa-490,tallyqa,text_answerable,0.3004204034805298,1.2821615934371948,1.5825819969177246,"How many empty chairs are in the photo?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-490.jpg,3b9734e4e1b17046,how many empty chairs are in the photo
+cauldron-tallyqa-544,tallyqa,text_answerable,0.3889638185501098,1.069218993186951,1.4581828117370603,"How many people are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-544.jpg,71c0c1c89e6c6561,how many people are in the photo
+cauldron-tallyqa-739,tallyqa,text_answerable,0.0951271057128906,1.367320895195007,1.462448000907898,"How many trains are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-739.jpg,91a7b6b0f3fbbf5b,how many trains are there
+cauldron-tallyqa-630,tallyqa,text_answerable,0.5244759321212769,1.20554780960083,1.730023741722107,"How many signs can be seen?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-630.jpg,e28286ee8ebac8db,how many signs can be seen
+cauldron-tallyqa-173,tallyqa,text_answerable,0.7498237788677216,0.2621519863605499,1.0119757652282717,"How many blue flags?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-173.jpg,3d61381c1e0e0f07,how many blue flags
+cauldron-tallyqa-186,tallyqa,image_necessary,1.3296005055308342,0.0951772406697273,1.4247777462005615,"How many airplanes can be seen?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-186.jpg,c0c0406002f83808,how many airplanes can be seen
+cauldron-tallyqa-389,tallyqa,image_necessary,1.274828627705574,0.2471778839826584,1.5220065116882324,"How many fields are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-389.jpg,e1e5a66e66666f2,how many fields are pictured
+cauldron-tallyqa-39,tallyqa,text_answerable,0.094144582748413,0.7650375962257385,0.8591821789741516,"How many torches does he have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-39.jpg,9933333b39337373,how many torches does he have
+cauldron-tallyqa-717,tallyqa,text_answerable,0.5794328451156616,1.0654529333114624,1.644885778427124,"How many bears are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-717.jpg,89c850e3763c3811,how many bears are there
+cauldron-tallyqa-190,tallyqa,text_answerable,-2.516820192337036,4.3653974533081055,1.848577260971069,"How many airplanes are shown?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-190.jpg,ff7acb67dbf1e0e0,how many airplanes are shown
+cauldron-tallyqa-126,tallyqa,text_answerable,0.2412289977073669,0.939249575138092,1.180478572845459,"How many outlets are on the wall?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-126.jpg,8ec6c6c6a684e0f8,how many outlets are on the wall
+cauldron-tallyqa-301,tallyqa,text_answerable,-0.5852420330047607,1.9319602251052856,1.346718192100525,"How many towels are hanging on the stove?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-301.jpg,fefefefcfcfcfcfe,how many towels are hanging on the stove
+cauldron-tallyqa-117,tallyqa,text_answerable,0.387383222579956,0.0919083356857299,0.479291558265686,"How many clock faces are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-117.jpg,ecce8e18191eb6d2,how many clock faces are there
+cauldron-tallyqa-511,tallyqa,text_answerable,0.6649466156959534,0.2791361212730407,0.944082736968994,"How many spectators are wearing a white collared shirt?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-511.jpg,b6b0f8d878640591,how many spectators are wearing a white collared shirt
+cauldron-tallyqa-782,tallyqa,text_answerable,0.5348212122917175,0.5767770409584045,1.111598253250122,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-782.jpg,98b4b3f3f4f8fac6,how many people are in the picture
+cauldron-tallyqa-191,tallyqa,text_answerable,-0.8501119613647461,1.700677514076233,0.8505655527114868,"How many people are in the donkey cart?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-191.jpg,c0211919f91080f0,how many people are in the donkey cart
+cauldron-tallyqa-779,tallyqa,text_answerable,0.6069525480270386,0.5392403602600098,1.1461929082870483,"How many pillows are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-779.jpg,e3e363437b736343,how many pillows are there
+cauldron-tallyqa-640,tallyqa,text_answerable,0.1795685887336731,0.9104081988334656,1.089976787567139,"How many people are in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-640.jpg,fee69ad9df9eefe0,how many people are in the photo
+cauldron-tallyqa-120,tallyqa,text_answerable,0.2132999897003173,0.5514955520629883,0.7647955417633057,"How many sets of tracks are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-120.jpg,f8fefebe3e36ecdc,how many sets of tracks are there
+cauldron-tallyqa-68,tallyqa,text_answerable,0.7993825674057007,0.5778371095657349,1.3772196769714355,"How many bats are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-68.jpg,c656a7475058183c,how many bats are there
+cauldron-tallyqa-73,tallyqa,text_answerable,0.4072417914867401,0.3902707397937774,0.7975125312805176,"How many stop lights are hanging on the pole?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-73.jpg,f1e5eddd1cd9d8f2,how many stop lights are hanging on the pole
+cauldron-tallyqa-747,tallyqa,text_answerable,0.6634253859519958,0.7562530636787415,1.4196784496307373,"How many bears are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-747.jpg,8d8919999b99f399,how many bears are there
+cauldron-tallyqa-405,tallyqa,image_necessary,1.2023198306560516,0.1517985165119171,1.3541183471679688,"How many fingers are shown?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-405.jpg,cbd3f3e1efe1d7d3,how many fingers are shown
+cauldron-tallyqa-175,tallyqa,text_answerable,0.7324748039245605,0.988034725189209,1.7205095291137695,"How many people on the bench are wearing hats?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-175.jpg,f1f3c3cdebce1ce8,how many people on the bench are wearing hats
+cauldron-tallyqa-410,tallyqa,text_answerable,0.6826691031455994,0.4558303952217102,1.1384994983673096,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-410.jpg,fc7fd0c6870e0808,how many people are in the picture
+cauldron-tallyqa-87,tallyqa,text_answerable,-0.5854401588439941,2.793729066848755,2.2082889080047607,"How many motorcycles are there?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-87.jpg,4fcf9716170f8f9d,how many motorcycles are there
+cauldron-tallyqa-724,tallyqa,text_answerable,0.8240462839603424,0.1915641725063324,1.0156104564666748,"How many dogs are in the focus?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-724.jpg,d8da1a1ca4ec4807,how many dogs are in the focus
+cauldron-tallyqa-402,tallyqa,text_answerable,0.6191902831196785,0.0657934471964836,0.6849837303161621,"How many jars with the word Adams on it?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-402.jpg,a4666761f7e56524,how many jars with the word adams on it
+cauldron-tallyqa-333,tallyqa,text_answerable,0.7247560322284698,0.3009586036205292,1.025714635848999,"How many coffee mugs are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-333.jpg,b1313192b1717,how many coffee mugs are there
+cauldron-tallyqa-398,tallyqa,text_answerable,0.3145003914833069,0.7931029200553894,1.1076033115386963,"How many bowls are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-398.jpg,3038787872f0e840,how many bowls are there
+cauldron-tallyqa-615,tallyqa,image_necessary,2.301377475261688,0.700099527835846,3.001477003097534,"How many people are there?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-615.jpg,f237a7a7d8c84065,how many people are there
+cauldron-tallyqa-8,tallyqa,text_answerable,-0.5483295917510986,2.5016651153564453,1.953335523605347,"How many books are standing up?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-8.jpg,f8d8d0c5c5ccccc8,how many books are standing up
+cauldron-tallyqa-650,tallyqa,text_answerable,0.1269126832485199,0.1377800703048706,0.2646927535533905,"How many night lamp is there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-650.jpg,767271c6fcfc9ccc,how many night lamp is there
+cauldron-tallyqa-150,tallyqa,text_answerable,0.5556129813194275,0.760520875453949,1.3161338567733765,"How many trees beside the zebra?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-150.jpg,b0f450797df4e4a8,how many trees beside the zebra
+cauldron-tallyqa-679,tallyqa,text_answerable,0.7191155552864075,0.5392321944236755,1.258347749710083,"How many people in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-679.jpg,8e4dc49696969484,how many people in the photo
+cauldron-tallyqa-346,tallyqa,text_answerable,0.0875830054283142,0.8454259037971497,0.933008909225464,"How many monorail tracks are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-346.jpg,e0e8386bccc9c9f8,how many monorail tracks are there
+cauldron-tallyqa-479,tallyqa,text_answerable,0.4989654123783111,0.4100801646709442,0.9090455770492554,"How many logos are on the bag?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-479.jpg,44fef46664787044,how many logos are on the bag
+cauldron-tallyqa-771,tallyqa,text_answerable,-0.3134663105010986,1.5291862487792969,1.2157199382781982,"How many computers are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-771.jpg,b1a9ac9cd6bc8e8f,how many computers are there
+cauldron-tallyqa-373,tallyqa,text_answerable,-0.3019921779632568,2.3737268447875977,2.071734666824341,"How many bikes are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-373.jpg,6b6a676e4d355c4f,how many bikes are there
+cauldron-tallyqa-495,tallyqa,text_answerable,-0.7365787625312805,1.6856330633163452,0.9490543007850648,"How many signs are hanging from the wire?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-495.jpg,c4e4f07cf9f8b8b8,how many signs are hanging from the wire
+cauldron-tallyqa-587,tallyqa,text_answerable,0.6872570589184761,0.0933674499392509,0.780624508857727,"How many hydrants are shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-587.jpg,f0e4e4ece4e6a8e4,how many hydrants are shown
+cauldron-tallyqa-543,tallyqa,text_answerable,0.4578310251235962,0.993377923965454,1.4512089490890503,"How many people are in the bed?
+Give a very brief answer.",0.0,results/tier2\full\images\cauldron-tallyqa-543.jpg,1f0f0f0f05ecccae,how many people are in the bed
+cauldron-tallyqa-669,tallyqa,text_answerable,0.3951442539691925,0.2655085027217865,0.660652756690979,"How many people riding a horse?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-669.jpg,e0d0f8d8d8c8e0e0,how many people riding a horse
+cauldron-tallyqa-88,tallyqa,text_answerable,0.7039619237184525,0.0335456579923629,0.7375075817108154,"How many stop signs are being shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-88.jpg,9e5e677e76551f9e,how many stop signs are being shown
+cauldron-tallyqa-25,tallyqa,text_answerable,0.6198587417602539,0.2176905870437622,0.8375493288040161,"How many doors are on the barn?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-25.jpg,98b6e4c44cce0405,how many doors are on the barn
+cauldron-tallyqa-626,tallyqa,text_answerable,0.3378700315952301,0.1687193810939788,0.506589412689209,"How many cymbals is the man holding?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-626.jpg,3a23666643c3e06c,how many cymbals is the man holding
+cauldron-tallyqa-316,tallyqa,text_answerable,0.6236290335655212,0.7132256627082825,1.3368546962738037,"How many chairs are at the island?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-316.jpg,909c9f1c7873f393,how many chairs are at the island
+cauldron-tallyqa-221,tallyqa,text_answerable,0.8062701523303986,0.2654790580272674,1.071749210357666,"How many people are in light pink jackets?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-221.jpg,e1e1b098981490c3,how many people are in light pink jackets
+cauldron-tallyqa-778,tallyqa,text_answerable,0.8046218156814575,1.2900651693344116,2.094686985015869,"How many boats are there?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-778.jpg,3c9cc8f8f8f8b878,how many boats are there
+cauldron-tallyqa-698,tallyqa,text_answerable,0.6091249957680702,0.0437787994742393,0.6529037952423096,"How many fingers is the child signaling?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-698.jpg,9cc4c1f1e0c0d2f,how many fingers is the child signaling
+cauldron-tallyqa-617,tallyqa,text_answerable,0.4877203404903412,0.3959792554378509,0.8836995959281921,"How many crosswalks can be seen?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-617.jpg,e1e1529393c2c3e3,how many crosswalks can be seen
+cauldron-tallyqa-364,tallyqa,text_answerable,0.4679436814039945,0.0041520465165376,0.4720957279205322,"How many ears does this animal have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-364.jpg,a3b39b9b93c3c288,how many ears does this animal have
+cauldron-tallyqa-315,tallyqa,text_answerable,0.3227936029434204,0.5884287357330322,0.9112223386764526,"How many players can be seen in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-315.jpg,c4f0f233b3e3c0d1,how many players can be seen in the photo
+cauldron-tallyqa-573,tallyqa,text_answerable,0.5062307119369507,1.2215925455093384,1.727823257446289,"How many people are holding their hand up?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-573.jpg,e0e0b09096ccecc8,how many people are holding their hand up
+cauldron-tallyqa-202,tallyqa,text_answerable,0.5500935614109039,0.4457615315914154,0.9958550930023192,"How many nets are visible?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-202.jpg,24f050406060709c,how many nets are visible
+cauldron-tallyqa-114,tallyqa,text_answerable,0.3861097693443298,0.5043292045593262,0.890438973903656,"How many tubes are on the chimney?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-114.jpg,e0c0888581b1e0c9,how many tubes are on the chimney
+cauldron-tallyqa-336,tallyqa,text_answerable,-0.0934034585952758,1.6836918592453003,1.5902884006500244,"How many people are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-336.jpg,f0f0e0070fc0b060,how many people are pictured
+cauldron-tallyqa-223,tallyqa,text_answerable,0.511782169342041,0.2831391096115112,0.7949212789535522,"How many mountains are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-223.jpg,fec0013006342d6c,how many mountains are in the photo
+cauldron-tallyqa-423,tallyqa,image_necessary,1.8198530673980715,0.6120193004608154,2.4318723678588867,"How many players are sitting down?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-423.jpg,8c4e17b2a04342c0,how many players are sitting down
+cauldron-tallyqa-37,tallyqa,text_answerable,0.2979968041181564,0.0662605017423629,0.3642573058605194,"How many wheels does the yellow plane have?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-37.jpg,388cccac18222676,how many wheels does the yellow plane have
+cauldron-tallyqa-461,tallyqa,image_necessary,1.135197639465332,0.2740530967712402,1.4092507362365725,"How many trucks on the road?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-461.jpg,132322263733b1d1,how many trucks on the road
+cauldron-tallyqa-171,tallyqa,text_answerable,0.3588249683380127,1.0896536111831665,1.4484785795211792,"How many people have on white shirts?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-171.jpg,c8e47732f9ebe939,how many people have on white shirts
+cauldron-tallyqa-22,tallyqa,text_answerable,0.3391290605068207,0.0949131548404693,0.43404221534729,"How many hands is the girl holding onto the saddle with?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-22.jpg,909c68e264646,how many hands is the girl holding onto the saddle with
+cauldron-tallyqa-199,tallyqa,text_answerable,-0.1237455606460571,1.214335799217224,1.090590238571167,"How many men are working at the airport?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-199.jpg,7026eacfcb8106c6,how many men are working at the airport
+cauldron-tallyqa-379,tallyqa,image_necessary,1.4262870848178864,0.0338399112224578,1.4601269960403442,"How many people are shown up front?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-379.jpg,5343ca983c14b428,how many people are shown up front
+cauldron-tallyqa-746,tallyqa,text_answerable,0.0357635617256164,0.8192614912986755,0.855025053024292,"How many people are at the luggage compartment?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-746.jpg,210109b1211b21,how many people are at the luggage compartment
+cauldron-tallyqa-622,tallyqa,text_answerable,0.7684347629547119,0.9426133632659912,1.7110481262207031,"How many foods are there?
+Give a very brief answer.",12.0,results/tier2\full\images\cauldron-tallyqa-622.jpg,6666373b130d4313,how many foods are there
+cauldron-tallyqa-10,tallyqa,image_necessary,1.608358085155487,0.1632700562477111,1.7716281414031982,"How many apples are in the picture?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-10.jpg,e0ec6c0ca5a5a080,how many apples are in the picture
+cauldron-tallyqa-648,tallyqa,text_answerable,0.0890426039695739,0.7409579157829285,0.8300005197525024,"How many drawer handles are visible?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-648.jpg,8010185256e4c242,how many drawer handles are visible
+cauldron-tallyqa-680,tallyqa,text_answerable,0.6952976882457733,0.2947421371936798,0.9900398254394532,"How many airplanes in the sky?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-680.jpg,9b751a0e0f0f47a7,how many airplanes in the sky
+cauldron-tallyqa-214,tallyqa,image_necessary,1.2252103090286257,0.5253292322158813,1.7505395412445068,"How many adults are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-214.jpg,44c44252d255d9e8,how many adults are there
+cauldron-tallyqa-215,tallyqa,text_answerable,-0.4042387008666992,2.739009380340576,2.334770679473877,"How many men are kneeling together?
+Give a very brief answer.",5.0,results/tier2\full\images\cauldron-tallyqa-215.jpg,4050f0e8e06ea2a8,how many men are kneeling together
+cauldron-tallyqa-502,tallyqa,text_answerable,0.5814602375030518,0.8313872814178467,1.4128475189208984,"How many red and white ""no enter"" signs are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-502.jpg,f0f0f8ca7af8b080,how many red and white no enter signs are there
+cauldron-tallyqa-666,tallyqa,text_answerable,0.7584780752658844,0.213156908750534,0.9716349840164183,"How many men in the pic?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-666.jpg,84a66460818383c3,how many men in the pic
+cauldron-tallyqa-748,tallyqa,text_answerable,0.6808396577835083,0.4928041696548462,1.1736438274383545,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-748.jpg,53710d5150b0b0d1,how many people are in the picture
+cauldron-tallyqa-590,tallyqa,text_answerable,0.3078092336654663,0.3811338543891907,0.688943088054657,"How many hands on the handlebars?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-590.jpg,f6fba313a7877e7c,how many hands on the handlebars
+cauldron-tallyqa-356,tallyqa,text_answerable,-0.3580472469329834,2.315208196640014,1.9571609497070312,"How many people in the picture?
+Give a very brief answer.",5.0,results/tier2\full\images\cauldron-tallyqa-356.jpg,ee6f2f256c6db596,how many people in the picture
+cauldron-tallyqa-426,tallyqa,text_answerable,0.2711339648813009,0.01070954836905,0.2818435132503509,"How many eyes does the bear have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-426.jpg,e2e2e8fafaf6727b,how many eyes does the bear have
+cauldron-tallyqa-644,tallyqa,text_answerable,0.8198326975107193,0.1896521896123886,1.009484887123108,"How many people are the focus of the picture?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-644.jpg,8000a0e4a0fed8d4,how many people are the focus of the picture
+cauldron-tallyqa-639,tallyqa,text_answerable,0.0015724897384643,1.081809163093567,1.0833816528320312,"How many signs are on the poll on the left side?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-639.jpg,9303131119595800,how many signs are on the poll on the left side
+cauldron-tallyqa-569,tallyqa,text_answerable,0.685211181640625,1.105014681816101,1.790225863456726,"How many people are on the field?
+Give a very brief answer.",9.0,results/tier2\full\images\cauldron-tallyqa-569.jpg,4d45f4faff702864,how many people are on the field
+cauldron-tallyqa-719,tallyqa,text_answerable,0.6809031367301941,0.862406313419342,1.543309450149536,"How many windows are lined up?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-719.jpg,4c56707171711b16,how many windows are lined up
+cauldron-tallyqa-723,tallyqa,text_answerable,-0.643344521522522,1.4158713817596436,0.7725268602371216,"How many toilets are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-723.jpg,fdfcfcea3ab6ccf8,how many toilets are there
+cauldron-tallyqa-160,tallyqa,text_answerable,-1.7288610935211182,3.1565399169921875,1.4276788234710691,"How many skiers are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-160.jpg,f0f28b2b1f0f0f1d,how many skiers are there
+cauldron-tallyqa-702,tallyqa,text_answerable,0.5617488026618958,0.2872250080108642,0.84897381067276,"How many utensils near the plate?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-702.jpg,3d5c5ceddcd8fc19,how many utensils near the plate
+cauldron-tallyqa-642,tallyqa,text_answerable,-0.0774434804916381,1.3292462825775146,1.2518028020858765,"How many sheeps are on the ground?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-642.jpg,e3690e2238d874f6,how many sheeps are on the ground
+cauldron-tallyqa-460,tallyqa,text_answerable,0.0384122133255004,1.1833808422088623,1.2217930555343628,"How many ripe bananas are together on one cluster?
+Give a very brief answer.",10.0,results/tier2\full\images\cauldron-tallyqa-460.jpg,c6e0e0f0e4a7abf8,how many ripe bananas are together on one cluster
+cauldron-tallyqa-614,tallyqa,text_answerable,0.6773177683353424,0.3204230964183807,0.9977408647537231,"How many people are in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-614.jpg,c2616dab195ddd5d,how many people are in the photo
+cauldron-tallyqa-628,tallyqa,text_answerable,0.3996460139751434,0.386434406042099,0.7860804200172424,"How many drawers does the nightstand to the left have?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-628.jpg,22061a70606070f0,how many drawers does the nightstand to the left have
+cauldron-tallyqa-618,tallyqa,text_answerable,0.3425343185663223,0.2063113301992416,0.548845648765564,"How many people are playing tennis in the left photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-618.jpg,d5d4c6ab636766ce,how many people are playing tennis in the left photo
+cauldron-tallyqa-408,tallyqa,text_answerable,0.5898151993751526,0.8216531872749329,1.4114683866500854,"How many lids are on the table?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-408.jpg,f8d6f2b2e1e90000,how many lids are on the table
+cauldron-tallyqa-447,tallyqa,text_answerable,0.5257767140865326,0.4533672630786896,0.9791439771652222,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-447.jpg,b5448f0e27278181,how many people are in the picture
+cauldron-tallyqa-282,tallyqa,text_answerable,0.574044942855835,0.5900073051452637,1.1640522480010986,"How many pendant lights are hanging?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-282.jpg,6772747272b0949c,how many pendant lights are hanging
+cauldron-tallyqa-612,tallyqa,text_answerable,0.0094913244247436,0.0868032127618789,0.0962945371866226,"How many trash bin in the bathroom?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-612.jpg,e9f34767433b5b47,how many trash bin in the bathroom
+cauldron-tallyqa-247,tallyqa,text_answerable,0.7427276968955994,0.3237468600273132,1.0664745569229126,"How many Panda's in the background have their head down?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-247.jpg,60e0c090130bc7ec,how many pandas in the background have their head down
+cauldron-tallyqa-504,tallyqa,text_answerable,0.2820214629173279,0.5695608258247375,0.8515822887420654,"How many pairs of scissors are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-504.jpg,908189c622e2e3e0,how many pairs of scissors are there
+cauldron-tallyqa-164,tallyqa,text_answerable,0.6029878854751587,0.5672856569290161,1.1702735424041748,"How many light poles are visible?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-164.jpg,c0c0ce8e2c6074c,how many light poles are visible
+cauldron-tallyqa-166,tallyqa,text_answerable,0.7260546386241913,0.1117065250873565,0.8377611637115479,"How many sandwiches are on the front plate?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-166.jpg,375ab0923b1b9fff,how many sandwiches are on the front plate
+cauldron-tallyqa-139,tallyqa,image_necessary,1.264197587966919,0.2441675662994384,1.5083651542663574,"How many bears are shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-139.jpg,fefe3e1c8ce8b0b0,how many bears are shown
+cauldron-tallyqa-493,tallyqa,text_answerable,0.3691304922103882,1.0268826484680176,1.3960131406784058,"How many trains are on the tracks?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-493.jpg,a2a381dae5d0faf4,how many trains are on the tracks
+cauldron-tallyqa-551,tallyqa,text_answerable,0.7650354951620102,0.1025304943323135,0.8675659894943237,"How many ponds are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-551.jpg,d9031020c38182e2,how many ponds are pictured
+cauldron-tallyqa-462,tallyqa,text_answerable,0.7817917019128799,0.1612406820058822,0.9430323839187622,"How many remotes are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-462.jpg,e76626a2d2e3c06c,how many remotes are there
+cauldron-tallyqa-133,tallyqa,text_answerable,0.0763118863105773,0.6538483500480652,0.7301602363586426,"How many ring are on the woman's left hand?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-133.jpg,cdcdc7c3232347c7,how many ring are on the womans left hand
+cauldron-tallyqa-224,tallyqa,text_answerable,0.7028514742851257,0.1643167734146118,0.8671682476997375,"How many white audio computer speakers are on the desk?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-224.jpg,38f0d0b8bcb4188c,how many white audio computer speakers are on the desk
+cauldron-tallyqa-629,tallyqa,text_answerable,-1.1228680610656738,3.264854431152344,2.14198637008667,"How many players on the fields?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-629.jpg,67e7e7e7e3d15363,how many players on the fields
+cauldron-tallyqa-740,tallyqa,text_answerable,0.5550682544708252,0.6555123329162598,1.210580587387085,"How many baskets are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-740.jpg,e6f0d697161f60e0,how many baskets are there
+cauldron-tallyqa-357,tallyqa,image_necessary,1.2051778137683868,0.4945995509624481,1.699777364730835,"How many bottles are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-357.jpg,3470e6f2f839b9b3,how many bottles are there
+cauldron-tallyqa-38,tallyqa,text_answerable,0.4569836258888244,0.1735388040542602,0.6305224299430847,"How many passenger doors are there on the police car?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-38.jpg,c126a681218f0d31,how many passenger doors are there on the police car
+cauldron-tallyqa-689,tallyqa,text_answerable,0.6018995046615601,0.3186199069023132,0.9205194115638732,"How many toilet paper rolls are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-689.jpg,c686c4f1717173f3,how many toilet paper rolls are there
+cauldron-tallyqa-201,tallyqa,text_answerable,-0.4780783057212829,1.2840396165847778,0.8059613108634949,"How many mirrors are opposite the wall?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-201.jpg,ccfcb8b878f9f133,how many mirrors are opposite the wall
+cauldron-tallyqa-428,tallyqa,text_answerable,-0.0480502843856811,1.1942431926727295,1.1461929082870483,"How many pillows are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-428.jpg,e060444e2a6a66c4,how many pillows are there
+cauldron-tallyqa-258,tallyqa,text_answerable,-0.2068392038345337,1.6450587511062622,1.4382195472717283,"How many computers are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-258.jpg,7cf0f0f0f0f2785e,how many computers are there
+cauldron-tallyqa-572,tallyqa,text_answerable,0.4918503426015377,0.0371144749224185,0.5289648175239563,"How many levels is the bus?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-572.jpg,c4c4c8c0d8bce0e,how many levels is the bus
+cauldron-tallyqa-411,tallyqa,text_answerable,0.649523138999939,0.7603195905685425,1.4098427295684814,"How many pillows are on the bed?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-411.jpg,674707366276a6a7,how many pillows are on the bed
+cauldron-tallyqa-192,tallyqa,text_answerable,0.8145352751016617,0.0312747210264205,0.8458099961280823,"How many decks are on the bus?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-192.jpg,ffc7e7f2d093bf3f,how many decks are on the bus
+cauldron-tallyqa-326,tallyqa,text_answerable,0.8302086591720581,1.8695610761642456,2.699769735336304,"How many skiers can you see with black gloves?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-326.jpg,795a4f4bdba2273e,how many skiers can you see with black gloves
+cauldron-tallyqa-245,tallyqa,text_answerable,0.1877655982971191,0.3624615669250488,0.550227165222168,"How many file cabinets?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-245.jpg,1103030b1b3b3bdb,how many file cabinets
+cauldron-tallyqa-227,tallyqa,text_answerable,0.2718677520751953,1.3357478380203247,1.60761559009552,"How many floors does the building on the left have?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-227.jpg,e060703c0e8701e8,how many floors does the building on the left have
+cauldron-tallyqa-435,tallyqa,text_answerable,0.1391862630844116,1.0081120729446411,1.1472983360290527,"How many windows are in the middle building?
+Give a very brief answer.",10.0,results/tier2\full\images\cauldron-tallyqa-435.jpg,f0f9a2f4cde1232,how many windows are in the middle building
+cauldron-tallyqa-519,tallyqa,image_necessary,1.2703728675842283,0.1978449821472168,1.468217849731445,"How many birds are shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-519.jpg,3918a0f1f1f0c783,how many birds are shown
+cauldron-tallyqa-431,tallyqa,text_answerable,0.8041070997714996,0.3308306634426117,1.134937763214111,"How many people are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-431.jpg,c00c989108c9c,how many people are in the picture
+cauldron-tallyqa-521,tallyqa,text_answerable,0.7712458372116089,1.622097134590149,2.393342971801758,"How many sheep are there?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-521.jpg,fcdcf4f7e7ab7564,how many sheep are there
+cauldron-tallyqa-441,tallyqa,text_answerable,0.810560081154108,0.0515740774571895,0.8621341586112976,"How many fire hydrants are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-441.jpg,9171717171510100,how many fire hydrants are there
+cauldron-tallyqa-503,tallyqa,text_answerable,0.6453940272331238,0.8571487069129944,1.5025427341461182,"How many people are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-503.jpg,6cb8bc7c3d3c391,how many people are in the photo
+cauldron-tallyqa-162,tallyqa,text_answerable,0.5163567960262299,0.1676609814167022,0.6840177774429321,"How many engines are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-162.jpg,fefefef2c6cedece,how many engines are there
+cauldron-tallyqa-409,tallyqa,text_answerable,-0.6418720483779907,1.513596773147583,0.8717247247695923,"How many teapots are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-409.jpg,7c7c54544d4cc9ec,how many teapots are there
+cauldron-tallyqa-70,tallyqa,text_answerable,0.6878912597894669,0.1114200800657272,0.7993113398551941,"How many horns are shown?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-70.jpg,809170f0e1d5c4a6,how many horns are shown
+cauldron-tallyqa-93,tallyqa,text_answerable,0.4003314971923828,2.0782127380371094,2.478544235229492,"How many people are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-93.jpg,8080c0c0c0c0b2b,how many people are there
+cauldron-tallyqa-792,tallyqa,text_answerable,-0.0562873482704162,0.884972095489502,0.8286847472190857,"How many chairs are at the tables on the left?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-792.jpg,69b2e8e86d2f5b5a,how many chairs are at the tables on the left
+cauldron-tallyqa-163,tallyqa,text_answerable,0.0601297616958618,0.8217501044273376,0.8818798661231995,"How many wine bottles are on the dinner table?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-163.jpg,e6e6e6e3e3f5f4e4,how many wine bottles are on the dinner table
+cauldron-tallyqa-170,tallyqa,text_answerable,-0.016071081161499,1.5175328254699707,1.5014617443084717,"How many white boxes are on the filing cabinet?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-170.jpg,1a58696149716961,how many white boxes are on the filing cabinet
+cauldron-tallyqa-625,tallyqa,text_answerable,0.4931033700704574,0.0432785302400589,0.5363819003105164,"How many levels on the bus?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-625.jpg,26a2b23a2e3c1c3c,how many levels on the bus
+cauldron-tallyqa-450,tallyqa,image_necessary,1.300598368048668,0.2492916733026504,1.5498900413513184,"How many cars are in this picture?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-450.jpg,959194908082c2c2,how many cars are in this picture
+cauldron-tallyqa-222,tallyqa,text_answerable,0.5297910571098328,0.5502657294273376,1.0800567865371704,"How many umbrellas are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-222.jpg,e0707073b3cbc8e0,how many umbrellas are pictured
+cauldron-tallyqa-532,tallyqa,text_answerable,0.7575843036174774,0.3492608368396759,1.106845140457153,"How many giraffes are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-532.jpg,14088881800c0400,how many giraffes are there
+cauldron-tallyqa-308,tallyqa,text_answerable,0.3967808932065964,0.0518462210893631,0.4486271142959595,"How many eyes does the cat have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-308.jpg,8b0bcfe7e73d1e06,how many eyes does the cat have
+cauldron-tallyqa-646,tallyqa,text_answerable,0.7707136571407318,0.3837063610553741,1.154420018196106,"How many people in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-646.jpg,9898acbc989cac24,how many people in the photo
+cauldron-tallyqa-734,tallyqa,text_answerable,0.4444754719734192,0.4767758846282959,0.9212513566017152,"How many traffic lights?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-734.jpg,f0f0f8f8f0f87060,how many traffic lights
+cauldron-tallyqa-484,tallyqa,text_answerable,0.773265041410923,0.0433640107512474,0.8166290521621704,"How many parachutes?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-484.jpg,260f361e86d97181,how many parachutes
+cauldron-tallyqa-136,tallyqa,text_answerable,0.3764288425445556,0.7906460762023926,1.1670749187469482,"How many elephants are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-136.jpg,ecdcf676766663e8,how many elephants are there
+cauldron-tallyqa-233,tallyqa,text_answerable,0.2676057815551758,2.0541162490844727,2.3217220306396484,"How many windows does the red and white bus have on one side?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-233.jpg,1332b99898e36161,how many windows does the red and white bus have on one side
+cauldron-tallyqa-144,tallyqa,text_answerable,0.7252129316329956,0.3526390790939331,1.0778520107269287,"How many giraffes are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-144.jpg,7258190b1f853cf0,how many giraffes are there
+cauldron-tallyqa-294,tallyqa,text_answerable,-0.0526154041290283,2.217392683029175,2.1647772789001465,"How many zebras are in the picture?
+Give a very brief answer.",11.0,results/tier2\full\images\cauldron-tallyqa-294.jpg,c85991cdc8acd0e4,how many zebras are in the picture
+cauldron-tallyqa-242,tallyqa,text_answerable,0.592636913061142,0.3442710936069488,0.9369080066680908,"How many flags are pictured?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-242.jpg,f8f8f16367664163,how many flags are pictured
+cauldron-tallyqa-130,tallyqa,text_answerable,0.0315420627593994,0.3045357763767242,0.3360778391361236,"How many wheels are on the bike?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-130.jpg,8f9c8dcc86828928,how many wheels are on the bike
+cauldron-tallyqa-148,tallyqa,image_necessary,2.0209552347660065,0.1122077405452728,2.13316297531128,"How many trees can be seen?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-148.jpg,181a93cd3f07c0c0,how many trees can be seen
+cauldron-tallyqa-145,tallyqa,text_answerable,0.0594292879104614,0.3011925518512726,0.360621839761734,"How many burners does the stove have?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-145.jpg,3177e3f1b93436f2,how many burners does the stove have
+cauldron-tallyqa-375,tallyqa,text_answerable,0.1585142612457275,0.8212361931800842,0.9797504544258118,"How many planes can be completely seen?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-375.jpg,c8e6e7cfcc010111,how many planes can be completely seen
+cauldron-tallyqa-334,tallyqa,text_answerable,0.16315758228302,1.068759560585022,1.231917142868042,"How many phones does he have?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-334.jpg,ccd6d6d5f490a8f1,how many phones does he have
+cauldron-tallyqa-692,tallyqa,text_answerable,0.4180003404617309,1.2303556203842163,1.6483559608459473,"How many people are on bikes?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-692.jpg,f3d3d391a0a2e061,how many people are on bikes
+cauldron-tallyqa-524,tallyqa,text_answerable,0.0897683501243591,0.5989741683006287,0.6887425184249878,"How many vents are on the red roof?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-524.jpg,c0f67664f2391ffe,how many vents are on the red roof
+cauldron-tallyqa-153,tallyqa,text_answerable,0.4950684066861868,0.0287226680666208,0.5237910747528076,"How many visible engines does the plane have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-153.jpg,6e06828aa98,how many visible engines does the plane have
+cauldron-tallyqa-767,tallyqa,text_answerable,0.6339631676673889,0.9713682532310486,1.6053314208984375,"How many people are playing?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-767.jpg,65b73b988c8f8e8c,how many people are playing
+cauldron-tallyqa-298,tallyqa,text_answerable,0.3373345136642456,0.9625121355056764,1.299846649169922,"How many trains are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-298.jpg,80c2e8c8b31603,how many trains are there
+cauldron-tallyqa-673,tallyqa,text_answerable,0.1484675649553537,0.0267943795770406,0.1752619445323944,"How many wheels does bike have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-673.jpg,ece8fa00082b0d53,how many wheels does bike have
+cauldron-tallyqa-146,tallyqa,text_answerable,-1.5034776329994202,2.333433151245117,0.829955518245697,"How many window panes to the left?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-146.jpg,b0b0b4b0bbb9e9e2,how many window panes to the left
+cauldron-tallyqa-115,tallyqa,text_answerable,0.6659032702445984,0.1707311868667602,0.8366344571113586,"How many white wii controller?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-115.jpg,9c0c092c9cd0fcf0,how many white wii controller
+cauldron-tallyqa-400,tallyqa,text_answerable,0.7746845223009586,0.0294088385999202,0.8040933609008789,"How many faucets are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-400.jpg,fcc6e6ccc4d61ec7,how many faucets are there
+cauldron-tallyqa-592,tallyqa,text_answerable,0.2717984914779663,1.7432667016983032,2.015065193176269,"How many panes of glass are there?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-592.jpg,d8bf97d7cfcbc8fc,how many panes of glass are there
+cauldron-tallyqa-784,tallyqa,text_answerable,0.8138526380062103,0.0663386881351471,0.8801913261413574,"How many men are pictured?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-784.jpg,ececec5ad9d9c9c1,how many men are pictured
+cauldron-tallyqa-725,tallyqa,text_answerable,0.7850708961486816,0.8127439022064209,1.5978147983551023,"How many pieces of cake are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-725.jpg,2060f4cce4b3d2ce,how many pieces of cake are there
+cauldron-tallyqa-548,tallyqa,text_answerable,0.6703953444957733,0.1710899174213409,0.8414852619171143,"How many have on a blue helmet?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-548.jpg,8808ce0ecf0f9f9,how many have on a blue helmet
+cauldron-tallyqa-444,tallyqa,image_necessary,1.607169844210148,0.0572183355689048,1.6643881797790527,"How many people are shown?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-444.jpg,2c28a0e980c6c6cf,how many people are shown
+cauldron-tallyqa-627,tallyqa,image_necessary,1.545102819800377,0.1668336540460586,1.7119364738464355,"How many cars are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-627.jpg,3d3d353149cc8cec,how many cars are there
+cauldron-tallyqa-131,tallyqa,text_answerable,-0.975533127784729,1.8785074949264529,0.9029743671417236,"How many flags are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-131.jpg,fb697cbc8c866fc,how many flags are there
+cauldron-tallyqa-445,tallyqa,text_answerable,0.550940752029419,0.8748610019683838,1.4258017539978027,"How many players are seen?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-445.jpg,2038383134323038,how many players are seen
+cauldron-tallyqa-517,tallyqa,image_necessary,1.1463798582553864,0.2909285724163055,1.437308430671692,"How many cats are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-517.jpg,94b4b4b7f43c1cdc,how many cats are in the photo
+cauldron-tallyqa-200,tallyqa,image_necessary,1.4365972131490707,0.1398320347070694,1.57642924785614,"How many trains are shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-200.jpg,f0e0c487838338b8,how many trains are shown
+cauldron-tallyqa-438,tallyqa,text_answerable,-0.0236245393753051,1.5053789615631104,1.4817544221878052,"How many people are in the back?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-438.jpg,f3ddd3c243437337,how many people are in the back
+cauldron-tallyqa-369,tallyqa,text_answerable,0.6860480308532715,1.3808164596557615,2.066864490509033,"How many cars does the train have?
+Give a very brief answer.",8.0,results/tier2\full\images\cauldron-tallyqa-369.jpg,c44060e0f8f0e9e4,how many cars does the train have
+cauldron-tallyqa-376,tallyqa,text_answerable,0.1787781715393066,2.9343481063842773,3.113126277923584,"How many skateboards are shown?
+Give a very brief answer.",7.0,results/tier2\full\images\cauldron-tallyqa-376.jpg,38bcbc38f8800404,how many skateboards are shown
+cauldron-tallyqa-770,tallyqa,text_answerable,0.704246997833252,0.6785447597503662,1.3827917575836182,"How many people are walking?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-770.jpg,8c8cdcdc516a6e77,how many people are walking
+cauldron-tallyqa-416,tallyqa,text_answerable,0.8262488842010498,0.3214240074157715,1.1476728916168213,"How many planes are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-416.jpg,9a893135e3de9898,how many planes are there
+cauldron-tallyqa-339,tallyqa,text_answerable,0.6228163540363312,0.3241442143917084,0.9469605684280396,"How many grave markers are visible to the right of the spigot holder?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-339.jpg,c133333230b4f2e3,how many grave markers are visible to the right of the spigot holder
+cauldron-tallyqa-211,tallyqa,text_answerable,0.4946540594100952,1.4033880233764648,1.89804208278656,"How many trains are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-211.jpg,7f78f8c9b981c0e2,how many trains are there
+cauldron-tallyqa-469,tallyqa,text_answerable,-0.2079411745071411,1.8436154127120967,1.635674238204956,"How many trains are visible?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-469.jpg,e0f0b4febffdf7f5,how many trains are visible
+cauldron-tallyqa-275,tallyqa,text_answerable,-0.5719468593597412,3.606984853744507,3.0350379943847656,"How many claws are shown?
+Give a very brief answer.",9.0,results/tier2\full\images\cauldron-tallyqa-275.jpg,9b153931f6ee7f41,how many claws are shown
+cauldron-tallyqa-790,tallyqa,text_answerable,0.3498255610466003,0.2905824780464172,0.6404080390930176,"How many hands are holding the surfboard?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-790.jpg,889888e8e04808eb,how many hands are holding the surfboard
+cauldron-tallyqa-344,tallyqa,text_answerable,0.5811843574047089,0.150270789861679,0.7314551472663879,"How many suitcases are pictured?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-344.jpg,7c74747e7475f3f1,how many suitcases are pictured
+cauldron-tallyqa-704,tallyqa,text_answerable,0.3435420989990234,1.1305873394012451,1.4741294384002686,"How many people are in the photo?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-704.jpg,3143637042466664,how many people are in the photo
+cauldron-tallyqa-134,tallyqa,text_answerable,0.8150786757469177,0.95035582780838,1.765434503555298,"How many lights are in the ceiling?
+Give a very brief answer.",6.0,results/tier2\full\images\cauldron-tallyqa-134.jpg,80e1e1e7e7e1e3c7,how many lights are in the ceiling
+cauldron-tallyqa-403,tallyqa,text_answerable,0.7132120132446289,0.7742106914520264,1.4874227046966553,"How many computers are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-403.jpg,d8c880202121373c,how many computers are there
+cauldron-tallyqa-419,tallyqa,text_answerable,0.6263023987412453,0.087699256837368,0.7140016555786133,"How many chairlifts are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-419.jpg,80c4a4cc4c4fcbd9,how many chairlifts are there
+cauldron-tallyqa-349,tallyqa,text_answerable,-2.5898479223251343,3.653809070587158,1.063961148262024,"How many green buses are there?
+Give a very brief answer.",0.0,results/tier2\full\images\cauldron-tallyqa-349.jpg,98989c841212c0c0,how many green buses are there
+cauldron-tallyqa-292,tallyqa,text_answerable,0.7327791452407837,0.257556676864624,0.9903358221054076,"How many handles are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-292.jpg,c14300103030b0b0,how many handles are there
+cauldron-tallyqa-329,tallyqa,text_answerable,0.1741235256195068,1.7086913585662842,1.882814884185791,"How many people are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-329.jpg,ecece4c4a48c94d0,how many people are there
+cauldron-tallyqa-44,tallyqa,text_answerable,0.2495901584625244,1.271434307098389,1.521024465560913,"How many umbrellas?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-44.jpg,a1d19191151d1b3a,how many umbrellas
+cauldron-tallyqa-432,tallyqa,text_answerable,0.2817345857620239,0.8300080299377441,1.111742615699768,"How many crosswalk lines are pictured?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-432.jpg,e9ebc63796850f0f,how many crosswalk lines are pictured
+cauldron-tallyqa-667,tallyqa,text_answerable,0.6572037935256958,1.3331879377365112,1.990391731262207,"How many players are at home plate?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-667.jpg,7dfdb990d0e0ca84,how many players are at home plate
+cauldron-tallyqa-140,tallyqa,text_answerable,0.2503237724304199,1.5233657360076904,1.7736895084381104,"How many horses are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-140.jpg,686dee86c68e8,how many horses are there
+cauldron-tallyqa-500,tallyqa,text_answerable,0.6342222690582275,0.2754184007644653,0.9096406698226928,"How many people are pictured?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-500.jpg,e9c8c4e4203223a3,how many people are pictured
+cauldron-tallyqa-562,tallyqa,text_answerable,0.5569381713867188,1.0448808670043943,1.6018190383911133,"How many umbrellas are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-562.jpg,930e1e08c8229175,how many umbrellas are there
+cauldron-tallyqa-237,tallyqa,text_answerable,-0.1430915594100952,1.6777936220169067,1.5347020626068115,"How many police have yellow jackets?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-237.jpg,f0f1b294e58deeb0,how many police have yellow jackets
+cauldron-tallyqa-53,tallyqa,text_answerable,-0.4201207756996155,1.3484597206115725,0.9283389449119568,"How many cutting boards on the counters?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-53.jpg,95c6c6c3fbc08710,how many cutting boards on the counters
+cauldron-tallyqa-352,tallyqa,text_answerable,0.2725408673286438,0.293112576007843,0.5656534433364868,"How many doors does the parked vehicle have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-352.jpg,96d6f6763231149b,how many doors does the parked vehicle have
+cauldron-tallyqa-471,tallyqa,text_answerable,0.3604843616485595,1.243595838546753,1.6040802001953125,"How many pillows are on the couch?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-471.jpg,d290b0d8c886a539,how many pillows are on the couch
+cauldron-tallyqa-228,tallyqa,image_necessary,1.467434287071228,1.048977017402649,2.516411304473877,"How many clocks are on the wall?
+Give a very brief answer.",9.0,results/tier2\full\images\cauldron-tallyqa-228.jpg,6171f1115545c2a2,how many clocks are on the wall
+cauldron-tallyqa-213,tallyqa,text_answerable,0.4876376390457153,0.5604201555252075,1.0480577945709229,"How many black shirts?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-213.jpg,290c2d38080e0e0e,how many black shirts
+cauldron-tallyqa-168,tallyqa,text_answerable,0.1799339652061462,0.7074702382087708,0.887404203414917,"How many flags are present?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-168.jpg,cc1e4fefea8e4a08,how many flags are present
+cauldron-tallyqa-266,tallyqa,text_answerable,0.5827782154083252,0.6500351428985596,1.2328133583068848,"How many people are in this photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-266.jpg,1d1f181044060604,how many people are in this photo
+cauldron-tallyqa-325,tallyqa,text_answerable,0.2631632089614868,0.8425813913345337,1.1057446002960205,"How many stuffed toys?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-325.jpg,78767e24e1dc5e1,how many stuffed toys
+cauldron-tallyqa-645,tallyqa,text_answerable,0.6716873049736023,0.5322757363319397,1.203963041305542,"How many horses?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-645.jpg,bc3c7cfcdefeecea,how many horses
+cauldron-tallyqa-264,tallyqa,text_answerable,0.7530450224876404,0.6271900534629822,1.3802350759506226,"How many picture frames are hanging on the wall?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-264.jpg,f1e3e3c7cbf3f363,how many picture frames are hanging on the wall
+cauldron-tallyqa-497,tallyqa,text_answerable,0.5773377418518066,0.6804314851760864,1.257769227027893,"How many slices of meat are shown?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-497.jpg,e9e0e8e1f1141e5,how many slices of meat are shown
+cauldron-tallyqa-429,tallyqa,image_necessary,1.3136489987373352,0.4433527588844299,1.7570017576217651,"How many chairs are visible?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-429.jpg,98989c94941090d0,how many chairs are visible
+cauldron-tallyqa-487,tallyqa,text_answerable,0.8165232539176941,0.6022331118583679,1.418756365776062,"How many white umbrellas are pictured?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-487.jpg,6ccc6c696960c69c,how many white umbrellas are pictured
+cauldron-tallyqa-82,tallyqa,text_answerable,0.1522440537810325,0.095169760286808,0.2474138140678405,"How many horns does the cow have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-82.jpg,80e7c0c6c2c22061,how many horns does the cow have
+cauldron-tallyqa-18,tallyqa,text_answerable,0.5085936784744263,0.6940112113952637,1.20260488986969,"How many claws are visible?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-18.jpg,1f3f373b3b2ce6f6,how many claws are visible
+cauldron-tallyqa-176,tallyqa,text_answerable,0.3433318063616752,0.0393144860863685,0.3826462924480438,"How many windows are in the bathroom?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-176.jpg,e8f9c9c9c98a820c,how many windows are in the bathroom
+cauldron-tallyqa-603,tallyqa,text_answerable,0.6392619013786316,0.6788377165794373,1.3180996179580688,"How many bases are visible?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-603.jpg,e0b098d898989894,how many bases are visible
+cauldron-tallyqa-623,tallyqa,text_answerable,0.1581541299819946,0.5919082760810852,0.7500624060630798,"How many people in the boat?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-623.jpg,210222f240c8ccc0,how many people in the boat
+cauldron-tallyqa-523,tallyqa,text_answerable,0.3195360600948334,0.4385125339031219,0.7580485939979553,"How many oven mitts are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-523.jpg,9c7fb381c147c3e0,how many oven mitts are there
+cauldron-tallyqa-259,tallyqa,text_answerable,0.0996954441070556,0.3985766470432281,0.4982720911502838,"How many exit signs hang on the ceiling?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-259.jpg,793a0d0d06cccece,how many exit signs hang on the ceiling
+cauldron-tallyqa-359,tallyqa,text_answerable,0.2541983723640442,0.8117577433586121,1.0659561157226562,"How many books are on the first pile?
+Give a very brief answer.",10.0,results/tier2\full\images\cauldron-tallyqa-359.jpg,e4e8f8f3f33a3830,how many books are on the first pile
+cauldron-tallyqa-632,tallyqa,text_answerable,0.7599408030509949,0.9358040690422058,1.695744872093201,"How many cars in the lot?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-632.jpg,6363b1f1f9513d23,how many cars in the lot
+cauldron-tallyqa-110,tallyqa,text_answerable,0.6255516707897186,0.1506601870059967,0.7762118577957153,"How many wheels are on the pony cart?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-110.jpg,824206276767c50d,how many wheels are on the pony cart
+cauldron-tallyqa-360,tallyqa,text_answerable,0.5910835340619087,0.0522679015994071,0.6433514356613159,"How many nightstands are there next to the headboard?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-360.jpg,e2f6dcf8fcfef8e0,how many nightstands are there next to the headboard
+cauldron-tallyqa-380,tallyqa,image_necessary,1.56065783649683,0.0835534557700157,1.6442112922668457,"How many surfers?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-380.jpg,f0f0d8c8f8ec6c08,how many surfers
+cauldron-tallyqa-338,tallyqa,text_answerable,0.3628706932067871,1.4985166788101196,1.8613873720169067,"How many people are surfing?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-338.jpg,4010888c81bec7,how many people are surfing
+cauldron-tallyqa-446,tallyqa,text_answerable,-0.6473526954650879,2.549424171447754,1.902071475982666,"How many burgers are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-446.jpg,f8cc8181c5f173e7,how many burgers are there
+cauldron-tallyqa-722,tallyqa,text_answerable,-0.3790490627288818,1.4514260292053225,1.0723769664764404,"How many latches are keeping the box closed?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-722.jpg,e6c3c2c468e0a000,how many latches are keeping the box closed
+cauldron-tallyqa-633,tallyqa,text_answerable,0.440134048461914,1.7138519287109375,2.153985977172852,"How many elephants are there?
+Give a very brief answer.",5.0,results/tier2\full\images\cauldron-tallyqa-633.jpg,909830a2f4f4f080,how many elephants are there
+cauldron-tallyqa-128,tallyqa,image_necessary,1.133729636669159,0.2069863677024841,1.340716004371643,"How many dogs are pictured?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-128.jpg,5c6fca4e4a36363e,how many dogs are pictured
+cauldron-tallyqa-354,tallyqa,text_answerable,-0.234591007232666,1.5176942348480225,1.2831032276153564,"How many pandas are there?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-354.jpg,57878d8d85c6e4c4,how many pandas are there
+cauldron-tallyqa-181,tallyqa,text_answerable,-0.2804005146026611,0.8050146698951721,0.524614155292511,"How many windshields does the bus have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-181.jpg,8e0e0c4c0c4c1c3c,how many windshields does the bus have
+cauldron-tallyqa-274,tallyqa,text_answerable,-0.339605450630188,1.645067572593689,1.305462121963501,"How many bells are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-274.jpg,7333333331839312,how many bells are there
+cauldron-tallyqa-244,tallyqa,text_answerable,0.0657483339309692,1.437287211418152,1.503035545349121,"How many vehicles are shown?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-244.jpg,fbb2323c3c1c9fef,how many vehicles are shown
+cauldron-tallyqa-589,tallyqa,text_answerable,0.28169846534729,1.0222830772399902,1.3039815425872805,"How many players are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-589.jpg,fc34c34353525353,how many players are there
+cauldron-tallyqa-34,tallyqa,text_answerable,0.4163229465484619,1.5598478317260742,1.976170778274536,"How many bulldogs are there?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-34.jpg,3c362e0e2e3e5e59,how many bulldogs are there
+cauldron-tallyqa-383,tallyqa,text_answerable,0.3189151287078857,2.0545780658721924,2.373493194580078,"How many people are standing?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-383.jpg,f0f1f06262f0f0e0,how many people are standing
+cauldron-tallyqa-269,tallyqa,text_answerable,0.7554734945297241,0.7213114500045776,1.4767849445343018,"How many people are riding one motorcycle?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-269.jpg,ecec8e8e8e8e8fce,how many people are riding one motorcycle
+cauldron-tallyqa-178,tallyqa,text_answerable,0.674936056137085,0.6632771492004395,1.3382132053375244,"How many balloons are pictured?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-178.jpg,e139fd64064c294b,how many balloons are pictured
+cauldron-tallyqa-75,tallyqa,text_answerable,0.7024586796760559,0.7083446383476257,1.4108033180236816,"How many notebooks are in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-75.jpg,e1290f4e0e8cc8c3,how many notebooks are in the picture
+cauldron-tallyqa-674,tallyqa,text_answerable,0.1286295652389526,0.9152703285217284,1.0438998937606812,"How many legs does she have?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-674.jpg,b42ca3f3f0f09094,how many legs does she have
+cauldron-tallyqa-13,tallyqa,image_necessary,1.507702261209488,0.20814248919487,1.715844750404358,"How many buses are shown?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-13.jpg,f034a7b19e0618e3,how many buses are shown
+cauldron-tallyqa-621,tallyqa,text_answerable,0.7672417163848877,1.411747694015503,2.17898941040039,"How many chairs are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-621.jpg,c06060606060c8c8,how many chairs are there
+cauldron-tallyqa-58,tallyqa,text_answerable,0.5198517739772797,0.4009378254413605,0.92078959941864,"How many tiers are on the cake?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-58.jpg,808531d1d2f0f0f0,how many tiers are on the cake
+cauldron-tallyqa-69,tallyqa,text_answerable,0.7422336339950562,1.282536864280701,2.024770498275757,"How many people are on the court?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-69.jpg,3425999232b090f0,how many people are on the court
+cauldron-tallyqa-608,tallyqa,text_answerable,0.7972903549671173,0.0983707010746002,0.8956610560417175,"How many doors are on the wall cabinet?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-608.jpg,18799d9d3fb03238,how many doors are on the wall cabinet
+cauldron-tallyqa-265,tallyqa,text_answerable,0.61827152967453,0.7640908360481262,1.3823623657226562,"How many poles have lights?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-265.jpg,f8381b19b773e3b5,how many poles have lights
+cauldron-tallyqa-281,tallyqa,text_answerable,0.6217485666275024,0.7425481081008911,1.3642966747283936,"How many windows are in the photo?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-281.jpg,f8f8747474d99b9a,how many windows are in the photo
+cauldron-tallyqa-530,tallyqa,text_answerable,0.8133467137813568,0.3829729855060577,1.1963196992874146,"How many busses are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-530.jpg,e0c10303038260,how many busses are there
+cauldron-tallyqa-254,tallyqa,text_answerable,0.2430717945098877,0.4023569822311401,0.6454287767410278,"How many sets of trolley track are on the street?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-254.jpg,38303030070c9c9e,how many sets of trolley track are on the street
+cauldron-tallyqa-23,tallyqa,text_answerable,0.2907928228378296,1.0231528282165527,1.3139456510543823,"How many people are looking at the display case?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-23.jpg,1fcf0fc862e2ece6,how many people are looking at the display case
+cauldron-tallyqa-91,tallyqa,image_necessary,2.302794277668,0.1911012530326843,2.493895530700684,"How many eyes can you see?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-91.jpg,9fbefffcf771181c,how many eyes can you see
+cauldron-tallyqa-358,tallyqa,text_answerable,-0.5348689556121826,2.011314630508423,1.4764456748962402,"How many cats are there?
+Give a very brief answer.",0.0,results/tier2\full\images\cauldron-tallyqa-358.jpg,c2f2bb3646060e0,how many cats are there
+cauldron-tallyqa-687,tallyqa,text_answerable,0.0149282217025756,1.588166117668152,1.6030943393707275,"How many people are in the picture?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-687.jpg,4e46c7c3c3e3e2c8,how many people are in the picture
+cauldron-tallyqa-92,tallyqa,image_necessary,1.4166898056864738,0.1021855548024177,1.5188753604888916,"How many motorcycles are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-92.jpg,8787383625053533,how many motorcycles are there
+cauldron-tallyqa-448,tallyqa,text_answerable,0.4078292846679687,0.858254075050354,1.2660833597183228,"How many towels are hanging?
+Give a very brief answer.",3.0,results/tier2\full\images\cauldron-tallyqa-448.jpg,1817671717174f44,how many towels are hanging
+cauldron-tallyqa-36,tallyqa,image_necessary,1.2470796704292295,0.6308109164237976,1.877890586853028,"How many people are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-36.jpg,de6f6f2726262607,how many people are there
+cauldron-tallyqa-424,tallyqa,text_answerable,0.1784308869391679,0.0176713597029447,0.1961022466421127,"How many wheels does the skateboard have?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-424.jpg,10b03e4feefbffc,how many wheels does the skateboard have
+cauldron-tallyqa-600,tallyqa,text_answerable,0.8132599890232086,0.1251698434352874,0.938429832458496,"How many suits are there?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-600.jpg,3ccbcbcb4519b327,how many suits are there
+cauldron-tallyqa-102,tallyqa,text_answerable,0.117070198059082,0.6571863889694214,0.7742565870285034,"How many engines are on the plane?
+Give a very brief answer.",4.0,results/tier2\full\images\cauldron-tallyqa-102.jpg,7ffefeedc0e0c1e8,how many engines are on the plane
+cauldron-tallyqa-97,tallyqa,text_answerable,0.8211405277252197,1.2431700229644775,2.0643105506896973,"How many people are snowboarding?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-97.jpg,9090c06612ccc281,how many people are snowboarding
+cauldron-tallyqa-345,tallyqa,text_answerable,0.5873263776302338,0.4958466589450836,1.0831730365753174,"How many of the bear's ears are showing?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-345.jpg,171f0f0b0f0f0f33,how many of the bears ears are showing
+cauldron-tallyqa-119,tallyqa,text_answerable,-0.8319253921508789,2.0878677368164062,1.2559423446655271,"How many pieces of shrimp are cooked?
+Give a very brief answer.",1.0,results/tier2\full\images\cauldron-tallyqa-119.jpg,801b3ecffec8c8c8,how many pieces of shrimp are cooked
+cauldron-tallyqa-392,tallyqa,text_answerable,0.7370346933603287,0.1120958775281906,0.8491305708885193,"How many hands can be seen in the picture?
+Give a very brief answer.",2.0,results/tier2\full\images\cauldron-tallyqa-392.jpg,c242c0011198b6ec,how many hands can be seen in the picture

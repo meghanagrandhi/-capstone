@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1113 23:43:19.955000 25520 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:13,  8.88it/s]Loading weights:   2%|▏         | 10/657 [00:00<00:11, 53.96it/s]Loading weights:   5%|▍         | 30/657 [00:00<00:05, 118.54it/s]Loading weights:   8%|▊         | 52/657 [00:00<00:03, 153.51it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:03, 186.62it/s]Loading weights:  15%|█▌        | 101/657 [00:00<00:02, 200.45it/s]Loading weights:  19%|█▊        | 123/657 [00:00<00:02, 204.11it/s]Loading weights:  23%|██▎       | 149/657 [00:00<00:02, 215.74it/s]Loading weights:  26%|██▌       | 171/657 [00:00<00:02, 216.43it/s]Loading weights:  30%|██▉       | 195/657 [00:01<00:02, 221.22it/s]Loading weights:  35%|███▍      | 227/657 [00:01<00:01, 250.63it/s]Loading weights:  57%|█████▋    | 375/657 [00:01<00:00, 613.93it/s]Loading weights:  81%|████████  | 533/657 [00:01<00:00, 896.73it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 458.80it/s]
+  smolvlm_screen_cocoqa_only_text90_st62 step 0/62: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_screen_cocoqa_only_text90_st62 step 62/62: A_real=0.414 G_real=0.380 G_blank=0.205  [9.4 min]
+saved results/tier3/eval_screen/checkpoint_eval_v2.csv (34 rows); 9.4 min

@@ -1,0 +1,33 @@
+{
+  "mixture_aokvqa_only_text10": {
+    "n": 300,
+    "text_share": 0.1,
+    "mean_gap": 0.3364626917243004,
+    "yes_share_of_yes_no": 0.0,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 270,
+        "text_answerable": 30
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 1
+    }
+  },
+  "mixture_aokvqa_only_text90": {
+    "n": 300,
+    "text_share": 0.9,
+    "mean_gap": -0.5988121531407038,
+    "yes_share_of_yes_no": 0.25,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 30,
+        "text_answerable": 270
+      }
+    },
+    "yes_no_cells": {
+      "text_answerable/no": 3,
+      "text_answerable/yes": 1
+    }
+  }
+}

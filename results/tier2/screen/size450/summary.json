@@ -1,0 +1,62 @@
+{
+  "mixture_size450_text10": {
+    "n": 486,
+    "text_share": 0.09876543209876543,
+    "mean_gap": 1.1077025789420654,
+    "yes_share_of_yes_no": 0.5,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 101,
+        "text_answerable": 11
+      },
+      "cocoqa": {
+        "image_necessary": 101,
+        "text_answerable": 11
+      },
+      "tallyqa": {
+        "image_necessary": 101,
+        "text_answerable": 11
+      },
+      "vsr": {
+        "image_necessary": 135,
+        "text_answerable": 15
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 62,
+      "image_necessary/yes": 73,
+      "text_answerable/no": 13,
+      "text_answerable/yes": 2
+    }
+  },
+  "mixture_size450_text90": {
+    "n": 486,
+    "text_share": 0.9012345679012346,
+    "mean_gap": 0.1039622060421839,
+    "yes_share_of_yes_no": 0.4934210526315789,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 11,
+        "text_answerable": 101
+      },
+      "cocoqa": {
+        "image_necessary": 11,
+        "text_answerable": 101
+      },
+      "tallyqa": {
+        "image_necessary": 11,
+        "text_answerable": 101
+      },
+      "vsr": {
+        "image_necessary": 15,
+        "text_answerable": 135
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 8,
+      "image_necessary/yes": 7,
+      "text_answerable/no": 69,
+      "text_answerable/yes": 68
+    }
+  }
+}

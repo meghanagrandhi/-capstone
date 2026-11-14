@@ -1,0 +1,1315 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-aokvqa-298,aokvqa,text_answerable,-0.1719186305999755,2.165262222290039,1.993343591690064,"What is featured by the TV?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Dolls, dancing show, video game, workout.",Video game.,results/tier2\full\images\cauldron-aokvqa-298.jpg,3f3f37373571b8bd,what is featured by the tv
+cauldron-aokvqa-331,aokvqa,image_necessary,0.6717137098312378,1.5874913930892944,2.259205102920532,"What are the bears doing in the water?
+From the following four choices, select the correct answer to address the question.
+Options: Fighting, crying, mating, eating.",Fighting.,results/tier2\full\images\cauldron-aokvqa-331.jpg,3830321ac8e8d8d0,what are the bears doing in the water
+cauldron-aokvqa-690,aokvqa,image_necessary,0.2715110778808594,2.350189208984375,2.6217002868652344,"What element is outside the physical reality of the photo?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Caption, emoji, date, name.","Answer: name.
+Rationale: The name wasn't really in the scene.",results/tier2\full\images\cauldron-aokvqa-690.jpg,1821071f3d1c0310,what element is outside the physical reality of the photo
+cauldron-aokvqa-19,aokvqa,image_necessary,0.4140913486480713,2.7345128059387207,3.148604154586792,"What type of gathering is this?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Meeting, ceremony, barbeque, wedding.","Answer: barbeque.
+Rationale: The grill is used outdoors to prevent fire hazards. it can cook several types of food.",results/tier2\full\images\cauldron-aokvqa-19.jpg,d9d8d8c9c8ef3c30,what type of gathering is this
+cauldron-aokvqa-639,aokvqa,image_necessary,0.3847486972808838,2.247980833053589,2.6327295303344727,"Which leg would be hurt if he fell?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: His left, both, his right, neither.","Answer: his left.
+Rationale: The skater's left leg is closer to the ground above which he is temporarily suspended. we can assume this is the leg to be hurt should he fall.",results/tier2\full\images\cauldron-aokvqa-639.jpg,d0888820101000c0,which leg would be hurt if he fell
+cauldron-aokvqa-507,aokvqa,image_necessary,0.5981488227844238,2.020191192626953,2.618340015411377,"What are the people at this event trying to help gain on behalf of medical research?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Equality, funding, awareness, rights.","Answer: funding.
+Rationale: The shirt one of them is wearing state's the purpose of the event.",results/tier2\full\images\cauldron-aokvqa-507.jpg,e6e6e6b1b1e8e8e8,what are the people at this event trying to help gain on behalf of medical research
+cauldron-aokvqa-378,aokvqa,image_necessary,0.246636152267456,2.2423765659332275,2.489012718200684,"What event will the people participate in?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Motorcycle parade, marathon, protest, touring.","Answer: motorcycle parade.
+Rationale: There are tons of motorcycles in the street.",results/tier2\full\images\cauldron-aokvqa-378.jpg,1c9e0c1c7879f1f1,what event will the people participate in
+cauldron-aokvqa-494,aokvqa,image_necessary,0.3209340572357178,2.492883920669556,2.813817977905273,"Where are the two old men located in?
+Select the accurate response from the four choices given to answer the question.
+Options: Train station, ferry station, shopping mall, airport.",Airport.,results/tier2\full\images\cauldron-aokvqa-494.jpg,f3f1b3b29ec24a6,where are the two old men located in
+cauldron-aokvqa-353,aokvqa,image_necessary,0.5242104530334473,2.6558966636657715,3.1801071166992188,"What kind of activity is held nearby?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Canoeing, car racing, fishing, mountain climbing.","Answer: canoeing.
+Rationale: Multiple cars have boats on them.",results/tier2\full\images\cauldron-aokvqa-353.jpg,e0e3f3f3c3cef5b3,what kind of activity is held nearby
+cauldron-aokvqa-383,aokvqa,image_necessary,0.6891031265258789,3.268419027328491,3.95752215385437,"What is the girl doing with the silver device?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Cutting, scooping, mixing, eating.","Answer: mixing.
+Rationale: This has beaters on it that move food around",results/tier2\full\images\cauldron-aokvqa-383.jpg,e6f2f6f9bbb371e4,what is the girl doing with the silver device
+cauldron-aokvqa-757,aokvqa,image_necessary,0.1785650253295898,2.105031013488769,2.28359603881836,"What sport is being played?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Soccer, rugby, cricket, ultimate frisbee.","Answer: ultimate frisbee.
+Rationale: The man has one in his hand and other people are standing around waiting",results/tier2\full\images\cauldron-aokvqa-757.jpg,e0903a7a989c9c96,what sport is being played
+cauldron-aokvqa-157,aokvqa,image_necessary,0.3457225561141968,1.2468230724334717,1.5925456285476685,"What is the boy sitting in the grass doing?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Playing pokemon, resting, texting, flying kite.","Answer: flying kite.
+Rationale: He is holding the string to his kite that is in the air.",results/tier2\full\images\cauldron-aokvqa-157.jpg,1f1f6cd1d9268aea,what is the boy sitting in the grass doing
+cauldron-aokvqa-1,aokvqa,image_necessary,0.2291430830955505,0.8904382586479187,1.1195813417434692,"Where does this man eat pizza?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Office, cafe, motel, outside.","Answer: office.
+Rationale: The man is eating pizza at a work desk in an office setting.",results/tier2\full\images\cauldron-aokvqa-1.jpg,f1cb4a7ad8983030,where does this man eat pizza
+cauldron-aokvqa-546,aokvqa,image_necessary,0.6884996891021729,1.586650848388672,2.2751505374908447,"Why is she doing this?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Is hungry, showing off, for photo, is traveling.","Answer: for photo.
+Rationale: The girl has sunglasses on and is staring forward.",results/tier2\full\images\cauldron-aokvqa-546.jpg,d8181a0d0d0c081,why is she doing this
+cauldron-aokvqa-578,aokvqa,image_necessary,0.2321771383285522,1.4247137308120728,1.656890869140625,"What type of activity are the people participating in?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Water gliding, river running, surfing, river surfing.","Answer: river surfing.
+Rationale: These people are riding the waves on a river.",results/tier2\full\images\cauldron-aokvqa-578.jpg,c3e0f8f8d8d9ccdc,what type of activity are the people participating in
+cauldron-aokvqa-586,aokvqa,image_necessary,0.5673280954360962,1.446123480796814,2.01345157623291,"What does the girl want to pet?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Foxes, snakes, sheep, chickens.","Answer: sheep.
+Rationale: A girl is looking at sheep in a pasture.",results/tier2\full\images\cauldron-aokvqa-586.jpg,bc98928c00909c8c,what does the girl want to pet
+cauldron-aokvqa-246,aokvqa,text_answerable,-1.6523747444152832,4.5278730392456055,2.8754982948303223,"What are they doing?
+Select the accurate response from the four choices given to answer the question.
+Options: Chatting, fighting, arguing, resting.",Arguing.,results/tier2\full\images\cauldron-aokvqa-246.jpg,1819192d2c3c3031,what are they doing
+cauldron-aokvqa-100,aokvqa,image_necessary,0.6464602947235107,1.6270620822906494,2.27352237701416,"Why are these people covering their faces?
+Pick the correct solution from the four options below to address the question.
+Options: Keeping warm, stopping covid, for style, as punishment.",Keeping warm.,results/tier2\full\images\cauldron-aokvqa-100.jpg,ff3fb4a6a7371f1f,why are these people covering their faces
+cauldron-aokvqa-471,aokvqa,text_answerable,-1.578871726989746,4.387641906738281,2.808770179748535,"What is the most likely level of this room?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Basement, ground, penthouse, third.",Ground.,results/tier2\full\images\cauldron-aokvqa-471.jpg,fef8586949467058,what is the most likely level of this room
+cauldron-aokvqa-614,aokvqa,image_necessary,0.8085037469863892,1.0235114097595217,1.8320151567459104,"What is the dog wearing?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Glasses, leash, scarf, boots.","Answer: glasses.
+Rationale: The dog has sunglasses and a hat on.",results/tier2\full\images\cauldron-aokvqa-614.jpg,1c184f0f0d1f1494,what is the dog wearing
+cauldron-aokvqa-17,aokvqa,image_necessary,0.837043285369873,3.1601927280426025,3.997236013412476,"What job do the people shown here share?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Manufacturing, taxi driver, movie stars, flying.","Answer: flying.
+Rationale: The people wear these outfits when working inside planes.",results/tier2\full\images\cauldron-aokvqa-17.jpg,1c1c7c7e7e3f9193,what job do the people shown here share
+cauldron-aokvqa-118,aokvqa,image_necessary,0.3692145347595215,2.137396812438965,2.5066113471984863,"What leave imprints in the snow with every step they take?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Nothing, their shadow, their shoes, their hands.","Answer: their shoes.
+Rationale: When you walk on snow it will always leave some imprint.",results/tier2\full\images\cauldron-aokvqa-118.jpg,f464a7a6d2d3f3f8,what leave imprints in the snow with every step they take
+cauldron-aokvqa-432,aokvqa,image_necessary,0.922234296798706,2.4693052768707275,3.3915395736694336,"Which ancient civilization utilized the support structure shown in the image?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Native americans, slovaks, romans, germans.","Answer: romans.
+Rationale: Curved archways are on a building at a ski resort.",results/tier2\full\images\cauldron-aokvqa-432.jpg,a1a088ccc8cc0c50,which ancient civilization utilized the support structure shown in the image
+cauldron-aokvqa-459,aokvqa,image_necessary,0.4424748420715332,1.7450840473175049,2.187558889389038,"Who's bike is this?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Child, man, woman, tourist.","Answer: child.
+Rationale: The bike is too small for the adult that is riding it. it belongs to the boy running behind it.",results/tier2\full\images\cauldron-aokvqa-459.jpg,c8727292323a1890,whos bike is this
+cauldron-aokvqa-279,aokvqa,image_necessary,0.356097936630249,2.8961782455444336,3.2522761821746826,"What type of horse is it?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Rocking, female, stuffed, male.","Answer: rocking.
+Rationale: The horse has curved supports that enable it to have a back and forth motion.",results/tier2\full\images\cauldron-aokvqa-279.jpg,9c1c181cdcc8d830,what type of horse is it
+cauldron-aokvqa-497,aokvqa,text_answerable,-1.6117711067199707,4.582577705383301,2.97080659866333,"This animal is the same species as what character on Game of Thrones?
+From the following four choices, select the correct answer to address the question.
+Options: Hot pie, ghost, hound, mountain.",Ghost.,results/tier2\full\images\cauldron-aokvqa-497.jpg,4df0c1cd4e0c0a7c,this animal is the same species as what character on game of thrones
+cauldron-aokvqa-343,aokvqa,image_necessary,0.599571943283081,3.3760786056518555,3.975650548934937,"What activity does the van driver want to do?
+Select the accurate response from the four choices given to answer the question.
+Options: Ski, surf, gaming, suntanning.",Surf.,results/tier2\full\images\cauldron-aokvqa-343.jpg,c00889c1e6632727,what activity does the van driver want to do
+cauldron-aokvqa-322,aokvqa,image_necessary,0.4424116611480713,2.354149341583252,2.7965610027313232,"What is the name of the nation with the flag in this picture?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: United kingdom, south korea, canada, united states.",United states.,results/tier2\full\images\cauldron-aokvqa-322.jpg,f2f170707170703,what is the name of the nation with the flag in this picture
+cauldron-aokvqa-252,aokvqa,image_necessary,0.7412424087524414,1.6167807579040527,2.358023166656494,"The equine figure seen here is what type?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Rocking, taxidermied, stuffed, roan.","Answer: rocking.
+Rationale: The horse is a rocking one.",results/tier2\full\images\cauldron-aokvqa-252.jpg,d4d4d4d4c4d89998,the equine figure seen here is what type
+cauldron-aokvqa-57,aokvqa,image_necessary,0.20969820022583,2.418119668960572,2.6278178691864014,"What is not unique about this animals?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Have husks, large ears, have trunks, four legs.","Answer: four legs.
+Rationale: Many mammals have four legs and the rest of the items on the list are not as common.",results/tier2\full\images\cauldron-aokvqa-57.jpg,f0faf8c2c6cc9838,what is not unique about this animals
+cauldron-aokvqa-269,aokvqa,image_necessary,0.3744043111801147,1.6309698820114136,2.0053741931915283,"These boats are most likely in what kind of place?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Marina, ocean, lake, river.","Answer: marina.
+Rationale: They are all docked in a marina.",results/tier2\full\images\cauldron-aokvqa-269.jpg,64343e35b51c06b7,these boats are most likely in what kind of place
+cauldron-aokvqa-218,aokvqa,image_necessary,0.4044677019119262,1.5310461521148682,1.9355138540267944,"What could happen if the white truck parks a few feet directly ahead?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Parade, collision, movie, sunset.","Answer: collision.
+Rationale: The white truck is near train tracks. the train would hit the white truck if it were to park a few feet directly ahead.",results/tier2\full\images\cauldron-aokvqa-218.jpg,f0f0f8b8dcececd2,what could happen if the white truck parks a few feet directly ahead
+cauldron-aokvqa-596,aokvqa,image_necessary,1.4286973476409912,1.9259512424469,3.35464859008789,"Why is the woman wearing a hat?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Fashion, warmth, costume, uniform.",Uniform.,results/tier2\full\images\cauldron-aokvqa-596.jpg,6367666565612121,why is the woman wearing a hat
+cauldron-aokvqa-366,aokvqa,text_answerable,-0.91221284866333,2.607749462127685,1.6955366134643557,"Why is the truck backed up to the building?
+From the following four choices, select the correct answer to address the question.
+Options: Loading, robbery, blocking door, sales.",Loading.,results/tier2\full\images\cauldron-aokvqa-366.jpg,f5f5d4f4efddf8f8,why is the truck backed up to the building
+cauldron-aokvqa-406,aokvqa,text_answerable,-0.535865068435669,3.3071391582489014,2.7712740898132324,"If the clock is showing times in the PM how many hours ago did the New York Stock Exchange open?
+Pick the correct solution from the four options below to address the question.
+Options: One, three, four, six.",Three.,results/tier2\full\images\cauldron-aokvqa-406.jpg,c0c0f0f3f2f2f0d8,if the clock is showing times in the pm how many hours ago did the new york stock exchange open
+cauldron-aokvqa-506,aokvqa,image_necessary,0.4874653816223144,3.010146379470825,3.49761176109314,"Why are the umbrellas different colors?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Privacy, random colors, being colorful, identification.","Answer: being colorful.
+Rationale: There are many umbrellas lit up at night. they are giving off visually striking features of vibrant hues.",results/tier2\full\images\cauldron-aokvqa-506.jpg,865ebfd36383c3c0,why are the umbrellas different colors
+cauldron-aokvqa-668,aokvqa,image_necessary,0.1702780723571777,2.864031791687012,3.034309864044189,"What biome is in the background?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Desert, tundra, rainforest, savanna.","Answer: savanna.
+Rationale: Just like in the plains of africa the lack of trees and tall grass lets you know what type if region they are in.",results/tier2\full\images\cauldron-aokvqa-668.jpg,fffffffff8c669e3,what biome is in the background
+cauldron-aokvqa-307,aokvqa,image_necessary,0.2711347341537475,1.8140586614608765,2.085193395614624,"Which shoes require watering more than daily?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Right ones, none, all, left ones.","Answer: none.
+Rationale: Cacti don't generally need to be watered daily.",results/tier2\full\images\cauldron-aokvqa-307.jpg,95b4ccccd0949d4b,which shoes require watering more than daily
+cauldron-aokvqa-295,aokvqa,text_answerable,-0.4753265380859375,5.017643928527832,4.542317390441895,"Where is the man taking the cart?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Home, store, airport, goodwill.",Airport.,results/tier2\full\images\cauldron-aokvqa-295.jpg,9e1a78f2f7c3277f,where is the man taking the cart
+cauldron-aokvqa-270,aokvqa,image_necessary,0.2624390125274658,2.085169076919556,2.347608089447021,"What time of day does the bus drive in here?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Noon, 1 pm, 11 am, sunset.","Answer: sunset.
+Rationale: The sky is beginning to darken, and the sun is not visible in the sky. all the other listed options take place at a time of day when it would be light outside.",results/tier2\full\images\cauldron-aokvqa-270.jpg,7020484f0e860686,what time of day does the bus drive in here
+cauldron-aokvqa-492,aokvqa,image_necessary,0.4917795658111572,1.210071325302124,1.7018508911132812,"What is the little lamb doing?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Drinking milk, hiding, sleeping, attacking.",Drinking milk.,results/tier2\full\images\cauldron-aokvqa-492.jpg,666667e3a426deb2,what is the little lamb doing
+cauldron-aokvqa-165,aokvqa,image_necessary,0.5590412616729736,1.777505874633789,2.3365471363067627,"What are the black helmets the people are wearing made for?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Halloween, style, riding, sweat reduction.","Answer: riding.
+Rationale: The men are on horses and have helmets on in case they fall.",results/tier2\full\images\cauldron-aokvqa-165.jpg,8ac5c3c9cda3cdc8,what are the black helmets the people are wearing made for
+cauldron-aokvqa-645,aokvqa,image_necessary,0.7137155532836914,2.5206212997436523,3.234336853027344,"What tusked entity allows tourists to cross this body of water while keeping their feed dry?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Elephants, walrus, boar, elephant seals.","Answer: elephants.
+Rationale: There is a depiction of many huge animals with floppy ears going across the river. they are carrying people on their backs as they go across.",results/tier2\full\images\cauldron-aokvqa-645.jpg,9047271a5e46040,what tusked entity allows tourists to cross this body of water while keeping their feed dry
+cauldron-aokvqa-408,aokvqa,image_necessary,0.6867759227752686,1.788114070892334,2.4748899936676025,"What material is the round table made of?
+Make your selection from the four choices given to correctly answer the question.
+Options: Granite, wood, ceramic, metal.",Metal.,results/tier2\full\images\cauldron-aokvqa-408.jpg,4975731153514179,what material is the round table made of
+cauldron-aokvqa-651,aokvqa,image_necessary,0.5069059133529663,1.204039216041565,1.7109451293945312,"What are the kites here meant to resemble?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Dogs, cats, martians, sea creatures.","Answer: sea creatures.
+Rationale: The kites are shaped like squid.",results/tier2\full\images\cauldron-aokvqa-651.jpg,d6dfdfd690fcfcfc,what are the kites here meant to resemble
+cauldron-aokvqa-486,aokvqa,image_necessary,0.3698455691337585,0.8444995284080505,1.214345097541809,"What are they doing?
+Make your selection from the four choices given to correctly answer the question.
+Options: Attacking meter, paying meter, reading meter, expressing displeasure.",Expressing displeasure.,results/tier2\full\images\cauldron-aokvqa-486.jpg,3ff5e1d3b88c88c6,what are they doing
+cauldron-aokvqa-314,aokvqa,image_necessary,0.625786542892456,2.8165318965911865,3.4423184394836426,"What country is the white airplane most likely from?
+Select the accurate response from the four choices given to answer the question.
+Options: Usa, turkey, france, germany.",Turkey.,results/tier2\full\images\cauldron-aokvqa-314.jpg,d0707060f2303e4c,what country is the white airplane most likely from
+cauldron-aokvqa-462,aokvqa,image_necessary,0.478337287902832,1.8200104236602783,2.2983477115631104,"Why is he wearing a glove?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Warmth, health, fashion, grip.","Answer: grip.
+Rationale: A baseball player is wearing a uniform and glove. gloves are worn for grip and protection in baseball.",results/tier2\full\images\cauldron-aokvqa-462.jpg,e2e2f0b0f0e0c0e0,why is he wearing a glove
+cauldron-aokvqa-213,aokvqa,image_necessary,0.3941705226898193,1.1806361675262451,1.5748066902160645,"What is most likely in the air?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Tennis ball, kite, airplane, frisbee.",Tennis ball.,results/tier2\full\images\cauldron-aokvqa-213.jpg,306874b0180cc9c1,what is most likely in the air
+cauldron-aokvqa-488,aokvqa,image_necessary,0.1536509394645691,0.6283214688301086,0.7819724082946777,"What breakage caused the lights repositioning?
+Select the accurate response from the four choices given to answer the question.
+Options: Sidwalk, car, limb, light pole.",Light pole.,results/tier2\full\images\cauldron-aokvqa-488.jpg,bebc969410393830,what breakage caused the lights repositioning
+cauldron-aokvqa-691,aokvqa,image_necessary,0.3452060222625732,1.0182275772094729,1.363433599472046,"What color gamma is the picture in?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Cold filter, monochromatic, full color, sepia.","Answer: monochromatic.
+Rationale: There is only black and white in the picture.",results/tier2\full\images\cauldron-aokvqa-691.jpg,98f0e0c088cb8ccc,what color gamma is the picture in
+cauldron-aokvqa-75,aokvqa,image_necessary,0.4003857374191284,1.824454426765442,2.2248401641845703,"What type of stand is holding up the motorcycle?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Music stand, display stand, kick stand, grand stand.","Answer: display stand.
+Rationale: This is a stand to put the bike on display.",results/tier2\full\images\cauldron-aokvqa-75.jpg,286818c941191317,what type of stand is holding up the motorcycle
+cauldron-aokvqa-452,aokvqa,image_necessary,0.5042346715927124,1.2371573448181152,1.7413920164108276,"What is the person doing with the food in his lap?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Eating, selling, decorating, cooking.","Answer: eating.
+Rationale: The person has a pizza in his lap that he is going to eat.",results/tier2\full\images\cauldron-aokvqa-452.jpg,b0b99d95f0f4f8e8,what is the person doing with the food in his lap
+cauldron-aokvqa-768,aokvqa,image_necessary,0.4294497966766357,1.021377444267273,1.4508272409439087,"The couple on the bench are fans of which professional baseball team?
+Make your selection from the four choices given to correctly answer the question.
+Options: Atlanta braves, red sox, cincinnati reds, yankees.",Cincinnati reds.,results/tier2\full\images\cauldron-aokvqa-768.jpg,ff9b46261113878b,the couple on the bench are fans of which professional baseball team
+cauldron-aokvqa-511,aokvqa,image_necessary,0.2168028354644775,2.0404746532440186,2.257277488708496,"Why is the toilet paper on top of the toilet?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Easy access, reduce noise, safety, aesthetics.","Answer: easy access.
+Rationale: Since it is located behing the toilet, it is in easy reach for the person needing access to it.",results/tier2\full\images\cauldron-aokvqa-511.jpg,f0f0e1e9eae2e2e0,why is the toilet paper on top of the toilet
+cauldron-aokvqa-316,aokvqa,image_necessary,0.3149408102035522,1.7810348272323608,2.095975637435913,"What is this model of car called in South Korea?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Hyundai verna, hyundai tucson, hyundai minho, hyundai kia.","Answer: hyundai verna.
+Rationale: The car is an accent which is a verna in south korea.",results/tier2\full\images\cauldron-aokvqa-316.jpg,68788020038b48d2,what is this model of car called in south korea
+cauldron-aokvqa-693,aokvqa,image_necessary,0.6636097431182861,1.6581809520721436,2.3217906951904297,"What is the man going to do next?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Jumping off, flipping over, lying down, sitting down.","Answer: jumping off.
+Rationale: The skier is beginning to crouch to jump off the rail.",results/tier2\full\images\cauldron-aokvqa-693.jpg,ffffffd81c64fcf8,what is the man going to do next
+cauldron-aokvqa-653,aokvqa,image_necessary,0.3653578758239746,2.951254844665528,3.316612720489502,"What is protruding from the water?
+Choose the right answer from the provided options to respond to the question.
+Options: Branch, octopus, shark, flying saucer.",Branch.,results/tier2\full\images\cauldron-aokvqa-653.jpg,e1ede4e1fafeffff,what is protruding from the water
+cauldron-aokvqa-522,aokvqa,image_necessary,0.1595728397369384,2.305184364318848,2.464757204055786,"What is the plane pictured above doing?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Take off, stopped, landing, fuelling.","Answer: take off.
+Rationale: When planes are landing, their noses are tipped downward. the nose of this plane is tipped up, indicating it is headed into the sky.",results/tier2\full\images\cauldron-aokvqa-522.jpg,dfffeffef0f00188,what is the plane pictured above doing
+cauldron-aokvqa-347,aokvqa,image_necessary,0.3664455413818359,4.507859230041504,4.87430477142334,"What is located behind the clock?
+Choose the right answer from the provided options to respond to the question.
+Options: Large room, mirror, open museum, nothing.",Mirror.,results/tier2\full\images\cauldron-aokvqa-347.jpg,2a4ae2f3e1e18300,what is located behind the clock
+cauldron-aokvqa-401,aokvqa,image_necessary,0.4824687242507934,1.9583042860031128,2.4407730102539062,"How many different times are photographed here?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Three, two, none, one.","Answer: one.
+Rationale: It is the same clock, reflected in a mirror.",results/tier2\full\images\cauldron-aokvqa-401.jpg,cdc9f99cc9c9c846,how many different times are photographed here
+cauldron-aokvqa-2,aokvqa,image_necessary,0.3656597137451172,3.1083626747131348,3.474022388458252,"What is the occupation of the person driving?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Waiter, farmer, cashier, musician.",Farmer.,results/tier2\full\images\cauldron-aokvqa-2.jpg,e06032fad9e9e1f0,what is the occupation of the person driving
+cauldron-aokvqa-605,aokvqa,image_necessary,1.0198326110839844,4.060872077941895,5.080704689025879,"Why does the horse have yellow around the ankles?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Fashion, visibility, camouflage, protection.",Visibility.,results/tier2\full\images\cauldron-aokvqa-605.jpg,dcdcd08717191c04,why does the horse have yellow around the ankles
+cauldron-aokvqa-99,aokvqa,image_necessary,0.2521672248840332,2.504666805267334,2.756834030151367,"What job does the person with the larger item on their head hold?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Doctor, mascot, janitor, lawn mower.","Answer: mascot.
+Rationale: Most sports teams have mascot's that dress up as a character depicting the team.",results/tier2\full\images\cauldron-aokvqa-99.jpg,90d0c0c4c6c6c8c9,what job does the person with the larger item on their head hold
+cauldron-aokvqa-80,aokvqa,text_answerable,-0.344970703125,1.8781960010528564,1.5332252979278564,"How did this man get to this location?
+Select the accurate response from the four choices given to answer the question.
+Options: Walk, uber, via horseback, cow back.",Via horseback.,results/tier2\full\images\cauldron-aokvqa-80.jpg,f1e989d8ccde563f,how did this man get to this location
+cauldron-aokvqa-169,aokvqa,image_necessary,0.494063138961792,1.4621185064315796,1.956181645393372,"What has peaked the interest of the little girl?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Sheep, mother, cage, puddle.","Answer: sheep.
+Rationale: The little girl is pointing at the animal in the cage and is looking in that direction.",results/tier2\full\images\cauldron-aokvqa-169.jpg,bab83caccc5c7b36,what has peaked the interest of the little girl
+cauldron-aokvqa-372,aokvqa,image_necessary,0.1611742973327636,2.415945053100586,2.5771193504333496,"What is taller than the giraffe here?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Ladder, tree, statue, skyscraper.","Answer: tree.
+Rationale: This plant is the only kind that usually grows to be taller than giraffes if it isn't cut down.",results/tier2\full\images\cauldron-aokvqa-372.jpg,6c607071d1d1e0c4,what is taller than the giraffe here
+cauldron-aokvqa-50,aokvqa,image_necessary,0.4317071437835693,2.2136447429656982,2.645351886749268,"What role is being fulfilled by the kneeling gray shirted person?
+Select the accurate response from the four choices given to answer the question.
+Options: Batter, catcher, referee, coach.",Catcher.,results/tier2\full\images\cauldron-aokvqa-50.jpg,770f18f838d81098,what role is being fulfilled by the kneeling gray shirted person
+cauldron-aokvqa-146,aokvqa,image_necessary,0.3365223407745361,2.108494758605957,2.445017099380493,"What word is on the wall?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Fiction, biography, biology, mathematics.","Answer: biography.
+Rationale: This is a genre of books found in the library.",results/tier2\full\images\cauldron-aokvqa-146.jpg,666658dadc44d4a4,what word is on the wall
+cauldron-aokvqa-481,aokvqa,image_necessary,0.2120625972747802,1.5942189693450928,1.806281566619873,"The screen in the middle is taking the place of the what?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Audience, ground, ball, net.","Answer: net.
+Rationale: The screen is a net.",results/tier2\full\images\cauldron-aokvqa-481.jpg,e761696161e59999,the screen in the middle is taking the place of the what
+cauldron-aokvqa-104,aokvqa,image_necessary,0.1902767419815063,1.5696526765823364,1.7599294185638428,"What companies logo can be seen on the half pipe?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Dc, etnies, billabong, quicksilver.","Answer: quicksilver.
+Rationale: Quicksilver can be seen as a sponsor as it is often a sponsor of skateboarding events.",results/tier2\full\images\cauldron-aokvqa-104.jpg,79613138382ba9c0,what companies logo can be seen on the half pipe
+cauldron-aokvqa-151,aokvqa,image_necessary,0.2120476961135864,1.4976638555526731,1.7097115516662598,"This collage shows the surfer riding a wave but at different what?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Outfits, angles, surfboards, weather.","Answer: angles.
+Rationale: The orientation of the surfer and the board is different in each picture which could be seen as different angles.",results/tier2\full\images\cauldron-aokvqa-151.jpg,8406874d0d8c0e27,this collage shows the surfer riding a wave but at different what
+cauldron-aokvqa-699,aokvqa,image_necessary,0.2994706630706787,2.676830768585205,2.976301431655884,"Which country might you find the living replica of the item on the bed?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: New zealand, canada, england, germany.","Answer: canada.
+Rationale: The country has a lot of wilderness and the bear is native to its continent.",results/tier2\full\images\cauldron-aokvqa-699.jpg,c7c7c3c386848494,which country might you find the living replica of the item on the bed
+cauldron-aokvqa-354,aokvqa,image_necessary,0.4389605522155761,2.688352108001709,3.127312660217285,"How is the woman protecting her hairdo?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Scarf, helmet, hat, hairnet.","Answer: hat.
+Rationale: There is a woman with her hair wrapped up in babushka fashion looking through a shop window. the headwear worn by babushkas is more commonly known as 'scarf' in the west.",results/tier2\full\images\cauldron-aokvqa-354.jpg,ccceeccccc5e5c1c,how is the woman protecting her hairdo
+cauldron-aokvqa-762,aokvqa,text_answerable,-1.2609479427337646,2.278036594390869,1.0170886516571045,"Why does the coloring in the signage appear uneven and different at top than bottom?
+Make your selection from the four choices given to correctly answer the question.
+Options: Uniquely painted, light glare, art display, sun faded.",Sun faded.,results/tier2\full\images\cauldron-aokvqa-762.jpg,f8f0f0f0e8e8f8f0,why does the coloring in the signage appear uneven and different at top than bottom
+cauldron-aokvqa-365,aokvqa,image_necessary,0.6621325016021729,2.31567931175232,2.977811813354492,"What is the building for?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Library, church, lifeguard, hospital.","Answer: lifeguard.
+Rationale: The building gives a good vantage of the beach, while protecting the person from the elements.",results/tier2\full\images\cauldron-aokvqa-365.jpg,f9edcee1fca6e08a,what is the building for
+cauldron-aokvqa-737,aokvqa,image_necessary,0.2183848619461059,1.7805125713348389,1.9988974332809448,"What is the name given to the type of meat gotten from the animals above?
+Make your selection from the four choices given to correctly answer the question.
+Options: Mutton, beef, chicken, pork.",Mutton.,results/tier2\full\images\cauldron-aokvqa-737.jpg,73e527f6f5fb4a44,what is the name given to the type of meat gotten from the animals above
+cauldron-aokvqa-266,aokvqa,image_necessary,0.3475301265716553,1.111899495124817,1.4594296216964722,"Where can these foods be found?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Fast food, bar, garden, office.","Answer: garden.
+Rationale: Vegetables are typically grown in a garden.",results/tier2\full\images\cauldron-aokvqa-266.jpg,fff3f0f0e87836f2,where can these foods be found
+cauldron-aokvqa-554,aokvqa,image_necessary,0.5153026580810547,1.63183331489563,2.147135972976685,"What is definitely not allowed here?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Texting, eating, smoking, crying.","Answer: smoking.
+Rationale: A no smoking sign is on a wall in a restaurant.",results/tier2\full\images\cauldron-aokvqa-554.jpg,3232b0e4e0f8e878,what is definitely not allowed here
+cauldron-aokvqa-520,aokvqa,image_necessary,0.3358247280120849,2.93092679977417,3.266751527786255,"What are the devices with screens called?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Microwaves, televisions, computers, recorders.","Answer: computers.
+Rationale: The screens are attached to keyboards and have displays that would be consistent with answer a. this also appears to be an office based on the decor and setup which would likely have computers in modern times.",results/tier2\full\images\cauldron-aokvqa-520.jpg,7e0e026070dada79,what are the devices with screens called
+cauldron-aokvqa-623,aokvqa,image_necessary,0.1570172309875488,2.1904141902923584,2.3474314212799072,"The ornate metal girders are covering what object?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Train tracks, sidewalk, roadway, electrical wires.","Answer: train tracks.
+Rationale: The place is a cement surface for people to walk on.",results/tier2\full\images\cauldron-aokvqa-623.jpg,cc3d3fbe3c3861d0,the ornate metal girders are covering what object
+cauldron-aokvqa-495,aokvqa,image_necessary,0.208898663520813,1.3764498233795166,1.5853484869003296,"What sport is the video game on the monitor simulating?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Wrestling, hockey, baseball, boxing.","Answer: boxing.
+Rationale: A boxing ring is shown on the screen.",results/tier2\full\images\cauldron-aokvqa-495.jpg,fc6c6c38dc091f9e,what sport is the video game on the monitor simulating
+cauldron-aokvqa-88,aokvqa,image_necessary,0.4910719394683838,1.7273635864257812,2.218435525894165,"What type feet do these birds have?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Human like, talons, webbed, none.","Answer: webbed.
+Rationale: Ducks are in water. ducks have webbed feet.",results/tier2\full\images\cauldron-aokvqa-88.jpg,a40015134a131200,what type feet do these birds have
+cauldron-aokvqa-502,aokvqa,image_necessary,0.3816934823989868,1.459796905517578,1.841490387916565,"What is the more realistic setting for these baskets of food items?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Home, lemonade stand, farmer's market, grocery.",Farmer's market.,results/tier2\full\images\cauldron-aokvqa-502.jpg,e0a4040030541290,what is the more realistic setting for these baskets of food items
+cauldron-aokvqa-342,aokvqa,image_necessary,0.2493666410446167,1.288371205329895,1.5377378463745115,"Why do some elephants have trunks in the water?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: To drink, to play, to eat, to sit.","Answer: to drink.
+Rationale: They are drinking the water",results/tier2\full\images\cauldron-aokvqa-342.jpg,65e4e66f3f1e1c6c,why do some elephants have trunks in the water
+cauldron-aokvqa-34,aokvqa,image_necessary,0.7203241586685181,1.4691756963729858,2.189499855041504,"What time of the day are people exploring the beach?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Mixed tide, spring tide, high tide, low tide.",Low tide.,results/tier2\full\images\cauldron-aokvqa-34.jpg,f11290e808080484,what time of the day are people exploring the beach
+cauldron-aokvqa-204,aokvqa,image_necessary,0.4042263031005859,2.48870849609375,2.892934799194336,"What type of field are the kids playing on?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Softball, soccer, lacrosse, football.","Answer: softball.
+Rationale: There is a boy that is ready to swing and he's at the home plate.",results/tier2\full\images\cauldron-aokvqa-204.jpg,d5f703c606020e0,what type of field are the kids playing on
+cauldron-aokvqa-445,aokvqa,image_necessary,0.2069857120513916,2.712674617767334,2.9196603298187256,"What is the large circular blue object under the sink?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Hose, bucket, ball, mat.","Answer: bucket.
+Rationale: The item is made of plastic and has a handle for carrying as these items typically do,",results/tier2\full\images\cauldron-aokvqa-445.jpg,91918985838acec6,what is the large circular blue object under the sink
+cauldron-aokvqa-733,aokvqa,image_necessary,1.184187650680542,1.8622281551361084,3.0464158058166504,"What is needed for this activity?
+Pick the correct solution from the four options below to address the question.
+Options: Ice, water, sun, wind.",Wind.,results/tier2\full\images\cauldron-aokvqa-733.jpg,21287c000b2b232,what is needed for this activity
+cauldron-aokvqa-22,aokvqa,image_necessary,0.3113913536071777,2.17313289642334,2.4845242500305176,"Which object is in the greatest danger?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Bus, motorcyclist, blue car, cyclist.","Answer: cyclist.
+Rationale: The water is very deep for the bike.",results/tier2\full\images\cauldron-aokvqa-22.jpg,627329ede3e1a363,which object is in the greatest danger
+cauldron-aokvqa-788,aokvqa,text_answerable,-0.1885046958923339,1.3077735900878906,1.1192688941955566,"What syndrome does the baby on the left have?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Broken leg, torticollis, cerebral palsy, down's syndrome.",Down's syndrome.,results/tier2\full\images\cauldron-aokvqa-788.jpg,b6daddcc889bf3f3,what syndrome does the baby on the left have
+cauldron-aokvqa-136,aokvqa,image_necessary,0.3188782930374145,1.3298110961914062,1.6486893892288208,"At which direction is the highland cattle above staring to?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Up, right, left, front.","Answer: front.
+Rationale: He is looking straight ahead.",results/tier2\full\images\cauldron-aokvqa-136.jpg,fe9cf084cc8c8c97,at which direction is the highland cattle above staring to
+cauldron-aokvqa-428,aokvqa,image_necessary,0.2682781219482422,2.280545234680176,2.548823356628418,"What is held in the canisters at the back?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Gasoline, oil, propane, pepper spray.","Answer: propane.
+Rationale: The propane is in canisters.",results/tier2\full\images\cauldron-aokvqa-428.jpg,6d6db4b3b1b13028,what is held in the canisters at the back
+cauldron-aokvqa-150,aokvqa,image_necessary,0.3116483688354492,4.108960151672363,4.4206085205078125,"What kind of cuisine is this?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Chinese, japanese, indian, korean.",Japanese.,results/tier2\full\images\cauldron-aokvqa-150.jpg,79e4f4b4dcf8f8c8,what kind of cuisine is this
+cauldron-aokvqa-673,aokvqa,image_necessary,0.243248701095581,2.0359201431274414,2.2791688442230225,"Why do some boats have a big pole sticking up from it?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: For sails, for navigation, send sos, for lookout.","Answer: for sails.
+Rationale: This pole is used to hold their sails up when they put them up.",results/tier2\full\images\cauldron-aokvqa-673.jpg,b8b8b8b83a78e6e6,why do some boats have a big pole sticking up from it
+cauldron-aokvqa-676,aokvqa,image_necessary,0.4384112358093261,3.1404247283935547,3.578835964202881,"What type of activity is this?
+Make your selection from the four choices given to correctly answer the question.
+Options: Winter, aquatic, summer, tropical.",Winter.,results/tier2\full\images\cauldron-aokvqa-676.jpg,e0c0e0f4c6dc9cdc,what type of activity is this
+cauldron-aokvqa-566,aokvqa,image_necessary,0.388540506362915,2.51627254486084,2.904813051223755,"What does the photographer stand on to take this photo?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Glider, island, motor boat, bank.","Answer: motor boat.
+Rationale: A person is standing at the edge of the boat and taking a picture. he is water skiing back and forth.",results/tier2\full\images\cauldron-aokvqa-566.jpg,60d0e0e2c0fc9841,what does the photographer stand on to take this photo
+cauldron-aokvqa-225,aokvqa,image_necessary,1.185637593269348,1.862261176109314,3.047898769378662,"What does the white truck do?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Sells food, transports passengers, transports utensils, transports rice.","Answer: sells food.
+Rationale: You can tell because the side of the vehicle says burritos and rice plates.",results/tier2\full\images\cauldron-aokvqa-225.jpg,80a2238082811103,what does the white truck do
+cauldron-aokvqa-601,aokvqa,image_necessary,0.4551987648010254,2.4348156452178955,2.890014410018921,"What is the purpose of the cup?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Carry drinks, is novelty, carry toothbrushes, child's drink.","Answer: is novelty.
+Rationale: It has holes to hold the tools used to brush teeth.",results/tier2\full\images\cauldron-aokvqa-601.jpg,81808c3f2f1b090e,what is the purpose of the cup
+cauldron-aokvqa-126,aokvqa,text_answerable,-0.1448636054992675,1.774261474609375,1.6293978691101074,"Which food unprepared to eat?
+From the following four choices, select the correct answer to address the question.
+Options: Vegetables, meat, rice, banana.",Banana.,results/tier2\full\images\cauldron-aokvqa-126.jpg,4c594979b2313130,which food unprepared to eat
+cauldron-aokvqa-105,aokvqa,image_necessary,0.2952175140380859,2.412008047103882,2.707225561141968,"How is this bus different from traditional US buses?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Electric, double wide, windowless, double-decker.","Answer: double-decker.
+Rationale: This bus has two levels visible through the front windshield. most buses operating in the us have one level so this would be distinct because of the double deck.",results/tier2\full\images\cauldron-aokvqa-105.jpg,f4e6e6c69ebce7ce,how is this bus different from traditional us buses
+cauldron-aokvqa-217,aokvqa,image_necessary,0.392270565032959,1.130289077758789,1.522559642791748,"What is on the top of the building?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Cross, human, weathervane, bird.","Answer: cross.
+Rationale: There is a cross on the top of the building that is lit up.",results/tier2\full\images\cauldron-aokvqa-217.jpg,1838b8d8bce169c8,what is on the top of the building
+cauldron-aokvqa-20,aokvqa,image_necessary,0.1515384912490844,1.2174875736236572,1.3690260648727417,"What song mentions the animal under the desk?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Cat people, camel song, baby shark, good dog.","Answer: baby shark.
+Rationale: The song is baby shark.",results/tier2\full\images\cauldron-aokvqa-20.jpg,c3e247419f0c0101,what song mentions the animal under the desk
+cauldron-aokvqa-305,aokvqa,image_necessary,0.5068447589874268,1.7947258949279783,2.3015706539154053,"What guy in blue do?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Swung bat, dropped ball, hit ball, hit catcher.","Answer: swung bat.
+Rationale: A baseball player is at the home plate and has the bat over his shoulder as the catcher reaches forward with his glove.",results/tier2\full\images\cauldron-aokvqa-305.jpg,ec5c18ba33733313,what guy in blue do
+cauldron-aokvqa-561,aokvqa,text_answerable,-0.1370934247970581,1.2607028484344482,1.12360942363739,"What is a good word to describe all of these people?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Toddlers, women, bespectacled, senior citizens.",Bespectacled.,results/tier2\full\images\cauldron-aokvqa-561.jpg,ec9c94d6ccb6b6b2,what is a good word to describe all of these people
+cauldron-aokvqa-485,aokvqa,image_necessary,0.3511067628860473,1.1594904661178589,1.5105972290039062,"How are the two women related?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Doubles pair, students, cousins, sisters.","Answer: doubles pair.
+Rationale: They are playing on the same side of the court in tennis",results/tier2\full\images\cauldron-aokvqa-485.jpg,ee9898c5c5a4cece,how are the two women related
+cauldron-aokvqa-447,aokvqa,image_necessary,0.1651701927185058,2.11975646018982,2.284926652908325,"What likely relation do the two spoon looking things have?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Connected, both expensive, opposite colors, no relation.","Answer: connected.
+Rationale: The spoons are facing each other like tongs.",results/tier2\full\images\cauldron-aokvqa-447.jpg,33d08c27e873efd3,what likely relation do the two spoon looking things have
+cauldron-aokvqa-238,aokvqa,image_necessary,0.3362500667572021,2.2329132556915283,2.5691633224487305,"What is the large vehicle's purpose?
+Select the accurate response from the four choices given to answer the question.
+Options: Transport cars, transport furniture, transport trash, transport family.",Transport trash.,results/tier2\full\images\cauldron-aokvqa-238.jpg,c0c5c5c1d3cf0e43,what is the large vehicles purpose
+cauldron-aokvqa-631,aokvqa,image_necessary,0.1911573410034179,0.6776988506317139,0.8688561916351318,"How might you most easily bait this animal into moving?
+Make your selection from the four choices given to correctly answer the question.
+Options: With steak, with mouse, with worms, with carrots.",With carrots.,results/tier2\full\images\cauldron-aokvqa-631.jpg,fcfcfccccd6d3c7c,how might you most easily bait this animal into moving
+cauldron-aokvqa-61,aokvqa,image_necessary,0.6748377084732056,1.407408595085144,2.0822463035583496,"Why is the brown object placed near the fence?
+Pick the correct solution from the four options below to address the question.
+Options: To disguise, to inform, decoration, to warn.",To inform.,results/tier2\full\images\cauldron-aokvqa-61.jpg,c0c0e0c0e060e0f0,why is the brown object placed near the fence
+cauldron-aokvqa-156,aokvqa,image_necessary,0.3890911340713501,1.402005910873413,1.7910970449447632,"What are the people wearing red's job?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Secretaries, lifeguards, police, dancers.","Answer: lifeguards.
+Rationale: They are at a beach in front of a surfboard.",results/tier2\full\images\cauldron-aokvqa-156.jpg,f8b91b1b1b576379,what are the people wearing reds job
+cauldron-aokvqa-38,aokvqa,image_necessary,0.4711008071899414,2.089495182037353,2.560595989227295,"What type of contest is being held?
+From the following four choices, select the correct answer to address the question.
+Options: Spelling, running, trivia, eating.",Eating.,results/tier2\full\images\cauldron-aokvqa-38.jpg,e5544471e9c9e0e4,what type of contest is being held
+cauldron-aokvqa-752,aokvqa,image_necessary,0.8560197353363037,2.124455451965332,2.980475187301636,"What's the name for the type of shirt the man in blue is wearing?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Jersey, tank top, polo, button up.","Answer: jersey.
+Rationale: A guy is playing video game with a blue shirt with a number on it.",results/tier2\full\images\cauldron-aokvqa-752.jpg,8090b0989c8c3431,whats the name for the type of shirt the man in blue is wearing
+cauldron-aokvqa-658,aokvqa,image_necessary,0.3492927551269531,2.322993278503418,2.672286033630371,"What does the person in green try to block?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Ball, frisbee, marauders, horses.",Frisbee.,results/tier2\full\images\cauldron-aokvqa-658.jpg,7e7b59094bcae8e8,what does the person in green try to block
+cauldron-aokvqa-254,aokvqa,image_necessary,0.6299569606781006,2.7899532318115234,3.419910192489624,"What is next to the skateboard?
+Select the accurate response from the four choices given to answer the question.
+Options: Baby, cat, shoe, apple.",Baby.,results/tier2\full\images\cauldron-aokvqa-254.jpg,c3820243c3a00030,what is next to the skateboard
+cauldron-aokvqa-168,aokvqa,image_necessary,0.2313957214355468,2.813870668411255,3.0452663898468018,"What are these men looking at?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Baseball, stars, moon, sun.","Answer: baseball.
+Rationale: The batter swung the bat and followed the ball with his head.",results/tier2\full\images\cauldron-aokvqa-168.jpg,33074b5b73575f59,what are these men looking at
+cauldron-aokvqa-684,aokvqa,image_necessary,0.7278149127960205,2.9031851291656494,3.63100004196167,"What type of transportation is shown?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Road, air, water, rail.",Water.,results/tier2\full\images\cauldron-aokvqa-684.jpg,f27a2ab0c8f8f8be,what type of transportation is shown
+cauldron-aokvqa-345,aokvqa,image_necessary,0.3283396959304809,1.5009819269180298,1.8293216228485107,"What are the people probably laying on?
+From the following four choices, select the correct answer to address the question.
+Options: Surf boards, floaties, raft, skateboard.",Surf boards.,results/tier2\full\images\cauldron-aokvqa-345.jpg,83a430832c0c199a,what are the people probably laying on
+cauldron-aokvqa-472,aokvqa,image_necessary,0.2476853132247924,1.3495824337005615,1.597267746925354,"What is this type of apple called?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Ladybug, granny smith, red delicious, baking.","Answer: granny smith.
+Rationale: The apple is small and green.",results/tier2\full\images\cauldron-aokvqa-472.jpg,31353f9ffbf3d9ec,what is this type of apple called
+cauldron-aokvqa-786,aokvqa,image_necessary,0.7670576572418213,2.027564287185669,2.7946219444274902,"What does this person have on her teeth?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Braces, candy, food, gum.","Answer: braces.
+Rationale: The wires and metal covering the girl's teeth are braces.",results/tier2\full\images\cauldron-aokvqa-786.jpg,dde68687c68b9397,what does this person have on her teeth
+cauldron-aokvqa-703,aokvqa,image_necessary,0.7050812244415283,1.879738569259644,2.584819793701172,"What is happening in the photo?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Thunderstorm, flooding, cow showering, raining.","Answer: cow showering.
+Rationale: There is a hose on the ground and everything is wet after being sprayed.",results/tier2\full\images\cauldron-aokvqa-703.jpg,fc1c8c869a9af2ff,what is happening in the photo
+cauldron-aokvqa-574,aokvqa,image_necessary,0.3478000164031982,1.6525671482086182,2.0003671646118164,"What type of sport is this?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Aquatic, team, winter, tropical.","Answer: winter.
+Rationale: This is a winter ski sport.",results/tier2\full\images\cauldron-aokvqa-574.jpg,2617371f06071f1c,what type of sport is this
+cauldron-aokvqa-500,aokvqa,image_necessary,0.1794937849044799,1.647266864776611,1.8267606496810915,"Why does the man have a hand on the ground?
+Make your selection from the four choices given to correctly answer the question.
+Options: Catch fall, do handstand, do cartwheel, dig.",Catch fall.,results/tier2\full\images\cauldron-aokvqa-500.jpg,ffff3f1a10d0b0e8,why does the man have a hand on the ground
+cauldron-aokvqa-516,aokvqa,image_necessary,1.0614721775054932,1.5538628101348877,2.615334987640381,"Which one of these vegetables is used in the manufacture of the item in the cans?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Eggplant, tomato, corn, pumpkin.","Answer: corn.
+Rationale: The cans under the counter contain corn syrup that is made from corn.",results/tier2\full\images\cauldron-aokvqa-516.jpg,378787e3c7e73b77,which one of these vegetables is used in the manufacture of the item in the cans
+cauldron-aokvqa-455,aokvqa,text_answerable,-0.2117085456848144,2.337908744812012,2.1262001991271973,"What is next to the phone?
+From the following four choices, select the correct answer to address the question.
+Options: Ear, dog, leg, cat.",Ear.,results/tier2\full\images\cauldron-aokvqa-455.jpg,e4e4c4c5cdcdcecd,what is next to the phone
+cauldron-aokvqa-529,aokvqa,image_necessary,0.3214651346206665,1.8562747240066528,2.17773985862732,"Why are the objects stacked?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Save space, make taller, hide hole, prevent explosion.","Answer: save space.
+Rationale: If they were laid out they would take up a lot of area.",results/tier2\full\images\cauldron-aokvqa-529.jpg,7af0c0c30f1eb4b0,why are the objects stacked
+cauldron-aokvqa-510,aokvqa,image_necessary,0.830247163772583,1.9361634254455569,2.76641058921814,"What type of area is shown?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Exercise, boarding, waiting, dining.","Answer: dining.
+Rationale: The area is a patio that contains tables, chairs, and umbrellas. people could eat here.",results/tier2\full\images\cauldron-aokvqa-510.jpg,b7c6cfc149c04272,what type of area is shown
+cauldron-aokvqa-661,aokvqa,text_answerable,-2.0361965894699097,3.743248462677002,1.7070518732070925,"Why is the man wearing a yellow vest?
+Select the accurate response from the four choices given to answer the question.
+Options: Visibility, costume, costume, warmth.",Visibility.,results/tier2\full\images\cauldron-aokvqa-661.jpg,114307818988efa,why is the man wearing a yellow vest
+cauldron-aokvqa-748,aokvqa,image_necessary,0.1864216327667236,2.462198257446289,2.6486198902130127,"What type of bike is this?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Chopper, tandem, mountain, electric.","Answer: chopper.
+Rationale: A nickname for motorcycles is known as a chopper.",results/tier2\full\images\cauldron-aokvqa-748.jpg,dbca1a19191c3c67,what type of bike is this
+cauldron-aokvqa-424,aokvqa,image_necessary,0.4156863689422607,2.489431619644165,2.905117988586426,"What are the men standing on the bench doing?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Eating, debating, playing sports, singing.","Answer: singing.
+Rationale: They are holding music and are watching a conductor while their mouths are open.",results/tier2\full\images\cauldron-aokvqa-424.jpg,7f78fcffff677f7e,what are the men standing on the bench doing
+cauldron-aokvqa-351,aokvqa,image_necessary,0.4012695550918579,1.6798850297927856,2.081154584884644,"At least how many different ways are there to identify which bus this is?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Two, ten, five, four.","Answer: two.
+Rationale: There is a name on the side and a number above the door.",results/tier2\full\images\cauldron-aokvqa-351.jpg,3130e8fc60ecce0f,at least how many different ways are there to identify which bus this is
+cauldron-aokvqa-119,aokvqa,image_necessary,0.3286576271057129,2.272591352462769,2.601248979568481,"What fruit is seen in the cup on the truck?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Mango, blueberry, raspberry, banana.","Answer: raspberry.
+Rationale: Though there are a number of fruits shown the main one is the raspberry.",results/tier2\full\images\cauldron-aokvqa-119.jpg,d9d8d8bccc4f1d8f,what fruit is seen in the cup on the truck
+cauldron-aokvqa-442,aokvqa,image_necessary,0.4831279516220093,1.810956358909607,2.294084310531616,"The glass drink on the table has what as its primary flavor?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Citrus, tea, cola, pineapple.","Answer: citrus.
+Rationale: The drink is orange, not brown or yellow.",results/tier2\full\images\cauldron-aokvqa-442.jpg,b0b13130acc9cf0,the glass drink on the table has what as its primary flavor
+cauldron-aokvqa-284,aokvqa,image_necessary,0.6345808506011963,0.8528393507003784,1.4874202013015747,"Who placed the teddy bear here?
+Pick the correct solution from the four options below to address the question.
+Options: Child, child services, neighbor, child's parent.",Child's parent.,results/tier2\full\images\cauldron-aokvqa-284.jpg,f0f073737c9c9ef,who placed the teddy bear here
+cauldron-aokvqa-588,aokvqa,image_necessary,0.2440954446792602,1.5584646463394165,1.8025600910186768,"Why is the giraffe's head near the basket?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: To exercise, to drink, to eat, to play.","Answer: to eat.
+Rationale: The giraffe is aiming its mouth at some food.",results/tier2\full\images\cauldron-aokvqa-588.jpg,1b1b5b9ecf8a8b9f,why is the giraffes head near the basket
+cauldron-aokvqa-686,aokvqa,image_necessary,0.3821828365325928,1.160969853401184,1.5431526899337769,"What has the woman sat down to do?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Eat, sleep, make call, exercise.","Answer: make call.
+Rationale: The woman has her cell phone up to her ear and appears to be having a conversation with the person on the other end.",results/tier2\full\images\cauldron-aokvqa-686.jpg,bfb3100854a464e8,what has the woman sat down to do
+cauldron-aokvqa-327,aokvqa,image_necessary,0.5389409065246582,2.0597729682922363,2.5987138748168945,"In what sort of building is this bed sited?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Flop house, garage, bar, motel.","Answer: motel.
+Rationale: The room has furnishings and decor that are found in a cheap motel.",results/tier2\full\images\cauldron-aokvqa-327.jpg,f0509a386763e1f0,in what sort of building is this bed sited
+cauldron-aokvqa-53,aokvqa,image_necessary,0.8764907121658325,1.9601565599441528,2.8366472721099854,"Why are the people lined up outside the silver vehicle?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Getting ride, getting in, buying food, driving it.","Answer: buying food.
+Rationale: This vehicle sells ice cream.",results/tier2\full\images\cauldron-aokvqa-53.jpg,92eccd0c94b4f988,why are the people lined up outside the silver vehicle
+cauldron-aokvqa-192,aokvqa,image_necessary,0.614917516708374,1.553635597229004,2.168553113937378,"Why is the dog on the table?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: To groom, to sit, to eat, to play.","Answer: to sit.
+Rationale: The cat is in the middle of the table lying down.",results/tier2\full\images\cauldron-aokvqa-192.jpg,27273306120f8fdf,why is the dog on the table
+cauldron-aokvqa-344,aokvqa,image_necessary,0.6277308464050293,1.841731071472168,2.4694619178771973,"What is the boy about to do?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Spit, throw up, blow candle, smell.",Blow candle.,results/tier2\full\images\cauldron-aokvqa-344.jpg,e0f4f6773a3a4c3c,what is the boy about to do
+cauldron-aokvqa-454,aokvqa,image_necessary,0.4576179981231689,1.739304780960083,2.196922779083252,"Where are these people going?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Club, zoo, ocean, to work.","Answer: to work.
+Rationale: People are riding on an elevated train. elevated trains are used in cities to get to work and home.",results/tier2\full\images\cauldron-aokvqa-454.jpg,e7e767c7f16f655f,where are these people going
+cauldron-aokvqa-62,aokvqa,text_answerable,-1.8267571926116943,4.134459972381592,2.307702779769897,"What are people watching the elephant likely to use to shoot it?
+From the following four choices, select the correct answer to address the question.
+Options: Camera, gun, bow/ arrows, darts.",Camera.,results/tier2\full\images\cauldron-aokvqa-62.jpg,5c4cc1d1da7cece1,what are people watching the elephant likely to use to shoot it
+cauldron-aokvqa-519,aokvqa,image_necessary,0.2943121194839477,1.4129202365875244,1.7072323560714722,"What are they doing?
+Make your selection from the four choices given to correctly answer the question.
+Options: Waiting, eating, arguing, resting.",Resting.,results/tier2\full\images\cauldron-aokvqa-519.jpg,fead797a4e1c1c9c,what are they doing
+cauldron-aokvqa-412,aokvqa,image_necessary,0.385181188583374,1.8485307693481443,2.2337119579315186,"Which person probably has the most recent ancestry in Africa?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: None, middle, left, right.","Answer: middle.
+Rationale: The person in the middle is black while the people sitting on either side are of different ethnic background.",results/tier2\full\images\cauldron-aokvqa-412.jpg,3f7f531d1f7b7b80,which person probably has the most recent ancestry in africa
+cauldron-aokvqa-649,aokvqa,image_necessary,0.5972654819488525,1.4681155681610107,2.065381050109864,"How many balls is the dog carrying?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Two, five, one, three.","Answer: two.
+Rationale: There is one yellow and one green ball in the paws of the animal.",results/tier2\full\images\cauldron-aokvqa-649.jpg,cf99d979795c6c6c,how many balls is the dog carrying
+cauldron-aokvqa-787,aokvqa,image_necessary,0.3025522232055664,1.930125951766968,2.232678174972534,"What type of vehicle is this?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Rental, commercial, passenger, transport.","Answer: commercial.
+Rationale: This is a street-sweeper type of vehicle, which is commercial in nature.",results/tier2\full\images\cauldron-aokvqa-787.jpg,b1e84c8cec43173f,what type of vehicle is this
+cauldron-aokvqa-208,aokvqa,image_necessary,0.2686262130737304,2.7406909465789795,3.00931715965271,"In which manner were the desserts here prepared?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Baking, open fire, grilling, frying.","Answer: frying.
+Rationale: The desserts are donuts by their shape and appearance. donuts are cooked by frying which you can see slightly on the sides.",results/tier2\full\images\cauldron-aokvqa-208.jpg,cfcb8dfcfafbf3f1,in which manner were the desserts here prepared
+cauldron-aokvqa-73,aokvqa,image_necessary,0.8865474462509155,1.3325048685073853,2.219052314758301,"What base is he on his way to?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Home, second, first, third.","Answer: first.
+Rationale: The bat is on the ground so he just hit the ball and is running to first base.",results/tier2\full\images\cauldron-aokvqa-73.jpg,fcbc38ac2c7cde8f,what base is he on his way to
+cauldron-aokvqa-55,aokvqa,image_necessary,0.6065881252288818,2.5566844940185547,3.1632726192474365,"This airline company is headquartered in which country?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: India, china, japan, korea.","Answer: japan.
+Rationale: Sotaseed air is written on the side of the plane which is likely representing the company that owns the plane. that company is located in japan.",results/tier2\full\images\cauldron-aokvqa-55.jpg,3f0f0f0f070f8f0f,this airline company is headquartered in which country
+cauldron-aokvqa-5,aokvqa,text_answerable,-0.8062652349472046,2.674411535263061,1.868146300315857,"Where would one most likely see the show advertised in the poster?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Theater, tv, internet, cinema.",Theater.,results/tier2\full\images\cauldron-aokvqa-5.jpg,fcfcfdd9d98f9c9c,where would one most likely see the show advertised in the poster
+cauldron-aokvqa-426,aokvqa,image_necessary,0.2475550174713134,2.0913875102996826,2.338942527770996,"What is attached to the computer and sits on top of the placemat?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Speakers, mouse, microphone, headphones.","Answer: mouse.
+Rationale: That is how a mouse looks.",results/tier2\full\images\cauldron-aokvqa-426.jpg,f0b090105848c0c3,what is attached to the computer and sits on top of the placemat
+cauldron-aokvqa-376,aokvqa,text_answerable,-0.1428842544555664,0.7472689151763916,0.6043846607208252,"Why is the hood of the car open?
+Make your selection from the four choices given to correctly answer the question.
+Options: For repairs, capture rain, trap birds, loading luggage.",For repairs.,results/tier2\full\images\cauldron-aokvqa-376.jpg,7453d29220a0efee,why is the hood of the car open
+cauldron-aokvqa-120,aokvqa,image_necessary,0.3371590375900268,1.907554268836975,2.244713306427002,"What are they doing with the surfboards?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Selling them, taking home, tossing them, riding them.","Answer: taking home.
+Rationale: They are walking along the shore and not surfing.",results/tier2\full\images\cauldron-aokvqa-120.jpg,f1ecc7918182c0c0,what are they doing with the surfboards
+cauldron-aokvqa-698,aokvqa,image_necessary,0.1600829362869262,1.900506615638733,2.060589551925659,"What number can be found on the train?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: 822, 753, 405, 982.","Answer: 753.
+Rationale: A plate with identifying numbers is on the back of a train.",results/tier2\full\images\cauldron-aokvqa-698.jpg,fccccc8c8ccc0cde,what number can be found on the train
+cauldron-aokvqa-780,aokvqa,image_necessary,0.6896491050720215,3.2347524166107178,3.9244015216827393,"What kind of event are the people participating in?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Training, commuting, competition, leisure activity.","Answer: competition.
+Rationale: People are skiing with numbers on their chests and advertising is on signage.",results/tier2\full\images\cauldron-aokvqa-780.jpg,1f9c070381c28e1c,what kind of event are the people participating in
+cauldron-aokvqa-512,aokvqa,image_necessary,0.2122337818145752,2.0375640392303467,2.249797821044922,"What kind of business is this street vendor engaged in?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Selling, entertainment, shoe shine, art.",Shoe shine.,results/tier2\full\images\cauldron-aokvqa-512.jpg,5c7c181a1b1b4c8e,what kind of business is this street vendor engaged in
+cauldron-aokvqa-422,aokvqa,text_answerable,-0.4604769945144653,2.276507377624512,1.8160303831100464,"The band on the shirt of the man wearing a mask belongs to what genre of music?
+Choose the right answer from the provided options to respond to the question.
+Options: Punk, country, hip hop, blues.",Punk.,results/tier2\full\images\cauldron-aokvqa-422.jpg,f0b8f129a5b1ab2e,the band on the shirt of the man wearing a mask belongs to what genre of music
+cauldron-aokvqa-583,aokvqa,image_necessary,0.5668978691101074,1.370757818222046,1.937655687332153,"Looking at the man in the black shirt what are his pants made of?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Denim, pleather, plastic, leather.","Answer: denim.
+Rationale: He is wearing jeans.",results/tier2\full\images\cauldron-aokvqa-583.jpg,2e7f7e7e6c492c7c,looking at the man in the black shirt what are his pants made of
+cauldron-aokvqa-385,aokvqa,image_necessary,0.6603258848190308,1.1955574750900269,1.8558833599090576,"What is the man's hobby?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Painting, knitting, surfing, sculpting.","Answer: surfing.
+Rationale: A man is holding a surfboard.",results/tier2\full\images\cauldron-aokvqa-385.jpg,33a1e1e2701c8478,what is the mans hobby
+cauldron-aokvqa-573,aokvqa,image_necessary,0.3203170299530029,1.7198586463928225,2.040175676345825,"What is on the floor?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Chair, urinal, drain, rug.","Answer: drain.
+Rationale: There is a small metal grate in the floor that allows water to drain out to prevent flooding.",results/tier2\full\images\cauldron-aokvqa-573.jpg,4040607025b13139,what is on the floor
+cauldron-aokvqa-357,aokvqa,text_answerable,-0.367159366607666,2.253146171569824,1.8859868049621584,"How do the people know each other?
+Pick the correct solution from the four options below to address the question.
+Options: Coworkers, teammates, classmates, family.",Family.,results/tier2\full\images\cauldron-aokvqa-357.jpg,ccfc49576663d3d3,how do the people know each other
+cauldron-aokvqa-4,aokvqa,image_necessary,0.2151715755462646,2.5043861865997314,2.719557762145996,"How many people can ride this motorcycle at a time?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Four, two, three, one.","Answer: two.
+Rationale: There are two seats and seat backs on the motorcycle that apply that two could ride simultaneously.",results/tier2\full\images\cauldron-aokvqa-4.jpg,e3e76343130b3f5f,how many people can ride this motorcycle at a time
+cauldron-aokvqa-368,aokvqa,image_necessary,0.7397105693817139,1.184585690498352,1.924296259880066,"Which person is he videotaping?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Black top, himself, black pants, blue jeans.","Answer: black pants.
+Rationale: The man in the gray sweatshirt is filming the man in black pants as he skateboards.",results/tier2\full\images\cauldron-aokvqa-368.jpg,1f59c94363535272,which person is he videotaping
+cauldron-aokvqa-243,aokvqa,image_necessary,0.4629703760147095,1.5731467008590698,2.03611707687378,"What is the rectangular grey object in the middle of the dirt field?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Outhouse, garbage can, mailbox, chest.","Answer: garbage can.
+Rationale: This is a standard grey trash bin.",results/tier2\full\images\cauldron-aokvqa-243.jpg,3cd6c086,what is the rectangular grey object in the middle of the dirt field
+cauldron-aokvqa-294,aokvqa,image_necessary,0.2056750059127807,1.2444463968276978,1.4501214027404783,"What do the persons standing here hope most to see?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Their luggage, cinnabon, sandwiches, their cat.","Answer: their luggage.
+Rationale: The people are standing here hoping to find their luggage.",results/tier2\full\images\cauldron-aokvqa-294.jpg,9bbbb03c1f571e1f,what do the persons standing here hope most to see
+cauldron-aokvqa-599,aokvqa,image_necessary,0.8649110794067383,1.3718593120574951,2.2367703914642334,"When can breakfast be eaten here?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Early morning, morning, noon, all day.","Answer: all day.
+Rationale: The sign literally says breakfast all day, which indicates when breakfast is available.",results/tier2\full\images\cauldron-aokvqa-599.jpg,cac269e9e66a2e0c,when can breakfast be eaten here
+cauldron-aokvqa-47,aokvqa,image_necessary,0.7015213966369629,2.3547911643981934,3.056312561035156,"What word is directly under the word Sony on the phone?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Video, baby, sky, leave.","Answer: sky.
+Rationale: That's the first work on the screen.",results/tier2\full\images\cauldron-aokvqa-47.jpg,c9cc7470f44e4cc1,what word is directly under the word sony on the phone
+cauldron-aokvqa-480,aokvqa,text_answerable,-0.0852179527282714,0.8676769733428955,0.782459020614624,"Why is the umbrella like structure in the middle of the grass?
+From the following four choices, select the correct answer to address the question.
+Options: For shade, to play, to climb, to swing.",For shade.,results/tier2\full\images\cauldron-aokvqa-480.jpg,1c9df9d9d19e1ae0,why is the umbrella like structure in the middle of the grass
+cauldron-aokvqa-669,aokvqa,image_necessary,0.52885901927948,1.82224714756012,2.3511061668396,"What did the man on the sidewalk most likely just do?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Shop, shower, steal, exercise.","Answer: shop.
+Rationale: He is holding two grocery bags so he probably just bought food.",results/tier2\full\images\cauldron-aokvqa-669.jpg,dcd95173131ffcf8,what did the man on the sidewalk most likely just do
+cauldron-aokvqa-12,aokvqa,image_necessary,0.2874109745025635,2.163704395294189,2.451115369796753,"In which country is this bus located?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Uk, cuba, usa, mexico.","Answer: uk.
+Rationale: Most double decker buses designed like this are traditionally found in the uk.",results/tier2\full\images\cauldron-aokvqa-12.jpg,f8f0f0f4d4fcf8b,in which country is this bus located
+cauldron-aokvqa-145,aokvqa,image_necessary,0.3397293090820312,2.8341588973999023,3.1738882064819336,"What kind of outdoor event are the two on the bench attending?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Art fair, concert, car show, live auction.","Answer: art fair.
+Rationale: There are a lot of paintings on sale, which is what is sold in the option a event.",results/tier2\full\images\cauldron-aokvqa-145.jpg,595858589cbc1a1b,what kind of outdoor event are the two on the bench attending
+cauldron-aokvqa-200,aokvqa,text_answerable,-0.5082288980484009,2.195925235748291,1.68769633769989,"Where might you find the item in the window?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Crib, nightclub, butcher, garden shed.",Crib.,results/tier2\full\images\cauldron-aokvqa-200.jpg,dcdccccccccccccc,where might you find the item in the window
+cauldron-aokvqa-349,aokvqa,image_necessary,0.4140149354934692,1.8295818567276,2.2435967922210693,"What did the man bending over do with the ball?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Throw it, polish it, catch it, sell it.","Answer: throw it.
+Rationale: The player has his hand in a throwing motion with the ball going away from him.",results/tier2\full\images\cauldron-aokvqa-349.jpg,793ba4d6ca88f87a,what did the man bending over do with the ball
+cauldron-aokvqa-665,aokvqa,image_necessary,0.3506178855895996,1.6014035940170288,1.9520214796066284,"What are the small surfboards called?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Short hands, foam boards, little, short boards.","Answer: foam boards.
+Rationale: The boards are made of foam.",results/tier2\full\images\cauldron-aokvqa-665.jpg,a037333337330786,what are the small surfboards called
+cauldron-aokvqa-509,aokvqa,image_necessary,0.2453136444091797,2.5356557369232178,2.780969381332397,"What is this machine?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Production wheel, artwork, retail display, dentist wheel.","Answer: artwork.
+Rationale: Looks like a type of ferris wheel.",results/tier2\full\images\cauldron-aokvqa-509.jpg,d060b898d892c1a2,what is this machine
+cauldron-aokvqa-635,aokvqa,image_necessary,0.2664717435836792,1.7866898775100708,2.05316162109375,"How is the occupancy of this room?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Partial, one person, full, empty.","Answer: partial.
+Rationale: Not all of the seats are taken.",results/tier2\full\images\cauldron-aokvqa-635.jpg,e2aa19b9c3e37707,how is the occupancy of this room
+cauldron-aokvqa-689,aokvqa,image_necessary,0.4049844741821289,1.5082883834838867,1.913272857666016,"What is the yellow truck doing?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Selling food, extinguishing fire, repairing ground, delivering mail.",Selling food.,results/tier2\full\images\cauldron-aokvqa-689.jpg,148086e829c8c888,what is the yellow truck doing
+cauldron-aokvqa-625,aokvqa,image_necessary,0.6271603107452393,2.5920968055725098,3.219257116317749,"What type of area is shown?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Forest, urban, coastal, rural.","Answer: urban.
+Rationale: The tall buildings and street lights gives it away to where they are.",results/tier2\full\images\cauldron-aokvqa-625.jpg,f0b0a16b6b2b2828,what type of area is shown
+cauldron-aokvqa-393,aokvqa,image_necessary,0.3611884117126465,1.6160293817520142,1.9772177934646609,"What is the term for the way the player has her body positioned?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Crouched, stretching, crossed legs, kneeling.","Answer: crouched.
+Rationale: Both of the woman's knees are bent and her body is lowered.",results/tier2\full\images\cauldron-aokvqa-393.jpg,2c9c8450b48f4c37,what is the term for the way the player has her body positioned
+cauldron-aokvqa-280,aokvqa,image_necessary,0.2491214275360107,3.545383214950561,3.794504642486572,"What is the purple thing on the table?
+Pick the correct solution from the four options below to address the question.
+Options: Eggplant, hammer, flowers, poster.",Flowers.,results/tier2\full\images\cauldron-aokvqa-280.jpg,48bab24666e4eeca,what is the purple thing on the table
+cauldron-aokvqa-433,aokvqa,image_necessary,0.4753856658935547,2.003847599029541,2.479233264923096,"What material is the white part of this specimen made of?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Real fur, cotton, synthetic fabric, wool.","Answer: real fur.
+Rationale: This specimen is made of white fur, and is a real hide of a bear.",results/tier2\full\images\cauldron-aokvqa-433.jpg,83036260101070d0,what material is the white part of this specimen made of
+cauldron-aokvqa-397,aokvqa,image_necessary,0.3661266565322876,1.8103502988815308,2.1764769554138184,"What are not allowed according to the sign?
+Select the accurate response from the four choices given to answer the question.
+Options: Dogs, birds, cats, children.",Birds.,results/tier2\full\images\cauldron-aokvqa-397.jpg,21313838191b0b0b,what are not allowed according to the sign
+cauldron-aokvqa-708,aokvqa,image_necessary,0.5642380714416504,2.049989938735962,2.6142280101776123,"What is in the center?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Baby, cat, flower, poster.","Answer: flower.
+Rationale: The vase is located exactly between the other objects.",results/tier2\full\images\cauldron-aokvqa-708.jpg,81818d8dad4d8e86,what is in the center
+cauldron-aokvqa-189,aokvqa,image_necessary,0.2662605047225952,1.1142187118530271,1.3804792165756226,"What kind of building is the one with the sign on the left?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Hotel, restaurant, pub, library.","Answer: hotel.
+Rationale: The sign is for a hotel.",results/tier2\full\images\cauldron-aokvqa-189.jpg,f1e0e29f83008080,what kind of building is the one with the sign on the left
+cauldron-aokvqa-155,aokvqa,text_answerable,-0.5928120613098145,3.715723037719727,3.122910976409912,"Where are they likely to work from?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Office, home, warehouse, constraction.",Office.,results/tier2\full\images\cauldron-aokvqa-155.jpg,b69ee45e48c8fff,where are they likely to work from
+cauldron-aokvqa-325,aokvqa,image_necessary,0.1469998359680175,3.685694694519043,3.832694530487061,"What is likely the main language spoken here?
+Choose the right answer from the provided options to respond to the question.
+Options: Swahili, spanish, chinese, french.",Spanish.,results/tier2\full\images\cauldron-aokvqa-325.jpg,7efcf4f8d87870e2,what is likely the main language spoken here
+cauldron-aokvqa-617,aokvqa,image_necessary,0.3882765769958496,3.2584095001220703,3.64668607711792,"What is the name of the hockey team that resides in this city?
+Choose the right answer from the provided options to respond to the question.
+Options: Flames, rangers, lakers, red wings.",Rangers.,results/tier2\full\images\cauldron-aokvqa-617.jpg,e1e0e07055151616,what is the name of the hockey team that resides in this city
+cauldron-aokvqa-539,aokvqa,image_necessary,0.6171051263809204,1.5006076097488403,2.1177127361297607,"Where are they most probably swimming?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: River, ocean, fountain, pond.","Answer: pond.
+Rationale: These ducks appear to be in a placid body of water, most likely being a pond.",results/tier2\full\images\cauldron-aokvqa-539.jpg,e4cc8d8577878d8d,where are they most probably swimming
+cauldron-aokvqa-122,aokvqa,image_necessary,0.3305808305740356,1.450880765914917,1.7814615964889526,"What is in the room?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Television, toothbrush, elephant, bed.","Answer: toothbrush.
+Rationale: A toothbrush is on the side of a sink.",results/tier2\full\images\cauldron-aokvqa-122.jpg,6667e4e7e92c323c,what is in the room
+cauldron-aokvqa-125,aokvqa,image_necessary,0.1787312030792236,2.4247376918792725,2.603468894958496,"Which hand is she using to hold the phone?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Left, both, right, neither.","Answer: right.
+Rationale: It is on that side of her body",results/tier2\full\images\cauldron-aokvqa-125.jpg,f1f3f3f1e1e1e1f1,which hand is she using to hold the phone
+cauldron-aokvqa-732,aokvqa,image_necessary,0.5865561962127686,2.183072090148926,2.7696282863616943,"What work is done in this space?
+Pick the correct solution from the four options below to address the question.
+Options: Coding, machine shop, cooking, typing.",Machine shop.,results/tier2\full\images\cauldron-aokvqa-732.jpg,4c49717cec7c1c1c,what work is done in this space
+cauldron-aokvqa-587,aokvqa,image_necessary,0.406678557395935,1.5574181079864502,1.9640966653823853,"What activity might be done in this outdoor area?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Funeral, baking, singing, smoking.","Answer: smoking.
+Rationale: There is an ashtray on the table which would be used for ashes and cigarettes when smoking.",results/tier2\full\images\cauldron-aokvqa-587.jpg,3a38303804a5a481,what activity might be done in this outdoor area
+cauldron-aokvqa-382,aokvqa,image_necessary,0.2680466175079345,1.8665337562561035,2.134580373764038,"How far away is the item being photographed?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: 2 feet, 10 feet, behind photographer, very far.","Answer: very far.
+Rationale: The cameraman has a zoom lens which means the item is not near to him.",results/tier2\full\images\cauldron-aokvqa-382.jpg,41e1f1bfbed979,how far away is the item being photographed
+cauldron-aokvqa-209,aokvqa,image_necessary,0.3037232160568237,1.099567413330078,1.403290629386902,"What is the boy in blue and white trying to do?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Backflip, kick ball, tackle boy, grab ball.","Answer: kick ball.
+Rationale: The boys are kicking the ball.",results/tier2\full\images\cauldron-aokvqa-209.jpg,cdfae6c690181377,what is the boy in blue and white trying to do
+cauldron-aokvqa-470,aokvqa,image_necessary,0.1587488651275634,1.1695011854171753,1.3282500505447388,"The shape of the baseball field is?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Sphere, diamond, cube, ring.","Answer: diamond.
+Rationale: The shape is a diamond.",results/tier2\full\images\cauldron-aokvqa-470.jpg,9edcf01012322b23,the shape of the baseball field is
+cauldron-aokvqa-709,aokvqa,image_necessary,0.2137136459350586,3.55010199546814,3.7638156414031982,"Where is the setting in this photo?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Salad bar, restaurant, juice shop, apartment.","Answer: apartment.
+Rationale: The decor is not of a professional kitchen based on the amenities and the tv stand in the background and the space he is working in. the other place one cooks that would look like this would be answer a.",results/tier2\full\images\cauldron-aokvqa-709.jpg,92636b9b252063b8,where is the setting in this photo
+cauldron-aokvqa-571,aokvqa,text_answerable,-0.8491559028625488,2.110618829727173,1.261462926864624,"What item on the kitchen counter is used for cutting foods such as fruits and vegetables?
+Indicate the correct response by choosing from the four available options to answer the question.
+Options: Toaster oven, cutting board, counter, pan.",Cutting board.,results/tier2\full\images\cauldron-aokvqa-571.jpg,e18b1fefe3e3e2f2,what item on the kitchen counter is used for cutting foods such as fruits and vegetables
+cauldron-aokvqa-536,aokvqa,image_necessary,0.236668586730957,1.7268121242523191,1.9634807109832764,"What animal is walking alongside the man?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Camel, alpaca, horse, donkey.","Answer: donkey.
+Rationale: This animal has a similar appearance to a horse or mule.",results/tier2\full\images\cauldron-aokvqa-536.jpg,f0f0eee6f07372e2,what animal is walking alongside the man
+cauldron-aokvqa-517,aokvqa,text_answerable,-1.169182538986206,3.219430685043335,2.050248146057129,"To park here what must someone possess?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Dollar bills, coins, nothing, script.",Coins.,results/tier2\full\images\cauldron-aokvqa-517.jpg,f1dbe3e7fd1c3c38,to park here what must someone possess
+cauldron-aokvqa-264,aokvqa,image_necessary,0.5871466398239136,1.393932223320007,1.981078863143921,"Why is the woman seated here?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: To eat, to work, to wait, to paint.","Answer: to eat.
+Rationale: This woman is sitting in front of pizza so she wants to eat it.",results/tier2\full\images\cauldron-aokvqa-264.jpg,b09682a0e0e0e8f0,why is the woman seated here
+cauldron-aokvqa-461,aokvqa,image_necessary,0.1438688039779663,1.6717323064804075,1.815601110458374,"Why is the red car on the bed of the blue vehicle?
+Pick the correct solution from the four options below to address the question.
+Options: Sell car, buy car, tow car, race car.",Tow car.,results/tier2\full\images\cauldron-aokvqa-461.jpg,60e0862e0881e0f0,why is the red car on the bed of the blue vehicle
+cauldron-aokvqa-449,aokvqa,image_necessary,0.4454622268676758,0.7144742012023926,1.1599364280700684,"Where is most of the kids weight?
+Choose the right answer from the provided options to respond to the question.
+Options: On heads, on feet, on arms, on skis.",On skis.,results/tier2\full\images\cauldron-aokvqa-449.jpg,981614171c0cc0,where is most of the kids weight
+cauldron-aokvqa-604,aokvqa,image_necessary,0.1786518096923828,1.3020648956298828,1.4807167053222656,"What is causing the glare in the image?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Flashlights, street lights, sun, torches.","Answer: sun.
+Rationale: The image was taken with the camera facing the sun which caused a glare.",results/tier2\full\images\cauldron-aokvqa-604.jpg,9090e2b2a2e3c1c8,what is causing the glare in the image
+cauldron-aokvqa-575,aokvqa,image_necessary,0.4194555282592773,2.695460796356201,3.1149163246154785,"What time of day is the woman snowboarding?
+Select the accurate response from the four choices given to answer the question.
+Options: Morning, day, night, afternoon.",Night.,results/tier2\full\images\cauldron-aokvqa-575.jpg,59f9e1e3f3d154f7,what time of day is the woman snowboarding
+cauldron-aokvqa-193,aokvqa,image_necessary,0.7935950756072998,1.7233741283416748,2.5169692039489746,"What does the man have on his head besides lipstick?
+Make your selection from the four choices given to correctly answer the question.
+Options: Fake blood, jello, ketchup, custard.",Fake blood.,results/tier2\full\images\cauldron-aokvqa-193.jpg,dd9496160666fbfb,what does the man have on his head besides lipstick
+cauldron-aokvqa-664,aokvqa,image_necessary,0.3612501621246338,1.86047625541687,2.221726417541504,"What are the smaller animals doing here?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Grazing, nursing, killing sheep, eating meat.","Answer: nursing.
+Rationale: They are suckling at the udders of the mother",results/tier2\full\images\cauldron-aokvqa-664.jpg,e8f0e0ccdc9c8ec0,what are the smaller animals doing here
+cauldron-aokvqa-388,aokvqa,image_necessary,0.5616986751556396,1.4402594566345217,2.001958131790161,"Who is the cake for?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Birthday boy, married couple, victorious team, retiring boss.","Answer: married couple.
+Rationale: Two people are cutting the cake. one is a man in a black suit, and the other is a woman in a white dress.",results/tier2\full\images\cauldron-aokvqa-388.jpg,21a34343c3c1e18,who is the cake for
+cauldron-aokvqa-300,aokvqa,image_necessary,0.332019567489624,1.6733791828155518,2.005398750305176,"What is in the silver bottle?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Hair spray, whipped cream, bug spray, cooking spray.","Answer: whipped cream.
+Rationale: The bottle has whipped cream.",results/tier2\full\images\cauldron-aokvqa-300.jpg,3060ecfccefdf3f2,what is in the silver bottle
+cauldron-aokvqa-121,aokvqa,image_necessary,0.1609182357788086,2.34000301361084,2.5009212493896484,"What type of enthusiasts are gathering here?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Gamers, democrats, bikers, liberals.","Answer: bikers.
+Rationale: The people gathered all love motorcycles.",results/tier2\full\images\cauldron-aokvqa-121.jpg,ffdc8c8cf4a7cfff,what type of enthusiasts are gathering here
+cauldron-aokvqa-9,aokvqa,image_necessary,0.1512399911880493,1.5396937131881714,1.6909337043762207,"If the cameraman were driving what do they have to do from this position?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Turn left, drive straight, reverse course, turn right.","Answer: turn right.
+Rationale: The sign on the road says to turn right.",results/tier2\full\images\cauldron-aokvqa-9.jpg,f0f0e6e2949adce4,if the cameraman were driving what do they have to do from this position
+cauldron-aokvqa-640,aokvqa,image_necessary,0.3831479549407959,1.970611572265625,2.353759527206421,"Why do they have their arms stretched out to the side?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Threatening others, posing, to balance, is falling.","Answer: to balance.
+Rationale: This keeps them from falling off when they lean their body over",results/tier2\full\images\cauldron-aokvqa-640.jpg,c00e3e3c3cb5bdbe,why do they have their arms stretched out to the side
+cauldron-aokvqa-734,aokvqa,image_necessary,0.3925440311431885,2.560234308242798,2.9527783393859863,"These walls have a similar color scheme to what place?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Nathan's, arthur treacher's, popeye's, kfc.","Answer: kfc.
+Rationale: The colors are like kfc because you red and grey on the building",results/tier2\full\images\cauldron-aokvqa-734.jpg,d0b2b011787e2633,these walls have a similar color scheme to what place
+cauldron-aokvqa-615,aokvqa,text_answerable,-0.8578124046325684,2.381193161010742,1.5233807563781738,"Which vehicle could be considered illegally parked?
+Select the accurate response from the four choices given to answer the question.
+Options: White car, black bus, white van, grey car.",Grey car.,results/tier2\full\images\cauldron-aokvqa-615.jpg,94b4b4b63e68c7df,which vehicle could be considered illegally parked
+cauldron-aokvqa-523,aokvqa,image_necessary,0.3873568773269653,0.921556830406189,1.3089137077331543,"What is the yellow ball near the cat used for?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Tennis, bowling, exercise, basketball.","Answer: exercise.
+Rationale: The yellow ball is for exercise.",results/tier2\full\images\cauldron-aokvqa-523.jpg,c8c8e4e4f4f49fa3,what is the yellow ball near the cat used for
+cauldron-aokvqa-670,aokvqa,image_necessary,0.3360700607299804,0.9458832740783693,1.2819533348083496,"What will happen to the yellow and white slices?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Will evaporate, will burn, get crispy, will melt.","Answer: will melt.
+Rationale: The yellow and white slices of cheese are on the frying pan and will melt.",results/tier2\full\images\cauldron-aokvqa-670.jpg,4763f3d3d3e3a1a5,what will happen to the yellow and white slices
+cauldron-aokvqa-181,aokvqa,image_necessary,0.2860531806945801,2.3739521503448486,2.6600053310394287,"Who is the most successful quarterback of her favorite team?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Drew bledsoe, eli manning, tom brady, brett favre.","Answer: tom brady.
+Rationale: Tom brady is super successful.",results/tier2\full\images\cauldron-aokvqa-181.jpg,e0610b3bfbb99bc7,who is the most successful quarterback of her favorite team
+cauldron-aokvqa-753,aokvqa,image_necessary,0.9145479202270508,1.9265565872192385,2.841104507446289,"What can be readily done with the metal object near the cat?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Start car, shoot bullets, knitting, cut hair.","Answer: cut hair.
+Rationale: There are metal scissors beside the cat sculpture and scissors are meant to cut things.",results/tier2\full\images\cauldron-aokvqa-753.jpg,d86cc8d2c3171d1d,what can be readily done with the metal object near the cat
+cauldron-aokvqa-101,aokvqa,image_necessary,0.7276870012283325,1.4998019933700562,2.2274889945983887,"Where does the URL text actually exist?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: On boy, on grass, on shoe, image file.","Answer: image file.
+Rationale: The url indicates the image file.",results/tier2\full\images\cauldron-aokvqa-101.jpg,b9b9e8c8f1d6d6d0,where does the url text actually exist
+cauldron-aokvqa-721,aokvqa,image_necessary,0.4657671451568603,1.1782219409942627,1.643989086151123,"What do the boys need to put on their toothbrushes before brushing?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Fruit, grease, food, toothpaste.","Answer: toothpaste.
+Rationale: They are brushing their teeth.",results/tier2\full\images\cauldron-aokvqa-721.jpg,c2c6e6cecececefe,what do the boys need to put on their toothbrushes before brushing
+cauldron-aokvqa-648,aokvqa,image_necessary,0.6260650157928467,2.0714735984802246,2.697538614273072,"What mode of transport did this person recently take advantage of?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Lyft, biike, uber, air travel.","Answer: air travel.
+Rationale: A person is standing on the curb with suitcases. people take suitcases on planes.",results/tier2\full\images\cauldron-aokvqa-648.jpg,df9fb93426879f1f,what mode of transport did this person recently take advantage of
+cauldron-aokvqa-242,aokvqa,image_necessary,0.5886032581329346,1.2105458974838257,1.7991491556167605,"What type of event is this?
+Make your selection from the four choices given to correctly answer the question.
+Options: Birthday party, funeral, reception, farmer's market.",Farmer's market.,results/tier2\full\images\cauldron-aokvqa-242.jpg,34b5f9f8bcacfc3c,what type of event is this
+cauldron-aokvqa-782,aokvqa,image_necessary,0.3053545951843261,2.650726556777954,2.9560811519622803,"What is this room most likely called?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Dining room, family room, utility room, bedroom.","Answer: utility room.
+Rationale: This room is for people to do quick tasks with since it's so small.",results/tier2\full\images\cauldron-aokvqa-782.jpg,f0f4e47e7c70c0c,what is this room most likely called
+cauldron-aokvqa-659,aokvqa,image_necessary,0.8917884826660156,1.3534786701202393,2.245267152786255,"In which country do these players play?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: United states, uganda, canada, japan.","Answer: united states.
+Rationale: The baseball players are playing in the united states and have the american flag on their uniforms.",results/tier2\full\images\cauldron-aokvqa-659.jpg,745958f0ecf0f0e4,in which country do these players play
+cauldron-aokvqa-524,aokvqa,image_necessary,0.8574192523956299,1.4787752628326416,2.3361945152282715,"What is the recreation depicted in the photo?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Running, flying kite, working out, dancing.","Answer: flying kite.
+Rationale: The people fly a kite.",results/tier2\full\images\cauldron-aokvqa-524.jpg,38bcfffcdcc6c7a6,what is the recreation depicted in the photo
+cauldron-aokvqa-259,aokvqa,image_necessary,0.7731781005859375,2.301417350769043,3.0745954513549805,"What contest are the men participating in?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Wrestling, boxing, eating, karate.","Answer: eating.
+Rationale: It appears that the two contestants have hotdogs in their hands so they much be competing to see who can consume the most hotdogs.",results/tier2\full\images\cauldron-aokvqa-259.jpg,90344c0c2abb9f9d,what contest are the men participating in
+cauldron-aokvqa-692,aokvqa,image_necessary,0.3046834468841553,2.035097599029541,2.3397810459136963,"What would usually be where the pasta is?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Eggs, hamburger, meatloaf, hot dog.","Answer: hot dog.
+Rationale: This is a hot dog bun and normally there would be some kind of long meat in it",results/tier2\full\images\cauldron-aokvqa-692.jpg,5d79fdffe31f0f1f,what would usually be where the pasta is
+cauldron-aokvqa-115,aokvqa,image_necessary,0.3086812496185303,3.40158748626709,3.71026873588562,"What are the bars for?
+Pick the correct solution from the four options below to address the question.
+Options: Holds poles, holds skis, stand waiting, holds clothing.",Stand waiting.,results/tier2\full\images\cauldron-aokvqa-115.jpg,fcdf3a351d9c5e0f,what are the bars for
+cauldron-aokvqa-310,aokvqa,image_necessary,0.7573423385620117,3.3762102127075195,4.133552551269531,"This travels is belongs to which country?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Italy, us, germany, france.","Answer: germany.
+Rationale: The green buses give tours in the land of the pope.",results/tier2\full\images\cauldron-aokvqa-310.jpg,c8c0c087465f7678,this travels is belongs to which country
+cauldron-aokvqa-595,aokvqa,image_necessary,0.5391237735748291,1.588737964630127,2.127861738204956,"What is being sold in this shop?
+From the following four choices, select the correct answer to address the question.
+Options: Sand, spices, perfume, dye.",Spices.,results/tier2\full\images\cauldron-aokvqa-595.jpg,e3e5c5cdac0e66c4,what is being sold in this shop
+cauldron-aokvqa-724,aokvqa,image_necessary,0.4709556102752685,2.558311700820923,3.0292673110961914,"What is the group of people being watched by police likely doing?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Protesting, enlisting, dancing, shopping.","Answer: protesting.
+Rationale: The people are protesting since they're in a mob.",results/tier2\full\images\cauldron-aokvqa-724.jpg,1898f86879d9b938,what is the group of people being watched by police likely doing
+cauldron-aokvqa-544,aokvqa,image_necessary,0.5775890350341797,2.2435555458068848,2.8211445808410645,"What food is the same color as the largest portion of this vehicle?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Corn, lemon, cherry, spinach.","Answer: spinach.
+Rationale: It is a green vegetable. the train cars are green.",results/tier2\full\images\cauldron-aokvqa-544.jpg,b2d2d8d0f09ec2e0,what food is the same color as the largest portion of this vehicle
+cauldron-aokvqa-15,aokvqa,image_necessary,0.4519292116165161,1.398109793663025,1.850039005279541,"What kind of cake has been served?
+Make your selection from the four choices given to correctly answer the question.
+Options: Cinnamon, red velvet, chocolate, carrot.",Carrot.,results/tier2\full\images\cauldron-aokvqa-15.jpg,e0e0e0c2e6d64241,what kind of cake has been served
+cauldron-aokvqa-655,aokvqa,image_necessary,0.3590142726898193,1.5825341939926147,1.941548466682434,"The child is learning what?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Snacking, singing, bubble blowing, dental hygiene.","Answer: dental hygiene.
+Rationale: The child is learning how to take proper care of his teeth. an adult is using a toothbrush on him.",results/tier2\full\images\cauldron-aokvqa-655.jpg,8ff38115e78d78fe,the child is learning what
+cauldron-aokvqa-490,aokvqa,image_necessary,0.8317962884902954,1.2744907140731812,2.106287002563477,"Why is he standing like that?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Is scared, bouncing, stay balanced, falling.","Answer: stay balanced.
+Rationale: The man is surfing and wants to stay on the board.",results/tier2\full\images\cauldron-aokvqa-490.jpg,3d2760acdcd09da,why is he standing like that
+cauldron-aokvqa-367,aokvqa,image_necessary,0.3876270055770874,0.9320764541625975,1.319703459739685,"Why is the dog on his leg?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Lives there, fell there, is stuck, catching frisbee.","Answer: catching frisbee.
+Rationale: The dog is leaping towards a frisbee.",results/tier2\full\images\cauldron-aokvqa-367.jpg,e2d1d89888cdcdcd,why is the dog on his leg
+cauldron-aokvqa-493,aokvqa,image_necessary,0.3679738044738769,1.1736892461776731,1.5416630506515503,"What have these ladies been doing?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Drinking, baking, sleeping, watching tv.","Answer: baking.
+Rationale: The women are baking.",results/tier2\full\images\cauldron-aokvqa-493.jpg,27a7b4b694b88cc4,what have these ladies been doing
+cauldron-aokvqa-532,aokvqa,image_necessary,1.3800883293151855,4.535766124725342,5.915854454040527,"Skating is which seasonal game?
+Select the accurate response from the four choices given to answer the question.
+Options: Autumn, winter, summer, spring.",Summer.,results/tier2\full\images\cauldron-aokvqa-532.jpg,8b0e0e1e8e879407,skating is which seasonal game
+cauldron-aokvqa-201,aokvqa,image_necessary,0.6409968137741089,1.983059287071228,2.624056100845337,"Where is the food made?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: At home, on beach, in truck, in restaurant.","Answer: in truck.
+Rationale: This is a food truck and they make the food inside to serve to walk up customers.",results/tier2\full\images\cauldron-aokvqa-201.jpg,fff0151797c79796,where is the food made
+cauldron-aokvqa-59,aokvqa,text_answerable,-0.8434722423553467,2.946592330932617,2.1031200885772705,"What is the name of the painting on the outside of the blue train?
+From the following four choices, select the correct answer to address the question.
+Options: Fine art, acrylic, graffiti, oil.",Graffiti.,results/tier2\full\images\cauldron-aokvqa-59.jpg,ba78787a7a7d63c3,what is the name of the painting on the outside of the blue train
+cauldron-aokvqa-374,aokvqa,image_necessary,0.4582308530807495,1.732662320137024,2.190893173217773,"Why is the man on the left jumping in the air?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: To catch, to flip, to grind, to ollie.","Answer: to catch.
+Rationale: The frisbee was too high in the air for him to easily get it.",results/tier2\full\images\cauldron-aokvqa-374.jpg,26e7c584dc7060f0,why is the man on the left jumping in the air
+cauldron-aokvqa-675,aokvqa,image_necessary,0.4621138572692871,2.1766717433929443,2.6387856006622314,"Why is there a description for the person's bear?
+Choose the right answer from the provided options to respond to the question.
+Options: Puzzle game, to sell, share history, to buy.",Share history.,results/tier2\full\images\cauldron-aokvqa-675.jpg,8ece0c68682e2707,why is there a description for the persons bear
+cauldron-aokvqa-477,aokvqa,image_necessary,0.626622200012207,2.34041690826416,2.967039108276367,"How many different individuals are actually depicted here?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Four, one, none, eight.","Answer: one.
+Rationale: The person in each shot has the exact same clothes and board in every picture.",results/tier2\full\images\cauldron-aokvqa-477.jpg,f0b1f1f0b7b192f,how many different individuals are actually depicted here
+cauldron-aokvqa-622,aokvqa,image_necessary,0.1970753669738769,2.5353965759277344,2.732471942901612,"What is this type of sandwich called?
+Answer the question by selecting the correct answer among the 4 following choices and explain your choice with a short sentence. The answer should be formatted with the following format: `Answer: choice
+Rationale: rationale.`
+Options: Subway, panini, monte cristo, hoagie.","Answer: panini.
+Rationale: This sandwich is pressed on a hot griddle after its assembled",results/tier2\full\images\cauldron-aokvqa-622.jpg,43be7cf1b2d23979,what is this type of sandwich called
+cauldron-aokvqa-549,aokvqa,text_answerable,-0.4206221103668213,1.727609395980835,1.3069872856140137,"Why is he flushing with his foot?
+From the following four choices, select the correct answer to address the question.
+Options: Touchless, showing off, handless, exercise.",Touchless.,results/tier2\full\images\cauldron-aokvqa-549.jpg,c4dcfcccce9b3170,why is he flushing with his foot
+cauldron-aokvqa-499,aokvqa,image_necessary,1.2354261875152588,1.173548936843872,2.408975124359131,"Why are they lying down?
+Make your selection from the four choices given to correctly answer the question.
+Options: To hide, to relax, to hunt, to sleep.",To relax.,results/tier2\full\images\cauldron-aokvqa-499.jpg,bcf8f46666367676,why are they lying down
+cauldron-aokvqa-303,aokvqa,image_necessary,0.238138347864151,0.3710516393184662,0.6091899871826172,"What doe the lines behind the bottom most car represent?
+Make your selection from the four choices given to correctly answer the question.
+Options: Turn left, slow down, turn right, no parking.",No parking.,results/tier2\full\images\cauldron-aokvqa-303.jpg,60c4e6911c0ccc4c,what doe the lines behind the bottom most car represent
+cauldron-aokvqa-518,aokvqa,image_necessary,0.3622069358825683,2.2540769577026367,2.616283893585205,"What food on the table has the highest level of fat?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Bacon, syrup, pancake, egg.","Answer: bacon.
+Rationale: The men are eating bacon which is a fatty part of a pig.",results/tier2\full\images\cauldron-aokvqa-518.jpg,e343531793e9360f,what food on the table has the highest level of fat
+cauldron-aokvqa-770,aokvqa,image_necessary,0.3069119453430176,1.736025333404541,2.0429372787475586,"Who wears a similar item to what the man has over his shirt?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Gordon ramsay, snoop dogg, ken patera, aubrey plaza.","Answer: gordon ramsay.
+Rationale: The man in the apron is a cook.",results/tier2\full\images\cauldron-aokvqa-770.jpg,d8d2db83c6c4c0e8,who wears a similar item to what the man has over his shirt
+cauldron-aokvqa-98,aokvqa,text_answerable,-0.5100057125091553,3.937089443206787,3.427083730697632,"What type of rolls are in the wicker basket?
+Choose the right answer from the provided options to respond to the question.
+Options: Jelly, toilet, camera, dinner.",Toilet.,results/tier2\full\images\cauldron-aokvqa-98.jpg,9cdcf67edf5b192d,what type of rolls are in the wicker basket
+cauldron-aokvqa-244,aokvqa,image_necessary,0.3694872856140136,2.654217004776001,3.023704290390014,"What are they walking in?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Woodchips, water, mud, gravel.","Answer: mud.
+Rationale: Zebras are known to be black and white, but they have brown smears onn them here, indicating that they are muddy.",results/tier2\full\images\cauldron-aokvqa-244.jpg,7a6d677336645262,what are they walking in
+cauldron-aokvqa-142,aokvqa,image_necessary,0.1519062519073486,2.0998735427856445,2.251779794692993,"What is the weather like in the scene?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Windy, cold, hot, rainy.","Answer: hot.
+Rationale: They are flapping fans to cool themselves off, indicating that it is hot.",results/tier2\full\images\cauldron-aokvqa-142.jpg,69e0ac89e1e0f03c,what is the weather like in the scene
+cauldron-aokvqa-482,aokvqa,image_necessary,0.1950688362121582,1.968745708465576,2.1638145446777344,"What is the main holding as he's walking by looking at the No 5 train?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Lunch and, beer can, puppy, bicycle.","Answer: bicycle.
+Rationale: A man has one hand on a bike, pushing it, as he walks by a train.",results/tier2\full\images\cauldron-aokvqa-482.jpg,87c7e74fc7e7671b,what is the main holding as hes walking by looking at the no 5 train
+cauldron-aokvqa-171,aokvqa,image_necessary,0.3374440670013428,1.2534072399139404,1.5908513069152832,"Why is everyone headed downhill?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Going home, they're skiing, it's easier, saves time.","Answer: they're skiing.
+Rationale: The people are on skis.",results/tier2\full\images\cauldron-aokvqa-171.jpg,f09890f8f976f0f0,why is everyone headed downhill
+cauldron-aokvqa-527,aokvqa,image_necessary,0.2436258792877197,1.76304292678833,2.00666880607605,"Why is he holding the door?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Showing off, is hiding, keep open, is joking.","Answer: keep open.
+Rationale: Any of these answers could be correct but most likely it is to keep it open.",results/tier2\full\images\cauldron-aokvqa-527.jpg,a6e4703034383030,why is he holding the door
+cauldron-aokvqa-716,aokvqa,image_necessary,0.2637689113616943,1.9245028495788568,2.188271760940552,"Why are the people standing behind the yellow line?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: To dance, safety, to race, it's wet.","Answer: safety.
+Rationale: The people are behind the line because in front of it they could get hit by a train.",results/tier2\full\images\cauldron-aokvqa-716.jpg,3460e14a4a64e3e1,why are the people standing behind the yellow line
+cauldron-aokvqa-713,aokvqa,image_necessary,0.3920353651046753,1.0803483724594116,1.472383737564087,"Judging from evidence in the picture what has the horse most likely received?
+From the following set of four choices, select the accurate answer to respond to the question.
+Options: Apples, money, oats, training.",Training.,results/tier2\full\images\cauldron-aokvqa-713.jpg,e06643c2c785676e,judging from evidence in the picture what has the horse most likely received
+cauldron-aokvqa-409,aokvqa,image_necessary,0.3019917011260986,3.199790477752685,3.501782178878784,"What type of TV is that?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Crt, projector, lcd, toy.","Answer: crt.
+Rationale: The tv works, so it is not a toy. it is deep but does not have a projector.",results/tier2\full\images\cauldron-aokvqa-409.jpg,f3b1ab5d5d67371b,what type of tv is that
+cauldron-aokvqa-555,aokvqa,image_necessary,0.8121180534362793,2.8177733421325684,3.629891395568848,"Why is the man on the tall bike?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Confused, entertainment, being chased, exercise.","Answer: entertainment.
+Rationale: The bike and man's costume are very impractical. furthermore, the bus is a tour bus.",results/tier2\full\images\cauldron-aokvqa-555.jpg,4048186646040360,why is the man on the tall bike
+cauldron-aokvqa-221,aokvqa,image_necessary,0.4167490005493164,2.5753185749053955,2.992067575454712,"Which artist depicted Polynesians practicing this sport on the Sandwich Islands?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Paul gauguin, georges seurat, michael donahue, john webber.","Answer: john webber.
+Rationale: The artist was webber.",results/tier2\full\images\cauldron-aokvqa-221.jpg,e8c8ccceca58c8cc,which artist depicted polynesians practicing this sport on the sandwich islands
+cauldron-aokvqa-751,aokvqa,image_necessary,0.4810606241226196,1.9050949811935425,2.386155605316162,"What happened in this town square?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Tornado, play, parade, storm.","Answer: parade.
+Rationale: One can see the remains of the confetti and ribbons from the celebration.",results/tier2\full\images\cauldron-aokvqa-751.jpg,90d09410721ec3,what happened in this town square
+cauldron-aokvqa-68,aokvqa,image_necessary,0.6329586505889893,0.3966250419616699,1.0295836925506592,"What kind of item is the man very likely to be carrying in the case?
+Make your selection from the four choices given to correctly answer the question.
+Options: Equipment, costume, clothing, stringed instrument.",Stringed instrument.,results/tier2\full\images\cauldron-aokvqa-68.jpg,698cccac8ccddc1e,what kind of item is the man very likely to be carrying in the case
+cauldron-aokvqa-776,aokvqa,image_necessary,0.3373174667358398,1.2106153964996338,1.5479328632354736,"What does the color of traffic light in the above picture imply to road users?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Give way, go, wait, stop.","Answer: go.
+Rationale: The traffic light is green so it is safe to proceed.",results/tier2\full\images\cauldron-aokvqa-776.jpg,d6c6c6e6b6d9d9f9,what does the color of traffic light in the above picture imply to road users
+cauldron-aokvqa-739,aokvqa,image_necessary,0.6534688472747803,2.45654845237732,3.1100172996521,"The train gliding on what in order to move?
+Choose the correct response, then elucidate: 'Answer: answer
+Rationale: rationale.'
+Options: Rails, wheels, bridge, station.","Answer: rails.
+Rationale: An elevated train is seen moving along a metal bridge. trains run along tracks or rails.",results/tier2\full\images\cauldron-aokvqa-739.jpg,e4c0c0cbc9f8cc48,the train gliding on what in order to move
+cauldron-aokvqa-96,aokvqa,image_necessary,0.2469489574432373,2.7836947441101074,3.0306437015533447,"What can you check out from that van?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Electronics, clothes, games, books.","Answer: books.
+Rationale: It has a library website advertised on its door.",results/tier2\full\images\cauldron-aokvqa-96.jpg,fe909ab83ffeece8,what can you check out from that van
+cauldron-aokvqa-63,aokvqa,image_necessary,0.2275464534759521,1.4281617403030396,1.6557081937789917,"Where is the man sitting?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Bike, couch, dugout, bed.","Answer: dugout.
+Rationale: He is sitting in the dugout where players waiting to play sit.",results/tier2\full\images\cauldron-aokvqa-63.jpg,1fb79f16554d899f,where is the man sitting
+cauldron-aokvqa-513,aokvqa,image_necessary,0.6167020797729492,0.7731800079345703,1.3898820877075195,"Where are the skaters located?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Street, store, park, mall.","Answer: park.
+Rationale: The skaters are at an outdoor skate park.",results/tier2\full\images\cauldron-aokvqa-513.jpg,9f8f5b7272e8faf6,where are the skaters located
+cauldron-aokvqa-727,aokvqa,text_answerable,-0.8101654052734375,2.979404926300049,2.169239521026612,"What are the people using?
+Make your selection from the four choices given to correctly answer the question.
+Options: Basketball, laptop, refrigerator, sink.",Laptop.,results/tier2\full\images\cauldron-aokvqa-727.jpg,28203c3c9c8e1a1,what are the people using
+cauldron-aokvqa-598,aokvqa,image_necessary,0.2529511451721191,2.820866823196411,3.0738179683685303,"What is the lined white area near the lights for?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Parking, crossing, biking, skating.","Answer: crossing.
+Rationale: Straight white lines are painted on a road near an intersection. busy intersections have crosswalks.",results/tier2\full\images\cauldron-aokvqa-598.jpg,404003098000001,what is the lined white area near the lights for
+cauldron-aokvqa-405,aokvqa,image_necessary,0.5609579086303711,1.5632247924804688,2.12418270111084,"What vehicle was brought on the bought?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Motorcycle, car, truck, bus.","Answer: car.
+Rationale: The vehicle on the boat has four wheels. it is too small to be a truck or bus.",results/tier2\full\images\cauldron-aokvqa-405.jpg,5050c8c8d144f0bc,what vehicle was brought on the bought
+cauldron-aokvqa-416,aokvqa,image_necessary,0.3458900451660156,2.3230443000793457,2.6689343452453613,"By which technology standard is the monitor connected to the laptop?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Vga, dvi, displayport, hdmi.","Answer: vga.
+Rationale: It is an older interface.",results/tier2\full\images\cauldron-aokvqa-416.jpg,c8c48c8c8e960100,by which technology standard is the monitor connected to the laptop
+cauldron-aokvqa-705,aokvqa,image_necessary,0.4092237949371338,1.878955602645874,2.288179397583008,"What restaurant do these donuts come from?
+Choose the correct response and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Starbucks, krispy kreme, dunkin donuts, tim hortons.","Answer: krispy kreme.
+Rationale: Rows of donuts are in a display case on white trays.",results/tier2\full\images\cauldron-aokvqa-705.jpg,c6d292f0e0cce4a7,what restaurant do these donuts come from
+cauldron-aokvqa-14,aokvqa,image_necessary,0.8931797742843628,1.3160375356674194,2.2092173099517822,"What animals are these?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Llama, donkey, sheep, horse.","Answer: horse.
+Rationale: The animals on the hill are wild horses that are running free.",results/tier2\full\images\cauldron-aokvqa-14.jpg,f4f4e928a044e4e4,what animals are these
+cauldron-aokvqa-51,aokvqa,image_necessary,0.5448193550109863,2.638173818588257,3.182993173599243,"What will the child try to do first?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Rest, flip board, yell, eat.","Answer: flip board.
+Rationale: The child is participating in an extreme sport. the four-wheeled object he is using is upside down.",results/tier2\full\images\cauldron-aokvqa-51.jpg,c6e6ce4c8c2d4fcf,what will the child try to do first
+cauldron-aokvqa-633,aokvqa,image_necessary,0.2229137420654297,3.178077220916748,3.4009909629821777,"What governing body uses the flag closest to the camera?
+Answer the question by selecting the correct answer among the 4 following choices.
+Options: Caricom, belgium, european union, united states.",European union.,results/tier2\full\images\cauldron-aokvqa-633.jpg,da622763c2460c48,what governing body uses the flag closest to the camera
+cauldron-aokvqa-328,aokvqa,image_necessary,0.1441731452941894,2.349362850189209,2.4935359954833984,"What is attached to the blue strap on the surfers ankle?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: Seaweed, surf leash, netting, wallet.","Answer: surf leash.
+Rationale: While on a surfboard, it is common to be attached to it with a 'leash'. this leash can be seen on the man's wrist.",results/tier2\full\images\cauldron-aokvqa-328.jpg,dcc494e4e00252e0,what is attached to the blue strap on the surfers ankle
+cauldron-aokvqa-402,aokvqa,image_necessary,1.3787004947662354,1.5956778526306152,2.9743783473968506,"What feature is this animal known for?
+Make your selection from the four choices given to correctly answer the question.
+Options: Spinning webs, long neck, gills, armored shell.",Long neck.,results/tier2\full\images\cauldron-aokvqa-402.jpg,fc9c3e6e56e3e1f0,what feature is this animal known for
+cauldron-aokvqa-285,aokvqa,image_necessary,0.226779818534851,1.8999122381210327,2.126692056655884,"How many birds are there?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Three, two, one, four.","Answer: three.
+Rationale: There are two birds near the top of the tree. an additional bird is below them.",results/tier2\full\images\cauldron-aokvqa-285.jpg,2030302868c,how many birds are there
+cauldron-aokvqa-10,aokvqa,image_necessary,0.4237473011016845,3.174994707107544,3.5987420082092285,"How did these frisbee throwers get to this location?
+Indicate the correct response and explain using: 'Answer: answer
+Rationale: rationale.'
+Options: Police car, bike, jogged, motorcycle.","Answer: bike.
+Rationale: There are two wheeled manual powered vehicles next to them.",results/tier2\full\images\cauldron-aokvqa-10.jpg,84cec9c3ef370fb4,how did these frisbee throwers get to this location
+cauldron-aokvqa-91,aokvqa,image_necessary,0.4088917970657348,1.1242430210113523,1.5331348180770874,"Which bird can grind their own calcium supplements?
+Select the accurate answer and provide justification: `Answer: choice
+Rationale: srationale.`
+Options: Peacock, dove, parrot, crow.","Answer: parrot.
+Rationale: The bird is the parrot.",results/tier2\full\images\cauldron-aokvqa-91.jpg,9c869399818686d6,which bird can grind their own calcium supplements
+cauldron-aokvqa-271,aokvqa,image_necessary,0.3980394601821899,1.6946700811386108,2.092709541320801,"Why is the young boy holding the older woman's hand?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: For guidance, for protection, for fun, for play.","Answer: for guidance.
+Rationale: A small child is holding the hand of an adult as she crosses the road.",results/tier2\full\images\cauldron-aokvqa-271.jpg,381c9c1819391d99,why is the young boy holding the older womans hand
+cauldron-aokvqa-330,aokvqa,image_necessary,0.1871097087860107,2.6843366622924805,2.871446371078491,"How might the real version of the kite animal on top defend itself?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Hard shell, tusks, stinger, camouflage.","Answer: stinger.
+Rationale: There is a big animal.",results/tier2\full\images\cauldron-aokvqa-330.jpg,f0f1f11c64e0fc0,how might the real version of the kite animal on top defend itself
+cauldron-aokvqa-133,aokvqa,image_necessary,0.228939414024353,1.959424376487732,2.188363790512085,"Where has most of her weight been shifted?
+Indicate the correct choice and explain in the format: 'Answer: answer
+Rationale: rationale.'
+Options: Biceps, calves, wrists, quads.","Answer: quads.
+Rationale: Foot is flat on the ground and she is leaning forward.",results/tier2\full\images\cauldron-aokvqa-133.jpg,d35b62e3b2e6d190,where has most of her weight been shifted
+cauldron-aokvqa-749,aokvqa,image_necessary,0.2676565647125244,2.492028951644897,2.759685516357422,"The bikes here belong to whom?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Racers, no one, santa, children.","Answer: racers.
+Rationale: The bikes are loaded carefully on a rack on the top of a car that has a sports team's insignia on it. the car is near an event.",results/tier2\full\images\cauldron-aokvqa-749.jpg,90922d0f8383907,the bikes here belong to whom
+cauldron-aokvqa-606,aokvqa,image_necessary,0.917078733444214,2.631382703781128,3.548461437225342,"These people are most likely on what type of event?
+Choose the right answer from the provided options to respond to the question.
+Options: Vacation, demolition, mob hit, diplomatic meeting.",Vacation.,results/tier2\full\images\cauldron-aokvqa-606.jpg,194d631a4878763f,these people are most likely on what type of event
+cauldron-aokvqa-415,aokvqa,image_necessary,1.1876753568649292,1.6055916547775269,2.793267011642456,"Who might be in possession of this?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Politicians, hollywood stars, billionaires, schoolchildren.","Answer: schoolchildren.
+Rationale: Kids would have a packed lunch.",results/tier2\full\images\cauldron-aokvqa-415.jpg,2fde3b3918707101,who might be in possession of this
+cauldron-aokvqa-541,aokvqa,image_necessary,0.9173629283905028,2.402419328689575,3.319782257080078,"What country is served by this airline?
+Make your selection from the four choices given to correctly answer the question.
+Options: China, egypt, sweden, netherlands.",Sweden.,results/tier2\full\images\cauldron-aokvqa-541.jpg,f0406644466ce0,what country is served by this airline
+cauldron-aokvqa-355,aokvqa,image_necessary,0.4591679573059082,1.968855619430542,2.42802357673645,"The green item was probably obtained from where?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Mattress firm, amusement park, toy store, law office.","Answer: amusement park.
+Rationale: The green item is a band that shows that the person paid to enter a restricted area. mattress firms, toy stores, and law offices do not have admission fees.",results/tier2\full\images\cauldron-aokvqa-355.jpg,683d9c8c9e922266,the green item was probably obtained from where
+cauldron-aokvqa-660,aokvqa,image_necessary,0.4815573692321777,2.284263849258423,2.7658212184906006,"What do the kites resemble?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Squid, tiger, dog, monkey.","Answer: squid.
+Rationale: The kites have large bulbous sections with tentacle like ribbons and streamers.",results/tier2\full\images\cauldron-aokvqa-660.jpg,191302000767301b,what do the kites resemble
+cauldron-aokvqa-237,aokvqa,image_necessary,0.5459744930267334,1.6854891777038574,2.231463670730591,"What is on the sign?
+Select the accurate response from the four choices given to answer the question.
+Options: Stop, yield, go, x.",X.,results/tier2\full\images\cauldron-aokvqa-237.jpg,10101c1d9d97dfd,what is on the sign
+cauldron-aokvqa-336,aokvqa,image_necessary,0.3870192170143127,0.948026716709137,1.3350459337234497,"This elevated train is part of the public transportation system of which large US city?
+Pick the right solution, then justify: 'Answer: answer
+Rationale: rationale.'
+Options: Chicago, philadelphia, new york, boston.","Answer: new york.
+Rationale: The train is in new york.",results/tier2\full\images\cauldron-aokvqa-336.jpg,b296c7f13c1189c5,this elevated train is part of the public transportation system of which large us city
+cauldron-aokvqa-641,aokvqa,image_necessary,0.5874667167663574,3.159745693206787,3.747212409973145,"Why is the horse on the the ground?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Resting, getting even, fell, backing up.","Answer: fell.
+Rationale: It looks like the horse lost traction by the dirt being kicked up and it falling makes the most sense.",results/tier2\full\images\cauldron-aokvqa-641.jpg,49090a06c7c70e1f,why is the horse on the the ground
+cauldron-aokvqa-558,aokvqa,image_necessary,0.3156571388244629,2.0872716903686523,2.4029288291931152,"What does the orange fabric carrot next to the cat contain?
+Make your selection and explain in format: 'Answer: answer
+Rationale: rationale.'
+Options: Plastic beads, catnip, cotton stuffing, wool stuffing.","Answer: catnip.
+Rationale: A cat is playing with a toy. cat toys often have catnip in their toys.",results/tier2\full\images\cauldron-aokvqa-558.jpg,67c54ff9f17ce271,what does the orange fabric carrot next to the cat contain
+cauldron-aokvqa-407,aokvqa,text_answerable,-0.6261382102966309,2.780186653137207,2.154048442840576,"What is the little girl wearing on her legs?
+Pick the correct solution from the four options below to address the question.
+Options: Leggings, jeans, tights, knee socks.",Leggings.,results/tier2\full\images\cauldron-aokvqa-407.jpg,f1e0f0e48686e8c6,what is the little girl wearing on her legs
+cauldron-aokvqa-369,aokvqa,image_necessary,0.6126132011413574,3.2418179512023926,3.85443115234375,"In which continent is the train?
+Choose the right answer and clarify with the format: 'Answer: answer
+Rationale: rationale.'
+Options: North america, europe, africa, asia.","Answer: asia.
+Rationale: By the writing above the one building it looks to be an asian culture.",results/tier2\full\images\cauldron-aokvqa-369.jpg,f89cf9f9cbd3f070,in which continent is the train
+cauldron-aokvqa-450,aokvqa,image_necessary,0.1916620731353759,2.5289409160614014,2.7206029891967773,"What type of building is this black structure?
+Make your selection from the four choices given to correctly answer the question.
+Options: Deli, bathroom, phonebooth, post office.",Bathroom.,results/tier2\full\images\cauldron-aokvqa-450.jpg,830f27252f371f7f,what type of building is this black structure
+cauldron-aokvqa-460,aokvqa,image_necessary,0.7028312683105469,1.8224866390228271,2.525317907333374,"Why can we still see them?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Daytime, bonfire, white skin, artificial light.","Answer: artificial light.
+Rationale: Two men are on a lit tennis court at night. courts are lit with artificial lights at night.",results/tier2\full\images\cauldron-aokvqa-460.jpg,a8b17173f2f2f2f3,why can we still see them
+cauldron-aokvqa-404,aokvqa,image_necessary,0.2344365119934082,2.6661198139190674,2.900556325912476,"The area underneath the structure is illuminated by what?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: Fluorescent lights, hps lights, led lights, incandescent lights.","Answer: led lights.
+Rationale: The illumination is 90% greater using this method.",results/tier2\full\images\cauldron-aokvqa-404.jpg,431389c0c8c2c2a2,the area underneath the structure is illuminated by what
+cauldron-aokvqa-706,aokvqa,image_necessary,0.7354898452758789,2.086351156234741,2.82184100151062,"What makes these objects worthy to put behind glass?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Color, age, size, shape.","Answer: age.
+Rationale: The pottery is ancient.",results/tier2\full\images\cauldron-aokvqa-706.jpg,dafedadacacada8b,what makes these objects worthy to put behind glass
+cauldron-aokvqa-498,aokvqa,image_necessary,0.7262787818908691,2.6085636615753174,3.3348424434661865,"What is the largest city in this country by population?
+Select the accurate answer and provide explanation: 'Answer: answer
+Rationale: rationale.'
+Options: London, dublin, paris, glasgow.","Answer: glasgow.
+Rationale: The country is scotland, because another big city of edinburgh is seen on the sign.",results/tier2\full\images\cauldron-aokvqa-498.jpg,efcd8e2b0bc7870,what is the largest city in this country by population
+cauldron-aokvqa-309,aokvqa,image_necessary,0.3755558729171753,1.3958311080932615,1.771386981010437,"What is the item being displayed by the man?
+Select the correct answer and articulate reasoning with the following format: 'Answer: answer
+Rationale: rationale.'
+Options: Floaty, surf board, drawing, wall paper.","Answer: floaty.
+Rationale: The man is holding a body board.",results/tier2\full\images\cauldron-aokvqa-309.jpg,1e1f332b697b173c,what is the item being displayed by the man

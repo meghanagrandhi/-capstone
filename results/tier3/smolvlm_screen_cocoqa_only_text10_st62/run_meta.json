@@ -1,0 +1,19 @@
+{
+  "run": "smolvlm_screen_cocoqa_only_text10_st62",
+  "mixture": "screen_cocoqa_only_text10",
+  "n_mix": 300,
+  "text_share": 0.1,
+  "steps": 62,
+  "batch_size": 8,
+  "lr": 0.0002,
+  "seed": 0,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "model_key": "smolvlm",
+  "n_probe": 64,
+  "model": "HuggingFaceTB/SmolVLM-Instruct",
+  "model_revision": "81cd9a775a4d644f2faf4e7becff4559b46b14c7",
+  "peak_vram_gib": 5.57663106918335,
+  "train_minutes": 17.2303906083107,
+  "sec_per_step": 15.61366900320976
+}

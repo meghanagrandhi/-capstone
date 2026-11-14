@@ -1,0 +1,28 @@
+{
+  "mixture_cocoqa_only_text10": {
+    "n": 300,
+    "text_share": 0.1,
+    "mean_gap": 2.6801475929655134,
+    "yes_share_of_yes_no": NaN,
+    "by_subset": {
+      "cocoqa": {
+        "image_necessary": 270,
+        "text_answerable": 30
+      }
+    },
+    "yes_no_cells": {}
+  },
+  "mixture_cocoqa_only_text90": {
+    "n": 300,
+    "text_share": 0.9,
+    "mean_gap": 0.7613407317890475,
+    "yes_share_of_yes_no": NaN,
+    "by_subset": {
+      "cocoqa": {
+        "image_necessary": 30,
+        "text_answerable": 270
+      }
+    },
+    "yes_no_cells": {}
+  }
+}

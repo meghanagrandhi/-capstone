@@ -1,0 +1,301 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-vsr-521,vsr,image_necessary,0.5476043149828911,0.0720579102635383,0.6196622252464294,"Does the caption ""The horse is on the bus."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-521.jpg,342460516371393e,does the caption the horse is on the bus correctly depict the image
+cauldron-vsr-470,vsr,image_necessary,0.3912992253899574,0.1022100374102592,0.4935092628002167,"Is the given caption ""The banana is touching the apple."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-470.jpg,e2a3a3a3c8180a67,is the given caption the banana is touching the apple fitting for the image
+cauldron-vsr-585,vsr,image_necessary,0.1841877847909927,0.2392412275075912,0.423429012298584,"Evaluate: Does the caption ""The person is with the banana."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-585.jpg,c02098cc4cc0a330,evaluate does the caption the person is with the banana match the image
+cauldron-vsr-193,vsr,image_necessary,0.2198582952842116,0.0061008716002106,0.2259591668844223,"Is the statement ""The pizza is in the oven."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-193.jpg,86d1956161313d7d,is the statement the pizza is in the oven accurate regarding the image
+cauldron-vsr-25,vsr,image_necessary,0.1943807303905487,0.349937230348587,0.5443179607391357,"Is this affirmation: ""The cow is inside the truck."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-25.jpg,78fafa9a1656968f,is this affirmation the cow is inside the truck correct
+cauldron-vsr-618,vsr,image_necessary,0.2978109717369079,0.1965597867965698,0.4943707585334778,"Does the image validate the caption ""The couch is under the person.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-618.jpg,ebeac6969733fa70,does the image validate the caption the couch is under the person
+cauldron-vsr-574,vsr,image_necessary,0.422670379281044,0.0729427188634872,0.4956130981445312,"Does the caption ""The person is with the orange."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-574.jpg,36362402320080c0,does the caption the person is with the orange correctly depict the image
+cauldron-vsr-755,vsr,image_necessary,0.2171721160411834,0.2109279930591583,0.4281001091003418,"Is the statement ""The bowl contains the broccoli."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-755.jpg,f8382c8e88c8e0f8,is the statement the bowl contains the broccoli accurate regarding the image
+cauldron-vsr-250,vsr,image_necessary,0.2055022791028022,0.0914647802710533,0.2969670593738556,"Is the given caption ""The oven is below the pizza."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-250.jpg,88cce2b01d9fcbc3,is the given caption the oven is below the pizza fitting for the image
+cauldron-vsr-179,vsr,image_necessary,0.1936918944120407,0.0528707057237625,0.2465626001358032,"Is the caption ""The oven contains the pizza."" a true representation of the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-179.jpg,5db97153121e1e98,is the caption the oven contains the pizza a true representation of the image
+cauldron-vsr-508,vsr,image_necessary,0.2936027571558952,0.0586155727505683,0.3522183299064636,"Is the given caption ""The cake is beside the person."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-508.jpg,8585c71e1e3664e6,is the given caption the cake is beside the person fitting for the image
+cauldron-vsr-237,vsr,image_necessary,0.3800725117325783,0.1149362847208976,0.4950087964534759,"Does the caption ""The person is at the right side of the oven."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-237.jpg,31b19ccece9eee70,does the caption the person is at the right side of the oven correctly depict the image
+cauldron-vsr-557,vsr,image_necessary,0.1934522092342376,0.07221320271492,0.2656654119491577,"Is the statement ""The banana is off the bird."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-557.jpg,c86c6c8c4c85869a,is the statement the banana is off the bird accurate regarding the image
+cauldron-vsr-47,vsr,image_necessary,0.2810405753552913,0.0256832875311374,0.3067238628864288,"Does the caption ""The person is on top of the couch."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-47.jpg,a3a938fc7cc84848,does the caption the person is on top of the couch correctly depict the image
+cauldron-vsr-233,vsr,image_necessary,0.4835901316255331,0.0203627292066812,0.5039528608322144,"Is this affirmation: ""The person is touching the donut."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-233.jpg,cac6ce8c0c0c0c0,is this affirmation the person is touching the donut correct
+cauldron-vsr-126,vsr,image_necessary,0.2630934715270996,0.1601170599460601,0.4232105314731598,"Does the description: ""The pizza is left of the person."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-126.jpg,f83c64647c74e4fc,does the description the pizza is left of the person accurately reflect the image
+cauldron-vsr-234,vsr,image_necessary,0.3327096998691559,0.0199018716812133,0.3526115715503692,"Is the given caption ""The pizza is beside the bowl."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-234.jpg,bc9c882060e8a8c8,is the given caption the pizza is beside the bowl fitting for the image
+cauldron-vsr-410,vsr,image_necessary,0.2245353050529956,0.0467003993690013,0.271235704421997,"Is the caption ""The pizza is inside the oven."" a true representation of the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-410.jpg,98730f0e1b19c79,is the caption the pizza is inside the oven a true representation of the image
+cauldron-vsr-368,vsr,text_answerable,-0.1678311824798584,0.5376426577568054,0.369811475276947,"Is the statement ""The person is left of the teddy bear."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-368.jpg,72f0f8b9c3e2f0f0,is the statement the person is left of the teddy bear accurate regarding the image
+cauldron-vsr-220,vsr,image_necessary,0.4730592109262943,0.0224824510514736,0.4955416619777679,"Does the caption ""The cow is on the truck."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-220.jpg,991824038fc31929,does the caption the cow is on the truck correctly depict the image
+cauldron-vsr-205,vsr,image_necessary,0.4036616235971451,0.052089974284172,0.4557515978813171,"Is the given caption ""The oven is adjacent to the person."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-205.jpg,800215818383060,is the given caption the oven is adjacent to the person fitting for the image
+cauldron-vsr-127,vsr,text_answerable,-0.5007117688655853,0.7773742079734802,0.2766624391078949,"Is the statement ""The truck contains the tv."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-127.jpg,2426248d0f1f774f,is the statement the truck contains the tv accurate regarding the image
+cauldron-vsr-759,vsr,image_necessary,0.3249516822397709,0.0322922430932521,0.357243925333023,"Evaluate: Does the caption ""The couch is on the truck."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-759.jpg,38787cfcf8f4f6f8,evaluate does the caption the couch is on the truck match the image
+cauldron-vsr-77,vsr,image_necessary,0.2221861183643341,0.2668729424476623,0.4890590608119964,"Verify the accuracy of this image caption: ""The teddy bear is touching the couch."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-77.jpg,f8e8f8f070793131,verify the accuracy of this image caption the teddy bear is touching the couch
+cauldron-vsr-427,vsr,image_necessary,0.1843762695789337,0.144161194562912,0.3285374641418457,"Is ""The truck contains the cow."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-427.jpg,67634e9c3efcf4f0,is the truck contains the cow an appropriate description for the image
+cauldron-vsr-684,vsr,image_necessary,0.3680430445820093,0.0212253835052251,0.3892684280872345,"Is the statement ""The oven contains the bird."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-684.jpg,cf6f687874fcfafe,is the statement the oven contains the bird accurate regarding the image
+cauldron-vsr-708,vsr,image_necessary,0.2462310940027237,0.1445341855287552,0.3907652795314789,"Is the given caption ""The banana is inside the bowl."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-708.jpg,6070307078601,is the given caption the banana is inside the bowl fitting for the image
+cauldron-vsr-693,vsr,image_necessary,0.25747000426054,0.1022069230675697,0.3596769273281097,"Verify the accuracy of this image caption: ""The dining table is adjacent to the oven."".
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-693.jpg,b3b3e4e470318191,verify the accuracy of this image caption the dining table is adjacent to the oven
+cauldron-vsr-590,vsr,image_necessary,0.2774164974689483,0.2635584771633148,0.5409749746322632,"Is this affirmation: ""The teddy bear is on top of the person."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-590.jpg,f3ef6c6cf6f7ff5f,is this affirmation the teddy bear is on top of the person correct
+cauldron-vsr-404,vsr,image_necessary,0.4826985895633697,0.0921743214130401,0.5748729109764099,"Does the image validate the caption ""The oven is behind the cake.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-404.jpg,c6cd957d7fff86e4,does the image validate the caption the oven is behind the cake
+cauldron-vsr-649,vsr,text_answerable,0.0457654595375061,0.0969684571027755,0.1427339166402816,"Is the given caption ""The pizza is inside the person."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-649.jpg,7575d1d5f75d7164,is the given caption the pizza is inside the person fitting for the image
+cauldron-vsr-278,vsr,image_necessary,0.3187716826796531,0.1024938896298408,0.421265572309494,"Does the caption ""The bowl is next to the pizza."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-278.jpg,89d9c3e3cbf1c0e3,does the caption the bowl is next to the pizza correctly depict the image
+cauldron-vsr-500,vsr,text_answerable,-0.2773236036300659,0.642128586769104,0.3648049831390381,"Evaluate: Does the caption ""The hot dog is touching the person."" match the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-500.jpg,a3839b1343c7878e,evaluate does the caption the hot dog is touching the person match the image
+cauldron-vsr-439,vsr,image_necessary,0.4449308887124061,0.0440044328570365,0.4889353215694427,"Is the statement ""The banana is on the truck."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-439.jpg,d0e06321605c1cf0,is the statement the banana is on the truck accurate regarding the image
+cauldron-vsr-744,vsr,image_necessary,0.4969756188802421,0.0040036258287727,0.5009792447090149,"Is this affirmation: ""The person is on the elephant."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-744.jpg,69787030343271f1,is this affirmation the person is on the elephant correct
+cauldron-vsr-455,vsr,image_necessary,0.18218594789505,0.2431434094905853,0.4253293573856354,"Is this affirmation: ""The hot dog is at the edge of the dining table."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-455.jpg,408c848781031fdf,is this affirmation the hot dog is at the edge of the dining table correct
+cauldron-vsr-2,vsr,image_necessary,0.3163046240806579,0.1019584834575653,0.4182631075382232,"Is the given caption ""The person is at the left side of the tv."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-2.jpg,3c3c0c8cc6e42703,is the given caption the person is at the left side of the tv fitting for the image
+cauldron-vsr-576,vsr,image_necessary,0.2172402143478393,0.3183162808418274,0.5355564951896667,"Does the caption ""The donut is behind the person."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-576.jpg,cbefe7868784c607,does the caption the donut is behind the person correctly depict the image
+cauldron-vsr-210,vsr,image_necessary,0.1903683841228485,0.0813842117786407,0.2717525959014892,"Is ""The pizza is under the tv."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-210.jpg,7b3e9ed6f36185a6,is the pizza is under the tv an appropriate description for the image
+cauldron-vsr-541,vsr,image_necessary,0.3733139615505934,0.0145669300109148,0.3878808915615082,"Does the description: ""The apple is in front of the orange."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-541.jpg,b020911111311303,does the description the apple is in front of the orange accurately reflect the image
+cauldron-vsr-264,vsr,image_necessary,0.2437116354703903,0.0875049978494644,0.3312166333198547,"Does the image validate the caption ""The umbrella is near the bus.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-264.jpg,e9b88d4646c6e487,does the image validate the caption the umbrella is near the bus
+cauldron-vsr-397,vsr,text_answerable,0.0026839673519134,0.3184304535388946,0.3211144208908081,"Is the given caption ""The couch is beneath the teddy bear."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-397.jpg,4141c3c9d8f1b9ee,is the given caption the couch is beneath the teddy bear fitting for the image
+cauldron-vsr-226,vsr,image_necessary,0.303899884223938,0.4506483078002929,0.754548192024231,"Is ""The dining table is far away from the cow."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-226.jpg,e763b3332b3b3e1a,is the dining table is far away from the cow an appropriate description for the image
+cauldron-vsr-101,vsr,image_necessary,0.231206364929676,0.034380130469799,0.2655864953994751,"Is this affirmation: ""The boat is on the truck."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-101.jpg,f5c30325713f1f03,is this affirmation the boat is on the truck correct
+cauldron-vsr-498,vsr,image_necessary,0.2446342837065458,0.026382552459836,0.2710168361663818,"Does the caption ""The umbrella is close to the person."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-498.jpg,1b13c3c3c1c55757,does the caption the umbrella is close to the person correctly depict the image
+cauldron-vsr-365,vsr,image_necessary,0.2169627845287323,0.1643657982349395,0.3813285827636719,"Verify the accuracy of this image caption: ""The pizza is off the dining table."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-365.jpg,bafa9882e061e0e8,verify the accuracy of this image caption the pizza is off the dining table
+cauldron-vsr-695,vsr,image_necessary,0.2301869988441467,0.1948722898960113,0.4250592887401581,"Does the image validate the caption ""The person is on the couch.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-695.jpg,43c7c7c5c1c3cbc,does the image validate the caption the person is on the couch
+cauldron-vsr-560,vsr,image_necessary,0.4633115604519844,0.0345128402113914,0.4978244006633758,"Does the description: ""The banana is touching the sandwich."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-560.jpg,f8e7f7c9cd1d1f0f,does the description the banana is touching the sandwich accurately reflect the image
+cauldron-vsr-262,vsr,image_necessary,0.2476380765438079,0.1460498571395874,0.3936879336833954,"Does the description: ""The person is under the umbrella."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-262.jpg,953131151f0f0f0f,does the description the person is under the umbrella accurately reflect the image
+cauldron-vsr-200,vsr,image_necessary,0.2207887172698974,0.2068931460380554,0.4276818633079529,"Does the caption ""The oven contains the pizza."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-200.jpg,8c8f50381d19b0f1,does the caption the oven contains the pizza correctly depict the image
+cauldron-vsr-167,vsr,image_necessary,0.4031801261007786,0.0212373696267604,0.424417495727539,"Is ""The dining table is within the boat."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-167.jpg,f8ccf8e475777cf4,is the dining table is within the boat an appropriate description for the image
+cauldron-vsr-33,vsr,image_necessary,0.2699590027332306,0.2908261716365814,0.560785174369812,"Verify the accuracy of this image caption: ""The person is touching the teddy bear."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-33.jpg,c6e7df92988cc4f3,verify the accuracy of this image caption the person is touching the teddy bear
+cauldron-vsr-343,vsr,text_answerable,-0.0616823732852935,0.2894381284713745,0.2277557551860809,"Does the image validate the caption ""The couch is across from the pizza.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-343.jpg,bf9f9f98bc18b0a0,does the image validate the caption the couch is across from the pizza
+cauldron-vsr-273,vsr,text_answerable,-0.2433511912822723,0.5701332092285156,0.3267820179462433,"Is ""The teddy bear is on the person."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-273.jpg,c4a63634971b3726,is the teddy bear is on the person an appropriate description for the image
+cauldron-vsr-268,vsr,image_necessary,0.2031300365924835,0.1288254261016845,0.3319554626941681,"Is the statement ""The truck is surrounding the elephant."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-268.jpg,6e6464d6dcc8c8c1,is the statement the truck is surrounding the elephant accurate regarding the image
+cauldron-vsr-409,vsr,image_necessary,0.3061163313686847,0.0505571477115154,0.3566734790802002,"Is the given caption ""The apple is above the banana."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-409.jpg,e9c96161490c2903,is the given caption the apple is above the banana fitting for the image
+cauldron-vsr-577,vsr,image_necessary,0.2705063223838806,0.2641370892524719,0.5346434116363525,"Does the image validate the caption ""The elephant is in the middle of the truck.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-577.jpg,7fd5d9d9d8d8d5c7,does the image validate the caption the elephant is in the middle of the truck
+cauldron-vsr-782,vsr,image_necessary,0.2747611105442047,0.2649761140346527,0.5397372245788574,"Is the given caption ""The pizza is at the edge of the dining table."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-782.jpg,e8f4b2a0b8b8dcf9,is the given caption the pizza is at the edge of the dining table fitting for the image
+cauldron-vsr-676,vsr,image_necessary,0.3723655175417661,0.0209369231015443,0.3933024406433105,"Is the statement ""The teddy bear is at the right side of the person."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-676.jpg,a4f8e8e8e0e4e4f8,is the statement the teddy bear is at the right side of the person accurate regarding the image
+cauldron-vsr-54,vsr,text_answerable,-0.1881635040044784,0.3691888451576233,0.1810253411531448,"Does the description: ""The fire hydrant is behind the bird."" accurately reflect the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-54.jpg,90a4348fc7c7c6c7,does the description the fire hydrant is behind the bird accurately reflect the image
+cauldron-vsr-317,vsr,image_necessary,0.4650340229272842,0.0776153057813644,0.5426493287086487,"Is this affirmation: ""The couch is behind the pizza."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-317.jpg,8c8c9bbbcb89091a,is this affirmation the couch is behind the pizza correct
+cauldron-vsr-190,vsr,image_necessary,0.356448084115982,0.1419737637042999,0.498421847820282,"Is the caption ""The oven is facing the person."" a true representation of the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-190.jpg,1c5c5c1e1c1c3ef7,is the caption the oven is facing the person a true representation of the image
+cauldron-vsr-158,vsr,image_necessary,0.1913223415613174,0.146968737244606,0.3382910788059234,"Does the description: ""The horse is at the right side of the person."" accurately reflect the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-158.jpg,697976043c5e5a01,does the description the horse is at the right side of the person accurately reflect the image
+cauldron-vsr-145,vsr,image_necessary,0.5403492003679276,0.1116152256727218,0.6519644260406494,"Is the statement ""The teddy bear is on the dining table."" accurate regarding the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-145.jpg,f0b981a02c58c080,is the statement the teddy bear is on the dining table accurate regarding the image
+cauldron-vsr-60,vsr,image_necessary,0.4124378338456154,0.0820249840617179,0.4944628179073334,"Is the given caption ""The person is facing the tv."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-60.jpg,1f4b5f6b2eb6b6f0,is the given caption the person is facing the tv fitting for the image
+cauldron-vsr-657,vsr,image_necessary,0.2450179010629654,0.1838029772043228,0.4288208782672882,"Does the caption ""The person is at the edge of the boat."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-657.jpg,f0f1e7f7dede1634,does the caption the person is at the edge of the boat correctly depict the image
+cauldron-vsr-540,vsr,image_necessary,0.4102596677839756,0.0458475910127162,0.4561072587966919,"Does the caption ""The bus is behind the bicycle."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-540.jpg,86a4a8a1a1a4e6e2,does the caption the bus is behind the bicycle correctly depict the image
+cauldron-vsr-452,vsr,image_necessary,0.2213430106639862,0.1449525654315948,0.366295576095581,"Is the given caption ""The sandwich is touching the person."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-452.jpg,1f7fb3313937178e,is the given caption the sandwich is touching the person fitting for the image
+cauldron-vsr-70,vsr,image_necessary,0.295376569032669,0.0652667880058288,0.3606433570384979,"Does the image validate the caption ""The teddy bear is on top of the dining table.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-70.jpg,820607a609880a0,does the image validate the caption the teddy bear is on top of the dining table
+cauldron-vsr-779,vsr,text_answerable,-0.2455311715602874,0.5706457495689392,0.3251145780086517,"Is the given caption ""The bicycle is at the right side of the boat."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-779.jpg,961517b3a2e28632,is the given caption the bicycle is at the right side of the boat fitting for the image
+cauldron-vsr-92,vsr,image_necessary,0.4384108129888773,0.0233686920255422,0.4617795050144195,"Does the description: ""The person is touching the broccoli."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-92.jpg,3e3f37878f0f1b1f,does the description the person is touching the broccoli accurately reflect the image
+cauldron-vsr-443,vsr,image_necessary,0.2482576370239257,0.225979596376419,0.4742372334003448,"Evaluate: Does the caption ""The umbrella is in front of the potted plant."" match the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-443.jpg,83b13019b9eccec4,evaluate does the caption the umbrella is in front of the potted plant match the image
+cauldron-vsr-367,vsr,text_answerable,-0.5434716641902924,0.9062910079956056,0.3628193438053131,"Is the given caption ""The sandwich is touching the person."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-367.jpg,80c080b29e8e5cb8,is the given caption the sandwich is touching the person fitting for the image
+cauldron-vsr-719,vsr,image_necessary,0.3654487431049347,0.0911066532135009,0.4565553963184356,"Is the caption ""The potted plant is left of the elephant."" a true representation of the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-719.jpg,f3f3bb9d8dbe9d9d,is the caption the potted plant is left of the elephant a true representation of the image
+cauldron-vsr-727,vsr,image_necessary,0.2276676073670387,0.0487570986151695,0.2764247059822082,"Does the image validate the caption ""The dining table is away from the boat.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-727.jpg,b838981888c0c2c2,does the image validate the caption the dining table is away from the boat
+cauldron-vsr-778,vsr,image_necessary,0.3610177636146545,0.0749386847019195,0.4359564483165741,"Is the caption ""The dining table is near the person."" a true representation of the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-778.jpg,11110d117960d4d4,is the caption the dining table is near the person a true representation of the image
+cauldron-vsr-288,vsr,image_necessary,0.4243118017911911,0.1953470259904861,0.6196588277816772,"Does the image validate the caption ""The truck is under the airplane.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-288.jpg,38170686839ff224,does the image validate the caption the truck is under the airplane
+cauldron-vsr-376,vsr,image_necessary,0.3005785793066025,0.2405752688646316,0.5411538481712341,"Is this affirmation: ""The bowl is over the sandwich."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-376.jpg,989e1c3c19716d39,is this affirmation the bowl is over the sandwich correct
+cauldron-vsr-720,vsr,image_necessary,0.3257405012845993,0.0550788193941116,0.3808193206787109,"Verify the accuracy of this image caption: ""The cow is in front of the sheep."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-720.jpg,c66070f3b181c9a9,verify the accuracy of this image caption the cow is in front of the sheep
+cauldron-vsr-426,vsr,image_necessary,0.6508996337652206,0.1172543317079544,0.768153965473175,"Is this affirmation: ""The dining table is touching the banana."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-426.jpg,c2cd497972172778,is this affirmation the dining table is touching the banana correct
+cauldron-vsr-507,vsr,image_necessary,0.2037713341414928,0.0301737077534198,0.2339450418949127,"Does the caption ""The pizza is on top of the oven."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-507.jpg,a717d7d7d4f0d094,does the caption the pizza is on top of the oven correctly depict the image
+cauldron-vsr-441,vsr,image_necessary,0.2262732982635498,0.304701566696167,0.5309748649597168,"Evaluate: Does the caption ""The person is in front of the dining table."" match the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-441.jpg,e35c6ce4b884c4e1,evaluate does the caption the person is in front of the dining table match the image
+cauldron-vsr-743,vsr,image_necessary,0.2464923113584518,0.1773448139429092,0.4238371253013611,"Does the description: ""The airplane is behind the person."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-743.jpg,2e26078707072b09,does the description the airplane is behind the person accurately reflect the image
+cauldron-vsr-342,vsr,image_necessary,0.2113730274140834,0.0181735791265964,0.2295466065406799,"Does the caption ""The broccoli is on the pizza."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-342.jpg,f8f8ec3ca9a9b68c,does the caption the broccoli is on the pizza correctly depict the image
+cauldron-vsr-587,vsr,image_necessary,0.2262529134750366,0.1953592002391815,0.4216121137142181,"Is ""The tv is away from the dining table."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-587.jpg,6060600420c00000,is the tv is away from the dining table an appropriate description for the image
+cauldron-vsr-339,vsr,image_necessary,0.3395375087857246,0.1143413111567497,0.4538788199424743,"Is ""The bowl is touching the bird."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-339.jpg,a9e9e9e9cdc7c3e3,is the bowl is touching the bird an appropriate description for the image
+cauldron-vsr-597,vsr,image_necessary,0.1984757632017135,0.1586792021989822,0.3571549654006958,"Is ""The person is in the middle of the couch."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-597.jpg,51d9d1f3d29393a2,is the person is in the middle of the couch an appropriate description for the image
+cauldron-vsr-584,vsr,image_necessary,0.2007169499993324,0.0748886987566948,0.2756056487560272,"Is ""The hot dog is touching the person."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-584.jpg,a9a7e6e3c9caddb8,is the hot dog is touching the person an appropriate description for the image
+cauldron-vsr-82,vsr,image_necessary,0.325376458466053,0.0966629907488823,0.4220394492149353,"Is the given caption ""The bird is far away from the person."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-82.jpg,1c3810091830030f,is the given caption the bird is far away from the person fitting for the image
+cauldron-vsr-702,vsr,image_necessary,0.2820916697382927,0.0243089869618415,0.3064006567001343,"Does the caption ""The umbrella is on the boat."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-702.jpg,e0c1c14145616173,does the caption the umbrella is on the boat correctly depict the image
+cauldron-vsr-334,vsr,image_necessary,0.2728988826274872,0.0933966934680938,0.366295576095581,"Is the given caption ""The sandwich is touching the person."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-334.jpg,fcd8dceea6b7cef8,is the given caption the sandwich is touching the person fitting for the image
+cauldron-vsr-765,vsr,image_necessary,0.355581633746624,0.1029521003365516,0.4585337340831756,"Is the statement ""The bus is in front of the elephant."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-765.jpg,60a0b4b819392903,is the statement the bus is in front of the elephant accurate regarding the image
+cauldron-vsr-638,vsr,image_necessary,0.5506156664341688,0.0136369485408067,0.5642526149749756,"Is this affirmation: ""The person is on the airplane."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-638.jpg,8f0ccc5c5c4cc666,is this affirmation the person is on the airplane correct
+cauldron-vsr-113,vsr,image_necessary,0.2816153317689895,0.0743055194616317,0.3559208512306213,"Is ""The couch is beneath the teddy bear."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-113.jpg,e6676521a92d3c8c,is the couch is beneath the teddy bear an appropriate description for the image
+cauldron-vsr-270,vsr,image_necessary,0.4485517106950283,0.0451706387102603,0.4937223494052887,"Does the caption ""The truck is behind the elephant."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-270.jpg,3f6d654f8f2b1f07,does the caption the truck is behind the elephant correctly depict the image
+cauldron-vsr-117,vsr,image_necessary,0.3716237843036651,0.0593183934688568,0.430942177772522,"Is the caption ""The pizza is out of the oven."" a true representation of the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-117.jpg,3e3e3707878d81c3,is the caption the pizza is out of the oven a true representation of the image
+cauldron-vsr-734,vsr,image_necessary,0.1971256285905838,0.1422147005796432,0.339340329170227,"Is this affirmation: ""The person is facing the oven."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-734.jpg,c889988a1e9bdbd9,is this affirmation the person is facing the oven correct
+cauldron-vsr-707,vsr,image_necessary,0.2147388756275177,0.3113684356212616,0.5261073112487793,"Verify the accuracy of this image caption: ""The teddy bear is touching the potted plant."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-707.jpg,8381911d8ee7878f,verify the accuracy of this image caption the teddy bear is touching the potted plant
+cauldron-vsr-208,vsr,image_necessary,0.2018377780914306,0.2171376645565033,0.4189754426479339,"Is the given caption ""The person is touching the hot dog."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-208.jpg,a591f0e265650387,is the given caption the person is touching the hot dog fitting for the image
+cauldron-vsr-331,vsr,image_necessary,0.3479246720671654,0.0361892357468605,0.3841139078140259,"Does the image validate the caption ""The person is left of the teddy bear.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-331.jpg,1be3e1e4e50b8981,does the image validate the caption the person is left of the teddy bear
+cauldron-vsr-194,vsr,text_answerable,-0.3186565935611725,0.5760879516601562,0.2574313580989837,"Does the description: ""The tv is above the truck."" accurately reflect the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-194.jpg,e76373738f8d8d89,does the description the tv is above the truck accurately reflect the image
+cauldron-vsr-603,vsr,image_necessary,0.2414281666278839,0.1145577132701873,0.3559858798980713,"Does the caption ""The pizza is above the dining table."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-603.jpg,1313d290623c8c80,does the caption the pizza is above the dining table correctly depict the image
+cauldron-vsr-198,vsr,image_necessary,0.1820073202252388,0.0844190642237663,0.2664263844490051,"Is ""The tv is close to the person."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-198.jpg,ca812373a2e6e4f5,is the tv is close to the person an appropriate description for the image
+cauldron-vsr-80,vsr,image_necessary,0.3482864275574684,0.1138573810458183,0.4621438086032867,"Evaluate: Does the caption ""The teddy bear is below the umbrella."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-80.jpg,3b7bdfcedaff5b59,evaluate does the caption the teddy bear is below the umbrella match the image
+cauldron-vsr-352,vsr,image_necessary,0.313839640468359,0.015773270279169,0.3296129107475281,"Is the statement ""The banana is part of the sandwich."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-352.jpg,e2e0e6e7672e2607,is the statement the banana is part of the sandwich accurate regarding the image
+cauldron-vsr-530,vsr,text_answerable,-0.0698551535606384,0.3853943943977356,0.3155392408370971,"Does the description: ""The sandwich is right of the hot dog."" accurately reflect the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-530.jpg,9ad9d9e78d985870,does the description the sandwich is right of the hot dog accurately reflect the image
+cauldron-vsr-30,vsr,image_necessary,0.4860891997814178,0.175266295671463,0.6613554954528809,"Is the given caption ""The banana is into the person."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-30.jpg,9898183838fcccdc,is the given caption the banana is into the person fitting for the image
+cauldron-vsr-724,vsr,image_necessary,0.2106122374534607,0.1139875352382659,0.3245997726917267,"Is ""The dining table is at the left side of the person."" an appropriate description for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-724.jpg,e0a40e1ac9e1f0e0,is the dining table is at the left side of the person an appropriate description for the image
+cauldron-vsr-598,vsr,text_answerable,-0.0976446866989135,0.3508614897727966,0.253216803073883,"Does the image validate the caption ""The person is under the umbrella.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-598.jpg,600606497179691c,does the image validate the caption the person is under the umbrella
+cauldron-vsr-88,vsr,image_necessary,0.604162784293294,0.0137507002800703,0.6179134845733643,"Does the image validate the caption ""The couch is beneath the bird.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-88.jpg,f7f737373e3f7d70,does the image validate the caption the couch is beneath the bird
+cauldron-vsr-44,vsr,text_answerable,-0.1293684542179107,0.4504094421863556,0.3210409879684448,"Is ""The couch is beneath the teddy bear."" an appropriate description for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-44.jpg,8383838b8b8f0,is the couch is beneath the teddy bear an appropriate description for the image
+cauldron-vsr-252,vsr,image_necessary,0.2762381732463836,0.1878060102462768,0.4640441834926605,"Does the image validate the caption ""The potted plant is on the dining table.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-252.jpg,e6061ac6c6ccf1e0,does the image validate the caption the potted plant is on the dining table
+cauldron-vsr-75,vsr,image_necessary,0.3449678458273411,0.0475666485726833,0.3925344944000244,"Is the given caption ""The person is touching the bowl."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-75.jpg,6230302ce4e2e0dc,is the given caption the person is touching the bowl fitting for the image
+cauldron-vsr-682,vsr,image_necessary,0.3112998157739639,0.0459971576929092,0.3572969734668731,"Does the caption ""The boat is attached to the truck."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-682.jpg,ece9f997826f2029,does the caption the boat is attached to the truck correctly depict the image
+cauldron-vsr-442,vsr,image_necessary,0.2970026731491089,0.3183704614639282,0.6153731346130371,"Is the given caption ""The dining table is far away from the cow."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-442.jpg,2107579696968383,is the given caption the dining table is far away from the cow fitting for the image
+cauldron-vsr-596,vsr,image_necessary,0.1828811764717102,0.0870483517646789,0.2699295282363891,"Is this affirmation: ""The person is surrounding the sandwich."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-596.jpg,b026c787071a9003,is this affirmation the person is surrounding the sandwich correct
+cauldron-vsr-180,vsr,image_necessary,0.3182433098554611,0.1426226049661636,0.4608659148216247,"Evaluate: Does the caption ""The oven is below the pizza."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-180.jpg,9a9a18383899c3e7,evaluate does the caption the oven is below the pizza match the image
+cauldron-vsr-34,vsr,image_necessary,0.2158167213201522,0.0924196988344192,0.3082364201545715,"Does the caption ""The person is touching the sandwich."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-34.jpg,c1389cdcd5713139,does the caption the person is touching the sandwich correctly depict the image
+cauldron-vsr-453,vsr,image_necessary,0.1972255557775497,0.0411706715822219,0.2383962273597717,"Does the caption ""The sheep is inside the bottle."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-453.jpg,ed2909884061c5d,does the caption the sheep is inside the bottle correctly depict the image
+cauldron-vsr-340,vsr,image_necessary,0.4325660616159439,0.0644233673810958,0.4969894289970398,"Is this affirmation: ""The orange is at the right side of the person."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-340.jpg,a098383e1a7f4e3e,is this affirmation the orange is at the right side of the person correct
+cauldron-vsr-29,vsr,image_necessary,0.2449802309274673,0.141843095421791,0.3868233263492584,"Is the given caption ""The elephant is in front of the truck."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-29.jpg,cccfcfcfcfcfcfcf,is the given caption the elephant is in front of the truck fitting for the image
+cauldron-vsr-538,vsr,image_necessary,0.2975743561983108,0.158828780055046,0.4564031362533569,"Does the caption ""The elephant is below the person."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-538.jpg,73f3733333333313,does the caption the elephant is below the person correctly depict the image
+cauldron-vsr-285,vsr,text_answerable,-0.1418232023715973,0.4210764765739441,0.2792532742023468,"Is the caption ""The bowl is next to the hot dog."" a true representation of the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-285.jpg,d08e13232b2fb4e0,is the caption the bowl is next to the hot dog a true representation of the image
+cauldron-vsr-656,vsr,image_necessary,0.3282369971275329,0.2902482748031616,0.6184852719306946,"Does the image validate the caption ""The apple is under the bird.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-656.jpg,4e8e9d919b8ca830,does the image validate the caption the apple is under the bird
+cauldron-vsr-666,vsr,image_necessary,0.353907860815525,0.1018106564879417,0.4557185173034668,"Is the given caption ""The pizza is touching the person."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-666.jpg,1f3e1e1f7c7c78d8,is the given caption the pizza is touching the person fitting for the image
+cauldron-vsr-496,vsr,image_necessary,0.3142162263393402,0.1256148517131805,0.4398310780525207,"Evaluate: Does the caption ""The hot dog is at the edge of the dining table."" match the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-496.jpg,703c4e6333994999,evaluate does the caption the hot dog is at the edge of the dining table match the image
+cauldron-vsr-463,vsr,image_necessary,0.5820896625518799,0.0384488105773925,0.6205384731292725,"Is the caption ""The couch is under the teddy bear."" a true representation of the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-463.jpg,f0e0f0d8c8f0e8e8,is the caption the couch is under the teddy bear a true representation of the image
+cauldron-vsr-9,vsr,image_necessary,0.2069037705659866,0.1422158628702163,0.349119633436203,"Evaluate: Does the caption ""The person is touching the pizza."" match the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-9.jpg,60e8dadecef2f1b1,evaluate does the caption the person is touching the pizza match the image
+cauldron-vsr-213,vsr,image_necessary,0.2784117236733436,0.0825429186224937,0.3609546422958374,"Evaluate: Does the caption ""The pizza is inside the oven."" match the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-213.jpg,40d8b0197838382c,evaluate does the caption the pizza is inside the oven match the image
+cauldron-vsr-79,vsr,image_necessary,0.3097094092518091,0.0196966435760259,0.3294060528278351,"Does the description: ""The cake is in the oven."" accurately reflect the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-79.jpg,101616141c1c0c0,does the description the cake is in the oven accurately reflect the image
+cauldron-vsr-613,vsr,image_necessary,0.2638183557428419,0.0059278882108628,0.2697462439537048,"Does the image validate the caption ""The potted plant is near the boat.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-613.jpg,8ccc8b2161c3cb8d,does the image validate the caption the potted plant is near the boat
+cauldron-vsr-358,vsr,image_necessary,0.4032812863588333,0.0909823924303054,0.4942636787891388,"Does the caption ""The bird is left of the teddy bear."" correctly depict the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-358.jpg,c7c7d0b4e89998c0,does the caption the bird is left of the teddy bear correctly depict the image
+cauldron-vsr-710,vsr,image_necessary,0.194084033370018,0.2170836180448532,0.4111676514148712,"Verify the accuracy of this image caption: ""The person is under the umbrella."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-710.jpg,1f9c68484c0e1a1b,verify the accuracy of this image caption the person is under the umbrella
+cauldron-vsr-449,vsr,image_necessary,0.1840776894241571,0.0210327263921499,0.205110415816307,"Is the statement ""The teddy bear is on the couch."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-449.jpg,3627636161f6ec48,is the statement the teddy bear is on the couch accurate regarding the image
+cauldron-vsr-699,vsr,image_necessary,0.3086718022823334,0.1376881897449493,0.4463599920272827,"Is this affirmation: ""The tv is in front of the person."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-699.jpg,2b1a165666666767,is this affirmation the tv is in front of the person correct
+cauldron-vsr-182,vsr,image_necessary,0.3735304474830627,0.1667563915252685,0.5402868390083313,"Verify the accuracy of this image caption: ""The cow is touching the person."".
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-182.jpg,1d0f07cdcdbadbeb,verify the accuracy of this image caption the cow is touching the person
+cauldron-vsr-238,vsr,image_necessary,0.270475685596466,0.1396206617355346,0.4100963473320007,"Verify the accuracy of this image caption: ""The pizza is above the bicycle."".
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-238.jpg,f0cccc8b0483d8c0,verify the accuracy of this image caption the pizza is above the bicycle
+cauldron-vsr-526,vsr,image_necessary,0.3723131604492664,0.0487563423812389,0.4210695028305053,"Does the image validate the caption ""The sandwich is touching the person.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-526.jpg,c7cb4c20c1819060,does the image validate the caption the sandwich is touching the person
+cauldron-vsr-38,vsr,image_necessary,0.5642024017870426,0.051507618278265,0.6157100200653076,"Is the given caption ""The cow is on the tv."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-38.jpg,1fd89898b8f0e12f,is the given caption the cow is on the tv fitting for the image
+cauldron-vsr-296,vsr,image_necessary,0.45164904743433,0.0413693413138389,0.4930183887481689,"Is the given caption ""The couch is adjacent to the pizza."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-296.jpg,6064606868b090f0,is the given caption the couch is adjacent to the pizza fitting for the image
+cauldron-vsr-413,vsr,image_necessary,0.3967566154897213,0.0615536905825138,0.4583103060722351,"Does the image validate the caption ""The person is touching the pizza.""?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-413.jpg,1131b5a4a3030f0e,does the image validate the caption the person is touching the pizza
+cauldron-vsr-390,vsr,image_necessary,0.3419135045260191,0.0175063479691743,0.3594198524951935,"Is the statement ""The couch is on top of the truck."" accurate regarding the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-390.jpg,42038e043036370,is the statement the couch is on top of the truck accurate regarding the image
+cauldron-vsr-545,vsr,image_necessary,0.4043818227946758,0.0556668527424335,0.4600486755371094,"Is the given caption ""The orange is touching the dining table."" fitting for the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-545.jpg,c082a4e4f8dccef8,is the given caption the orange is touching the dining table fitting for the image
+cauldron-vsr-7,vsr,image_necessary,0.3427322153002023,0.016681408509612,0.3594136238098144,"Is this affirmation: ""The teddy bear is in the couch."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-7.jpg,7171b1e8f0f0f0f0,is this affirmation the teddy bear is in the couch correct
+cauldron-vsr-764,vsr,image_necessary,0.3338342756032944,0.0835654884576797,0.4173997640609741,"Does the description: ""The person is touching the sandwich."" accurately reflect the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-764.jpg,dac1dac4f1f8e8f0,does the description the person is touching the sandwich accurately reflect the image
+cauldron-vsr-505,vsr,image_necessary,0.3154048323631286,0.1039193272590637,0.4193241596221924,"Is the given caption ""The person is touching the hot dog."" fitting for the image?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-505.jpg,33f1f070f85878e8,is the given caption the person is touching the hot dog fitting for the image
+cauldron-vsr-774,vsr,image_necessary,0.1951871290802955,0.0342349335551261,0.2294220626354217,"Does the caption ""The bus is facing the fire hydrant."" correctly depict the image?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-774.jpg,dc9cb821898941e1,does the caption the bus is facing the fire hydrant correctly depict the image
+cauldron-vsr-749,vsr,image_necessary,0.3214381784200668,0.2185115367174148,0.5399497151374817,"Is this affirmation: ""The person is far from the boat."" correct?
+Answer yes or no.",Yes.,results/tier2\full\images\cauldron-vsr-749.jpg,f8e08c0c66030812,is this affirmation the person is far from the boat correct
+cauldron-vsr-64,vsr,image_necessary,0.2631045803427696,0.116702027618885,0.3798066079616546,"Is this affirmation: ""The person is touching the bowl."" correct?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-64.jpg,cbc5c3d3e3e3b890,is this affirmation the person is touching the bowl correct
+cauldron-vsr-609,vsr,image_necessary,0.2264913767576217,0.1325333565473556,0.3590247333049774,"Does the image validate the caption ""The donut is at the right side of the dining table.""?
+Answer yes or no.",No.,results/tier2\full\images\cauldron-vsr-609.jpg,7c9f7f4d4c71330f,does the image validate the caption the donut is at the right side of the dining table

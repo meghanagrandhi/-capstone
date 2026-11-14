@@ -133,3 +133,133 @@
 === PAUSED by user (moving to another machine) 2026-11-10 11:53:01
 === GRID QUEUE smolvlm START 2026-11-10 11:53:34
 === GRID QUEUE smolvlm COMPLETE 2026-11-10 11:53:40
+=== GRID QUEUE smolvlm START 2026-11-10 18:34:15
+=== GRID QUEUE smolvlm COMPLETE 2026-11-10 18:34:20
+=== GRID QUEUE smolvlm START 2026-11-10 18:34:20
+=== GRID QUEUE smolvlm COMPLETE 2026-11-10 18:34:24
+=== GRID QUEUE smolvlm START 2026-11-10 18:36:49
+=== START eval_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 18:38:55 (204 GB free, GPU 47C)
+=== PAUSED by user: eval stalled at 0% GPU (SmolVLM download stuck at 0 bytes under hf-xet) 2026-11-10 18:41:48
+=== GRID QUEUE smolvlm START 2026-11-10 18:41:53
+=== START eval_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 18:43:55 (203 GB free, GPU 48C)
+=== PAUSED by user (goal): eval stuck; SmolVLM download unstable; pre-downloading pinned weights 2026-11-10 18:45:03
+=== GRID QUEUE smolvlm START 2026-11-10 18:50:48
+=== START eval_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 18:52:50 (197 GB free, GPU 47C)
+=== GRID QUEUE smolvlm START 2026-11-10 18:56:50
+=== START train_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 18:58:54 (197 GB free, GPU 49C)
+=== END train_smolvlm_grid_text10_r8_s1 try 1 rc=0 19:13:58
+=== START eval_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 19:15:58 (196 GB free, GPU 51C)
+=== PAUSED by user: restarting with heat cutoffs disabled (COOL_C=200 HOT_C=200 via environment; script file unchanged) 2026-11-10 19:17:18
+=== GRID QUEUE smolvlm START 2026-11-10 19:17:18
+=== START eval_smolvlm_grid_text10_r8_s1 try 1 2026-11-10 19:19:21 (196 GB free, GPU 45C)
+=== END eval_smolvlm_grid_text10_r8_s1 try 1 rc=0 19:46:57
+=== DONE smolvlm_grid_text10_r8_s1 (locked_test=0) 2026-11-10 19:46:57
+=== START train_smolvlm_grid_text30_r8_s1 try 1 2026-11-10 19:48:58 (196 GB free, GPU 43C)
+=== END train_smolvlm_grid_text30_r8_s1 try 1 rc=0 20:03:01
+=== START eval_smolvlm_grid_text30_r8_s1 try 1 2026-11-10 20:05:01 (194 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text30_r8_s1 try 1 rc=0 20:30:06
+=== DONE smolvlm_grid_text30_r8_s1 (locked_test=0) 2026-11-10 20:30:06
+=== START train_smolvlm_grid_text50_r8_s1 try 1 2026-11-10 20:32:06 (194 GB free, GPU 44C)
+=== END train_smolvlm_grid_text50_r8_s1 try 1 rc=0 20:45:39
+=== START eval_smolvlm_grid_text50_r8_s1 try 1 2026-11-10 20:47:39 (194 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text50_r8_s1 try 1 rc=0 21:12:45
+=== DONE smolvlm_grid_text50_r8_s1 (locked_test=1) 2026-11-10 21:12:45
+=== START train_smolvlm_grid_text70_r8_s1 try 1 2026-11-10 21:14:45 (194 GB free, GPU 44C)
+=== END train_smolvlm_grid_text70_r8_s1 try 1 rc=0 21:28:18
+=== START eval_smolvlm_grid_text70_r8_s1 try 1 2026-11-10 21:30:18 (194 GB free, GPU 46C)
+=== END eval_smolvlm_grid_text70_r8_s1 try 1 rc=0 21:57:23
+=== DONE smolvlm_grid_text70_r8_s1 (locked_test=0) 2026-11-10 21:57:23
+=== START train_smolvlm_grid_text90_r8_s1 try 1 2026-11-10 21:59:23 (194 GB free, GPU 44C)
+=== END train_smolvlm_grid_text90_r8_s1 try 1 rc=0 22:16:27
+=== START eval_smolvlm_grid_text90_r8_s1 try 1 2026-11-10 22:18:27 (192 GB free, GPU 45C)
+=== END eval_smolvlm_grid_text90_r8_s1 try 1 rc=0 22:44:31
+=== DONE smolvlm_grid_text90_r8_s1 (locked_test=0) 2026-11-10 22:44:32
+=== START train_smolvlm_grid_text10_lr0.0001_s1 try 1 2026-11-10 22:46:32 (192 GB free, GPU 44C)
+=== END train_smolvlm_grid_text10_lr0.0001_s1 try 1 rc=0 23:01:35
+=== START eval_smolvlm_grid_text10_lr0.0001_s1 try 1 2026-11-10 23:03:36 (188 GB free, GPU 46C)
+=== END eval_smolvlm_grid_text10_lr0.0001_s1 try 1 rc=0 23:32:12
+=== DONE smolvlm_grid_text10_lr0.0001_s1 (locked_test=0) 2026-11-10 23:32:12
+=== START train_smolvlm_grid_text30_lr0.0001_s1 try 1 2026-11-10 23:34:12 (192 GB free, GPU 43C)
+=== END train_smolvlm_grid_text30_lr0.0001_s1 try 1 rc=0 23:47:45
+=== START eval_smolvlm_grid_text30_lr0.0001_s1 try 1 2026-11-10 23:49:45 (192 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text30_lr0.0001_s1 try 1 rc=0 00:14:50
+=== DONE smolvlm_grid_text30_lr0.0001_s1 (locked_test=0) 2026-11-11 00:14:51
+=== START train_smolvlm_grid_text50_lr0.0001_s1 try 1 2026-11-11 00:16:51 (191 GB free, GPU 44C)
+=== END train_smolvlm_grid_text50_lr0.0001_s1 try 1 rc=0 00:30:24
+=== START eval_smolvlm_grid_text50_lr0.0001_s1 try 1 2026-11-11 00:32:24 (190 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text50_lr0.0001_s1 try 1 rc=0 00:57:59
+=== DONE smolvlm_grid_text50_lr0.0001_s1 (locked_test=1) 2026-11-11 00:57:59
+=== START train_smolvlm_grid_text70_lr0.0001_s1 try 1 2026-11-11 01:00:00 (191 GB free, GPU 43C)
+=== END train_smolvlm_grid_text70_lr0.0001_s1 try 1 rc=0 01:13:32
+=== START eval_smolvlm_grid_text70_lr0.0001_s1 try 1 2026-11-11 01:15:32 (190 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text70_lr0.0001_s1 try 1 rc=0 01:40:37
+=== DONE smolvlm_grid_text70_lr0.0001_s1 (locked_test=0) 2026-11-11 01:40:38
+=== START train_smolvlm_grid_text90_lr0.0001_s1 try 1 2026-11-11 01:42:38 (191 GB free, GPU 44C)
+=== END train_smolvlm_grid_text90_lr0.0001_s1 try 1 rc=0 01:56:11
+=== START eval_smolvlm_grid_text90_lr0.0001_s1 try 1 2026-11-11 01:58:11 (190 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text90_lr0.0001_s1 try 1 rc=0 02:23:16
+=== DONE smolvlm_grid_text90_lr0.0001_s1 (locked_test=0) 2026-11-11 02:23:16
+=== START train_smolvlm_grid_text10_lr0.0001_r8_s1 try 1 2026-11-11 02:25:16 (190 GB free, GPU 44C)
+=== END train_smolvlm_grid_text10_lr0.0001_r8_s1 try 1 rc=0 02:38:49
+=== START eval_smolvlm_grid_text10_lr0.0001_r8_s1 try 1 2026-11-11 02:40:49 (190 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text10_lr0.0001_r8_s1 try 1 rc=0 03:05:54
+=== DONE smolvlm_grid_text10_lr0.0001_r8_s1 (locked_test=0) 2026-11-11 03:05:54
+=== START train_smolvlm_grid_text30_lr0.0001_r8_s1 try 1 2026-11-11 03:07:55 (190 GB free, GPU 44C)
+=== END train_smolvlm_grid_text30_lr0.0001_r8_s1 try 1 rc=0 03:21:28
+=== START eval_smolvlm_grid_text30_lr0.0001_r8_s1 try 1 2026-11-11 03:23:28 (190 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text30_lr0.0001_r8_s1 try 1 rc=0 03:48:33
+=== DONE smolvlm_grid_text30_lr0.0001_r8_s1 (locked_test=0) 2026-11-11 03:48:33
+=== START train_smolvlm_grid_text50_lr0.0001_r8_s1 try 1 2026-11-11 03:50:33 (189 GB free, GPU 43C)
+=== END train_smolvlm_grid_text50_lr0.0001_r8_s1 try 1 rc=0 04:04:06
+=== START eval_smolvlm_grid_text50_lr0.0001_r8_s1 try 1 2026-11-11 04:06:06 (189 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text50_lr0.0001_r8_s1 try 1 rc=0 04:31:11
+=== DONE smolvlm_grid_text50_lr0.0001_r8_s1 (locked_test=1) 2026-11-11 04:31:11
+=== START train_smolvlm_grid_text70_lr0.0001_r8_s1 try 1 2026-11-11 04:33:12 (189 GB free, GPU 43C)
+=== END train_smolvlm_grid_text70_lr0.0001_r8_s1 try 1 rc=0 04:46:44
+=== START eval_smolvlm_grid_text70_lr0.0001_r8_s1 try 1 2026-11-11 04:48:45 (189 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text70_lr0.0001_r8_s1 try 1 rc=0 05:13:49
+=== DONE smolvlm_grid_text70_lr0.0001_r8_s1 (locked_test=0) 2026-11-11 05:13:50
+=== START train_smolvlm_grid_text90_lr0.0001_r8_s1 try 1 2026-11-11 05:15:50 (189 GB free, GPU 43C)
+=== END train_smolvlm_grid_text90_lr0.0001_r8_s1 try 1 rc=0 05:29:23
+=== START eval_smolvlm_grid_text90_lr0.0001_r8_s1 try 1 2026-11-11 05:31:23 (189 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text90_lr0.0001_r8_s1 try 1 rc=0 05:56:28
+=== DONE smolvlm_grid_text90_lr0.0001_r8_s1 (locked_test=0) 2026-11-11 05:56:28
+=== START train_smolvlm_grid_text10_s2 try 1 2026-11-11 05:58:28 (189 GB free, GPU 43C)
+=== END train_smolvlm_grid_text10_s2 try 1 rc=0 06:12:01
+=== START eval_smolvlm_grid_text10_s2 try 1 2026-11-11 06:14:01 (188 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text10_s2 try 1 rc=0 06:40:11
+=== DONE smolvlm_grid_text10_s2 (locked_test=0) 2026-11-11 06:40:11
+=== START train_smolvlm_grid_text30_s2 try 1 2026-11-11 06:42:12 (178 GB free, GPU 42C)
+=== END train_smolvlm_grid_text30_s2 try 1 rc=0 06:56:45
+=== START eval_smolvlm_grid_text30_s2 try 1 2026-11-11 06:58:45 (181 GB free, GPU 44C)
+=== RESTART by assistant: queue was not running (no bash/python job since boot 07:19:51; last eval line 07:14:05); resuming with COOL_C=200 HOT_C=200 2026-11-11 09:18:40
+=== GRID QUEUE smolvlm START 2026-11-11 09:18:40
+=== START eval_smolvlm_grid_text30_s2 try 1 2026-11-11 09:20:44 (197 GB free, GPU 41C)
+=== END eval_smolvlm_grid_text30_s2 try 1 rc=0 09:31:46
+=== DONE smolvlm_grid_text30_s2 (locked_test=0) 2026-11-11 09:31:46
+=== START train_smolvlm_grid_text50_s2 try 1 2026-11-11 09:33:46 (203 GB free, GPU 43C)
+=== END train_smolvlm_grid_text50_s2 try 1 rc=0 09:48:20
+=== START eval_smolvlm_grid_text50_s2 try 1 2026-11-11 09:50:20 (203 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text50_s2 try 1 rc=0 10:16:24
+=== DONE smolvlm_grid_text50_s2 (locked_test=1) 2026-11-11 10:16:24
+=== START train_smolvlm_grid_text70_s2 try 1 2026-11-11 10:18:25 (201 GB free, GPU 44C)
+=== END train_smolvlm_grid_text70_s2 try 1 rc=0 10:32:57
+=== START eval_smolvlm_grid_text70_s2 try 1 2026-11-11 10:34:58 (200 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text70_s2 try 1 rc=0 11:00:32
+=== DONE smolvlm_grid_text70_s2 (locked_test=0) 2026-11-11 11:00:33
+=== START train_smolvlm_grid_text90_s2 try 1 2026-11-11 11:02:33 (200 GB free, GPU 43C)
+=== END train_smolvlm_grid_text90_s2 try 1 rc=0 11:16:05
+=== START eval_smolvlm_grid_text90_s2 try 1 2026-11-11 11:18:06 (199 GB free, GPU 43C)
+=== END eval_smolvlm_grid_text90_s2 try 1 rc=0 11:43:11
+=== DONE smolvlm_grid_text90_s2 (locked_test=0) 2026-11-11 11:43:11
+=== START train_smolvlm_grid_text10_st62 try 1 2026-11-11 11:45:11 (200 GB free, GPU 43C)
+=== END train_smolvlm_grid_text10_st62 try 1 rc=0 11:54:13
+=== START eval_smolvlm_grid_text10_st62 try 1 2026-11-11 11:56:13 (199 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text10_st62 try 1 rc=0 12:21:21
+=== DONE smolvlm_grid_text10_st62 (locked_test=0) 2026-11-11 12:21:21
+=== START train_smolvlm_grid_text90_st62 try 1 2026-11-11 12:23:21 (199 GB free, GPU 43C)
+=== END train_smolvlm_grid_text90_st62 try 1 rc=0 12:32:53
+=== START eval_smolvlm_grid_text90_st62 try 1 2026-11-11 12:34:53 (199 GB free, GPU 44C)
+=== END eval_smolvlm_grid_text90_st62 try 1 rc=0 13:00:28
+=== DONE smolvlm_grid_text90_st62 (locked_test=0) 2026-11-11 13:00:28
+=== GRID QUEUE smolvlm COMPLETE 2026-11-11 13:00:28

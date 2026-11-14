@@ -1,0 +1,62 @@
+{
+  "mixture_size1200_text10": {
+    "n": 1050,
+    "text_share": 0.1,
+    "mean_gap": 1.3050989543730838,
+    "yes_share_of_yes_no": 0.4966887417218543,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 270,
+        "text_answerable": 30
+      },
+      "cocoqa": {
+        "image_necessary": 270,
+        "text_answerable": 30
+      },
+      "tallyqa": {
+        "image_necessary": 270,
+        "text_answerable": 30
+      },
+      "vsr": {
+        "image_necessary": 135,
+        "text_answerable": 15
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 63,
+      "image_necessary/yes": 73,
+      "text_answerable/no": 13,
+      "text_answerable/yes": 2
+    }
+  },
+  "mixture_size1200_text90": {
+    "n": 1050,
+    "text_share": 0.9,
+    "mean_gap": 0.1529730484696726,
+    "yes_share_of_yes_no": 0.4935064935064935,
+    "by_subset": {
+      "aokvqa": {
+        "image_necessary": 30,
+        "text_answerable": 270
+      },
+      "cocoqa": {
+        "image_necessary": 30,
+        "text_answerable": 270
+      },
+      "tallyqa": {
+        "image_necessary": 30,
+        "text_answerable": 270
+      },
+      "vsr": {
+        "image_necessary": 15,
+        "text_answerable": 135
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 8,
+      "image_necessary/yes": 7,
+      "text_answerable/no": 70,
+      "text_answerable/yes": 69
+    }
+  }
+}

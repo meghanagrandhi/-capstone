@@ -42,7 +42,7 @@ def main():
     lr = t3["lr"] if a.lr is None else a.lr
     r = t3["lora_r"] if a.lora_r is None else a.lora_r
     alpha = t3["lora_alpha"] if a.lora_r is None else 2 * r
-    grid = a.mixture.startswith("grid_")
+    grid = a.mixture.startswith(("grid_", "screen_"))  # screen_*: dataset-combination screen, same probe and settings as grid
     hp = ""
     if grid:  # grid runs: name carries every non-default hyperparameter
         hp += f"_lr{lr:g}" if lr != t3["lr"] else ""

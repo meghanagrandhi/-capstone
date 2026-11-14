@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+A=500 G=581 probe=0
+W1114 01:19:42.893000 27116 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 3/657 [00:00<00:30, 21.31it/s]Loading weights:   4%|▎         | 24/657 [00:00<00:05, 115.70it/s]Loading weights:   6%|▋         | 42/657 [00:00<00:04, 139.60it/s]Loading weights:  10%|▉         | 65/657 [00:00<00:03, 172.60it/s]Loading weights:  13%|█▎        | 88/657 [00:00<00:03, 187.77it/s]Loading weights:  17%|█▋        | 114/657 [00:00<00:02, 210.73it/s]Loading weights:  21%|██▏       | 140/657 [00:00<00:02, 225.72it/s]Loading weights:  25%|██▍       | 164/657 [00:00<00:02, 229.79it/s]Loading weights:  29%|██▊       | 188/657 [00:00<00:02, 226.33it/s]Loading weights:  32%|███▏      | 212/657 [00:01<00:01, 226.23it/s]Loading weights:  52%|█████▏    | 341/657 [00:01<00:00, 537.01it/s]Loading weights:  77%|███████▋  | 503/657 [00:01<00:00, 855.64it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 480.32it/s]
+  smolvlm_screen_size450_text10_st62 step 0/62: A_real=0.400 G_real=0.382 G_blank=0.193  [0.0 min]
+  smolvlm_screen_size450_text10_st62 step 62/62: A_real=0.412 G_real=0.365 G_blank=0.203  [9.4 min]
+saved results/tier3/eval_screen/checkpoint_eval_v2.csv (52 rows); 9.4 min

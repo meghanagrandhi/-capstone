@@ -1,0 +1,601 @@
+id,subset,label,gap,nll_real,nll_blank,user,answer,image_path,dhash,qnorm
+cauldron-cocoqa-5,cocoqa,text_answerable,0.9257193952798844,0.1332996934652328,1.0590190887451172,"What is the color of the dog
+Be succinct.",Black.,results/tier2\full\images\cauldron-cocoqa-5.jpg,1880c0f0e2e0e8e3,what is the color of the dog
+cauldron-cocoqa-593,cocoqa,text_answerable,0.3119877576828003,0.910408616065979,1.2223963737487793,"What and long handled plunger in a cleaned bathroom
+Keep it brief.",Toilet.,results/tier2\full\images\cauldron-cocoqa-593.jpg,f078783838183878,what and long handled plunger in a cleaned bathroom
+cauldron-cocoqa-441,cocoqa,text_answerable,0.3674929067492485,0.0427320078015327,0.4102249145507812,"What is the color of the bear
+Short answer required.",Brown.,results/tier2\full\images\cauldron-cocoqa-441.jpg,c6a4383046643c38,what is the color of the bear
+cauldron-cocoqa-108,cocoqa,text_answerable,1.0799905061721802,1.5486992597579956,2.628689765930176,"What is slowing down as it passes through a crossing with its lights on
+Be succinct.",Locomotive.,results/tier2\full\images\cauldron-cocoqa-108.jpg,f2c3c31998938110,what is slowing down as it passes through a crossing with its lights on
+cauldron-cocoqa-396,cocoqa,text_answerable,-0.2660412788391113,2.755244731903076,2.489203453063965,"How many slice is there of pizza left in the box
+Be succinct.",One.,results/tier2\full\images\cauldron-cocoqa-396.jpg,f2f8e4c2da9a9696,how many slice is there of pizza left in the box
+cauldron-cocoqa-369,cocoqa,text_answerable,1.0931491553783417,0.3437277376651764,1.436876893043518,"What is the color of the cow
+Quick response, please.",Brown.,results/tier2\full\images\cauldron-cocoqa-369.jpg,38391b3a7c3878f8,what is the color of the cow
+cauldron-cocoqa-213,cocoqa,text_answerable,-0.0848027467727661,1.5675992965698242,1.482796549797058,"What is the color of the flowers
+Write a very short answer.",Purple.,results/tier2\full\images\cauldron-cocoqa-213.jpg,cecececec6d6cec6,what is the color of the flowers
+cauldron-cocoqa-519,cocoqa,text_answerable,0.889216423034668,2.867893695831299,3.757110118865967,"How many women are ridng together on their horses
+Write a very short answer.",Four.,results/tier2\full\images\cauldron-cocoqa-519.jpg,e6e664b4a62b1838,how many women are ridng together on their horses
+cauldron-cocoqa-226,cocoqa,text_answerable,0.1564744710922241,1.2276045083999634,1.3840789794921875,"What is the color of the frisbee
+Be succinct.",Yellow.,results/tier2\full\images\cauldron-cocoqa-226.jpg,f8a627372f6c5e66,what is the color of the frisbee
+cauldron-cocoqa-272,cocoqa,text_answerable,1.2123588621616364,0.0780405700206756,1.290399432182312,"What is the color of the bus
+Concise answer only.",Yellow.,results/tier2\full\images\cauldron-cocoqa-272.jpg,fefd4fe7c4c0f08c,what is the color of the bus
+cauldron-cocoqa-438,cocoqa,text_answerable,0.7654758021235466,0.0788412764668464,0.8443170785903931,"What is the color of the juice
+Short answer required.",Orange.,results/tier2\full\images\cauldron-cocoqa-438.jpg,993b3b2b296153d3,what is the color of the juice
+cauldron-cocoqa-705,cocoqa,text_answerable,0.7236071452498436,0.0725433006882667,0.7961504459381104,"What is the color of the sign
+Short answer required.",Red.,results/tier2\full\images\cauldron-cocoqa-705.jpg,35fc67b99898a8c8,what is the color of the sign
+cauldron-cocoqa-94,cocoqa,text_answerable,0.4493045061826706,0.0956199914216995,0.5449244976043701,"What is the color of the airplane
+Short answer required.",White.,results/tier2\full\images\cauldron-cocoqa-94.jpg,dafcfcfffad2db7e,what is the color of the airplane
+cauldron-cocoqa-539,cocoqa,text_answerable,0.4419893212616443,0.0337127260863781,0.4757020473480224,"What is the color of the grass
+Quick response, please.",Green.,results/tier2\full\images\cauldron-cocoqa-539.jpg,d4c6cbedd0d494f4,what is the color of the grass
+cauldron-cocoqa-389,cocoqa,image_necessary,4.034508392214775,0.1398709565401077,4.174379348754883,"What is the woman holding on the grass
+Give a very brief answer.",Bat.,results/tier2\full\images\cauldron-cocoqa-389.jpg,e0c0c4c4c4c4e6f2,what is the woman holding on the grass
+cauldron-cocoqa-167,cocoqa,image_necessary,2.195908069610596,4.411749839782715,6.607657909393311,"What a sandwich and another piece of food
+Keep it brief.",Coffee.,results/tier2\full\images\cauldron-cocoqa-167.jpg,e5f9f1a18d963717,what a sandwich and another piece of food
+cauldron-cocoqa-48,cocoqa,text_answerable,1.215189978480339,0.0752094537019729,1.290399432182312,"What is the color of the bus
+Concise answer only.",Yellow.,results/tier2\full\images\cauldron-cocoqa-48.jpg,1cdc98801818b6cc,what is the color of the bus
+cauldron-cocoqa-662,cocoqa,text_answerable,-0.2314999103546142,1.4689090251922607,1.2374091148376465,"What is the woman holding preparing to swing
+Short answer required.",Racquet.,results/tier2\full\images\cauldron-cocoqa-662.jpg,c7889870c0cc40c0,what is the woman holding preparing to swing
+cauldron-cocoqa-351,cocoqa,text_answerable,0.2312117367982864,0.0940090864896774,0.3252208232879638,"What is the color of the hillside
+Answer briefly.",Green.,results/tier2\full\images\cauldron-cocoqa-351.jpg,4a2a5b5a4c4c080,what is the color of the hillside
+cauldron-cocoqa-241,cocoqa,text_answerable,-0.0255711078643798,3.205719470977783,3.180148363113404,"Where is a beige couch and orange pillows
+Answer briefly.",Room.,results/tier2\full\images\cauldron-cocoqa-241.jpg,34349d0941200003,where is a beige couch and orange pillows
+cauldron-cocoqa-399,cocoqa,text_answerable,0.702957272529602,1.1937137842178345,1.8966710567474363,"What hangs below the tree 's green foliage
+Short answer required.",Fruit.,results/tier2\full\images\cauldron-cocoqa-399.jpg,434045c7c6836141,what hangs below the tree s green foliage
+cauldron-cocoqa-588,cocoqa,text_answerable,0.2535616159439087,1.3870222568511963,1.640583872795105,"What did the horse standing on top of a grass cover
+Keep it brief.",Hillside.,results/tier2\full\images\cauldron-cocoqa-588.jpg,7efcf8e898d93222,what did the horse standing on top of a grass cover
+cauldron-cocoqa-93,cocoqa,text_answerable,0.6271721124649048,1.2329392433166504,1.8601113557815552,"What is the color of the jacket
+Give a very brief answer.",Gray.,results/tier2\full\images\cauldron-cocoqa-93.jpg,fcfc6c3a131b7928,what is the color of the jacket
+cauldron-cocoqa-314,cocoqa,text_answerable,0.7700127363204956,1.074666976928711,1.8446797132492063,"What graze on grass in a field
+Keep it brief.",Horses.,results/tier2\full\images\cauldron-cocoqa-314.jpg,b4cccc8e9694b2b1,what graze on grass in a field
+cauldron-cocoqa-628,cocoqa,text_answerable,0.4196329116821289,2.528369426727295,2.948002338409424,"How many containers are there with different types of food
+Give a very brief answer.",Three.,results/tier2\full\images\cauldron-cocoqa-628.jpg,9068c0e6bc3c9898,how many containers are there with different types of food
+cauldron-cocoqa-621,cocoqa,text_answerable,0.8685790365561843,0.0155215198174119,0.8841005563735962,"What is the color of the plate
+Quick response, please.",White.,results/tier2\full\images\cauldron-cocoqa-621.jpg,170b2323131303c7,what is the color of the plate
+cauldron-cocoqa-607,cocoqa,text_answerable,0.9923689961433412,0.1812527775764465,1.1736217737197876,"What does man hold during a baseball game
+Answer briefly.",Bat.,results/tier2\full\images\cauldron-cocoqa-607.jpg,ed0c1f9ce4cbd994,what does man hold during a baseball game
+cauldron-cocoqa-12,cocoqa,text_answerable,1.2272512912750244,3.7323524951934814,4.959603786468506,"How many boats anchored by ropes close to shore
+Be succinct.",Eight.,results/tier2\full\images\cauldron-cocoqa-12.jpg,5ff98b8ee4cc0110,how many boats anchored by ropes close to shore
+cauldron-cocoqa-162,cocoqa,image_necessary,4.6149841994047165,0.2414391785860061,4.856423377990723,"What dressed in motorcycle gear , atop of a motorcycle
+Write a very short answer.",Dog.,results/tier2\full\images\cauldron-cocoqa-162.jpg,8181c3c37978d19,what dressed in motorcycle gear  atop of a motorcycle
+cauldron-cocoqa-653,cocoqa,image_necessary,5.183927416801453,0.1663199663162231,5.350247383117676,"What relaxing and is falling asleep on the chair
+Give a very brief answer.",Dog.,results/tier2\full\images\cauldron-cocoqa-653.jpg,ff9f1f1e1e1eb81e,what relaxing and is falling asleep on the chair
+cauldron-cocoqa-97,cocoqa,text_answerable,1.014714002609253,0.500690221786499,1.515404224395752,"What is flying in the sky
+Write a very short answer.",Airplane.,results/tier2\full\images\cauldron-cocoqa-97.jpg,e0e080e10c4ec8e0,what is flying in the sky
+cauldron-cocoqa-294,cocoqa,text_answerable,0.7096706181764603,0.1041035503149032,0.8137741684913635,"What is the color of the korean
+Be succinct.",Blue.,results/tier2\full\images\cauldron-cocoqa-294.jpg,e0e070e8e4e4c0e0,what is the color of the korean
+cauldron-cocoqa-109,cocoqa,text_answerable,1.0973079726099968,0.0996553376317024,1.1969633102416992,"What is the color of the bridge
+Quick response, please.",White.,results/tier2\full\images\cauldron-cocoqa-109.jpg,c0e060e0d070f0e0,what is the color of the bridge
+cauldron-cocoqa-636,cocoqa,text_answerable,0.7859674692153931,0.475329041481018,1.2612965106964111,"The lady wearing what is on the phone
+Concise answer only.",Dress.,results/tier2\full\images\cauldron-cocoqa-636.jpg,dc7c7c78d31189cc,the lady wearing what is on the phone
+cauldron-cocoqa-18,cocoqa,image_necessary,2.207449570298195,0.0345717519521713,2.242021322250366,"What is the box containing seven different flavor frosted
+Give a very brief answer.",Donuts.,results/tier2\full\images\cauldron-cocoqa-18.jpg,61812062380b0d49,what is the box containing seven different flavor frosted
+cauldron-cocoqa-47,cocoqa,text_answerable,0.5609233379364014,2.900844097137451,3.4617674350738525,"How many giraffes walking near a hut in an enclosure
+Write a very short answer.",Two.,results/tier2\full\images\cauldron-cocoqa-47.jpg,6067feb6b4a0b3f5,how many giraffes walking near a hut in an enclosure
+cauldron-cocoqa-330,cocoqa,text_answerable,0.4650197029113769,0.8141481876373291,1.279167890548706,"What parked in the fire station
+Short answer required.",Truck.,results/tier2\full\images\cauldron-cocoqa-330.jpg,8e4decec9cf8ba98,what parked in the fire station
+cauldron-cocoqa-641,cocoqa,text_answerable,0.7088964581489563,0.456087052822113,1.1649835109710691,"What is travelling down the road
+Concise answer only.",Truck.,results/tier2\full\images\cauldron-cocoqa-641.jpg,80818998c0f0,what is travelling down the road
+cauldron-cocoqa-458,cocoqa,text_answerable,0.3915082812309265,0.550812304019928,0.9423205852508544,"What stops beside the straw bag on the beach
+Be succinct.",Seagull.,results/tier2\full\images\cauldron-cocoqa-458.jpg,1c9cba6e6e7726a4,what stops beside the straw bag on the beach
+cauldron-cocoqa-60,cocoqa,text_answerable,0.5466983318328857,3.763232469558716,4.309930801391602,"Where does the clock give the time
+Be succinct.",Station.,results/tier2\full\images\cauldron-cocoqa-60.jpg,84b672b3e697d6d0,where does the clock give the time
+cauldron-cocoqa-758,cocoqa,text_answerable,-0.3229379653930664,4.106045246124268,3.783107280731201,"What a sink and some towels
+Concise answer only.",Room.,results/tier2\full\images\cauldron-cocoqa-758.jpg,333ab9b9bdac8e9a,what a sink and some towels
+cauldron-cocoqa-485,cocoqa,text_answerable,0.4139645099639892,3.3343517780303955,3.7483162879943848,"What is the color of the suit
+Quick response, please.",Orange.,results/tier2\full\images\cauldron-cocoqa-485.jpg,7352525c14e4c4f0,what is the color of the suit
+cauldron-cocoqa-525,cocoqa,text_answerable,-1.2677754163742063,3.037750482559204,1.7699750661849976,"What is the color of the disc
+Concise answer only.",Green.,results/tier2\full\images\cauldron-cocoqa-525.jpg,65e5e0f0e8e0f0f0,what is the color of the disc
+cauldron-cocoqa-196,cocoqa,text_answerable,0.8349689841270447,0.6083140969276428,1.4432830810546875,"What is shown with two computers on top of it
+Write a very short answer.",Desk.,results/tier2\full\images\cauldron-cocoqa-196.jpg,918f0f0b2363b7f7,what is shown with two computers on top of it
+cauldron-cocoqa-572,cocoqa,text_answerable,0.4193418025970459,1.6824846267700195,2.101826429367065,"What is the color of the polka
+Concise answer only.",Brown.,results/tier2\full\images\cauldron-cocoqa-572.jpg,f3f0507060d1babe,what is the color of the polka
+cauldron-cocoqa-461,cocoqa,text_answerable,-0.671728640794754,1.1331920623779297,0.4614634215831756,"What are flying in formation for an airshow
+Concise answer only.",Airplanes.,results/tier2\full\images\cauldron-cocoqa-461.jpg,f8f6e7e7f3f776b5,what are flying in formation for an airshow
+cauldron-cocoqa-757,cocoqa,text_answerable,0.9252143651247025,0.1119538992643356,1.037168264389038,"What is the color of the hat
+Be succinct.",White.,results/tier2\full\images\cauldron-cocoqa-757.jpg,fe084afa7eac161c,what is the color of the hat
+cauldron-cocoqa-682,cocoqa,text_answerable,1.2737523019313812,0.4025301039218902,1.6762824058532717,"Where is the creepy man taking a selfish of himself
+Quick response, please.",Mirror.,results/tier2\full\images\cauldron-cocoqa-682.jpg,c7c6cf2727656567,where is the creepy man taking a selfish of himself
+cauldron-cocoqa-208,cocoqa,image_necessary,4.2282562255859375,2.132051467895508,6.360307693481445,"The sleeping black and white dog wearing what
+Give a very brief answer.",Hat.,results/tier2\full\images\cauldron-cocoqa-208.jpg,2637030d2d278707,the sleeping black and white dog wearing what
+cauldron-cocoqa-371,cocoqa,text_answerable,0.461732417345047,0.4801904857158661,0.9419229030609132,"What are some people at the beach flying
+Short answer required.",Kites.,results/tier2\full\images\cauldron-cocoqa-371.jpg,c38399980020a2e8,what are some people at the beach flying
+cauldron-cocoqa-753,cocoqa,image_necessary,2.706483095884323,0.1450574696063995,2.8515405654907227,"What is crossing the street next to a restaurant
+Write a very short answer.",Horse.,results/tier2\full\images\cauldron-cocoqa-753.jpg,5071012320347143,what is crossing the street next to a restaurant
+cauldron-cocoqa-339,cocoqa,text_answerable,0.5881420969963074,0.5892125964164734,1.1773546934127808,"What is the truck pulling down the road
+Keep it brief.",Truck.,results/tier2\full\images\cauldron-cocoqa-339.jpg,18d8ecc5629b86a1,what is the truck pulling down the road
+cauldron-cocoqa-35,cocoqa,text_answerable,1.0928127765655518,1.8500218391418457,2.942834615707397,"What is shown with toilet paper
+Be succinct.",Sink.,results/tier2\full\images\cauldron-cocoqa-35.jpg,8901067c391f0f07,what is shown with toilet paper
+cauldron-cocoqa-720,cocoqa,text_answerable,1.1871713399887085,0.6550089120864868,1.8421802520751955,"Two men playing what freestyle in the park
+Concise answer only.",Frisbee.,results/tier2\full\images\cauldron-cocoqa-720.jpg,c0c0c8e0b4cd430,two men playing what freestyle in the park
+cauldron-cocoqa-602,cocoqa,text_answerable,0.6323004513978958,0.0797900408506393,0.7120904922485352,"What is the color of the flowers
+Answer briefly.",Red.,results/tier2\full\images\cauldron-cocoqa-602.jpg,18103517040c0e,what is the color of the flowers
+cauldron-cocoqa-165,cocoqa,text_answerable,1.198273882269859,0.1293869167566299,1.3276607990264893,"What travels around the bend of track
+Short answer required.",Train.,results/tier2\full\images\cauldron-cocoqa-165.jpg,fc7430b3709cc180,what travels around the bend of track
+cauldron-cocoqa-496,cocoqa,text_answerable,-0.0574420690536499,1.54218327999115,1.4847412109375,"What is the skier in red not wearing
+Be succinct.",Skis.,results/tier2\full\images\cauldron-cocoqa-496.jpg,5331e13121311010,what is the skier in red not wearing
+cauldron-cocoqa-632,cocoqa,text_answerable,0.6076874732971191,0.2950729131698608,0.90276038646698,"What is the color of the cat
+Concise answer only.",Black.,results/tier2\full\images\cauldron-cocoqa-632.jpg,105191179594800,what is the color of the cat
+cauldron-cocoqa-504,cocoqa,text_answerable,0.7408557534217834,0.7473296523094177,1.4881854057312012,"What cart sitting in front of an airport
+Write a very short answer.",Luggage.,results/tier2\full\images\cauldron-cocoqa-504.jpg,30929e0949800e0,what cart sitting in front of an airport
+cauldron-cocoqa-376,cocoqa,text_answerable,-1.7147209644317627,5.266734600067139,3.552013635635376,"What do the very nice and large modern style rest
+Short answer required.",Room.,results/tier2\full\images\cauldron-cocoqa-376.jpg,64e4f4e48838b9f9,what do the very nice and large modern style rest
+cauldron-cocoqa-778,cocoqa,text_answerable,-2.3533019721508026,2.773193359375,0.4198913872241974,"What is the color of the bear
+Concise answer only.",Brown.,results/tier2\full\images\cauldron-cocoqa-778.jpg,f8e8ee8e8a8b07c7,what is the color of the bear
+cauldron-cocoqa-685,cocoqa,text_answerable,0.7702533006668091,1.0905585289001465,1.860811829566956,"What is the tug boat pulling cruise
+Give a very brief answer.",Ship.,results/tier2\full\images\cauldron-cocoqa-685.jpg,c080848ee74cc8c0,what is the tug boat pulling cruise
+cauldron-cocoqa-614,cocoqa,text_answerable,0.89140385389328,0.9692689776420592,1.86067283153534,"What drawn carriage traveling down the street of an historic area
+Concise answer only.",Horse.,results/tier2\full\images\cauldron-cocoqa-614.jpg,991f1c1c1d2c0e06,what drawn carriage traveling down the street of an historic area
+cauldron-cocoqa-22,cocoqa,text_answerable,0.8635594546794891,0.3411441147327423,1.2047035694122314,"What is the color of the bench
+Keep it brief.",Brown.,results/tier2\full\images\cauldron-cocoqa-22.jpg,f0e2e0e0e0e3c0ba,what is the color of the bench
+cauldron-cocoqa-573,cocoqa,text_answerable,1.1060806065797806,0.1417844742536544,1.247865080833435,"What is the color of the bear
+Answer briefly.",Black.,results/tier2\full\images\cauldron-cocoqa-573.jpg,1016860606060e0e,what is the color of the bear
+cauldron-cocoqa-325,cocoqa,text_answerable,1.00603985786438,2.4022557735443115,3.4082956314086914,"What is parked on the rural road
+Quick response, please.",Vehicle.,results/tier2\full\images\cauldron-cocoqa-325.jpg,f81010c8587f4010,what is parked on the rural road
+cauldron-cocoqa-453,cocoqa,text_answerable,-0.4141857028007507,1.164177179336548,0.7499914765357971,"What is the man hitting on a clay court
+Be succinct.",Ball.,results/tier2\full\images\cauldron-cocoqa-453.jpg,16864f33b11919d1,what is the man hitting on a clay court
+cauldron-cocoqa-220,cocoqa,text_answerable,1.1901551485061646,1.439217448234558,2.6293725967407227,"What displays the messy assortment of non matching glasses
+Be succinct.",Cabinet.,results/tier2\full\images\cauldron-cocoqa-220.jpg,70fc7cfcf0746c6,what displays the messy assortment of non matching glasses
+cauldron-cocoqa-542,cocoqa,text_answerable,0.9926283806562424,0.142287328839302,1.1349157094955444,"What filled with the pizza inside of a kitchen
+Write a very short answer.",Oven.,results/tier2\full\images\cauldron-cocoqa-542.jpg,c2c3671b1b73c3d1,what filled with the pizza inside of a kitchen
+cauldron-cocoqa-195,cocoqa,text_answerable,0.4127964079380035,0.204259306192398,0.6170557141304016,"What does the man cut and filets
+Answer briefly.",Fish.,results/tier2\full\images\cauldron-cocoqa-195.jpg,180a0c0c048d8,what does the man cut and filets
+cauldron-cocoqa-524,cocoqa,text_answerable,1.0122131407260897,0.2225356996059417,1.2347488403320312,"What are sitting on the tree in a forest
+Write a very short answer.",Birds.,results/tier2\full\images\cauldron-cocoqa-524.jpg,c2c24632b6ecb8a8,what are sitting on the tree in a forest
+cauldron-cocoqa-638,cocoqa,text_answerable,0.5399646386504173,0.1168232932686805,0.6567879319190979,"What is the color of the field
+Answer briefly.",Green.,results/tier2\full\images\cauldron-cocoqa-638.jpg,1418a129a5213ce6,what is the color of the field
+cauldron-cocoqa-125,cocoqa,text_answerable,0.2888276576995849,3.542050361633301,3.8308780193328857,"What is the person riding a motorcycle wears
+Be succinct.",Suit.,results/tier2\full\images\cauldron-cocoqa-125.jpg,f0f076b8983c3e64,what is the person riding a motorcycle wears
+cauldron-cocoqa-750,cocoqa,text_answerable,0.8971333503723145,2.1547861099243164,3.051919460296631,"How many men are riding on top of an elephant
+Keep it brief.",Two.,results/tier2\full\images\cauldron-cocoqa-750.jpg,d8c86d8f0f8ed7f4,how many men are riding on top of an elephant
+cauldron-cocoqa-562,cocoqa,text_answerable,1.1850320100784302,0.0701340436935424,1.2551660537719729,"What is the color of the kitten
+Write a very short answer.",Black.,results/tier2\full\images\cauldron-cocoqa-562.jpg,796d273e3c2c2cb6,what is the color of the kitten
+cauldron-cocoqa-407,cocoqa,image_necessary,5.403982996940613,0.9781934022903442,6.382176399230957,"There is a woman wearing what sitting on the shoulders of another woman
+Keep it brief.",Skis.,results/tier2\full\images\cauldron-cocoqa-407.jpg,7f5f272e4f0d0e06,there is a woman wearing what sitting on the shoulders of another woman
+cauldron-cocoqa-42,cocoqa,text_answerable,0.5251657962799072,0.6772648096084595,1.2024306058883667,"What is docked at the shore
+Answer briefly.",Boat.,results/tier2\full\images\cauldron-cocoqa-42.jpg,f281cfcf0381846c,what is docked at the shore
+cauldron-cocoqa-782,cocoqa,text_answerable,-1.514293551445007,2.448150396347046,0.9338568449020386,"What is the color of the photograph
+Write a very short answer.",White.,results/tier2\full\images\cauldron-cocoqa-782.jpg,70f1b0f6e3e78,what is the color of the photograph
+cauldron-cocoqa-87,cocoqa,text_answerable,0.9379758834838868,2.593334197998047,3.5313100814819336,"The man pulling what piled high with bananas on a crowded street
+Keep it brief.",Cart.,results/tier2\full\images\cauldron-cocoqa-87.jpg,4663020d0f9e1e1e,the man pulling what piled high with bananas on a crowded street
+cauldron-cocoqa-317,cocoqa,text_answerable,0.487957090139389,0.1272538602352142,0.6152109503746033,"What is the color of the horse
+Be succinct.",Brown.,results/tier2\full\images\cauldron-cocoqa-317.jpg,ece6c46b16063470,what is the color of the horse
+cauldron-cocoqa-716,cocoqa,text_answerable,0.9664782583713531,0.3832734525203705,1.3497517108917236,"Where does the cat sun itself
+Concise answer only.",Window.,results/tier2\full\images\cauldron-cocoqa-716.jpg,a482c6e4ccde9c3c,where does the cat sun itself
+cauldron-cocoqa-83,cocoqa,text_answerable,0.3770334720611572,0.1979762315750122,0.5750097036361694,"What is the man riding on a wave
+Be succinct.",Surfboard.,results/tier2\full\images\cauldron-cocoqa-83.jpg,121cec48cfc67e4f,what is the man riding on a wave
+cauldron-cocoqa-669,cocoqa,text_answerable,1.1496434211730957,1.736271858215332,2.885915279388428,"How many fighter jets fly close together in formation
+Short answer required.",Four.,results/tier2\full\images\cauldron-cocoqa-669.jpg,c0c8c8d8d8d0d0f0,how many fighter jets fly close together in formation
+cauldron-cocoqa-751,cocoqa,text_answerable,1.222251445055008,0.1945113837718963,1.4167628288269043,"What are flying in a clear sky
+Quick response, please.",Birds.,results/tier2\full\images\cauldron-cocoqa-751.jpg,c0e0e2e0e4e8e8e0,what are flying in a clear sky
+cauldron-cocoqa-85,cocoqa,text_answerable,1.2044315338134766,0.3859868049621582,1.5904183387756348,"What is the color of the umbrella
+Short answer required.",Blue.,results/tier2\full\images\cauldron-cocoqa-85.jpg,6e3f1f3e3f71ddc3,what is the color of the umbrella
+cauldron-cocoqa-784,cocoqa,text_answerable,0.7911357879638672,2.4801650047302246,3.271300792694092,"The woman is skiing down a snow covered what
+Concise answer only.",Hill.,results/tier2\full\images\cauldron-cocoqa-784.jpg,c2c0180c9c9e9eac,the woman is skiing down a snow covered what
+cauldron-cocoqa-257,cocoqa,text_answerable,1.1656378507614136,0.6222668886184692,1.7879047393798828,"The boy faces the ocean holding what
+Keep it brief.",Surfboard.,results/tier2\full\images\cauldron-cocoqa-257.jpg,1cf5e5c505452796,the boy faces the ocean holding what
+cauldron-cocoqa-55,cocoqa,image_necessary,1.8643536567687988,2.3967161178588867,4.2610697746276855,"How many elephants walking in a grassy area with trees and rocks
+Short answer required.",Three.,results/tier2\full\images\cauldron-cocoqa-55.jpg,ec6c613172231114,how many elephants walking in a grassy area with trees and rocks
+cauldron-cocoqa-237,cocoqa,image_necessary,2.152263879776001,0.7078957557678223,2.8601596355438232,"What in which are hung white towels and a white bathrobe
+Keep it brief.",Bathroom.,results/tier2\full\images\cauldron-cocoqa-237.jpg,c0f0d1d13130988c,what in which are hung white towels and a white bathrobe
+cauldron-cocoqa-765,cocoqa,text_answerable,1.0233188271522522,0.5259861350059509,1.5493049621582031,"What hold yellow flowers in them
+Write a very short answer.",Vases.,results/tier2\full\images\cauldron-cocoqa-765.jpg,f3b2b6b464444949,what hold yellow flowers in them
+cauldron-cocoqa-366,cocoqa,text_answerable,0.8685632348060608,0.5379241108894348,1.4064873456954956,"Where is the woman laying
+Quick response, please.",Bed.,results/tier2\full\images\cauldron-cocoqa-366.jpg,1852706c6ce0c000,where is the woman laying
+cauldron-cocoqa-186,cocoqa,image_necessary,3.7737729847431183,0.4237558543682098,4.197528839111328,"What mounted on the side of a wall
+Answer briefly.",Urinal.,results/tier2\full\images\cauldron-cocoqa-186.jpg,d81898c8c6e0c0c8,what mounted on the side of a wall
+cauldron-cocoqa-402,cocoqa,text_answerable,0.5948216915130615,2.018968343734741,2.6137900352478027,"The man riding what drawn carriage down a street lined with shops
+Concise answer only.",Horse.,results/tier2\full\images\cauldron-cocoqa-402.jpg,61a4bcf0f0785a08,the man riding what drawn carriage down a street lined with shops
+cauldron-cocoqa-361,cocoqa,text_answerable,1.1221911907196045,0.7964305877685547,1.9186217784881592,"What is the color of the truck
+Keep it brief.",Green.,results/tier2\full\images\cauldron-cocoqa-361.jpg,b1b3b3b09198b1e1,what is the color of the truck
+cauldron-cocoqa-95,cocoqa,text_answerable,0.3357486724853515,2.490396022796631,2.8261446952819824,"What do the picture of some water buy
+Keep it brief.",Mountains.,results/tier2\full\images\cauldron-cocoqa-95.jpg,141c9c7878f9f1ff,what do the picture of some water buy
+cauldron-cocoqa-53,cocoqa,text_answerable,0.250132143497467,0.0795899033546447,0.3297220468521118,"What is the color of the refrigerator
+Concise answer only.",White.,results/tier2\full\images\cauldron-cocoqa-53.jpg,f0f0e0c4c7c34361,what is the color of the refrigerator
+cauldron-cocoqa-510,cocoqa,text_answerable,0.168936938047409,0.262279063463211,0.4312160015106201,"What is the color of the sheets
+Be succinct.",White.,results/tier2\full\images\cauldron-cocoqa-510.jpg,f0f0ffdf9fc8e0f0,what is the color of the sheets
+cauldron-cocoqa-180,cocoqa,text_answerable,1.0679535865783691,2.626894235610962,3.694847822189331,"What is sitting next to two wooden benches
+Give a very brief answer.",Booth.,results/tier2\full\images\cauldron-cocoqa-180.jpg,b8bcdcd8999b9389,what is sitting next to two wooden benches
+cauldron-cocoqa-39,cocoqa,text_answerable,-0.0695981979370117,2.914461135864258,2.844862937927246,"What is carrying the load of passengers
+Write a very short answer.",Shuttle.,results/tier2\full\images\cauldron-cocoqa-39.jpg,fefffbf2b6773ef8,what is carrying the load of passengers
+cauldron-cocoqa-324,cocoqa,image_necessary,1.91019606590271,0.7098488807678223,2.620044946670532,"What gather around the large container in an enclosed area of pasture
+Concise answer only.",Cattle.,results/tier2\full\images\cauldron-cocoqa-324.jpg,f6e6c6f63cb44928,what gather around the large container in an enclosed area of pasture
+cauldron-cocoqa-471,cocoqa,text_answerable,0.7691798210144043,1.6006877422332764,2.3698675632476807,"The man wearing what is talking on a phone
+Be succinct.",Jacket.,results/tier2\full\images\cauldron-cocoqa-471.jpg,96d461b0f0303010,the man wearing what is talking on a phone
+cauldron-cocoqa-359,cocoqa,text_answerable,0.4814679622650146,1.5836231708526611,2.065091133117676,"What is dimly lit with soft lighting
+Quick response, please.",Room.,results/tier2\full\images\cauldron-cocoqa-359.jpg,f0e8cb2f6662677f,what is dimly lit with soft lighting
+cauldron-cocoqa-564,cocoqa,text_answerable,0.1343318484723568,0.0584432817995548,0.1927751302719116,"What is the color of the grass
+Concise answer only.",Green.,results/tier2\full\images\cauldron-cocoqa-564.jpg,660851d373b8d084,what is the color of the grass
+cauldron-cocoqa-408,cocoqa,text_answerable,0.8580476529896259,0.0456562750041484,0.9037039279937744,"What is the color of the toilet
+Quick response, please.",White.,results/tier2\full\images\cauldron-cocoqa-408.jpg,8f86a5e3b8a4fccc,what is the color of the toilet
+cauldron-cocoqa-745,cocoqa,text_answerable,0.3202710151672363,2.3634166717529297,2.683687686920166,"What is shown next to various pipes running up and down the wall
+Be succinct.",Toilet.,results/tier2\full\images\cauldron-cocoqa-745.jpg,69e5d991d9c8d8bc,what is shown next to various pipes running up and down the wall
+cauldron-cocoqa-563,cocoqa,text_answerable,0.4357327371835708,0.0360232442617416,0.4717559814453125,"What is the color of the sky
+Keep it brief.",Blue.,results/tier2\full\images\cauldron-cocoqa-563.jpg,e8e068f0f0f3e2f0,what is the color of the sky
+cauldron-cocoqa-590,cocoqa,text_answerable,0.348452627658844,0.8051021695137024,1.1535547971725464,"What are the red and white trains engines pulling
+Short answer required.",Cars.,results/tier2\full\images\cauldron-cocoqa-590.jpg,f8d8dcf2c38f83c1,what are the red and white trains engines pulling
+cauldron-cocoqa-260,cocoqa,text_answerable,1.261739231646061,0.0736795887351036,1.3354188203811646,"Where is person laying
+Concise answer only.",Bed.,results/tier2\full\images\cauldron-cocoqa-260.jpg,70303010002520c2,where is person laying
+cauldron-cocoqa-770,cocoqa,text_answerable,0.0196432471275329,0.4451154470443725,0.4647586941719055,"What are traveling across a large body of water
+Quick response, please.",Boats.,results/tier2\full\images\cauldron-cocoqa-770.jpg,cc4fe13e0f070717,what are traveling across a large body of water
+cauldron-cocoqa-45,cocoqa,text_answerable,1.2251968383789062,2.9357690811157227,4.160965919494629,"Where did meat and pasta dish with vegetable serve
+Keep it brief.",Bowl.,results/tier2\full\images\cauldron-cocoqa-45.jpg,e1f8e84e6a75f1e4,where did meat and pasta dish with vegetable serve
+cauldron-cocoqa-82,cocoqa,text_answerable,0.6543872356414795,3.2156012058258057,3.869988441467285,"What is relaxing on the bed sheets
+Concise answer only.",Dog.,results/tier2\full\images\cauldron-cocoqa-82.jpg,2f73cbabdcd9e3f2,what is relaxing on the bed sheets
+cauldron-cocoqa-310,cocoqa,text_answerable,1.2806654274463654,0.2920721471309662,1.5727375745773315,"What parked next to other motorcycles
+Concise answer only.",Motorcycle.,results/tier2\full\images\cauldron-cocoqa-310.jpg,b224a48c68726221,what parked next to other motorcycles
+cauldron-cocoqa-488,cocoqa,text_answerable,0.22257661819458,1.6257022619247437,1.848278880119324,"What is prepping with the chef 's knife prior to executing a recipe
+Quick response, please.",Vegetables.,results/tier2\full\images\cauldron-cocoqa-488.jpg,e9e971f8e8d0d020,what is prepping with the chef s knife prior to executing a recipe
+cauldron-cocoqa-377,cocoqa,text_answerable,0.728721022605896,1.256009221076965,1.984730243682861,"What are being sold by a vendor at an outside food market
+Keep it brief.",Vegetables.,results/tier2\full\images\cauldron-cocoqa-377.jpg,e8e5edfff72908e1,what are being sold by a vendor at an outside food market
+cauldron-cocoqa-114,cocoqa,text_answerable,0.9638763070106506,0.6370033621788025,1.6008796691894531,"What is an older woman on a bus using
+Concise answer only.",Phone.,results/tier2\full\images\cauldron-cocoqa-114.jpg,e2e2e2d89839b8b8,what is an older woman on a bus using
+cauldron-cocoqa-443,cocoqa,text_answerable,-1.2707581520080566,5.483354568481445,4.212596416473389,"How many way stop sign on the corner of lindley ave
+Be succinct.",Four.,results/tier2\full\images\cauldron-cocoqa-443.jpg,8c0c393871312119,how many way stop sign on the corner of lindley ave
+cauldron-cocoqa-14,cocoqa,text_answerable,0.9215538166463376,0.0264063812792301,0.9479601979255676,"What is driving along the road near some buildings and a fence
+Quick response, please.",Car.,results/tier2\full\images\cauldron-cocoqa-14.jpg,f3e71f1e0b83c160,what is driving along the road near some buildings and a fence
+cauldron-cocoqa-388,cocoqa,text_answerable,0.6410822868347168,1.5301034450531006,2.1711857318878174,"What is jumping up on the person on a couch in a roomful of people
+Be succinct.",Dog.,results/tier2\full\images\cauldron-cocoqa-388.jpg,378d4444e5e78786,what is jumping up on the person on a couch in a roomful of people
+cauldron-cocoqa-288,cocoqa,text_answerable,1.044419765472412,1.928136825561524,2.9725565910339355,"What parked in front of a brick building
+Write a very short answer.",Bicycle.,results/tier2\full\images\cauldron-cocoqa-288.jpg,dcd186868585b73f,what parked in front of a brick building
+cauldron-cocoqa-354,cocoqa,text_answerable,-0.4215304851531982,3.481619358062744,3.060088872909546,"The bus traveling down what next to a tree filed park
+Be succinct.",Road.,results/tier2\full\images\cauldron-cocoqa-354.jpg,2060f0f4b6a61000,the bus traveling down what next to a tree filed park
+cauldron-cocoqa-269,cocoqa,text_answerable,0.8371172025799751,0.0424054786562919,0.8795226812362671,"What is the color of the shirt
+Keep it brief.",White.,results/tier2\full\images\cauldron-cocoqa-269.jpg,303078f8e4e4c484,what is the color of the shirt
+cauldron-cocoqa-617,cocoqa,text_answerable,0.1656496226787567,0.1749080121517181,0.3405576348304748,"What are on the tracks at a train station
+Concise answer only.",Trains.,results/tier2\full\images\cauldron-cocoqa-617.jpg,d1034a1c5c00010f,what are on the tracks at a train station
+cauldron-cocoqa-717,cocoqa,text_answerable,0.6544683054089546,0.0534979626536369,0.7079662680625916,"What does the woman pour into a glass for someone else
+Give a very brief answer.",Wine.,results/tier2\full\images\cauldron-cocoqa-717.jpg,606060f07193d6d,what does the woman pour into a glass for someone else
+cauldron-cocoqa-91,cocoqa,text_answerable,1.2064184099435806,0.1085295528173446,1.3149479627609253,"What is the color of the helmet
+Be succinct.",Red.,results/tier2\full\images\cauldron-cocoqa-91.jpg,eeeceeceece8c8f8,what is the color of the helmet
+cauldron-cocoqa-796,cocoqa,text_answerable,0.4188531637191772,1.9679447412490845,2.3867979049682617,"How many sign sign posted above the red stop sign
+Short answer required.",One.,results/tier2\full\images\cauldron-cocoqa-796.jpg,b3f3e1f1f1c0e2e3,how many sign sign posted above the red stop sign
+cauldron-cocoqa-447,cocoqa,text_answerable,0.2394859492778778,0.4817599952220917,0.7212459444999695,"What is getting ready to take off
+Be succinct.",Airplane.,results/tier2\full\images\cauldron-cocoqa-447.jpg,f0f0f0f0cae0f0f0,what is getting ready to take off
+cauldron-cocoqa-418,cocoqa,text_answerable,0.5352582931518555,3.634100437164306,4.169358730316162,"What opens up into the kitchen
+Short answer required.",Room.,results/tier2\full\images\cauldron-cocoqa-418.jpg,713d3f6f2f163626,what opens up into the kitchen
+cauldron-cocoqa-724,cocoqa,text_answerable,0.4136789217591285,0.0652625188231468,0.4789414405822754,"What is on the tracks
+Give a very brief answer.",Train.,results/tier2\full\images\cauldron-cocoqa-724.jpg,b0f033f2f2713ace,what is on the tracks
+cauldron-cocoqa-560,cocoqa,text_answerable,0.7519218623638153,0.1757638752460479,0.9276857376098632,"What does the cow eat in an open meadow near a grove of trees
+Write a very short answer.",Grass.,results/tier2\full\images\cauldron-cocoqa-560.jpg,98d0c8f8d8981cb8,what does the cow eat in an open meadow near a grove of trees
+cauldron-cocoqa-212,cocoqa,text_answerable,0.4208710193634033,2.3602893352508545,2.781160354614258,"What do two men hold while playing a video game
+Concise answer only.",Remotes.,results/tier2\full\images\cauldron-cocoqa-212.jpg,f8fcdcdc9c9ca6c8,what do two men hold while playing a video game
+cauldron-cocoqa-309,cocoqa,text_answerable,0.6578974723815918,0.7231520414352417,1.3810495138168335,"What drawn carriage stopped near the water
+Keep it brief.",Horse.,results/tier2\full\images\cauldron-cocoqa-309.jpg,4040c0e8783890f0,what drawn carriage stopped near the water
+cauldron-cocoqa-155,cocoqa,text_answerable,0.847193717956543,2.8788270950317383,3.726020812988281,"The man standing next to a mannequin what
+Write a very short answer.",Sidewalk.,results/tier2\full\images\cauldron-cocoqa-155.jpg,1e7f6f0f161717df,the man standing next to a mannequin what
+cauldron-cocoqa-568,cocoqa,text_answerable,-0.0826154351234436,0.823063313961029,0.7404478788375854,"What is out on the water
+Concise answer only.",Boat.,results/tier2\full\images\cauldron-cocoqa-568.jpg,fefe4c5edc5c60f4,what is out on the water
+cauldron-cocoqa-8,cocoqa,text_answerable,0.6207690685987473,0.1476465016603469,0.7684155702590942,"What is the color of the sign
+Be succinct.",Red.,results/tier2\full\images\cauldron-cocoqa-8.jpg,638747e7e4e18cd8,what is the color of the sign
+cauldron-cocoqa-123,cocoqa,text_answerable,0.5804641246795654,2.8598906993865967,3.440354824066162,"What are standing by the large wall outdoors
+Short answer required.",Zebras.,results/tier2\full\images\cauldron-cocoqa-123.jpg,2032366606161763,what are standing by the large wall outdoors
+cauldron-cocoqa-71,cocoqa,text_answerable,0.4036351442337036,1.3349679708480835,1.738603115081787,"? what with the mouse and keyboard
+Answer briefly.",Computer.,results/tier2\full\images\cauldron-cocoqa-71.jpg,819181c94f3cfdec,what with the mouse and keyboard
+cauldron-cocoqa-414,cocoqa,image_necessary,4.787629246711731,0.9507797956466676,5.738409042358398,"What laid out on aluminum foil , depicts either a train or semi truck
+Be succinct.",Cake.,results/tier2\full\images\cauldron-cocoqa-414.jpg,f87cf9d1f5657dfd,what laid out on aluminum foil  depicts either a train or semi truck
+cauldron-cocoqa-491,cocoqa,text_answerable,-0.0808560848236084,3.096256732940674,3.015400648117065,"Where is the family sitting
+Answer briefly.",Room.,results/tier2\full\images\cauldron-cocoqa-491.jpg,4868f8d8d8a098d8,where is the family sitting
+cauldron-cocoqa-517,cocoqa,text_answerable,1.2245376110076904,1.29325532913208,2.5177929401397705,"The man riding what stopped at a light
+Be succinct.",Bicycle.,results/tier2\full\images\cauldron-cocoqa-517.jpg,7f7efade4a1efce1,the man riding what stopped at a light
+cauldron-cocoqa-229,cocoqa,text_answerable,-0.4499740600585937,2.928807020187378,2.478832960128784,"How many boy pitching , one boy on base on a baseball field
+Quick response, please.",One.,results/tier2\full\images\cauldron-cocoqa-229.jpg,e62606269e313312,how many boy pitching  one boy on base on a baseball field
+cauldron-cocoqa-644,cocoqa,text_answerable,0.4471718370914459,0.2731222808361053,0.7202941179275513,"What is the color of the dog
+Keep it brief.",Brown.,results/tier2\full\images\cauldron-cocoqa-644.jpg,ccf1f3860f4cfcec,what is the color of the dog
+cauldron-cocoqa-648,cocoqa,text_answerable,0.7468750476837158,3.920668363571167,4.667543411254883,"How many booths for distributing print media , standing next to a hydrant
+Write a very short answer.",Three.,results/tier2\full\images\cauldron-cocoqa-648.jpg,7871adad6d45c5d0,how many booths for distributing print media  standing next to a hydrant
+cauldron-cocoqa-293,cocoqa,text_answerable,0.7622587084770203,0.1945140957832336,0.956772804260254,"What stopped at an intersection with a stop sign
+Be succinct.",Car.,results/tier2\full\images\cauldron-cocoqa-293.jpg,8e8ca4b0d20a0f46,what stopped at an intersection with a stop sign
+cauldron-cocoqa-298,cocoqa,text_answerable,1.1975109577178955,1.0939762592315674,2.291487216949463,"What parked on an airport tarmac
+Write a very short answer.",Airliner.,results/tier2\full\images\cauldron-cocoqa-298.jpg,f4e4f0f4f6dccc43,what parked on an airport tarmac
+cauldron-cocoqa-197,cocoqa,image_necessary,1.9271564483642576,3.280025005340576,5.207181453704834,"How many pieces of broccoli is sitting next to a cranberry desert
+Write a very short answer.",Three.,results/tier2\full\images\cauldron-cocoqa-197.jpg,c8e4e870f03139f,how many pieces of broccoli is sitting next to a cranberry desert
+cauldron-cocoqa-202,cocoqa,text_answerable,0.342367947101593,0.5898715257644653,0.9322394728660583,"What is there moored in the water at a dock
+Be succinct.",Boat.,results/tier2\full\images\cauldron-cocoqa-202.jpg,f0b0b0f0c8d8c8c8,what is there moored in the water at a dock
+cauldron-cocoqa-589,cocoqa,text_answerable,0.4372761249542236,0.5792458057403564,1.01652193069458,"What is the color of the chair
+Concise answer only.",Brown.,results/tier2\full\images\cauldron-cocoqa-589.jpg,e7777eee9ededeff,what is the color of the chair
+cauldron-cocoqa-404,cocoqa,image_necessary,2.38794082403183,0.5660260319709778,2.953966856002808,"What situated next to each other on the table
+Keep it brief.",Vases.,results/tier2\full\images\cauldron-cocoqa-404.jpg,e9736371f0786c2c,what situated next to each other on the table
+cauldron-cocoqa-775,cocoqa,text_answerable,0.5319982022047043,0.1375402361154556,0.6695384383201599,"What is the color of the stove
+Quick response, please.",Black.,results/tier2\full\images\cauldron-cocoqa-775.jpg,b0bebe3f1f064fcc,what is the color of the stove
+cauldron-cocoqa-543,cocoqa,text_answerable,0.1770812273025512,0.5292136669158936,0.7062948942184448,"What is flying over the city
+Keep it brief.",Airplane.,results/tier2\full\images\cauldron-cocoqa-543.jpg,f0fc7c88dcceaaa,what is flying over the city
+cauldron-cocoqa-513,cocoqa,text_answerable,0.8721197694540024,0.2489962726831436,1.121116042137146,"What is there next to a shabby chic bunk bend
+Write a very short answer.",Bed.,results/tier2\full\images\cauldron-cocoqa-513.jpg,f7f787193c9cccc9,what is there next to a shabby chic bunk bend
+cauldron-cocoqa-36,cocoqa,text_answerable,-0.6784031391143799,1.8166826963424685,1.1382795572280884,"What parked at their gates
+Concise answer only.",Airplanes.,results/tier2\full\images\cauldron-cocoqa-36.jpg,e0d0c546c3e4e0e0,what parked at their gates
+cauldron-cocoqa-398,cocoqa,image_necessary,5.516941070556641,2.214858055114746,7.731799125671387,"What topped with the cheesy pizza with toppings
+Short answer required.",Plate.,results/tier2\full\images\cauldron-cocoqa-398.jpg,cb4729f8c8d5f0b8,what topped with the cheesy pizza with toppings
+cauldron-cocoqa-611,cocoqa,text_answerable,-0.0747120380401611,1.0815715789794922,1.006859540939331,"What bear taking the nap on the grass
+Short answer required.",Grizzly.,results/tier2\full\images\cauldron-cocoqa-611.jpg,f1d11919ba3b7072,what bear taking the nap on the grass
+cauldron-cocoqa-107,cocoqa,text_answerable,-0.0845541954040527,2.215888977050781,2.1313347816467285,"How many children fight for control of the ball in a soccer match
+Concise answer only.",Two.,results/tier2\full\images\cauldron-cocoqa-107.jpg,cce8d2d2f0f0f0f0,how many children fight for control of the ball in a soccer match
+cauldron-cocoqa-500,cocoqa,text_answerable,1.211506001651287,0.1238223388791084,1.3353283405303955,"What is the color of the bear
+Keep it brief.",White.,results/tier2\full\images\cauldron-cocoqa-500.jpg,28ec2363f0f0b01a,what is the color of the bear
+cauldron-cocoqa-587,cocoqa,image_necessary,3.548351645469665,1.299679398536682,4.848031044006348,"The zebra eating what from the ground in it 's enclosure
+Quick response, please.",Hay.,results/tier2\full\images\cauldron-cocoqa-587.jpg,9697bffdedcd4d0f,the zebra eating what from the ground in it s enclosure
+cauldron-cocoqa-518,cocoqa,text_answerable,0.8668627738952637,2.979903221130371,3.8467659950256334,"How many topless women is holding some sub sandwiches with them
+Keep it brief.",Two.,results/tier2\full\images\cauldron-cocoqa-518.jpg,3371717573637180,how many topless women is holding some sub sandwiches with them
+cauldron-cocoqa-755,cocoqa,text_answerable,0.5352365970611572,2.1578171253204346,2.693053722381592,"What is the woman hand feeding
+Quick response, please.",Lamb.,results/tier2\full\images\cauldron-cocoqa-755.jpg,4e4c4b595979f1f1,what is the woman hand feeding
+cauldron-cocoqa-59,cocoqa,text_answerable,-1.1425769329071045,4.146339416503906,3.0037624835968018,"How many light brown teddy bear in between an iron door
+Short answer required.",One.,results/tier2\full\images\cauldron-cocoqa-59.jpg,73795b5a5b73535f,how many light brown teddy bear in between an iron door
+cauldron-cocoqa-486,cocoqa,text_answerable,0.3233742117881775,0.9292412400245668,1.252615451812744,"What are cars driving down
+Short answer required.",Road.,results/tier2\full\images\cauldron-cocoqa-486.jpg,d0d0e3fcf3b281c1,what are cars driving down
+cauldron-cocoqa-119,cocoqa,text_answerable,0.972529411315918,0.1468949317932129,1.1194243431091309,"What is the color of the train
+Short answer required.",White.,results/tier2\full\images\cauldron-cocoqa-119.jpg,21f0fcf8e0c2cc99,what is the color of the train
+cauldron-cocoqa-300,cocoqa,text_answerable,1.0549994856119156,0.1282677501440048,1.1832672357559204,"What is being towed by the large truck
+Keep it brief.",Car.,results/tier2\full\images\cauldron-cocoqa-300.jpg,f9f9b1a307570787,what is being towed by the large truck
+cauldron-cocoqa-312,cocoqa,text_answerable,0.0457892417907714,2.308839797973633,2.3546290397644043,"The baseball player hitting what , it looks like a statue
+Answer briefly.",Ball.,results/tier2\full\images\cauldron-cocoqa-312.jpg,8c2652d3d5e97c30,the baseball player hitting what  it looks like a statue
+cauldron-cocoqa-608,cocoqa,text_answerable,1.1852567195892334,2.281956434249878,3.467213153839112,"How many friends is playing a wii motion controlled video game
+Short answer required.",Four.,results/tier2\full\images\cauldron-cocoqa-608.jpg,f8f8b9694d6dccc8,how many friends is playing a wii motion controlled video game
+cauldron-cocoqa-480,cocoqa,text_answerable,0.1310806572437286,0.4068627655506134,0.537943422794342,"What is the color of the frisbee
+Give a very brief answer.",White.,results/tier2\full\images\cauldron-cocoqa-480.jpg,52919618d8b09088,what is the color of the frisbee
+cauldron-cocoqa-762,cocoqa,text_answerable,-0.9098846912384032,2.895930290222168,1.9860455989837649,"What is the color of the picture
+Write a very short answer.",Gray.,results/tier2\full\images\cauldron-cocoqa-762.jpg,3cbc90baca4e6e6e,what is the color of the picture
+cauldron-cocoqa-299,cocoqa,text_answerable,1.0668135583400726,0.2853765785694122,1.3521901369094849,"Where is the open shower curtain reflected
+Be succinct.",Mirror.,results/tier2\full\images\cauldron-cocoqa-299.jpg,d0e1e1c0c0c0b83f,where is the open shower curtain reflected
+cauldron-cocoqa-122,cocoqa,text_answerable,0.1716711223125457,0.0572048127651214,0.2288759350776672,"What is the color of the sky
+Concise answer only.",Blue.,results/tier2\full\images\cauldron-cocoqa-122.jpg,ffffffbbb30ffbff,what is the color of the sky
+cauldron-cocoqa-385,cocoqa,image_necessary,4.452782034873962,1.0962625741958618,5.549044609069824,"What are sitting on top of a laptop computer
+Keep it brief.",Phones.,results/tier2\full\images\cauldron-cocoqa-385.jpg,e061211585949612,what are sitting on top of a laptop computer
+cauldron-cocoqa-320,cocoqa,text_answerable,0.0810840129852294,2.283073663711548,2.3641576766967773,"How many small children one has the purple umbrella and the other an orange and black one
+Short answer required.",Two.,results/tier2\full\images\cauldron-cocoqa-320.jpg,794bed3bf9e76667,how many small children one has the purple umbrella and the other an orange and black one
+cauldron-cocoqa-375,cocoqa,text_answerable,0.6640607118606567,1.70346200466156,2.367522716522217,"The galley bathroom with a vanity what
+Give a very brief answer.",Toilet.,results/tier2\full\images\cauldron-cocoqa-375.jpg,3e3e3e3e3aa91998,the galley bathroom with a vanity what
+cauldron-cocoqa-105,cocoqa,text_answerable,1.0349046364426613,0.0647388324141502,1.0996434688568115,"What is the color of the train
+Answer briefly.",Red.,results/tier2\full\images\cauldron-cocoqa-105.jpg,cc9e961e3e8f3e8e,what is the color of the train
+cauldron-cocoqa-126,cocoqa,text_answerable,0.995692014694214,1.5595333576202393,2.555225372314453,"What filled with assorted fresh fruits
+Concise answer only.",Shelf.,results/tier2\full\images\cauldron-cocoqa-126.jpg,3d3118c8ccc4c4a0,what filled with assorted fresh fruits
+cauldron-cocoqa-62,cocoqa,text_answerable,1.1004803776741028,0.6212090849876404,1.7216894626617432,"What is floating on the water
+Write a very short answer.",Duck.,results/tier2\full\images\cauldron-cocoqa-62.jpg,3060301d1d1430f0,what is floating on the water
+cauldron-cocoqa-744,cocoqa,text_answerable,-0.0326185673475265,0.176258310675621,0.1436397433280944,"What is the color of the ocean
+Concise answer only.",Blue.,results/tier2\full\images\cauldron-cocoqa-744.jpg,d0c8cece0ae009c4,what is the color of the ocean
+cauldron-cocoqa-30,cocoqa,text_answerable,0.83759605884552,1.749827265739441,2.587423324584961,"Where are the tulips on the table
+Short answer required.",Vase.,results/tier2\full\images\cauldron-cocoqa-30.jpg,26060f0e8c8c8c8c,where are the tulips on the table
+cauldron-cocoqa-798,cocoqa,text_answerable,1.2779018878936768,3.3826687335968018,4.660570621490479,"The man wearing what stands in front of a table with presents
+Give a very brief answer.",Hat.,results/tier2\full\images\cauldron-cocoqa-798.jpg,f8fce5dd9caecfce,the man wearing what stands in front of a table with presents
+cauldron-cocoqa-233,cocoqa,text_answerable,0.1758428737521171,0.0479795411229133,0.2238224148750305,"What is the color of the sky
+Concise answer only.",Blue.,results/tier2\full\images\cauldron-cocoqa-233.jpg,501a1a0d66272138,what is the color of the sky
+cauldron-cocoqa-143,cocoqa,text_answerable,0.6382140517234802,0.29092937707901,0.9291434288024902,"What packed with stuff and some signs on the side of it
+Give a very brief answer.",Truck.,results/tier2\full\images\cauldron-cocoqa-143.jpg,81890a0b6535a5a5,what packed with stuff and some signs on the side of it
+cauldron-cocoqa-323,cocoqa,image_necessary,2.168433412909508,0.0552828460931777,2.223716259002685,"What are sitting on the shore
+Short answer required.",Boats.,results/tier2\full\images\cauldron-cocoqa-323.jpg,dcac8c8cb7e5a04f,what are sitting on the shore
+cauldron-cocoqa-532,cocoqa,text_answerable,0.8542600572109222,0.2820641100406647,1.136324167251587,"Where are many zebras together
+Answer briefly.",Zoo.,results/tier2\full\images\cauldron-cocoqa-532.jpg,b1716be7e66e7c7a,where are many zebras together
+cauldron-cocoqa-545,cocoqa,text_answerable,0.5764830000698566,0.0354793183505535,0.6119623184204102,"What is the color of the field
+Short answer required.",Green.,results/tier2\full\images\cauldron-cocoqa-545.jpg,c2daf1dcc4c886c6,what is the color of the field
+cauldron-cocoqa-613,cocoqa,text_answerable,0.6904969215393066,3.1976466178894043,3.888143539428711,"The man wearing what and holding a ski smiles into the camera
+Keep it brief.",Hat.,results/tier2\full\images\cauldron-cocoqa-613.jpg,d0c161e0e1e1e1e,the man wearing what and holding a ski smiles into the camera
+cauldron-cocoqa-284,cocoqa,image_necessary,2.035692233592272,0.0319194607436656,2.067611694335937,"What is the woman reading a newspaper is holding
+Concise answer only.",Umbrella.,results/tier2\full\images\cauldron-cocoqa-284.jpg,c0ccc1e9c8c0c8c8,what is the woman reading a newspaper is holding
+cauldron-cocoqa-780,cocoqa,text_answerable,0.7202249765396118,0.7665303945541382,1.48675537109375,"What is flying through a cloudy sky with smoke pouring out it 's back
+Quick response, please.",Airplane.,results/tier2\full\images\cauldron-cocoqa-780.jpg,64c0c24e0931c6c3,what is flying through a cloudy sky with smoke pouring out it s back
+cauldron-cocoqa-472,cocoqa,text_answerable,0.0152646303176879,0.8437938094139099,0.8590584397315979,"What is flying over a lush forest covered hillside
+Concise answer only.",Bird.,results/tier2\full\images\cauldron-cocoqa-472.jpg,f0e0e4f7e766f0b4,what is flying over a lush forest covered hillside
+cauldron-cocoqa-137,cocoqa,text_answerable,1.1760882139205933,0.5283459424972534,1.704434156417847,"Three asian elephants block what
+Concise answer only.",Road.,results/tier2\full\images\cauldron-cocoqa-137.jpg,f4fe6e6fed577e7c,three asian elephants block what
+cauldron-cocoqa-262,cocoqa,text_answerable,0.8816025257110596,2.076975584030152,2.958578109741211,"Where is the person holding his hand out
+Keep it brief.",Street.,results/tier2\full\images\cauldron-cocoqa-262.jpg,30fcf72c6c2d359,where is the person holding his hand out
+cauldron-cocoqa-400,cocoqa,text_answerable,0.753641614690423,0.0158557202666997,0.7694973349571228,"What is the color of the flower
+Give a very brief answer.",Red.,results/tier2\full\images\cauldron-cocoqa-400.jpg,fbfbf9797bd9d9c9,what is the color of the flower
+cauldron-cocoqa-66,cocoqa,text_answerable,0.7591671943664551,0.3818564414978027,1.1410236358642578,"What is standing in the field with other cows
+Be succinct.",Cow.,results/tier2\full\images\cauldron-cocoqa-66.jpg,8c8da1c347253118,what is standing in the field with other cows
+cauldron-cocoqa-65,cocoqa,text_answerable,1.0442199110984802,0.6634135842323303,1.7076334953308103,"What is the color of the tennis
+Keep it brief.",Black.,results/tier2\full\images\cauldron-cocoqa-65.jpg,bcbcf8e084ccfcfc,what is the color of the tennis
+cauldron-cocoqa-291,cocoqa,text_answerable,0.2819804958999157,0.0490264482796192,0.3310069441795349,"What is the color of the lake
+Give a very brief answer.",Blue.,results/tier2\full\images\cauldron-cocoqa-291.jpg,e0a0a0a8a8e8e8e8,what is the color of the lake
+cauldron-cocoqa-79,cocoqa,text_answerable,0.7089532613754272,0.3535889387130737,1.062542200088501,"Where is the white cabinetry shown
+Be succinct.",Kitchen.,results/tier2\full\images\cauldron-cocoqa-79.jpg,fcfcfc2333077c6c,where is the white cabinetry shown
+cauldron-cocoqa-797,cocoqa,text_answerable,1.2210820019245148,0.1565835177898407,1.3776655197143557,"What is traveling down the railroad tracks
+Keep it brief.",Train.,results/tier2\full\images\cauldron-cocoqa-797.jpg,a0381c1e7ef1e080,what is traveling down the railroad tracks
+cauldron-cocoqa-16,cocoqa,text_answerable,1.0290429592132568,0.3225667476654053,1.351609706878662,"What is the lady walking on sand covered surrounded by the ocean
+Give a very brief answer.",Beach.,results/tier2\full\images\cauldron-cocoqa-16.jpg,fdf8989e9c989818,what is the lady walking on sand covered surrounded by the ocean
+cauldron-cocoqa-655,cocoqa,text_answerable,0.8300225213170052,0.0490027591586113,0.8790252804756165,"What is the color of the car
+Short answer required.",Black.,results/tier2\full\images\cauldron-cocoqa-655.jpg,8c7c789aba3978f8,what is the color of the car
+cauldron-cocoqa-116,cocoqa,image_necessary,2.360417604446411,0.4421660900115967,2.802583694458008,"What sits below the large building
+Concise answer only.",Statue.,results/tier2\full\images\cauldron-cocoqa-116.jpg,cc8e9fe77f373d39,what sits below the large building
+cauldron-cocoqa-630,cocoqa,text_answerable,0.7148770093917847,0.2888174057006836,1.0036944150924685,"What is the person riding on a street with traffic
+Quick response, please.",Bicycle.,results/tier2\full\images\cauldron-cocoqa-630.jpg,b6e7666464f0fc83,what is the person riding on a street with traffic
+cauldron-cocoqa-707,cocoqa,text_answerable,1.2257765531539917,1.1410449743270874,2.366821527481079,"The man riding what down a snow covered slope
+Keep it brief.",Skis.,results/tier2\full\images\cauldron-cocoqa-707.jpg,78383bbff6e69cf0,the man riding what down a snow covered slope
+cauldron-cocoqa-356,cocoqa,text_answerable,0.4615007638931274,0.9479372501373292,1.4094380140304563,"What is the color of the carpet
+Write a very short answer.",Brown.,results/tier2\full\images\cauldron-cocoqa-356.jpg,d098383838399ed0,what is the color of the carpet
+cauldron-cocoqa-582,cocoqa,image_necessary,4.538284674286842,0.183215245604515,4.721499919891357,"What sits in front of a telephone pole
+Be succinct.",Couch.,results/tier2\full\images\cauldron-cocoqa-582.jpg,7074f4f0f4f2f2f0,what sits in front of a telephone pole
+cauldron-cocoqa-23,cocoqa,text_answerable,1.2070361152291298,0.0499254688620567,1.2569615840911863,"What are in the white textured vase
+Quick response, please.",Flowers.,results/tier2\full\images\cauldron-cocoqa-23.jpg,e0e0e283c3e3f9e9,what are in the white textured vase
+cauldron-cocoqa-256,cocoqa,text_answerable,0.2678027674555778,0.0446266308426857,0.3124293982982635,"What is the color of the leaves
+Keep it brief.",Green.,results/tier2\full\images\cauldron-cocoqa-256.jpg,d79d3938eeddb36d,what is the color of the leaves
+cauldron-cocoqa-263,cocoqa,text_answerable,0.4008077383041382,0.1334626674652099,0.5342704057693481,"What is the color of the wall
+Quick response, please.",White.,results/tier2\full\images\cauldron-cocoqa-263.jpg,6161616161616149,what is the color of the wall
+cauldron-cocoqa-754,cocoqa,text_answerable,0.5408240556716919,0.1530369520187378,0.6938610076904297,"What is the color of the horse
+Write a very short answer.",Brown.,results/tier2\full\images\cauldron-cocoqa-754.jpg,a00f0b1313131313,what is the color of the horse
+cauldron-cocoqa-739,cocoqa,text_answerable,1.2418368831276894,0.070350669324398,1.3121875524520874,"What is the color of the bears
+Answer briefly.",Black.,results/tier2\full\images\cauldron-cocoqa-739.jpg,f07c3d2727d37175,what is the color of the bears
+cauldron-cocoqa-721,cocoqa,text_answerable,0.2695157527923584,1.1642720699310305,1.433787822723389,"What is the single motorcycle traveling down a twilight lit
+Write a very short answer.",Road.,results/tier2\full\images\cauldron-cocoqa-721.jpg,c4c46060b000e0be,what is the single motorcycle traveling down a twilight lit
+cauldron-cocoqa-624,cocoqa,text_answerable,1.27906608954072,0.0611083470284938,1.340174436569214,"What filled with beverages and two empty shelves
+Give a very brief answer.",Refrigerator.,results/tier2\full\images\cauldron-cocoqa-624.jpg,a4f3f2e2e2f23332,what filled with beverages and two empty shelves
+cauldron-cocoqa-684,cocoqa,text_answerable,-0.1507724523544311,1.6124871969223022,1.461714744567871,"What is the bold skater skateboarding up
+Keep it brief.",Ramp.,results/tier2\full\images\cauldron-cocoqa-684.jpg,8f9092c3e66688ea,what is the bold skater skateboarding up
+cauldron-cocoqa-703,cocoqa,text_answerable,1.2260640859603882,1.1938215494155884,2.419885635375977,"What monitors and keyboards on tables in a computer lab
+Short answer required.",Computers.,results/tier2\full\images\cauldron-cocoqa-703.jpg,b93c0dceddf1c0cc,what monitors and keyboards on tables in a computer lab
+cauldron-cocoqa-132,cocoqa,text_answerable,0.9752755612134932,0.0920240432024002,1.0672996044158936,"What is the woman blowing out ,
+Write a very short answer.",Candle.,results/tier2\full\images\cauldron-cocoqa-132.jpg,fccd891edc909c8e,what is the woman blowing out
+cauldron-cocoqa-336,cocoqa,text_answerable,0.4847607761621475,0.2292370051145553,0.7139977812767029,"What is traveling down a nearly empty street
+Answer briefly.",Car.,results/tier2\full\images\cauldron-cocoqa-336.jpg,f8e9e9e4e9a506c7,what is traveling down a nearly empty street
+cauldron-cocoqa-31,cocoqa,text_answerable,1.0053079724311829,0.1187967658042907,1.1241047382354736,"What is the color of the carriage
+Write a very short answer.",Red.,results/tier2\full\images\cauldron-cocoqa-31.jpg,673bf9e56b1b1f7c,what is the color of the carriage
+cauldron-cocoqa-558,cocoqa,text_answerable,1.1346040666103363,0.1609092056751251,1.2955132722854614,"What are sitting near the shower in a bathroom
+Write a very short answer.",Towels.,results/tier2\full\images\cauldron-cocoqa-558.jpg,736f6f242437311c,what are sitting near the shower in a bathroom
+cauldron-cocoqa-522,cocoqa,text_answerable,1.1523519158363342,0.9709011912345886,2.123253107070923,"What sits in the parking lot flanked by a hedge
+Give a very brief answer.",Truck.,results/tier2\full\images\cauldron-cocoqa-522.jpg,e8e7e16818c3f8,what sits in the parking lot flanked by a hedge
+cauldron-cocoqa-623,cocoqa,text_answerable,0.3036460820585489,0.0263055022805929,0.3299515843391418,"What is the color of the hillside
+Be succinct.",Green.,results/tier2\full\images\cauldron-cocoqa-623.jpg,bcfefc3e44004253,what is the color of the hillside
+cauldron-cocoqa-221,cocoqa,text_answerable,1.1681597232818604,0.5234791040420532,1.6916388273239136,"What is flying in blue skies
+Answer briefly.",Airplane.,results/tier2\full\images\cauldron-cocoqa-221.jpg,c0981e1e41068690,what is flying in blue skies
+cauldron-cocoqa-704,cocoqa,text_answerable,1.195582538843155,0.2689577043056488,1.4645402431488037,"What is the color of the motorcycle
+Be succinct.",Blue.,results/tier2\full\images\cauldron-cocoqa-704.jpg,8c868f31a1e24b8c,what is the color of the motorcycle
+cauldron-cocoqa-146,cocoqa,text_answerable,1.1868443861603737,0.0973304137587547,1.2841747999191284,"What stick their heads over a fence
+Concise answer only.",Giraffes.,results/tier2\full\images\cauldron-cocoqa-146.jpg,b8f4f8dadafafeff,what stick their heads over a fence
+cauldron-cocoqa-253,cocoqa,text_answerable,-0.1331653594970703,1.7564411163330078,1.6232757568359375,"What is the color of the uniform
+Keep it brief.",Red.,results/tier2\full\images\cauldron-cocoqa-253.jpg,eeecf878c898e4e8,what is the color of the uniform
+cauldron-cocoqa-467,cocoqa,text_answerable,1.1592620611190796,1.3710676431655884,2.530329704284668,"How many people on a bench , one of whom has an umbrella
+Short answer required.",Two.,results/tier2\full\images\cauldron-cocoqa-467.jpg,3cced646622eb637,how many people on a bench  one of whom has an umbrella
+cauldron-cocoqa-163,cocoqa,text_answerable,1.2535590529441831,0.3499507308006286,1.603509783744812,"What are there being flown in a field near the water
+Keep it brief.",Kites.,results/tier2\full\images\cauldron-cocoqa-163.jpg,c02000004b40501c,what are there being flown in a field near the water
+cauldron-cocoqa-490,cocoqa,text_answerable,1.2209469079971311,1.3061119318008425,2.5270588397979736,"How many people is walking towards the water carrying surfboards
+Give a very brief answer.",Two.,results/tier2\full\images\cauldron-cocoqa-490.jpg,888cc8,how many people is walking towards the water carrying surfboards
+cauldron-cocoqa-769,cocoqa,text_answerable,0.3552653193473816,0.8135258555412292,1.1687911748886108,"What is man playing tennis serving to his opponent
+Keep it brief.",Ball.,results/tier2\full\images\cauldron-cocoqa-769.jpg,e8fc7ad3e0fc4cec,what is man playing tennis serving to his opponent
+cauldron-cocoqa-752,cocoqa,text_answerable,0.2283589243888855,0.5994517803192139,0.8278107047080994,"Where is the bed with a kid laying on top of it
+Write a very short answer.",Bedroom.,results/tier2\full\images\cauldron-cocoqa-752.jpg,98785865e4e4d090,where is the bed with a kid laying on top of it
+cauldron-cocoqa-280,cocoqa,text_answerable,-1.5405495166778564,3.2116854190826416,1.6711359024047852,"What lays open and a brown and white cat is inside as a black cat is on the door
+Be succinct.",Door.,results/tier2\full\images\cauldron-cocoqa-280.jpg,c18203839307e5c0,what lays open and a brown and white cat is inside as a black cat is on the door
+cauldron-cocoqa-736,cocoqa,text_answerable,0.3068513870239258,0.9153631925582886,1.2222145795822144,"What taxies down the runway with tress in the background
+Write a very short answer.",Airplane.,results/tier2\full\images\cauldron-cocoqa-736.jpg,4c4a496d3413c373,what taxies down the runway with tress in the background
+cauldron-cocoqa-410,cocoqa,text_answerable,0.6725623607635498,1.6590044498443604,2.33156681060791,"This is a tennis player hitting what with his tennis racquet
+Write a very short answer.",Ball.,results/tier2\full\images\cauldron-cocoqa-410.jpg,383060e61e1c181e,this is a tennis player hitting what with his tennis racquet
+cauldron-cocoqa-654,cocoqa,text_answerable,-0.387310266494751,3.2397260665893555,2.8524158000946045,"What topped with bowls and a plate of food
+Answer briefly.",Platter.,results/tier2\full\images\cauldron-cocoqa-654.jpg,9fb3b31a1c52d2e0,what topped with bowls and a plate of food
+cauldron-cocoqa-189,cocoqa,image_necessary,2.6481112241744995,1.924977421760559,4.573088645935059,"What train traveling through the lush green countryside
+Be succinct.",Cargo.,results/tier2\full\images\cauldron-cocoqa-189.jpg,31ac5c3c9ccd6462,what train traveling through the lush green countryside
+cauldron-cocoqa-250,cocoqa,text_answerable,0.6765725612640381,2.508975028991699,3.1855475902557373,"What three zebras and two giraffes
+Give a very brief answer.",Zoo.,results/tier2\full\images\cauldron-cocoqa-250.jpg,7c1d84a9ad3434ad,what three zebras and two giraffes
+cauldron-cocoqa-686,cocoqa,text_answerable,1.0480926036834717,1.9692981243133545,3.017390727996826,"How many men are repairing the broken plane outside
+Concise answer only.",Three.,results/tier2\full\images\cauldron-cocoqa-686.jpg,60436863e312e4e6,how many men are repairing the broken plane outside
+cauldron-cocoqa-664,cocoqa,text_answerable,0.316972017288208,2.2165327072143555,2.5335047245025635,"Where is the large dog laying
+Answer briefly.",Bed.,results/tier2\full\images\cauldron-cocoqa-664.jpg,1030f0f98978796d,where is the large dog laying
+cauldron-cocoqa-343,cocoqa,text_answerable,-1.3136711120605469,2.4133846759796143,1.0997135639190674,"What is the woman playing tennis serving
+Write a very short answer.",Ball.,results/tier2\full\images\cauldron-cocoqa-343.jpg,e7e79bb9b8ce88a4,what is the woman playing tennis serving
+cauldron-cocoqa-184,cocoqa,text_answerable,-0.7383948564529419,1.1486197710037231,0.4102249145507812,"What is the color of the bear
+Short answer required.",Brown.,results/tier2\full\images\cauldron-cocoqa-184.jpg,ec2c930313160307,what is the color of the bear
+cauldron-cocoqa-731,cocoqa,text_answerable,-1.2346148490905762,5.744950771331787,4.510335922241211,"What is perched on the banana at a concession stand
+Give a very brief answer.",Toy.,results/tier2\full\images\cauldron-cocoqa-731.jpg,bf3f1f5b733373b3,what is perched on the banana at a concession stand
+cauldron-cocoqa-243,cocoqa,text_answerable,0.9687871150672436,0.0173062272369861,0.9860933423042296,"What is the color of the shirt
+Give a very brief answer.",Blue.,results/tier2\full\images\cauldron-cocoqa-243.jpg,98bcac0b33b165f4,what is the color of the shirt
+cauldron-cocoqa-261,cocoqa,image_necessary,2.01023006439209,1.2412748336791992,3.251504898071289,"What filled with soup on top of a green plate
+Quick response, please.",Bowl.,results/tier2\full\images\cauldron-cocoqa-261.jpg,770b2139aec1e1f,what filled with soup on top of a green plate
+cauldron-cocoqa-19,cocoqa,text_answerable,-0.6439390182495117,3.5077505111694336,2.863811492919922,"What is the color of the leash
+Write a very short answer.",Orange.,results/tier2\full\images\cauldron-cocoqa-19.jpg,631e062e3c3c747c,what is the color of the leash
+cauldron-cocoqa-586,cocoqa,text_answerable,-0.9200561046600342,3.453364372253418,2.533308267593384,"The tan couch what a black chair at a desk
+Concise answer only.",Chair.,results/tier2\full\images\cauldron-cocoqa-586.jpg,c4c4440d87e3e3a1,the tan couch what a black chair at a desk
+cauldron-cocoqa-652,cocoqa,text_answerable,1.1071648597717283,0.1384223699569702,1.2455872297286987,"What is the color of the cat
+Short answer required.",Gray.,results/tier2\full\images\cauldron-cocoqa-652.jpg,66d686ceceee23e3,what is the color of the cat
+cauldron-cocoqa-537,cocoqa,text_answerable,0.3013697266578674,0.7280001044273376,1.029369831085205,"What does the skier trudge up
+Answer briefly.",Hill.,results/tier2\full\images\cauldron-cocoqa-537.jpg,e7e666e4e5c7cf9f,what does the skier trudge up
+cauldron-cocoqa-523,cocoqa,text_answerable,1.142885684967041,2.457524061203003,3.600409746170044,"How many polar bears on rocks near a body of water
+Give a very brief answer.",Two.,results/tier2\full\images\cauldron-cocoqa-523.jpg,783020a87c549444,how many polar bears on rocks near a body of water
+cauldron-cocoqa-526,cocoqa,text_answerable,0.8758716583251953,2.39882230758667,3.274693965911865,"How many women drink red wine at a table near a fireplace decorated with delft blue and white tiles
+Short answer required.",Two.,results/tier2\full\images\cauldron-cocoqa-526.jpg,be9edededede9f8e,how many women drink red wine at a table near a fireplace decorated with delft blue and white tiles
+cauldron-cocoqa-497,cocoqa,text_answerable,0.9362492561340332,2.45944619178772,3.395695447921753,"How many hands is holding a very big doughnut with pink icing
+Give a very brief answer.",Two.,results/tier2\full\images\cauldron-cocoqa-497.jpg,9ade9b8f8786c6c6,how many hands is holding a very big doughnut with pink icing
+cauldron-cocoqa-68,cocoqa,text_answerable,-0.0408499240875244,1.409427046775818,1.3685771226882937,"What does the woman hold shaped like a jellyfish above the crowd
+Give a very brief answer.",Umbrella.,results/tier2\full\images\cauldron-cocoqa-68.jpg,c3f1e1e1d9c0c2ca,what does the woman hold shaped like a jellyfish above the crowd
+cauldron-cocoqa-783,cocoqa,text_answerable,-0.4412615299224853,3.3953282833099365,2.954066753387451,"What is the dog sniffing on the floor
+Write a very short answer.",Toy.,results/tier2\full\images\cauldron-cocoqa-783.jpg,c448080e4e1e7860,what is the dog sniffing on the floor
+cauldron-cocoqa-683,cocoqa,text_answerable,0.7672726511955261,0.0466392040252685,0.8139118552207947,"What is the color of the dress
+Write a very short answer.",White.,results/tier2\full\images\cauldron-cocoqa-683.jpg,f07272f4e0eccce4,what is the color of the dress
+cauldron-cocoqa-102,cocoqa,text_answerable,0.1830513477325439,1.9790184497833248,2.162069797515869,"What is the color of the towel
+Quick response, please.",Blue.,results/tier2\full\images\cauldron-cocoqa-102.jpg,59490d3d0d0d0d1d,what is the color of the towel
+cauldron-cocoqa-117,cocoqa,text_answerable,-0.3143949508666992,3.594446897506714,3.280051946640014,"Where are two people looking at their laptops
+Be succinct.",Room.,results/tier2\full\images\cauldron-cocoqa-117.jpg,69494848c4e1f0f8,where are two people looking at their laptops
+cauldron-cocoqa-719,cocoqa,text_answerable,-1.2733519077301023,1.836085319519043,0.5627334117889404,"What train pulling into an underground subway station
+Concise answer only.",Subway.,results/tier2\full\images\cauldron-cocoqa-719.jpg,f59793bdf830100,what train pulling into an underground subway station
+cauldron-cocoqa-697,cocoqa,text_answerable,0.9406137466430664,6.212459564208984,7.153073310852051,"What does the triangular sign in the city say
+Answer briefly.",Gear.,results/tier2\full\images\cauldron-cocoqa-697.jpg,dcb03030a0c0c404,what does the triangular sign in the city say
+cauldron-cocoqa-61,cocoqa,text_answerable,0.7617055773735046,0.6563282608985901,1.4180338382720947,"What is the color of the cat
+Keep it brief.",Gray.,results/tier2\full\images\cauldron-cocoqa-61.jpg,646c6afa7b737ccc,what is the color of the cat
+cauldron-cocoqa-7,cocoqa,text_answerable,-1.911058247089386,2.224311113357544,0.3132528662681579,"What stands open revealing the stocked fridge
+Answer briefly.",Door.,results/tier2\full\images\cauldron-cocoqa-7.jpg,6ef8fcdaeee8fcf8,what stands open revealing the stocked fridge
+cauldron-cocoqa-708,cocoqa,text_answerable,0.8383125737309456,0.0909988805651664,0.929311454296112,"What is in the grass with a frisbee
+Concise answer only.",Dog.,results/tier2\full\images\cauldron-cocoqa-708.jpg,2eeebbf959db8363,what is in the grass with a frisbee
+cauldron-cocoqa-326,cocoqa,text_answerable,1.229814201593399,0.2274757325649261,1.4572899341583252,"What is sitting in their pen and trees
+Answer briefly.",Giraffe.,results/tier2\full\images\cauldron-cocoqa-326.jpg,70f06061e88befee,what is sitting in their pen and trees
+cauldron-cocoqa-10,cocoqa,image_necessary,2.521575182676316,0.2250774204730987,2.746652603149414,"What just standing around an old stable as their picture is taken
+Short answer required.",Giraffes.,results/tier2\full\images\cauldron-cocoqa-10.jpg,1f3b98900cb7d2c0,what just standing around an old stable as their picture is taken
+cauldron-cocoqa-43,cocoqa,text_answerable,-0.0142434835433959,1.5558507442474363,1.5416072607040403,"What is feeding from the larger zebra in a group
+Quick response, please.",Zebra.,results/tier2\full\images\cauldron-cocoqa-43.jpg,f131180f45c8dc92,what is feeding from the larger zebra in a group
+cauldron-cocoqa-501,cocoqa,text_answerable,0.0465890169143676,1.0214931964874268,1.0680822134017944,"What is crowded with people on a snowy day
+Short answer required.",Sidewalk.,results/tier2\full\images\cauldron-cocoqa-501.jpg,d8e0e1d3f373b333,what is crowded with people on a snowy day
+cauldron-cocoqa-546,cocoqa,text_answerable,-0.0278451442718505,2.86604380607605,2.838198661804199,"What is the color of the bears
+Keep it brief.",Orange.,results/tier2\full\images\cauldron-cocoqa-546.jpg,67c248e80931f0f0,what is the color of the bears
+cauldron-cocoqa-567,cocoqa,text_answerable,1.0299677848815918,2.574381828308105,3.604349613189697,"How many women are trying to sailboard on the water
+Give a very brief answer.",Two.,results/tier2\full\images\cauldron-cocoqa-567.jpg,dbcaece9f8e0e1e0,how many women are trying to sailboard on the water
+cauldron-cocoqa-575,cocoqa,image_necessary,2.753468513488769,0.4726607799530029,3.2261292934417725,"What are surrounded by bright green grass
+Short answer required.",Lambs.,results/tier2\full\images\cauldron-cocoqa-575.jpg,3226676332768e8c,what are surrounded by bright green grass
+cauldron-cocoqa-194,cocoqa,text_answerable,0.8859632015228271,2.337860107421875,3.223823308944702,"What did the small kitchen have
+Keep it brief.",Floor.,results/tier2\full\images\cauldron-cocoqa-194.jpg,10399819192161,what did the small kitchen have
+cauldron-cocoqa-401,cocoqa,text_answerable,0.4045904278755188,0.4381242394447326,0.8427146673202515,"What are docked in the water next to several small piers
+Write a very short answer.",Boats.,results/tier2\full\images\cauldron-cocoqa-401.jpg,ffe6eeeeeee6e6e4,what are docked in the water next to several small piers
+cauldron-cocoqa-432,cocoqa,text_answerable,0.4684640914201736,0.1785861104726791,0.6470502018928528,"What is the color of the pedestal
+Write a very short answer.",White.,results/tier2\full\images\cauldron-cocoqa-432.jpg,d0d0e0e0d0d0fcf8,what is the color of the pedestal
+cauldron-cocoqa-46,cocoqa,text_answerable,1.1374988555908203,2.6743721961975098,3.81187105178833,"What appears to be being remodeled on the walls and floor
+Answer briefly.",Room.,results/tier2\full\images\cauldron-cocoqa-46.jpg,928383cb43d11918,what appears to be being remodeled on the walls and floor
+cauldron-cocoqa-103,cocoqa,text_answerable,-0.2231323719024658,3.771502733230591,3.548370361328125,"What does dining feature both chairs and a bench
+Concise answer only.",Room.,results/tier2\full\images\cauldron-cocoqa-103.jpg,9fcfd3dbcb47fb7b,what does dining feature both chairs and a bench
+cauldron-cocoqa-789,cocoqa,text_answerable,0.7466414570808411,0.3123614192008972,1.0590028762817385,"What did the man rid
+Be succinct.",Horse.,results/tier2\full\images\cauldron-cocoqa-789.jpg,5262ecf07838386,what did the man rid
+cauldron-cocoqa-54,cocoqa,text_answerable,1.2401562929153442,1.7950948476791382,3.0352511405944824,"The terrible looking what
+Keep it brief.",Bathroom.,results/tier2\full\images\cauldron-cocoqa-54.jpg,8f8f070f07878f8f,the terrible looking what
+cauldron-cocoqa-618,cocoqa,text_answerable,0.5271658301353455,0.2966967225074768,0.8238625526428223,"What is the color of the sign
+Concise answer only.",Red.,results/tier2\full\images\cauldron-cocoqa-618.jpg,1911030e3818b903,what is the color of the sign
+cauldron-cocoqa-365,cocoqa,text_answerable,0.4052137732505798,0.0512843132019043,0.4564980864524841,"What are driving down the river between other docked boats
+Keep it brief.",Boats.,results/tier2\full\images\cauldron-cocoqa-365.jpg,9831f0f0f0f0f1c8,what are driving down the river between other docked boats
+cauldron-cocoqa-236,cocoqa,text_answerable,-0.2125890254974365,2.7158780097961426,2.503288984298706,"The man wearing what sits atop a large elephant
+Concise answer only.",Hat.,results/tier2\full\images\cauldron-cocoqa-236.jpg,30e8e9e40c0e0e07,the man wearing what sits atop a large elephant
+cauldron-cocoqa-384,cocoqa,image_necessary,3.4361183643341064,2.0418050289154053,5.477923393249512,"Three elephants crossing what among the brush
+Short answer required.",Road.,results/tier2\full\images\cauldron-cocoqa-384.jpg,f0c9d91133707030,three elephants crossing what among the brush
+cauldron-cocoqa-413,cocoqa,text_answerable,0.0107007026672363,2.346696853637696,2.357397556304932,"What is in the rectangular pot
+Short answer required.",Plant.,results/tier2\full\images\cauldron-cocoqa-413.jpg,1ec6d5cb89f5d59c,what is in the rectangular pot
+cauldron-cocoqa-110,cocoqa,text_answerable,-0.372654914855957,2.564405918121338,2.191751003265381,"What are flying through the blue gray sky
+Keep it brief.",Airplanes.,results/tier2\full\images\cauldron-cocoqa-110.jpg,4060600000000081,what are flying through the blue gray sky
+cauldron-cocoqa-506,cocoqa,text_answerable,0.7515034675598145,0.6519837379455566,1.403487205505371,"What is the color of the cat
+Write a very short answer.",Gray.,results/tier2\full\images\cauldron-cocoqa-506.jpg,9eee4e07138bc7e6,what is the color of the cat
+cauldron-cocoqa-358,cocoqa,text_answerable,-1.006521701812744,4.44725513458252,3.4407334327697754,"Where are the girl and boy playing video games
+Answer briefly.",Room.,results/tier2\full\images\cauldron-cocoqa-358.jpg,c86869998988e0c1,where are the girl and boy playing video games
+cauldron-cocoqa-98,cocoqa,text_answerable,1.0248364508152008,0.0761451423168182,1.100981593132019,"What is the person flying at the beach
+Keep it brief.",Kite.,results/tier2\full\images\cauldron-cocoqa-98.jpg,f0f6e4ecaeaac686,what is the person flying at the beach
+cauldron-cocoqa-690,cocoqa,text_answerable,0.1378638744354248,1.6016359329223633,1.739499807357788,"What does the train move along in a nonurban setting
+Concise answer only.",Track.,results/tier2\full\images\cauldron-cocoqa-690.jpg,f8f8f0f4f4ee7cfc,what does the train move along in a nonurban setting
+cauldron-cocoqa-430,cocoqa,text_answerable,0.3260889053344726,0.1713393032550811,0.4974282085895538,"What is the baseball catcher catching
+Concise answer only.",Ball.,results/tier2\full\images\cauldron-cocoqa-430.jpg,5ece9ee2c7263c38,what is the baseball catcher catching
+cauldron-cocoqa-606,cocoqa,text_answerable,0.932461615651846,0.0257896818220615,0.9582512974739076,"What is the color of the cat
+Give a very brief answer.",Black.,results/tier2\full\images\cauldron-cocoqa-606.jpg,e6fce4071e0ecef0,what is the color of the cat
+cauldron-cocoqa-639,cocoqa,text_answerable,0.1253182888031005,2.6627533435821533,2.788071632385254,"What is living with black leather couch and wide screen tv
+Give a very brief answer.",Room.,results/tier2\full\images\cauldron-cocoqa-639.jpg,e1c14575777f3f3b,what is living with black leather couch and wide screen tv
+cauldron-cocoqa-141,cocoqa,image_necessary,3.743080258369446,0.6957000494003296,4.438780307769775,"What stand side by side under the branches of a tree , partially out of the sun
+Short answer required.",Zebras.,results/tier2\full\images\cauldron-cocoqa-141.jpg,6b9f7b0b89c8cac8,what stand side by side under the branches of a tree  partially out of the sun
+cauldron-cocoqa-382,cocoqa,text_answerable,0.5232560634613037,1.7148818969726562,2.23813796043396,"What is the color of the liner
+Be succinct.",Brown.,results/tier2\full\images\cauldron-cocoqa-382.jpg,c0c2c6c9c8c8cccc,what is the color of the liner
+cauldron-cocoqa-174,cocoqa,text_answerable,0.5494918823242188,1.331334352493286,1.8808262348175049,"What is feeding her baby in a field ,
+Answer briefly.",Horse.,results/tier2\full\images\cauldron-cocoqa-174.jpg,586860c048e8c0d0,what is feeding her baby in a field
+cauldron-cocoqa-415,cocoqa,image_necessary,2.314503788948059,0.3562582731246948,2.670762062072754,"What is standing in the middle of the sidewalk with grass behind it
+Write a very short answer.",Hydrant.,results/tier2\full\images\cauldron-cocoqa-415.jpg,3271b2f2331320f4,what is standing in the middle of the sidewalk with grass behind it
+cauldron-cocoqa-444,cocoqa,text_answerable,-0.6708338260650635,2.5396223068237305,1.868788480758667,"What stands in the background in a subway station
+Give a very brief answer.",Subway.,results/tier2\full\images\cauldron-cocoqa-444.jpg,fe383e7ddefefe6e,what stands in the background in a subway station
+cauldron-cocoqa-313,cocoqa,text_answerable,0.7263462543487549,3.279847860336304,4.006194114685059,"How many clocks all with different times above double doors
+Short answer required.",Four.,results/tier2\full\images\cauldron-cocoqa-313.jpg,f68480a0e4c4c8c8,how many clocks all with different times above double doors
+cauldron-cocoqa-555,cocoqa,text_answerable,0.8950772285461426,0.8183763027191162,1.7134535312652588,"What stands next the adult elephant
+Answer briefly.",Elephant.,results/tier2\full\images\cauldron-cocoqa-555.jpg,321a1b57707c4e,what stands next the adult elephant
+cauldron-cocoqa-475,cocoqa,text_answerable,0.6533952355384827,0.4405189156532287,1.0939141511917114,"What is the person riding down a ramp
+Be succinct.",Skateboard.,results/tier2\full\images\cauldron-cocoqa-475.jpg,808082e7cf8c8c0c,what is the person riding down a ramp
+cauldron-cocoqa-240,cocoqa,text_answerable,0.3130059242248535,6.65297794342041,6.965983867645264,"What is not common in the western world
+Concise answer only.",Device.,results/tier2\full\images\cauldron-cocoqa-240.jpg,e0a8f0e8e8e8f0f0,what is not common in the western world
+cauldron-cocoqa-657,cocoqa,text_answerable,-0.0629875659942627,2.515720129013061,2.452732563018799,"Where are the stop sign and some cones sitting
+Give a very brief answer.",Road.,results/tier2\full\images\cauldron-cocoqa-657.jpg,3cf8f9f9eae2f4f0,where are the stop sign and some cones sitting
+cauldron-cocoqa-666,cocoqa,text_answerable,0.0418400764465332,2.353428840637207,2.39526891708374,"The close up of a pasta dish with noodles , broccoli and parmesan what
+Write a very short answer.",Cheese.,results/tier2\full\images\cauldron-cocoqa-666.jpg,d159f8da91898914,the close up of a pasta dish with noodles  broccoli and parmesan what
+cauldron-cocoqa-406,cocoqa,text_answerable,-0.9566245079040528,5.0788655281066895,4.122241020202637,"What cat resting on the ground near a pink bike
+Give a very brief answer.",Chocolate.,results/tier2\full\images\cauldron-cocoqa-406.jpg,b494c4b474bc3868,what cat resting on the ground near a pink bike
+cauldron-cocoqa-266,cocoqa,text_answerable,-1.054124116897583,4.903908729553223,3.84978461265564,"The black couch what a rug and some pillows
+Concise answer only.",Cabinet.,results/tier2\full\images\cauldron-cocoqa-266.jpg,7b7bbb3b2f9f0f8f,the black couch what a rug and some pillows
+cauldron-cocoqa-210,cocoqa,text_answerable,0.3341996967792511,0.1789841949939727,0.5131838917732239,"What is the color of the fire
+Write a very short answer.",Red.,results/tier2\full\images\cauldron-cocoqa-210.jpg,4d4d4d6571587821,what is the color of the fire
+cauldron-cocoqa-483,cocoqa,image_necessary,1.887332543730736,0.1310173422098159,2.018349885940552,"What is the tattooed person holding
+Write a very short answer.",Skateboard.,results/tier2\full\images\cauldron-cocoqa-483.jpg,c9e9c9d0f0d8cc8c,what is the tattooed person holding
+cauldron-cocoqa-455,cocoqa,text_answerable,1.2200026884675026,0.0576924905180931,1.2776951789855957,"What is the color of the suitcase
+Be succinct.",Red.,results/tier2\full\images\cauldron-cocoqa-455.jpg,f0e0cec9ecccdc9c,what is the color of the suitcase
+cauldron-cocoqa-118,cocoqa,text_answerable,1.2498476207256315,0.0818268358707428,1.3316744565963743,"What are walking through the trees together
+Concise answer only.",Giraffes.,results/tier2\full\images\cauldron-cocoqa-118.jpg,5ef1e869e1615cdc,what are walking through the trees together

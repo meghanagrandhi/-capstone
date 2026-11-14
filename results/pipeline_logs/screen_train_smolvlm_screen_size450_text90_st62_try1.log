@@ -1,0 +1,23 @@
+[overlap check OK] mixture_screen_size450_text90 (at training time): 486 items vs 1500 eval items (dHash<= 4, question text >= 30 chars) -> 0 overlaps
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   0%|          | 1/657 [00:00<01:13,  8.91it/s]Loading weights:   2%|▏         | 10/657 [00:00<00:12, 53.76it/s]Loading weights:   5%|▌         | 33/657 [00:00<00:04, 131.30it/s]Loading weights:   9%|▉         | 59/657 [00:00<00:03, 176.99it/s]Loading weights:  12%|█▏        | 82/657 [00:00<00:02, 194.21it/s]Loading weights:  16%|█▌        | 106/657 [00:00<00:02, 203.43it/s]Loading weights:  20%|██        | 132/657 [00:00<00:02, 219.59it/s]Loading weights:  24%|██▍       | 158/657 [00:00<00:02, 228.97it/s]Loading weights:  28%|██▊       | 181/657 [00:00<00:02, 228.59it/s]Loading weights:  31%|███       | 204/657 [00:01<00:02, 222.05it/s]Loading weights:  43%|████▎     | 283/657 [00:01<00:00, 388.48it/s]Loading weights:  67%|██████▋   | 439/657 [00:01<00:00, 730.96it/s]Loading weights:  91%|█████████ | 599/657 [00:01<00:00, 985.77it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 472.93it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+W1114 01:31:49.511000 19172 torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+LoRA: 168 target modules (language model only), 18.09M trainable params
+  [ckpt step 0] probe_gap_image_necessary=0.617 probe_attn_img_mass_image_necessary=0.069 probe_gap_text_answerable=0.217 probe_attn_img_mass_text_answerable=0.065
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [ckpt step 3] probe_gap_image_necessary=0.747 probe_attn_img_mass_image_necessary=0.070 probe_gap_text_answerable=0.336 probe_attn_img_mass_text_answerable=0.066
+  [ckpt step 6] probe_gap_image_necessary=1.245 probe_attn_img_mass_image_necessary=0.072 probe_gap_text_answerable=0.826 probe_attn_img_mass_text_answerable=0.068
+  step 10/62 loss 0.394 gn 2.10 26.5s/step
+  [ckpt step 12] probe_gap_image_necessary=0.731 probe_attn_img_mass_image_necessary=0.072 probe_gap_text_answerable=0.397 probe_attn_img_mass_text_answerable=0.067
+  step 20/62 loss 0.160 gn 1.74 20.6s/step
+  [ckpt step 25] probe_gap_image_necessary=0.517 probe_attn_img_mass_image_necessary=0.063 probe_gap_text_answerable=0.217 probe_attn_img_mass_text_answerable=0.060
+  step 30/62 loss 0.384 gn 3.78 18.6s/step
+  [ckpt step 37] probe_gap_image_necessary=0.516 probe_attn_img_mass_image_necessary=0.061 probe_gap_text_answerable=0.165 probe_attn_img_mass_text_answerable=0.058
+  step 40/62 loss 0.344 gn 1.69 17.6s/step
+  step 50/62 loss 0.277 gn 1.56 15.8s/step
+  [ckpt step 50] probe_gap_image_necessary=0.489 probe_attn_img_mass_image_necessary=0.060 probe_gap_text_answerable=0.141 probe_attn_img_mass_text_answerable=0.057
+  step 60/62 loss 0.380 gn 1.85 15.6s/step
+  step 62/62 loss 0.100 gn 1.05 15.4s/step
+  [ckpt step 62] probe_gap_image_necessary=0.500 probe_attn_img_mass_image_necessary=0.060 probe_gap_text_answerable=0.137 probe_attn_img_mass_text_answerable=0.057
+run meta: {'run': 'smolvlm_screen_size450_text90_st62', 'mixture': 'screen_size450_text90', 'n_mix': 486, 'text_share': 0.9012345679012346, 'steps': 62, 'batch_size': 8, 'lr': 0.0002, 'seed': 0, 'lora_r': 16, 'lora_alpha': 32, 'model_key': 'smolvlm', 'n_probe': 64, 'model': 'HuggingFaceTB/SmolVLM-Instruct', 'model_revision': '81cd9a775a4d644f2faf4e7becff4559b46b14c7', 'peak_vram_gib': 5.581077575683594, 'train_minutes': 17.01229587395986, 'sec_per_step': 15.407901998489134}

@@ -1,0 +1,38 @@
+{
+  "mixture_vsr_only_text10": {
+    "n": 150,
+    "text_share": 0.1,
+    "mean_gap": 0.2617379762542745,
+    "yes_share_of_yes_no": 0.5,
+    "by_subset": {
+      "vsr": {
+        "image_necessary": 135,
+        "text_answerable": 15
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 62,
+      "image_necessary/yes": 73,
+      "text_answerable/no": 13,
+      "text_answerable/yes": 2
+    }
+  },
+  "mixture_vsr_only_text90": {
+    "n": 150,
+    "text_share": 0.9,
+    "mean_gap": -0.12129283680270116,
+    "yes_share_of_yes_no": 0.5,
+    "by_subset": {
+      "vsr": {
+        "image_necessary": 15,
+        "text_answerable": 135
+      }
+    },
+    "yes_no_cells": {
+      "image_necessary/no": 8,
+      "image_necessary/yes": 7,
+      "text_answerable/no": 67,
+      "text_answerable/yes": 68
+    }
+  }
+}
